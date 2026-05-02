@@ -1,0 +1,41 @@
+{
+  "id": "sentence-structure",
+  "title": "Sentence structure: main, inversion, questions, subclause",
+  "summary": "Dutch is a V2 language: in main clauses the conjugated verb is in second position. Order: Subject – Verb – Time – Other – Place – (second verb at end).",
+  "rules": [
+    "Main sentence (hoofdzin) starts with the subject. Order: Subject — Verb — Time — Object/Other — Place — Second verb (infinitive at end).",
+    "Inversion (inversie): when starting with anything other than the subject (often time/place), swap subject and verb. Order: Time/place — Verb — Subject — Pronoun — Other — Place — Second verb.",
+    "Yes/no questions start with the verb: Verb — Subject — rest.",
+    "Open questions start with a question word (wat, wie, waar, wanneer, hoe laat, waarom, ...) — followed by verb, then subject.",
+    "Two-verb sentences: modal/auxiliary takes V2 position, the other verb (infinitive) goes to the end.",
+    "Subclause (bijzin) with omdat / als / dat / terwijl / wanneer / hoewel / voordat / nadat: ALL verbs go to the end of the subclause.",
+    "Coordinating conjunctions dus, want, maar, of, en keep main-sentence order in both clauses."
+  ],
+  "examples": [
+    {"nl": "Ik wil morgen pizza in Rotterdam eten.", "en": "Tomorrow I want to eat pizza in Rotterdam.", "tags": ["main", "two-verb"]},
+    {"nl": "Wij spelen morgen met een voetbal op het strand.", "en": "We are playing football on the beach tomorrow.", "tags": ["main"]},
+    {"nl": "De kat ligt vandaag in de tuin.", "en": "The cat is lying in the garden today.", "tags": ["main"]},
+    {"nl": "Jullie gaan vanavond met vrienden naar de bioscoop.", "en": "Tonight you are going to the cinema with friends.", "tags": ["main"]},
+    {"nl": "Morgen wil ik pizza in Rotterdam eten.", "en": "Tomorrow I want to eat pizza in Rotterdam.", "tags": ["inversion", "two-verb"]},
+    {"nl": "Morgen spelen wij op het strand.", "en": "Tomorrow we are playing on the beach.", "tags": ["inversion"]},
+    {"nl": "Vandaag zit de kat in de tuin.", "en": "Today the cat is sitting in the garden.", "tags": ["inversion"]},
+    {"nl": "Vanavond gaan jullie naar de bioscoop.", "en": "Tonight you are going to the cinema.", "tags": ["inversion"]},
+    {"nl": "Ga jij morgen pizza in Rotterdam eten?", "en": "Are you going to eat pizza in Rotterdam tomorrow?", "tags": ["yes-no-question"]},
+    {"nl": "Wil jij morgenochtend met mij in het cafe afspreken?", "en": "Do you want to meet me at the cafe tomorrow morning?", "tags": ["yes-no-question", "separable"]},
+    {"nl": "Gaan jullie vanavond met jullie familie naar de bioscoop?", "en": "Are you going to the cinema with your family tonight?", "tags": ["yes-no-question"]},
+    {"nl": "Hebben zij om 10 uur een koffiepauze?", "en": "Do they have a coffee break at 10?", "tags": ["yes-no-question"]},
+    {"nl": "Wat ga jij morgen in Rotterdam eten?", "en": "What are you going to eat in Rotterdam tomorrow?", "tags": ["wh-question"]},
+    {"nl": "Hoe laat wil jij morgen afspreken?", "en": "What time do you want to meet tomorrow?", "tags": ["wh-question"]},
+    {"nl": "Wanneer gaan jullie naar de bioscoop?", "en": "When are you going to the cinema?", "tags": ["wh-question"]},
+    {"nl": "Hoe laat hebben zij een koffiepauze?", "en": "What time do they have a coffee break?", "tags": ["wh-question"]},
+    {"nl": "Ik ga naar de winkel, dus ik neem mijn portemonnee mee.", "en": "I'm going to the shop, so I'll take my wallet.", "tags": ["coordination", "dus"]},
+    {"nl": "Ik ga naar de winkel, want mijn boodschappen zijn op.", "en": "I'm going to the shop because my groceries are gone.", "tags": ["coordination", "want"]},
+    {"nl": "Ik ga naar de winkel, maar hij is dicht.", "en": "I'm going to the shop, but it's closed.", "tags": ["coordination", "maar"]},
+    {"nl": "Ik ga naar de winkel of ik ga naar de bloemist.", "en": "I'm going to the shop or to the florist.", "tags": ["coordination", "of"]},
+    {"nl": "Ik ga naar de winkel en ik koop bolletjes.", "en": "I'm going to the shop and buying rolls.", "tags": ["coordination", "en"]},
+    {"nl": "Ik ga naar de winkel, omdat ik nieuwe boodschappen wil hebben.", "en": "I'm going to the shop because I want to get new groceries.", "tags": ["subclause", "omdat"]},
+    {"nl": "Ik ga naar de winkel als ik klaar met mijn werk ben.", "en": "I'm going to the shop when I'm done with work.", "tags": ["subclause", "als"]},
+    {"nl": "Ik ga naar de winkel, want ik wil boodschappen doen.", "en": "I'm going to the shop because I want to do shopping. (main-clause order)", "tags": ["coordination", "want"]},
+    {"nl": "Ik ga naar de winkel, omdat ik boodschappen wil doen.", "en": "I'm going to the shop because I want to do shopping. (subclause order — verbs at end)", "tags": ["subclause", "omdat"]}
+  ]
+}

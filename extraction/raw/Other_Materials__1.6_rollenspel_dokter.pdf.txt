@@ -1,0 +1,45 @@
+
+===== PAGE 1 =====
+Y
+o
+u
+r
+D
+u
+t
+c
+h
+F
+r
+i
+e
+n
+d
+1.6 rollenspel dokter 
+Instructions: Act like you’re at the doctor’s to talk about your symptoms. Student A
+plays the doctor, student B plays the patient. Student B can think of a symptom.  
+Student A
+Hallo, wat is er aan de hand? 
+Student B 
+... 
+Student A
+Hoelang hebt u die / dat al?  
+Student B 
+... 
+Student A
+Hebt u koorts?
+Student B 
+... 
+Student A
+Waar hebt u pijn?
+Student B 
+... 
+Student A
+Het lijkt op een allergische reactie. 
+Student B 
+... 
+Student A
+Ik geef u....
+Sterkte / beterschap!
+Student B 
+... 

@@ -1,0 +1,38 @@
+{
+  "id": "perfectum",
+  "title": "Perfectum (present perfect)",
+  "summary": "Perfectum is formed with hebben/zijn (auxiliary) + past participle. Pattern: Subject + hebben/zijn + ge…t/d.",
+  "rules": [
+    "Regular verbs: take the stem, add ge- in front, add -t or -d at the end.",
+    "Use -t after stems ending in K, F, S, T, CH, P (mnemonic: SOFTKETCHUPX or 't kofschip).",
+    "Use -d after all other stems (b, d, g, j, l, m, n, r, v, w, z, vowels).",
+    "If the stem ends in V, change to F before adding -d  → geverfd. If it ends in Z, change to S → gereisd.",
+    "Verbs starting with be-, ver-, her-, ont-, ge-, er- do NOT take ge- → betaald, verteld, herinnerd, ontmoet.",
+    "Most verbs use 'hebben' as auxiliary. Verbs of motion / change of state often use 'zijn' (gegaan, gekomen, geworden, gebleven, gestopt, geweest).",
+    "Irregular verbs have non-standard participles — memorise them (see irregular verb list)."
+  ],
+  "auxiliary_table": {
+    "ik": {"hebben": "heb", "zijn": "ben"},
+    "jij/je": {"hebben": "hebt", "zijn": "bent"},
+    "u": {"hebben": "hebt", "zijn": "bent"},
+    "hij/zij/het": {"hebben": "heeft", "zijn": "is"},
+    "wij/we": {"hebben": "hebben", "zijn": "zijn"},
+    "jullie": {"hebben": "hebben", "zijn": "zijn"},
+    "zij": {"hebben": "hebben", "zijn": "zijn"}
+  },
+  "examples": [
+    {"nl": "Ik heb gewerkt.", "en": "I worked / I have worked.", "tags": ["perfectum", "hebben"]},
+    {"nl": "Mijn collega is getrouwd.", "en": "My colleague got married.", "tags": ["perfectum", "zijn"]},
+    {"nl": "Mijn familie heeft gewoond.", "en": "My family lived (somewhere).", "tags": ["perfectum", "hebben"]},
+    {"nl": "De vrouw heeft gebeld.", "en": "The woman called.", "tags": ["perfectum", "hebben"]},
+    {"nl": "Ik heb mijn huis geverfd.", "en": "I painted my house.", "tags": ["perfectum", "v→f"]},
+    {"nl": "Mijn vriend is naar Italië gereisd.", "en": "My friend travelled to Italy.", "tags": ["perfectum", "zijn", "z→s"]},
+    {"nl": "Ik heb gegeten.", "en": "I ate / I have eaten.", "tags": ["perfectum", "irregular"]},
+    {"nl": "Ik heb gelopen.", "en": "I walked.", "tags": ["perfectum", "irregular"]},
+    {"nl": "Ik heb geschreven.", "en": "I wrote.", "tags": ["perfectum", "irregular"]},
+    {"nl": "Ik heb gekozen.", "en": "I chose.", "tags": ["perfectum", "irregular"]},
+    {"nl": "Ik heb betaald.", "en": "I paid.", "tags": ["perfectum", "no-ge"]},
+    {"nl": "Ik heb verteld.", "en": "I told.", "tags": ["perfectum", "no-ge"]},
+    {"nl": "Ik heb me goed gedragen.", "en": "I behaved well.", "tags": ["perfectum", "reflexive"]}
+  ]
+}

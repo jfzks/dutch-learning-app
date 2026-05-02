@@ -1,0 +1,513 @@
+[
+  {
+    "id": "w_a702e01b86",
+    "nl": "de fiets",
+    "en": "bike / bicycle",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "noun",
+    "head": "de fiets",
+    "article": "de",
+    "lemma": "fiets"
+  },
+  {
+    "id": "w_c79a89336f",
+    "nl": "de fietsenmaker",
+    "en": "cycle repairman",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "noun",
+    "head": "de fietsenmaker",
+    "article": "de",
+    "lemma": "fietsenmaker"
+  },
+  {
+    "id": "w_7c753f34ab",
+    "nl": "inderdaad",
+    "en": "indeed",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "other",
+    "head": "inderdaad"
+  },
+  {
+    "id": "w_37718ce8bb",
+    "nl": "duidelijk",
+    "en": "clear",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "other",
+    "head": "duidelijk"
+  },
+  {
+    "id": "w_5e4a0bea7a",
+    "nl": "lijkt (lijken)",
+    "en": "seems / appears",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "verb",
+    "head": "lijkt",
+    "infinitive": "lijken",
+    "reflexive": false
+  },
+  {
+    "id": "w_bc2af68132",
+    "nl": "gebeurd (gebeuren)",
+    "en": "happened",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "verb",
+    "head": "gebeurd",
+    "infinitive": "gebeuren",
+    "reflexive": false
+  },
+  {
+    "id": "w_57a352cf04",
+    "nl": "gevallen (vallen)",
+    "en": "fallen",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "verb",
+    "head": "gevallen",
+    "infinitive": "vallen",
+    "reflexive": false
+  },
+  {
+    "id": "w_7d466b8461",
+    "nl": "regende (regenen)",
+    "en": "was raining",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "verb",
+    "head": "regende",
+    "infinitive": "regenen",
+    "reflexive": false
+  },
+  {
+    "id": "w_2947af71a5",
+    "nl": "glad",
+    "en": "slippery",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "other",
+    "head": "glad"
+  },
+  {
+    "id": "w_c658af5292",
+    "nl": "fietste weg (wegfietsen)",
+    "en": "cycled away",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "verb",
+    "head": "fietste weg",
+    "infinitive": "wegfietsen",
+    "reflexive": false
+  },
+  {
+    "id": "w_c970abbb7e",
+    "nl": "fietsen",
+    "en": "cycle",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "verb",
+    "head": "fietsen",
+    "infinitive": "fietsen"
+  },
+  {
+    "id": "w_14f43ea084",
+    "nl": "de praktijk",
+    "en": "practice",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "noun",
+    "head": "de praktijk",
+    "article": "de",
+    "lemma": "praktijk"
+  },
+  {
+    "id": "w_410a328037",
+    "nl": "wilde (willen)",
+    "en": "wanted",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "verb",
+    "head": "wilde",
+    "infinitive": "willen",
+    "reflexive": false
+  },
+  {
+    "id": "w_163d00fba5",
+    "nl": "gleed weg (wegglijden)",
+    "en": "slipped",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "verb",
+    "head": "gleed weg",
+    "infinitive": "wegglijden",
+    "reflexive": false
+  },
+  {
+    "id": "w_f763547198",
+    "nl": "mankeerde (mankeren)",
+    "en": "was wrong",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "verb",
+    "head": "mankeerde",
+    "infinitive": "mankeren",
+    "reflexive": false
+  },
+  {
+    "id": "w_72e84f3b64",
+    "nl": "zelf",
+    "en": "myself",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "other",
+    "head": "zelf"
+  },
+  {
+    "id": "w_9bbb343847",
+    "nl": "het wiel",
+    "en": "wheel",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "noun",
+    "head": "het wiel",
+    "article": "het",
+    "lemma": "wiel"
+  },
+  {
+    "id": "w_969570927b",
+    "nl": "het stuur",
+    "en": "handlebars",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "noun",
+    "head": "het stuur",
+    "article": "het",
+    "lemma": "stuur"
+  },
+  {
+    "id": "w_4c18f553d3",
+    "nl": "het zadel",
+    "en": "seat",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "noun",
+    "head": "het zadel",
+    "article": "het",
+    "lemma": "zadel"
+  },
+  {
+    "id": "w_cc08e68238",
+    "nl": "staan",
+    "en": "are (stand)",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "other",
+    "head": "staan"
+  },
+  {
+    "id": "w_7d581f4118",
+    "nl": "scheef",
+    "en": "crooked",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "other",
+    "head": "scheef"
+  },
+  {
+    "id": "w_ea58efffdf",
+    "nl": "het ding",
+    "en": "thing",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "noun",
+    "head": "het ding",
+    "article": "het",
+    "lemma": "ding"
+  },
+  {
+    "id": "w_2883c21a95",
+    "nl": "zo’n",
+    "en": "such a / such an (e.g. zo'n leuk boek = such a nice book)",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "other",
+    "head": "zo’n"
+  },
+  {
+    "id": "w_98491263d2",
+    "nl": "de bagagedrager",
+    "en": "carrier",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "noun",
+    "head": "de bagagedrager",
+    "article": "de",
+    "lemma": "bagagedrager"
+  },
+  {
+    "id": "w_b0b73f7e8d",
+    "nl": "afgebroken (afbreken)",
+    "en": "broken",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "verb",
+    "head": "afgebroken",
+    "infinitive": "afbreken",
+    "reflexive": false
+  },
+  {
+    "id": "w_397bb842dd",
+    "nl": "bedoelt (bedoelen)",
+    "en": "mean",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "verb",
+    "head": "bedoelt",
+    "infinitive": "bedoelen",
+    "reflexive": false
+  },
+  {
+    "id": "w_ab40394251",
+    "nl": "de trapper",
+    "en": "pedal",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "noun",
+    "head": "de trapper",
+    "article": "de",
+    "lemma": "trapper"
+  },
+  {
+    "id": "w_34e7f45e77",
+    "nl": "kapot",
+    "en": "broken",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "other",
+    "head": "kapot"
+  },
+  {
+    "id": "w_f3477d4fef",
+    "nl": "de band",
+    "en": "tyre",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "noun",
+    "head": "banden",
+    "article": "de",
+    "lemma": "band"
+  },
+  {
+    "id": "w_6be5d1023a",
+    "nl": "verstaan (verstaan)",
+    "en": "heard",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "verb",
+    "head": "verstaan",
+    "infinitive": "verstaan",
+    "reflexive": false
+  },
+  {
+    "id": "w_c619f412df",
+    "nl": "logisch",
+    "en": "logical",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "other",
+    "head": "logisch"
+  },
+  {
+    "id": "w_926265c735",
+    "nl": "helemaal",
+    "en": "completely",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "other",
+    "head": "helemaal"
+  },
+  {
+    "id": "w_8a3c650328",
+    "nl": "rijdt (rijden)",
+    "en": "goes (rides)",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "verb",
+    "head": "rijdt",
+    "infinitive": "rijden",
+    "reflexive": false
+  },
+  {
+    "id": "w_e7ec0f66e5",
+    "nl": "de rem",
+    "en": "brake",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "noun",
+    "head": "remmen",
+    "article": "de",
+    "lemma": "rem"
+  },
+  {
+    "id": "w_a98a0322d5",
+    "nl": "deden (doen)",
+    "en": "worked",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "verb",
+    "head": "deden",
+    "infinitive": "doen",
+    "reflexive": false
+  },
+  {
+    "id": "w_4c1ede0183",
+    "nl": "controleren",
+    "en": "check",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "verb",
+    "head": "controleren",
+    "infinitive": "controleren"
+  },
+  {
+    "id": "w_5f417ba973",
+    "nl": "leer (leren)",
+    "en": "learn",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "verb",
+    "head": "leer",
+    "infinitive": "leren",
+    "reflexive": false
+  },
+  {
+    "id": "w_0b9161d31c",
+    "nl": "de uitdrukking",
+    "en": "expression",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "noun",
+    "head": "uitdrukkingen",
+    "article": "de",
+    "lemma": "uitdrukking"
+  },
+  {
+    "id": "w_1f57533271",
+    "nl": "klaar",
+    "en": "ready",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "other",
+    "head": "klaar"
+  },
+  {
+    "id": "w_db455ea05c",
+    "nl": "Koningsdag",
+    "en": "King’s Day",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "other",
+    "head": "Koningsdag"
+  },
+  {
+    "id": "w_441a0c273d",
+    "nl": "de feestdag",
+    "en": "public holiday",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "noun",
+    "head": "de feestdag",
+    "article": "de",
+    "lemma": "feestdag"
+  },
+  {
+    "id": "w_29263dab07",
+    "nl": "het feest",
+    "en": "party / celebration",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "noun",
+    "head": "het feest",
+    "article": "het",
+    "lemma": "feest"
+  },
+  {
+    "id": "w_908ec26432",
+    "nl": "betekent (betekenen)",
+    "en": "means",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "verb",
+    "head": "betekent",
+    "infinitive": "betekenen",
+    "reflexive": false
+  },
+  {
+    "id": "w_a1ee3ac927",
+    "nl": "gesloten (sluiten)",
+    "en": "closed",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "verb",
+    "head": "gesloten",
+    "infinitive": "sluiten",
+    "reflexive": false
+  },
+  {
+    "id": "w_f7ec3cc0f5",
+    "nl": "het einde",
+    "en": "end",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "noun",
+    "head": "het einde",
+    "article": "het",
+    "lemma": "einde"
+  },
+  {
+    "id": "w_d233cb5da4",
+    "nl": "ophalen",
+    "en": "collect",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "pos": "verb",
+    "head": "ophalen",
+    "infinitive": "ophalen"
+  },
+  {
+    "nl": "total loss",
+    "en": "a write-off",
+    "pos": "phrase",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "id": "w_66e6c07f19"
+  },
+  {
+    "nl": "rechts afslaan",
+    "en": "turn right",
+    "pos": "phrase",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "id": "w_946be0e328"
+  },
+  {
+    "nl": "een slag in het wiel",
+    "en": "the wheel is crooked",
+    "pos": "phrase",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "id": "w_3645aa24f7"
+  },
+  {
+    "nl": "tiptop in orde",
+    "en": "in tip-top condition",
+    "pos": "phrase",
+    "topic": "woordenlijst-10",
+    "source": "NIG Woordenlijst 10",
+    "id": "w_c505fc9d6a"
+  }
+]

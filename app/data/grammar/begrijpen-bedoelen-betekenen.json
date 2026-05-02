@@ -1,0 +1,20 @@
+{
+  "id": "begrijpen-bedoelen-betekenen",
+  "title": "Begrijpen / bedoelen / betekenen",
+  "summary": "Three verbs that English speakers often confuse: begrijpen = to understand, bedoelen = to mean (intend), betekenen = to mean (signify).",
+  "rules": [
+    "begrijpen — to understand. Subject is a person. 'Ik begrijp je niet.'",
+    "bedoelen — to mean / to intend. Subject is a person. 'Wat bedoel je?' (What do you mean?)",
+    "betekenen — to mean / to signify. Subject is usually a thing/word. 'Wat betekent dit woord?' (What does this word mean?)"
+  ],
+  "examples": [
+    {"nl": "Ik begrijp het niet.", "en": "I don't understand.", "tags": ["begrijpen"]},
+    {"nl": "Begrijp je wat ik zeg?", "en": "Do you understand what I'm saying?", "tags": ["begrijpen"]},
+    {"nl": "Wat bedoel je?", "en": "What do you mean?", "tags": ["bedoelen"]},
+    {"nl": "Ik bedoel iets anders.", "en": "I mean something else.", "tags": ["bedoelen"]},
+    {"nl": "Wat betekent dit woord?", "en": "What does this word mean?", "tags": ["betekenen"]},
+    {"nl": "Het woord 'fiets' betekent 'bike'.", "en": "The word 'fiets' means 'bike'.", "tags": ["betekenen"]},
+    {"nl": "Wat betekent dat?", "en": "What does that mean?", "tags": ["betekenen"]},
+    {"nl": "Ik begrijp wat je bedoelt.", "en": "I understand what you mean.", "tags": ["begrijpen", "bedoelen"]}
+  ]
+}

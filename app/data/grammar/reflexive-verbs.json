@@ -1,0 +1,68 @@
+{
+  "id": "reflexive-verbs",
+  "title": "Reflexieve werkwoorden (reflexive verbs)",
+  "summary": "Reflexive verbs use a reflexive pronoun that agrees with the subject (me/je/zich/ons/je/zich).",
+  "rules": [
+    "Reflexive pronouns: ik → me, jij/je → je, u → zich, hij/zij/het → zich, wij → ons, jullie → je, zij → zich.",
+    "Main clause: Subject — Verb — reflexive pronoun — rest.",
+    "Inversion: Time/place — Verb — Subject — reflexive pronoun — rest.",
+    "Subclause/embedded questions: Subject — reflexive pronoun — rest — Verb (at end).",
+    "With a modal verb: Subject — modal — reflexive pronoun — second verb (infinitive).",
+    "Perfectum: Subject — hebben/zijn — reflexive pronoun — past participle."
+  ],
+  "conjugation_examples": {
+    "zich voelen": {
+      "ik": "Ik voel me verdrietig vandaag",
+      "jij": "Jij voelt je verdrietig vandaag",
+      "u": "U voelt zich verdrietig vandaag",
+      "hij/zij": "Hij voelt zich verdrietig vandaag",
+      "wij": "Wij voelen ons verdrietig vandaag",
+      "jullie": "Jullie voelen je verdrietig vandaag",
+      "zij (mv)": "Zij voelen zich verdrietig vandaag"
+    },
+    "zich ergeren aan": {
+      "ik": "Ik erger me aan de buren",
+      "jij": "Jij ergert je aan de buren",
+      "u": "U ergert zich aan de buren",
+      "hij/zij": "Hij ergert zich aan de buren",
+      "wij": "Wij ergeren ons aan de buren",
+      "jullie": "Jullie ergeren je aan de buren",
+      "zij (mv)": "Zij ergeren zich aan de buren"
+    }
+  },
+  "common_reflexive_verbs": [
+    {"infinitive": "zich voelen", "en": "to feel"},
+    {"infinitive": "zich ergeren aan", "en": "to be annoyed by"},
+    {"infinitive": "zich scheren", "en": "to shave"},
+    {"infinitive": "zich schamen voor", "en": "to be ashamed of"},
+    {"infinitive": "zich vergissen", "en": "to be mistaken"},
+    {"infinitive": "zich verslapen", "en": "to oversleep"},
+    {"infinitive": "zich vervelen", "en": "to be bored"},
+    {"infinitive": "zich voorstellen", "en": "to introduce oneself / imagine"},
+    {"infinitive": "zich herinneren", "en": "to remember"},
+    {"infinitive": "zich inschrijven", "en": "to register"},
+    {"infinitive": "zich aankleden", "en": "to get dressed"},
+    {"infinitive": "zich uitkleden", "en": "to get undressed"},
+    {"infinitive": "zich afvragen", "en": "to wonder"},
+    {"infinitive": "zich amuseren", "en": "to enjoy oneself"},
+    {"infinitive": "zich haasten", "en": "to hurry"},
+    {"infinitive": "zich wassen", "en": "to wash oneself"}
+  ],
+  "examples": [
+    {"nl": "Ik scheer me elke dag onder de douche.", "en": "I shave every day in the shower.", "tags": ["reflexive", "main"]},
+    {"nl": "Ze schaamt zich voor haar rode haar.", "en": "She is ashamed of her red hair.", "tags": ["reflexive", "main"]},
+    {"nl": "Elke dag scheer ik me.", "en": "Every day I shave.", "tags": ["reflexive", "inversion"]},
+    {"nl": "Voor haar rode haar schaamt ze zich.", "en": "She is ashamed of her red hair.", "tags": ["reflexive", "inversion"]},
+    {"nl": "Hij zegt dat hij zich elke dag scheert.", "en": "He says he shaves every day.", "tags": ["reflexive", "subclause"]},
+    {"nl": "Ze vertelt dat ze zich voor haar rode haar schaamt.", "en": "She tells (us) she is ashamed of her red hair.", "tags": ["reflexive", "subclause"]},
+    {"nl": "Ze vraagt of jullie je weleens verslapen.", "en": "She asks whether you ever oversleep.", "tags": ["reflexive", "subclause"]},
+    {"nl": "Ik zal me voorstellen.", "en": "I will introduce myself.", "tags": ["reflexive", "modal"]},
+    {"nl": "Zal ik me voorstellen?", "en": "Shall I introduce myself?", "tags": ["reflexive", "modal", "question"]},
+    {"nl": "Ik moet me scheren.", "en": "I have to shave.", "tags": ["reflexive", "modal"]},
+    {"nl": "Ik kan me dat niet herinneren.", "en": "I can't remember that.", "tags": ["reflexive", "modal"]},
+    {"nl": "Hij heeft zich geschoren.", "en": "He has shaved.", "tags": ["reflexive", "perfectum"]},
+    {"nl": "Heeft hij zich geschoren?", "en": "Has he shaved?", "tags": ["reflexive", "perfectum", "question"]},
+    {"nl": "Ik heb me verslapen.", "en": "I overslept.", "tags": ["reflexive", "perfectum"]},
+    {"nl": "Heb jij je verslapen?", "en": "Did you oversleep?", "tags": ["reflexive", "perfectum", "question"]}
+  ]
+}

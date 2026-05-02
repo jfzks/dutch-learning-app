@@ -1,0 +1,43 @@
+{
+  "id": "separable-verbs",
+  "title": "Scheidbare werkwoorden (separable verbs)",
+  "summary": "Separable verbs = prefix + main verb. The prefix splits off and goes to the end of the sentence in main clauses.",
+  "rules": [
+    "A separable verb is a prefix (e.g. uit-, op-, in-, aan-, af-, mee-, voor-, door-, terug-) + main verb. The prefix changes the meaning.",
+    "Rule 1 — only verb in the sentence: separate. Move the prefix to the end. Hij nodigt mijn vriend uit.",
+    "Rule 2 — combined with a modal/auxiliary (kunnen, mogen, moeten, willen, zullen, hoeven, gaan): keep together as infinitive at end. Ik wil hem uitnodigen.",
+    "In perfectum, the past participle keeps the prefix and inserts -ge- between prefix and stem: aangekleed, meegenomen, opgeschreven, ingestapt.",
+    "In subclauses all verbs go to the end and the separable verb stays together (or follows the V2 rules of the subclause).",
+    "Exception: prefixes her-, ge-, be-, ont-, ver- are NOT separable. Stress test: if stress is on the prefix → separable.",
+    "With reflexive verbs the reflexive pronoun follows the verb, prefix still goes to end."
+  ],
+  "common_separable_verbs": [
+    "uitnodigen", "inschrijven", "uitschrijven", "aankleden", "uitslapen", "afspreken", "opschrijven", "voordoen",
+    "instappen", "uitstappen", "meenemen", "meegaan", "meekomen", "thuiskomen", "aankomen", "weggaan", "binnenkomen",
+    "opstaan", "neerleggen", "afsluiten", "openmaken", "uitgaan", "opbellen", "terugkomen", "doorgaan",
+    "voorstellen", "afmaken", "opletten", "uitkijken", "uitleggen"
+  ],
+  "examples": [
+    {"nl": "Wij slapen morgen uit.", "en": "We're sleeping in tomorrow.", "infinitive": "uitslapen", "tags": ["separable", "main", "present"]},
+    {"nl": "Hij nodigt mijn vriend voor mijn feest uit.", "en": "He's inviting my friend to my party.", "infinitive": "uitnodigen", "tags": ["separable", "main", "present"]},
+    {"nl": "Ik schrijf mijn notities in mijn notitieboek op.", "en": "I write my notes down in my notebook.", "infinitive": "opschrijven", "tags": ["separable", "main", "present"]},
+    {"nl": "Ik kan morgen de hele dag uitslapen.", "en": "Tomorrow I can sleep in all day.", "infinitive": "uitslapen", "tags": ["separable", "modal"]},
+    {"nl": "Ik wil mijn vriend voor mijn feest uitnodigen.", "en": "I want to invite my friend to my party.", "infinitive": "uitnodigen", "tags": ["separable", "modal"]},
+    {"nl": "Ik moet mijn notities in mijn notitieboek opschrijven.", "en": "I have to write my notes in my notebook.", "infinitive": "opschrijven", "tags": ["separable", "modal"]},
+    {"nl": "Ik nodig de buren voor mijn verjaardag uit.", "en": "I'm inviting the neighbours to my birthday.", "infinitive": "uitnodigen", "tags": ["separable"]},
+    {"nl": "Ik schrijf mij voor de cursus in.", "en": "I'm signing up for the course.", "infinitive": "inschrijven", "tags": ["separable", "reflexive"]},
+    {"nl": "Ik stap de bus in.", "en": "I get on the bus.", "infinitive": "instappen", "tags": ["separable", "present"]},
+    {"nl": "Ik stapte de bus in.", "en": "I got on the bus.", "infinitive": "instappen", "tags": ["separable", "imperfectum"]},
+    {"nl": "Ik ben de bus ingestapt.", "en": "I got on the bus.", "infinitive": "instappen", "tags": ["separable", "perfectum"]},
+    {"nl": "Ik mag de bus instappen.", "en": "I'm allowed to get on the bus.", "infinitive": "instappen", "tags": ["separable", "modal"]},
+    {"nl": "Ik neem een cadeautje mee.", "en": "I'm taking a present along.", "infinitive": "meenemen", "tags": ["separable", "present"]},
+    {"nl": "Ik nam een cadeautje mee.", "en": "I took a present along.", "infinitive": "meenemen", "tags": ["separable", "imperfectum"]},
+    {"nl": "Ik heb een cadeautje meegenomen.", "en": "I have brought a present.", "infinitive": "meenemen", "tags": ["separable", "perfectum"]},
+    {"nl": "Ik zal een cadeautje meenemen.", "en": "I will bring a present.", "infinitive": "meenemen", "tags": ["separable", "future"]},
+    {"nl": "Ik stel me aan de buurman voor.", "en": "I introduce myself to the neighbour.", "infinitive": "zich voorstellen", "tags": ["separable", "reflexive", "present"]},
+    {"nl": "Ik stelde me aan de buurman voor.", "en": "I introduced myself to the neighbour.", "infinitive": "zich voorstellen", "tags": ["separable", "reflexive", "imperfectum"]},
+    {"nl": "Ik heb me aan de buurman voorgesteld.", "en": "I have introduced myself to the neighbour.", "infinitive": "zich voorstellen", "tags": ["separable", "reflexive", "perfectum"]},
+    {"nl": "Mijn vader kleedt me in de ochtend aan.", "en": "My father dresses me in the morning.", "infinitive": "zich aankleden", "tags": ["separable", "reflexive", "present"]},
+    {"nl": "Mijn vader heeft me in de ochtend aangekleed.", "en": "My father has dressed me in the morning.", "infinitive": "zich aankleden", "tags": ["separable", "reflexive", "perfectum"]}
+  ]
+}

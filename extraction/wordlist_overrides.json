@@ -1,0 +1,108 @@
+{
+  "delete": [
+    ["(de wedstrijd)", "match"],
+    ["zit", "ik onder de bultjes I'm covered in lumps a rash"],
+    ["van", "alles everything"],
+    ["o", "ja oh yes"],
+    ["van", "harte gefeliciteerd happy birthday"],
+
+    ["total", "loss a write-off"],
+    ["rechts", "afslaan turn right"],
+    ["een slag", "in het wiel the wheel is crooked"],
+    ["tiptop", "in orde in tip-top condition"],
+
+    ["feliciteren", "met congratulate on"],
+    ["(het cadeau)", "present"],
+    ["nog", "geen not yet"],
+    ["je", "weet de weg (de weg weten)"],
+    ["you", "know the way"],
+    ["doe", "open open"],
+    ["de deur", "door eerst first"],
+    ["dat", "klopt that’s right"],
+    ["dat", "klopt that's right"],
+    ["sinds", "kort recently"],
+    ["het bevalt", "me I enjoy it"],
+    ["niet", "echt not really"],
+    ["wat", "toevallig what a coincidence"],
+    ["bereid", "me voor op (zich voorbereiden op)"],
+    ["am", "getting ready for"],
+
+    ["bent u hier bekend?", "Do you know your way"],
+    ["around", "here?"],
+    ["over", "… steken"],
+    ["(oversteken)", "cross"],
+
+    ["(meenemen)", "brought"],
+    ["doe", "haar de groeten"],
+    ["give", "her our regards"],
+    ["ben", "verkouden have a cold"],
+    ["ik", "ben toe aan (toe zijn aan)"],
+    ["i", "need"],
+    ["(verderkomen)", "come in"],
+    ["lekker", "warm nice and warm"],
+    ["houden", "van like / fond of / love"],
+    ["onder", "de auto gekomen"],
+    ["(onder", "de auto komen)"],
+    ["hebben", "verdriet gehad"],
+    ["om", "(verdriet hebben om)"],
+    ["was", "run over"],
+    ["grieved", "for"],
+    ["volgens", "mij in my opinion"],
+    ["twee", "weken geleden two weeks ago"],
+
+    ["in", "de rij staan queue (up)"],
+    ["bent", "van plan"],
+    ["(van", "plan zijn)"],
+    ["veel", "plezier have fun"],
+    ["op", "die manier in that way"]
+  ],
+  "add_to": {
+    "9": [
+      {"nl": "zit ik onder de bultjes", "en": "I'm covered in lumps / a rash", "pos": "phrase"},
+      {"nl": "van alles", "en": "everything", "pos": "phrase"},
+      {"nl": "o ja", "en": "oh yes", "pos": "phrase"}
+    ],
+    "10": [
+      {"nl": "total loss", "en": "a write-off", "pos": "phrase"},
+      {"nl": "rechts afslaan", "en": "turn right", "pos": "phrase"},
+      {"nl": "een slag in het wiel", "en": "the wheel is crooked", "pos": "phrase"},
+      {"nl": "tiptop in orde", "en": "in tip-top condition", "pos": "phrase"}
+    ],
+    "11": [
+      {"nl": "van harte gefeliciteerd", "en": "happy birthday", "pos": "phrase"},
+      {"nl": "feliciteren met", "en": "congratulate on", "pos": "verb", "infinitive": "feliciteren met"},
+      {"nl": "nog geen", "en": "not yet", "pos": "phrase"},
+      {"nl": "je weet de weg (de weg weten)", "en": "you know the way", "pos": "phrase"},
+      {"nl": "doe open", "en": "open", "pos": "verb"},
+      {"nl": "eerst", "en": "first", "pos": "other"},
+      {"nl": "de deur", "en": "door", "pos": "noun", "article": "de", "lemma": "deur"},
+      {"nl": "dat klopt", "en": "that's right", "pos": "phrase"},
+      {"nl": "sinds kort", "en": "recently", "pos": "phrase"},
+      {"nl": "het bevalt me", "en": "I enjoy it", "pos": "phrase"},
+      {"nl": "niet echt", "en": "not really", "pos": "phrase"},
+      {"nl": "wat toevallig", "en": "what a coincidence", "pos": "phrase"},
+      {"nl": "bereid me voor op (zich voorbereiden op)", "en": "am getting ready for", "pos": "verb", "infinitive": "zich voorbereiden op", "reflexive": true}
+    ],
+    "12": [
+      {"nl": "Bent u hier bekend?", "en": "Do you know your way around here?", "pos": "phrase"},
+      {"nl": "over … steken (oversteken)", "en": "cross", "pos": "verb", "infinitive": "oversteken", "separable": true}
+    ],
+    "13": [
+      {"nl": "meegenomen (meenemen)", "en": "brought", "pos": "verb", "infinitive": "meenemen", "separable": true},
+      {"nl": "Doe haar de groeten terug", "en": "Give her our regards", "pos": "phrase"},
+      {"nl": "ben verkouden", "en": "have a cold", "pos": "phrase"},
+      {"nl": "lekker warm", "en": "nice and warm", "pos": "phrase"},
+      {"nl": "houden van", "en": "like / fond of / love", "pos": "verb", "infinitive": "houden van"},
+      {"nl": "is onder de auto gekomen (onder de auto komen)", "en": "was run over", "pos": "phrase"},
+      {"nl": "hebben verdriet gehad om (verdriet hebben om)", "en": "grieved for", "pos": "phrase"},
+      {"nl": "volgens mij", "en": "in my opinion", "pos": "phrase"},
+      {"nl": "twee weken geleden", "en": "two weeks ago", "pos": "phrase"}
+    ],
+    "14": [
+      {"nl": "in de rij staan", "en": "queue (up)", "pos": "phrase"},
+      {"nl": "bent van plan (van plan zijn)", "en": "intend", "pos": "verb", "infinitive": "van plan zijn"},
+      {"nl": "veel plezier", "en": "have fun", "pos": "phrase"},
+      {"nl": "op die manier", "en": "in that way", "pos": "phrase"}
+    ]
+  }
+}

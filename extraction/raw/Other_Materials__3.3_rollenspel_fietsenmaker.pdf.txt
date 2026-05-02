@@ -1,0 +1,48 @@
+
+===== PAGE 1 =====
+Y
+o
+u
+r
+D
+u
+t
+c
+h
+F
+r
+i
+e
+n
+d
+3.3 rollenspel fietsenmaker 
+Instructions: Act like you’re at the bike repair shop to talk about your bike. Student
+A plays the cycle repairman, student B plays the client. Student B can think of a
+problem with their bike and how that happened. After that, switch roles.  
+Student A
+Hallo, hoe kan ik u helpen? 
+Student B 
+... 
+Student A
+Hoe is dat gebeurd?
+Student B 
+... 
+Student A
+O jee. Ik ga het repareren. Wanneer
+wilt u uw fiets terug hebben?
+Student B 
+... 
+Student A
+Wilt u dat ik verder nog iets
+met uw fiets doe?
+Student B 
+... 
+Student A
+Dat is prima. Dat kost dan €50.
+Wilt u pinnen of...? 
+Student B 
+... 
+Student A
+Prima, ...
+Student B 
+... 

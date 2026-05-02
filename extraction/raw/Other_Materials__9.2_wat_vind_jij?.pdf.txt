@@ -1,0 +1,31 @@
+
+===== PAGE 1 =====
+Y
+o
+u
+r
+D
+u
+t
+c
+h
+F
+r
+i
+e
+n
+d
+9.2 wat vind jij?
+Instructions: Ask each other these questions. Student A starts with asking question
+1, student B answers and gives the question back with ‘En jij? Wat vind jij?’.
+Student A answers. Then student B continues with question 2. 
+1 Wat vind je van het huis? 
+2 Hoe vind je de bloemen? 
+3 Vier katten, vind je dat niet veel? 
+4 Wat vind je van deze fiets? 
+5 Hoe vind je mijn nieuwe broek? 
+6 10 graden in de zomer, vind je dat niet koud? 
+7 Wat vind je van jonge dieren? 
+8 Hoe vind je de film? 
+9 Wat vind je van ijs met vruchten?
+10 Hoe vind je de voetbalwedstrijd?

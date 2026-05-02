@@ -1,0 +1,454 @@
+[
+  {
+    "id": "w_3b2af0fcf4",
+    "nl": "het station",
+    "en": "train station",
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "pos": "noun",
+    "head": "het station",
+    "article": "het",
+    "lemma": "station"
+  },
+  {
+    "id": "w_bc0d687dd5",
+    "nl": "bekend",
+    "en": "known",
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "pos": "other",
+    "head": "bekend"
+  },
+  {
+    "id": "w_783ed1e6f7",
+    "nl": "de voorbijganger",
+    "en": "passer-by",
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "pos": "noun",
+    "head": "de voorbijganger",
+    "article": "de",
+    "lemma": "voorbijganger"
+  },
+  {
+    "id": "w_a6a79ec5f3",
+    "nl": "de buschauffeur",
+    "en": "bus driver",
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "pos": "noun",
+    "head": "de buschauffeur",
+    "article": "de",
+    "lemma": "buschauffeur"
+  },
+  {
+    "id": "w_8f33550c5d",
+    "nl": "de bus",
+    "en": "bus",
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "pos": "noun",
+    "head": "de bus",
+    "article": "de",
+    "lemma": "bus"
+  },
+  {
+    "id": "w_aa17b6df24",
+    "nl": "de chauffeur",
+    "en": "driver",
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "pos": "noun",
+    "head": "de chauffeur",
+    "article": "de",
+    "lemma": "chauffeur"
+  },
+  {
+    "id": "w_954fa98b78",
+    "nl": "lopen",
+    "en": "walk",
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "pos": "verb",
+    "head": "lopen",
+    "infinitive": "lopen"
+  },
+  {
+    "id": "w_1d2a1257d1",
+    "nl": "te",
+    "en": "too (intensifier, e.g. te koud = too cold)",
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "pos": "other",
+    "head": "te"
+  },
+  {
+    "id": "w_ebc176d53d",
+    "nl": "zeker",
+    "en": "certainly",
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "pos": "other",
+    "head": "zeker"
+  },
+  {
+    "id": "w_7802008920",
+    "nl": "vanaf",
+    "en": "from",
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "pos": "other",
+    "head": "vanaf"
+  },
+  {
+    "id": "w_0b9c8f2e14",
+    "nl": "de tram",
+    "en": "tram",
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "pos": "noun",
+    "head": "de tram",
+    "article": "de",
+    "lemma": "tram"
+  },
+  {
+    "id": "w_133c0c3ec0",
+    "nl": "de lijn",
+    "en": "line (number)",
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "pos": "noun",
+    "head": "de lijn",
+    "article": "de",
+    "lemma": "lijn"
+  },
+  {
+    "id": "w_9b3a1af5d7",
+    "nl": "hebt geluk (geluk hebben)",
+    "en": "are lucky",
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "pos": "verb",
+    "head": "hebt geluk",
+    "infinitive": "geluk hebben",
+    "reflexive": false
+  },
+  {
+    "id": "w_cfd840949b",
+    "nl": "komt aan (aankomen)",
+    "en": "is arriving",
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "pos": "verb",
+    "head": "komt aan",
+    "infinitive": "aankomen",
+    "reflexive": false
+  },
+  {
+    "id": "w_c2b5356c4b",
+    "nl": "net",
+    "en": "just",
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "pos": "other",
+    "head": "net"
+  },
+  {
+    "id": "w_a2f303a097",
+    "nl": "direct",
+    "en": "straightaway",
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "pos": "other",
+    "head": "direct"
+  },
+  {
+    "id": "w_c2d2a84ae1",
+    "nl": "instappen",
+    "en": "get in",
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "pos": "verb",
+    "head": "instappen",
+    "infinitive": "instappen"
+  },
+  {
+    "id": "w_bd9ea942f1",
+    "nl": "het stuk",
+    "en": "short distance",
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "pos": "noun",
+    "head": "het stuk",
+    "article": "het",
+    "lemma": "stuk"
+  },
+  {
+    "id": "w_fb7f6bcf56",
+    "nl": "de ingang",
+    "en": "entrance",
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "pos": "noun",
+    "head": "de ingang",
+    "article": "de",
+    "lemma": "ingang"
+  },
+  {
+    "id": "w_23547522af",
+    "nl": "de balie",
+    "en": "information desk",
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "pos": "noun",
+    "head": "de balie",
+    "article": "de",
+    "lemma": "balie"
+  },
+  {
+    "id": "w_2513603db3",
+    "nl": "de hal",
+    "en": "hall",
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "pos": "noun",
+    "head": "de hal",
+    "article": "de",
+    "lemma": "hal"
+  },
+  {
+    "id": "w_c431dafde9",
+    "nl": "de portier",
+    "en": "porter",
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "pos": "noun",
+    "head": "de portier",
+    "article": "de",
+    "lemma": "portier"
+  },
+  {
+    "id": "w_505bf99dda",
+    "nl": "boven",
+    "en": "upstairs",
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "pos": "verb",
+    "head": "boven",
+    "infinitive": "boven"
+  },
+  {
+    "id": "w_f49e502e96",
+    "nl": "ga op (opgaan)",
+    "en": "go up",
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "pos": "verb",
+    "head": "ga op",
+    "infinitive": "opgaan",
+    "reflexive": false
+  },
+  {
+    "id": "w_69d9872471",
+    "nl": "de trap",
+    "en": "stairs",
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "pos": "noun",
+    "head": "de trap",
+    "article": "de",
+    "lemma": "trap"
+  },
+  {
+    "id": "w_b37d73075b",
+    "nl": "rechtdoor",
+    "en": "straight ahead",
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "pos": "other",
+    "head": "rechtdoor"
+  },
+  {
+    "id": "w_15ec5e49d7",
+    "nl": "tot",
+    "en": "as far as",
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "pos": "other",
+    "head": "tot"
+  },
+  {
+    "id": "w_0a312d0299",
+    "nl": "herkent (herkennen)",
+    "en": "recognize",
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "pos": "verb",
+    "head": "herkent",
+    "infinitive": "herkennen",
+    "reflexive": false
+  },
+  {
+    "id": "w_0986a3c471",
+    "nl": "linksaf",
+    "en": "to the left",
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "pos": "other",
+    "head": "linksaf"
+  },
+  {
+    "id": "w_25de965d02",
+    "nl": "het eind",
+    "en": "end",
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "pos": "noun",
+    "head": "het eind",
+    "article": "het",
+    "lemma": "eind"
+  },
+  {
+    "id": "w_db79466497",
+    "nl": "rechts",
+    "en": "on the right",
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "pos": "other",
+    "head": "rechts"
+  },
+  {
+    "id": "w_9b8494f983",
+    "nl": "neemt mee (meenemen)",
+    "en": "take",
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "pos": "verb",
+    "head": "neemt mee",
+    "infinitive": "meenemen",
+    "reflexive": false
+  },
+  {
+    "id": "w_05a57ecc06",
+    "nl": "de plattegrond",
+    "en": "map",
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "pos": "noun",
+    "head": "de plattegrond",
+    "article": "de",
+    "lemma": "plattegrond"
+  },
+  {
+    "id": "w_ebd56ee5dc",
+    "nl": "het toilet",
+    "en": "toilet",
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "pos": "noun",
+    "head": "toiletten",
+    "article": "het",
+    "lemma": "toilet"
+  },
+  {
+    "id": "w_20fcc8121b",
+    "nl": "beneden",
+    "en": "downstairs",
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "pos": "verb",
+    "head": "beneden",
+    "infinitive": "beneden"
+  },
+  {
+    "id": "w_da7cb6b928",
+    "nl": "de hoek",
+    "en": "corner",
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "pos": "noun",
+    "head": "de hoek",
+    "article": "de",
+    "lemma": "hoek"
+  },
+  {
+    "id": "w_4d1e90094a",
+    "nl": "ga … om (omgaan)",
+    "en": "turn",
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "pos": "verb",
+    "head": "ga … om",
+    "infinitive": "omgaan",
+    "reflexive": false
+  },
+  {
+    "id": "w_edbafec449",
+    "nl": "ga … af (afgaan)",
+    "en": "go down",
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "pos": "verb",
+    "head": "ga … af",
+    "infinitive": "afgaan",
+    "reflexive": false
+  },
+  {
+    "id": "w_e7cf06bb87",
+    "nl": "uitlopen",
+    "en": "walk down",
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "pos": "verb",
+    "head": "uitlopen",
+    "infinitive": "uitlopen"
+  },
+  {
+    "id": "w_9952fc8da7",
+    "nl": "vanzelf",
+    "en": "as a matter of course",
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "pos": "other",
+    "head": "vanzelf"
+  },
+  {
+    "id": "w_825e12bcd3",
+    "nl": "het bordje",
+    "en": "sign",
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "pos": "noun",
+    "head": "bordjes",
+    "article": "het",
+    "lemma": "bordje"
+  },
+  {
+    "id": "w_80ab3ee0b3",
+    "nl": "volgen",
+    "en": "follow",
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "pos": "verb",
+    "head": "volgen",
+    "infinitive": "volgen"
+  },
+  {
+    "nl": "Bent u hier bekend?",
+    "en": "Do you know your way around here?",
+    "pos": "phrase",
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "id": "w_5f7294e4c3"
+  },
+  {
+    "nl": "over … steken (oversteken)",
+    "en": "cross",
+    "pos": "verb",
+    "infinitive": "oversteken",
+    "separable": true,
+    "topic": "woordenlijst-12",
+    "source": "NIG Woordenlijst 12",
+    "id": "w_892708ab5c"
+  }
+]

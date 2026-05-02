@@ -1,0 +1,672 @@
+[
+  {
+    "id": "w_9c93d0e9c8",
+    "nl": "kom binnen (binnenkomen)",
+    "en": "come in",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "verb",
+    "head": "kom binnen",
+    "infinitive": "binnenkomen",
+    "reflexive": false
+  },
+  {
+    "id": "w_51b7665a6e",
+    "nl": "de kerk",
+    "en": "church",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "noun",
+    "head": "de kerk",
+    "article": "de",
+    "lemma": "kerk"
+  },
+  {
+    "id": "w_b87d2679f9",
+    "nl": "zei (zeggen)",
+    "en": "said",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "verb",
+    "head": "zei",
+    "infinitive": "zeggen",
+    "reflexive": false
+  },
+  {
+    "id": "w_839b10596d",
+    "nl": "kon (kunnen)",
+    "en": "could",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "verb",
+    "head": "kon",
+    "infinitive": "kunnen",
+    "reflexive": false
+  },
+  {
+    "id": "w_c7fc729dc7",
+    "nl": "missen",
+    "en": "go wrong / fail",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "verb",
+    "head": "missen",
+    "infinitive": "missen"
+  },
+  {
+    "id": "w_7f3016925e",
+    "nl": "gelukkig",
+    "en": "fortunately",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "other",
+    "head": "gelukkig"
+  },
+  {
+    "id": "w_2166ebe8a6",
+    "nl": "moest (moeten)",
+    "en": "had to",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "verb",
+    "head": "moest",
+    "infinitive": "moeten",
+    "reflexive": false
+  },
+  {
+    "id": "w_255cef7eb1",
+    "nl": "de auto",
+    "en": "car",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "noun",
+    "head": "de auto",
+    "article": "de",
+    "lemma": "auto"
+  },
+  {
+    "id": "w_68f9910c97",
+    "nl": "brengen",
+    "en": "take",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "verb",
+    "head": "brengen",
+    "infinitive": "brengen"
+  },
+  {
+    "id": "w_e419aee54c",
+    "nl": "lekker",
+    "en": "well",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "other",
+    "head": "lekker"
+  },
+  {
+    "id": "w_5014594510",
+    "nl": "groeten",
+    "en": "greetings",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "verb",
+    "head": "groeten",
+    "infinitive": "groeten"
+  },
+  {
+    "id": "w_062b9cce41",
+    "nl": "vroeg",
+    "en": "early",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "other",
+    "head": "vroeg"
+  },
+  {
+    "id": "w_3edbd6264f",
+    "nl": "verontschuldigen",
+    "en": "apologize",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "verb",
+    "head": "verontschuldigen",
+    "infinitive": "verontschuldigen"
+  },
+  {
+    "id": "w_9bc040fa12",
+    "nl": "doe uit (uitdoen)",
+    "en": "take off",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "verb",
+    "head": "doe uit",
+    "infinitive": "uitdoen",
+    "reflexive": false
+  },
+  {
+    "id": "w_94284cbc8c",
+    "nl": "het weer",
+    "en": "weather",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "noun",
+    "head": "het weer",
+    "article": "het",
+    "lemma": "weer"
+  },
+  {
+    "id": "w_7ef26af4a4",
+    "nl": "hè",
+    "en": "isn’t it",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "other",
+    "head": "hè"
+  },
+  {
+    "id": "w_8f3484eb9e",
+    "nl": "Zeg dat wel!",
+    "en": "You can say that again!",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "phrase",
+    "head": "Zeg dat wel!"
+  },
+  {
+    "id": "w_ae91b92ecf",
+    "nl": "koud",
+    "en": "cold",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "other",
+    "head": "koud"
+  },
+  {
+    "id": "w_033f796ee5",
+    "nl": "nat",
+    "en": "wet",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "other",
+    "head": "nat"
+  },
+  {
+    "id": "w_e0e870d2bd",
+    "nl": "hebben aan (aanhebben)",
+    "en": "have on",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "verb",
+    "head": "hebben aan",
+    "infinitive": "aanhebben",
+    "reflexive": false
+  },
+  {
+    "id": "w_c8fd093c71",
+    "nl": "de verwarming",
+    "en": "heating",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "noun",
+    "head": "de verwarming",
+    "article": "de",
+    "lemma": "verwarming"
+  },
+  {
+    "id": "w_d5450a0506",
+    "nl": "belachelijk",
+    "en": "ridiculous",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "other",
+    "head": "belachelijk"
+  },
+  {
+    "id": "w_8fe0e7d8e4",
+    "nl": "geloof (geloven)",
+    "en": "believe",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "verb",
+    "head": "geloof",
+    "infinitive": "geloven",
+    "reflexive": false
+  },
+  {
+    "id": "w_c6ad84701f",
+    "nl": "schijnt (schijnen)",
+    "en": "seems",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "verb",
+    "head": "schijnt",
+    "infinitive": "schijnen",
+    "reflexive": false
+  },
+  {
+    "id": "w_6f497b396e",
+    "nl": "kom",
+    "en": "… verder",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "other",
+    "head": "kom"
+  },
+  {
+    "id": "w_d10ff87020",
+    "nl": "ah",
+    "en": "ah",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "other",
+    "head": "ah"
+  },
+  {
+    "id": "w_3be578588a",
+    "nl": "warm",
+    "en": "warm",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "other",
+    "head": "warm"
+  },
+  {
+    "id": "w_5125690fae",
+    "nl": "de doos",
+    "en": "box",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "noun",
+    "head": "de doos",
+    "article": "de",
+    "lemma": "doos"
+  },
+  {
+    "id": "w_dc4c5a4c8e",
+    "nl": "de bonbon",
+    "en": "chocolate",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "noun",
+    "head": "bonbons",
+    "article": "de",
+    "lemma": "bonbon"
+  },
+  {
+    "id": "w_fee7606cc5",
+    "nl": "de bos",
+    "en": "bunch",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "noun",
+    "head": "de bos",
+    "article": "de",
+    "lemma": "bos"
+  },
+  {
+    "id": "w_9fc334df96",
+    "nl": "de bloem",
+    "en": "flower",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "noun",
+    "head": "bloemen",
+    "article": "de",
+    "lemma": "bloem"
+  },
+  {
+    "id": "w_c253042377",
+    "nl": "de vaas",
+    "en": "vase",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "noun",
+    "head": "de vaas",
+    "article": "de",
+    "lemma": "vaas"
+  },
+  {
+    "id": "w_4f98e83359",
+    "nl": "zetten",
+    "en": "put",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "verb",
+    "head": "zetten",
+    "infinitive": "zetten"
+  },
+  {
+    "id": "w_09b964e467",
+    "nl": "snijd (snijden)",
+    "en": "cut",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "verb",
+    "head": "snijd",
+    "infinitive": "snijden",
+    "reflexive": false
+  },
+  {
+    "id": "w_af2cfd4752",
+    "nl": "schuin",
+    "en": "at an angle",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "other",
+    "head": "schuin"
+  },
+  {
+    "id": "w_f9a46cbc8d",
+    "nl": "afsnijden",
+    "en": "cut off",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "verb",
+    "head": "afsnijden",
+    "infinitive": "afsnijden"
+  },
+  {
+    "id": "w_e17f41d93a",
+    "nl": "het dier",
+    "en": "animal",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "noun",
+    "head": "dieren",
+    "article": "het",
+    "lemma": "dier"
+  },
+  {
+    "id": "w_020b49e07c",
+    "nl": "de hond",
+    "en": "dog",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "noun",
+    "head": "de hond",
+    "article": "de",
+    "lemma": "hond"
+  },
+  {
+    "id": "w_040c5e6124",
+    "nl": "de kat",
+    "en": "cat",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "noun",
+    "head": "katten",
+    "article": "de",
+    "lemma": "kat"
+  },
+  {
+    "id": "w_8be1d9d18f",
+    "nl": "de vis",
+    "en": "fish",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "noun",
+    "head": "vissen",
+    "article": "de",
+    "lemma": "vis"
+  },
+  {
+    "id": "w_42447d5800",
+    "nl": "jawel",
+    "en": "oh yes",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "other",
+    "head": "jawel"
+  },
+  {
+    "id": "w_cb5bd45db0",
+    "nl": "meestal",
+    "en": "usually",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "other",
+    "head": "meestal"
+  },
+  {
+    "id": "w_8fe84789e9",
+    "nl": "gezellig",
+    "en": "pleasant / sociable",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "other",
+    "head": "gezellig"
+  },
+  {
+    "id": "w_680faafa69",
+    "nl": "hadden (hebben)",
+    "en": "used to have / had",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "verb",
+    "head": "hadden",
+    "infinitive": "hebben",
+    "reflexive": false
+  },
+  {
+    "id": "w_6fa3e32e5a",
+    "nl": "het ongeluk",
+    "en": "accident",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "noun",
+    "head": "het ongeluk",
+    "article": "het",
+    "lemma": "ongeluk"
+  },
+  {
+    "id": "w_b9e343a5c5",
+    "nl": "hebben gehad (hebben)",
+    "en": "had",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "verb",
+    "head": "hebben gehad",
+    "infinitive": "hebben",
+    "reflexive": false
+  },
+  {
+    "id": "w_2fd45d39b8",
+    "nl": "het verdriet",
+    "en": "grief",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "noun",
+    "head": "het verdriet",
+    "article": "het",
+    "lemma": "verdriet"
+  },
+  {
+    "id": "w_7c2b8bfd47",
+    "nl": "de dood",
+    "en": "death",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "noun",
+    "head": "de dood",
+    "article": "de",
+    "lemma": "dood"
+  },
+  {
+    "id": "w_ddcacc2772",
+    "nl": "volgens",
+    "en": "according to",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "other",
+    "head": "volgens"
+  },
+  {
+    "id": "w_6822087adf",
+    "nl": "de gezondheid",
+    "en": "health",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "noun",
+    "head": "de gezondheid",
+    "article": "de",
+    "lemma": "gezondheid"
+  },
+  {
+    "id": "w_7452fc3e96",
+    "nl": "lachen",
+    "en": "laugh",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "verb",
+    "head": "lachen",
+    "infinitive": "lachen"
+  },
+  {
+    "id": "w_cd22c8f64b",
+    "nl": "gezond",
+    "en": "healthy",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "other",
+    "head": "gezond"
+  },
+  {
+    "id": "w_ffa0d846d3",
+    "nl": "kom mee (meekomen)",
+    "en": "come",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "verb",
+    "head": "kom mee",
+    "infinitive": "meekomen",
+    "reflexive": false
+  },
+  {
+    "id": "w_96b0f35bfa",
+    "nl": "de schuur",
+    "en": "shed",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "noun",
+    "head": "de schuur",
+    "article": "de",
+    "lemma": "schuur"
+  },
+  {
+    "id": "w_fd06a83e1c",
+    "nl": "het jong",
+    "en": "young (cub)",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "noun",
+    "head": "jongen",
+    "article": "het",
+    "lemma": "jong"
+  },
+  {
+    "id": "w_27545d8ac8",
+    "nl": "gekregen (krijgen)",
+    "en": "had",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "verb",
+    "head": "gekregen",
+    "infinitive": "krijgen",
+    "reflexive": false
+  },
+  {
+    "id": "w_cb083120fc",
+    "nl": "iemand",
+    "en": "someone",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "other",
+    "head": "iemand"
+  },
+  {
+    "id": "w_bde3cd37d7",
+    "nl": "laatste (laatst)",
+    "en": "last",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "pos": "verb",
+    "head": "laatste",
+    "infinitive": "laatst",
+    "reflexive": false
+  },
+  {
+    "nl": "meegenomen (meenemen)",
+    "en": "brought",
+    "pos": "verb",
+    "infinitive": "meenemen",
+    "separable": true,
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "id": "w_7f6b6d24f9"
+  },
+  {
+    "nl": "Doe haar de groeten terug",
+    "en": "Give her our regards",
+    "pos": "phrase",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "id": "w_331a691d65"
+  },
+  {
+    "nl": "ben verkouden",
+    "en": "have a cold",
+    "pos": "phrase",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "id": "w_5e49c9764b"
+  },
+  {
+    "nl": "lekker warm",
+    "en": "nice and warm",
+    "pos": "phrase",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "id": "w_78c5f8a223"
+  },
+  {
+    "nl": "houden van",
+    "en": "like / fond of / love",
+    "pos": "verb",
+    "infinitive": "houden van",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "id": "w_4c9514e922"
+  },
+  {
+    "nl": "is onder de auto gekomen (onder de auto komen)",
+    "en": "was run over",
+    "pos": "phrase",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "id": "w_a6ac64d867"
+  },
+  {
+    "nl": "hebben verdriet gehad om (verdriet hebben om)",
+    "en": "grieved for",
+    "pos": "phrase",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "id": "w_15ce02dcfe"
+  },
+  {
+    "nl": "volgens mij",
+    "en": "in my opinion",
+    "pos": "phrase",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "id": "w_2ca5d195ab"
+  },
+  {
+    "nl": "twee weken geleden",
+    "en": "two weeks ago",
+    "pos": "phrase",
+    "topic": "woordenlijst-13",
+    "source": "NIG Woordenlijst 13",
+    "id": "w_90b3f86472"
+  }
+]

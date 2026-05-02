@@ -1,0 +1,718 @@
+[
+  {
+    "id": "w_fff48e5518",
+    "nl": "de buurvrouw",
+    "en": "neighbour (f)",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "noun",
+    "head": "de buurvrouw",
+    "article": "de",
+    "lemma": "buurvrouw"
+  },
+  {
+    "id": "w_c21b0fbd93",
+    "nl": "leven",
+    "en": "live",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "verb",
+    "head": "leven",
+    "infinitive": "leven"
+  },
+  {
+    "id": "w_0c25233cdc",
+    "nl": "hoera",
+    "en": "hooray",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "other",
+    "head": "hoera"
+  },
+  {
+    "id": "w_44efd81d8a",
+    "nl": "het",
+    "en": "cadeautje",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "other",
+    "head": "het"
+  },
+  {
+    "id": "w_bc405eca3f",
+    "nl": "het kaartje",
+    "en": "ticket",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "noun",
+    "head": "het kaartje",
+    "article": "het",
+    "lemma": "kaartje"
+  },
+  {
+    "id": "w_408b7d15c3",
+    "nl": "het festival",
+    "en": "festival",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "noun",
+    "head": "het festival",
+    "article": "het",
+    "lemma": "festival"
+  },
+  {
+    "id": "w_0f0ed21d1b",
+    "nl": "hoop (hopen)",
+    "en": "hope",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "verb",
+    "head": "hoop",
+    "infinitive": "hopen",
+    "reflexive": false
+  },
+  {
+    "id": "w_6f890398de",
+    "nl": "dat",
+    "en": "that",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "other",
+    "head": "dat"
+  },
+  {
+    "id": "w_dabdb9d88d",
+    "nl": "Cubaanse",
+    "en": "Cuban",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "other",
+    "head": "Cubaanse"
+  },
+  {
+    "id": "w_2559771125",
+    "nl": "de muziek",
+    "en": "music",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "noun",
+    "head": "de muziek",
+    "article": "de",
+    "lemma": "muziek"
+  },
+  {
+    "id": "w_74d18ce472",
+    "nl": "ben gek op (gek zijn op)",
+    "en": "am crazy about",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "verb",
+    "head": "ben gek op",
+    "infinitive": "gek zijn op",
+    "reflexive": false
+  },
+  {
+    "id": "w_0129ecc6f7",
+    "nl": "me herinneren (zich herinneren)",
+    "en": "remember",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "verb",
+    "head": "me herinneren",
+    "infinitive": "herinneren",
+    "reflexive": true
+  },
+  {
+    "id": "w_470fdb947e",
+    "nl": "de keer",
+    "en": "time",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "noun",
+    "head": "de keer",
+    "article": "de",
+    "lemma": "keer"
+  },
+  {
+    "id": "w_f457d4a6b5",
+    "nl": "verteld (vertellen)",
+    "en": "told",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "verb",
+    "head": "verteld",
+    "infinitive": "vertellen",
+    "reflexive": false
+  },
+  {
+    "id": "w_d1de673531",
+    "nl": "de taart",
+    "en": "cake",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "noun",
+    "head": "de taart",
+    "article": "de",
+    "lemma": "taart"
+  },
+  {
+    "id": "w_fb300082a1",
+    "nl": "gezien (zien)",
+    "en": "seen",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "verb",
+    "head": "gezien",
+    "infinitive": "zien",
+    "reflexive": false
+  },
+  {
+    "id": "w_04f7db3ee4",
+    "nl": "het bedrijf",
+    "en": "company",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "noun",
+    "head": "het bedrijf",
+    "article": "het",
+    "lemma": "bedrijf"
+  },
+  {
+    "id": "w_fd042c7280",
+    "nl": "de accountant",
+    "en": "accountant",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "noun",
+    "head": "de accountant",
+    "article": "de",
+    "lemma": "accountant"
+  },
+  {
+    "id": "w_cb263005d4",
+    "nl": "vergis ik me (zich vergissen)",
+    "en": "am I mistaken",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "verb",
+    "head": "vergis ik me",
+    "infinitive": "vergissen",
+    "reflexive": true
+  },
+  {
+    "id": "w_f5e61893dc",
+    "nl": "het kantoor",
+    "en": "office",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "noun",
+    "head": "het kantoor",
+    "article": "het",
+    "lemma": "kantoor"
+  },
+  {
+    "id": "w_28947798f7",
+    "nl": "eigen",
+    "en": "own",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "verb",
+    "head": "eigen",
+    "infinitive": "eigen"
+  },
+  {
+    "id": "w_5b4644222b",
+    "nl": "de baas",
+    "en": "boss",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "noun",
+    "head": "de baas",
+    "article": "de",
+    "lemma": "baas"
+  },
+  {
+    "id": "w_5ce46deb1e",
+    "nl": "druk",
+    "en": "busy",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "other",
+    "head": "druk"
+  },
+  {
+    "id": "w_117311fef5",
+    "nl": "de tijd",
+    "en": "time",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "noun",
+    "head": "de tijd",
+    "article": "de",
+    "lemma": "tijd"
+  },
+  {
+    "id": "w_8d04b73f5f",
+    "nl": "verveel me (zich vervelen)",
+    "en": "am bored",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "verb",
+    "head": "verveel me",
+    "infinitive": "vervelen",
+    "reflexive": true
+  },
+  {
+    "id": "w_49af76d1c0",
+    "nl": "nooit",
+    "en": "never",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "other",
+    "head": "nooit"
+  },
+  {
+    "id": "w_eda1402eef",
+    "nl": "het buitenland",
+    "en": "abroad",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "noun",
+    "head": "het buitenland",
+    "article": "het",
+    "lemma": "buitenland"
+  },
+  {
+    "id": "w_1dda3e5e27",
+    "nl": "hoor (horen)",
+    "en": "hear",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "verb",
+    "head": "hoor",
+    "infinitive": "horen",
+    "reflexive": false
+  },
+  {
+    "id": "w_656112fbcf",
+    "nl": "Duits",
+    "en": "German",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "other",
+    "head": "Duits"
+  },
+  {
+    "id": "w_34a49ebee0",
+    "nl": "het accent",
+    "en": "accent",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "noun",
+    "head": "het accent",
+    "article": "het",
+    "lemma": "accent"
+  },
+  {
+    "id": "w_d35d425fbc",
+    "nl": "studeer (studeren)",
+    "en": "study",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "verb",
+    "head": "studeer",
+    "infinitive": "studeren",
+    "reflexive": false
+  },
+  {
+    "id": "w_d94b0e8c9b",
+    "nl": "de student",
+    "en": "student",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "noun",
+    "head": "de student",
+    "article": "de",
+    "lemma": "student"
+  },
+  {
+    "id": "w_013c6a1e10",
+    "nl": "de logopedie",
+    "en": "speech therapy",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "noun",
+    "head": "de logopedie",
+    "article": "de",
+    "lemma": "logopedie"
+  },
+  {
+    "id": "w_d9fdb8e22c",
+    "nl": "naast",
+    "en": "besides",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "other",
+    "head": "naast"
+  },
+  {
+    "id": "w_2f52a90dff",
+    "nl": "het bijbaantje",
+    "en": "job on the side / part time job",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "noun",
+    "head": "het bijbaantje",
+    "article": "het",
+    "lemma": "bijbaantje"
+  },
+  {
+    "id": "w_643214b1cc",
+    "nl": "de studie",
+    "en": "study",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "noun",
+    "head": "de studie",
+    "article": "de",
+    "lemma": "studie"
+  },
+  {
+    "id": "w_953185fb92",
+    "nl": "iedere (ieder)",
+    "en": "each / every",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "verb",
+    "head": "iedere",
+    "infinitive": "ieder",
+    "reflexive": false
+  },
+  {
+    "id": "w_4a2079590f",
+    "nl": "de bioscoop",
+    "en": "cinema",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "noun",
+    "head": "de bioscoop",
+    "article": "de",
+    "lemma": "bioscoop"
+  },
+  {
+    "id": "w_23f2ba85d3",
+    "nl": "interesseer je (zich interesseren)",
+    "en": "are you interested",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "verb",
+    "head": "interesseer je",
+    "infinitive": "interesseren",
+    "reflexive": true
+  },
+  {
+    "id": "w_24367c61b5",
+    "nl": "gewoon",
+    "en": "just",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "other",
+    "head": "gewoon"
+  },
+  {
+    "id": "w_dac246eadd",
+    "nl": "begrijp (begrijpen)",
+    "en": "understand",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "verb",
+    "head": "begrijp",
+    "infinitive": "begrijpen",
+    "reflexive": false
+  },
+  {
+    "id": "w_95f0ed7182",
+    "nl": "snel",
+    "en": "fast",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "other",
+    "head": "snel"
+  },
+  {
+    "id": "w_ca5aac47f7",
+    "nl": "de hobby",
+    "en": "hobby",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "noun",
+    "head": "de hobby",
+    "article": "de",
+    "lemma": "hobby"
+  },
+  {
+    "id": "w_02cd80acbd",
+    "nl": "de sport",
+    "en": "sport",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "noun",
+    "head": "de sport",
+    "article": "de",
+    "lemma": "sport"
+  },
+  {
+    "id": "w_1a900bc3b1",
+    "nl": "zwemmen",
+    "en": "swimming",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "verb",
+    "head": "zwemmen",
+    "infinitive": "zwemmen"
+  },
+  {
+    "id": "w_a004c39e9c",
+    "nl": "wandelen",
+    "en": "walking / hiking",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "verb",
+    "head": "wandelen",
+    "infinitive": "wandelen"
+  },
+  {
+    "id": "w_ee299d39fe",
+    "nl": "de Wandelbeurs",
+    "en": "Walking Fair",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "noun",
+    "head": "de Wandelbeurs",
+    "article": "de",
+    "lemma": "Wandelbeurs"
+  },
+  {
+    "id": "w_097fe7e63d",
+    "nl": "de wandelreis",
+    "en": "walking tour",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "noun",
+    "head": "de wandelreis",
+    "article": "de",
+    "lemma": "wandelreis"
+  },
+  {
+    "id": "w_2d8fe6ab9d",
+    "nl": "de reis",
+    "en": "trip",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "noun",
+    "head": "de reis",
+    "article": "de",
+    "lemma": "reis"
+  },
+  {
+    "id": "w_a18c7152c2",
+    "nl": "Chili",
+    "en": "Chile",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "other",
+    "head": "Chili"
+  },
+  {
+    "id": "w_15aa1f9b33",
+    "nl": "de informatie",
+    "en": "information",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "noun",
+    "head": "de informatie",
+    "article": "de",
+    "lemma": "informatie"
+  },
+  {
+    "id": "w_6d461b2ca7",
+    "nl": "interessant",
+    "en": "interesting",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "other",
+    "head": "interessant"
+  },
+  {
+    "id": "w_f5949eeca9",
+    "nl": "opschrijven",
+    "en": "write down",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "verb",
+    "head": "opschrijven",
+    "infinitive": "opschrijven"
+  },
+  {
+    "id": "w_74b5424081",
+    "nl": "onthouden",
+    "en": "remember",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "verb",
+    "head": "onthouden",
+    "infinitive": "onthouden"
+  },
+  {
+    "id": "w_993c76828d",
+    "nl": "langzamer (langzaam)",
+    "en": "more slowly",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "verb",
+    "head": "langzamer",
+    "infinitive": "langzaam",
+    "reflexive": false
+  },
+  {
+    "id": "w_86cc584d48",
+    "nl": "de pen",
+    "en": "pen",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "noun",
+    "head": "de pen",
+    "article": "de",
+    "lemma": "pen"
+  },
+  {
+    "id": "w_0b8f0f9764",
+    "nl": "het papier",
+    "en": "paper",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "noun",
+    "head": "het papier",
+    "article": "het",
+    "lemma": "papier"
+  },
+  {
+    "id": "w_d8d9cc70ad",
+    "nl": "praten",
+    "en": "speak",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "pos": "verb",
+    "head": "praten",
+    "infinitive": "praten"
+  },
+  {
+    "nl": "van harte gefeliciteerd",
+    "en": "happy birthday",
+    "pos": "phrase",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "id": "w_d4277b9df6"
+  },
+  {
+    "nl": "feliciteren met",
+    "en": "congratulate on",
+    "pos": "verb",
+    "infinitive": "feliciteren met",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "id": "w_406c13edfa"
+  },
+  {
+    "nl": "nog geen",
+    "en": "not yet",
+    "pos": "phrase",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "id": "w_6cb4cdc672"
+  },
+  {
+    "nl": "je weet de weg (de weg weten)",
+    "en": "you know the way",
+    "pos": "phrase",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "id": "w_c210352652"
+  },
+  {
+    "nl": "doe open",
+    "en": "open",
+    "pos": "verb",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "id": "w_6e1dbe46f0"
+  },
+  {
+    "nl": "eerst",
+    "en": "first",
+    "pos": "other",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "id": "w_b7d7bf3ae9"
+  },
+  {
+    "nl": "de deur",
+    "en": "door",
+    "pos": "noun",
+    "article": "de",
+    "lemma": "deur",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "id": "w_0540465db0"
+  },
+  {
+    "nl": "dat klopt",
+    "en": "that's right",
+    "pos": "phrase",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "id": "w_a45012928d"
+  },
+  {
+    "nl": "sinds kort",
+    "en": "recently",
+    "pos": "phrase",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "id": "w_9354b80e19"
+  },
+  {
+    "nl": "het bevalt me",
+    "en": "I enjoy it",
+    "pos": "phrase",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "id": "w_6c886eb395"
+  },
+  {
+    "nl": "niet echt",
+    "en": "not really",
+    "pos": "phrase",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "id": "w_1c630fb182"
+  },
+  {
+    "nl": "wat toevallig",
+    "en": "what a coincidence",
+    "pos": "phrase",
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "id": "w_cc4e95571e"
+  },
+  {
+    "nl": "bereid me voor op (zich voorbereiden op)",
+    "en": "am getting ready for",
+    "pos": "verb",
+    "infinitive": "zich voorbereiden op",
+    "reflexive": true,
+    "topic": "woordenlijst-11",
+    "source": "NIG Woordenlijst 11",
+    "id": "w_7adf8ca970"
+  }
+]

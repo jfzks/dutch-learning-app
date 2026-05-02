@@ -1,0 +1,38 @@
+{
+  "id": "directions",
+  "title": "De weg vragen en wijzen (asking for and giving directions)",
+  "summary": "Vocabulary and phrases for asking and giving directions in Dutch.",
+  "rules": [
+    "Ask: 'Pardon, weet u waar … is?' / 'Hoe kom ik bij …?' / 'Bent u hier bekend?'",
+    "Direction adverbs: rechtdoor (straight on), links (left), rechts (right), terug (back).",
+    "Verbs for movement: gaan, lopen, fietsen, rijden, oversteken (cross), afslaan (turn off).",
+    "Common: ga linksaf / rechtsaf — turn left / right; aan de rechterkant / linkerkant — on the right/left side."
+  ],
+  "vocabulary": [
+    {"nl": "rechtdoor", "en": "straight on"},
+    {"nl": "rechts", "en": "right"},
+    {"nl": "links", "en": "left"},
+    {"nl": "ga linksaf", "en": "turn left"},
+    {"nl": "ga rechtsaf", "en": "turn right"},
+    {"nl": "naar rechts", "en": "to the right"},
+    {"nl": "naar links", "en": "to the left"},
+    {"nl": "aan de rechterkant", "en": "on the right side"},
+    {"nl": "aan de linkerkant", "en": "on the left side"},
+    {"nl": "oversteken", "en": "to cross"},
+    {"nl": "de hoek om", "en": "around the corner"},
+    {"nl": "verderop", "en": "further on"},
+    {"nl": "tegenover", "en": "opposite"},
+    {"nl": "naast", "en": "next to"},
+    {"nl": "tussen", "en": "between"},
+    {"nl": "voor", "en": "in front of"},
+    {"nl": "achter", "en": "behind"}
+  ],
+  "examples": [
+    {"nl": "Pardon, weet u waar het station is?", "en": "Excuse me, do you know where the station is?", "tags": ["directions", "question"]},
+    {"nl": "Hoe kom ik bij de Albert Heijn?", "en": "How do I get to the Albert Heijn?", "tags": ["directions", "question"]},
+    {"nl": "Bent u hier bekend?", "en": "Are you familiar with this area?", "tags": ["directions", "question"]},
+    {"nl": "Ga rechtdoor en sla bij de stoplichten linksaf.", "en": "Go straight and turn left at the traffic lights.", "tags": ["directions"]},
+    {"nl": "De winkel is aan de rechterkant.", "en": "The shop is on the right side.", "tags": ["directions"]},
+    {"nl": "Steek de straat over en loop rechtdoor.", "en": "Cross the street and walk straight on.", "tags": ["directions", "separable"]}
+  ]
+}

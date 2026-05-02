@@ -1,0 +1,191 @@
+[
+  {
+    "flagId": "f_sing_w9_01",
+    "file": "app/data/words/woordenlijst-9.json",
+    "action": "replace",
+    "match": { "id": "w_7ff0581d97" },
+    "replace": { "nl": "de bult", "en": "lump", "article": "de", "lemma": "bult" },
+    "remove": ["plural"],
+    "rationale": "Plural-headword noun rewritten to singular: 'bultjes (de bult)' → 'de bult'."
+  },
+  {
+    "flagId": "f_sing_w9_02",
+    "file": "app/data/words/woordenlijst-9.json",
+    "action": "replace",
+    "match": { "id": "w_65a728b735" },
+    "replace": { "nl": "de arm", "en": "arm", "article": "de", "lemma": "arm" },
+    "remove": ["plural"],
+    "rationale": "Plural-headword noun rewritten to singular: 'armen (de arm)' → 'de arm'."
+  },
+  {
+    "flagId": "f_sing_w9_03",
+    "file": "app/data/words/woordenlijst-9.json",
+    "action": "replace",
+    "match": { "id": "w_33a72bce12" },
+    "replace": { "nl": "het been", "en": "leg", "article": "het", "lemma": "been" },
+    "remove": ["plural"],
+    "rationale": "Plural-headword noun rewritten to singular: 'benen (het been)' → 'het been'."
+  },
+  {
+    "flagId": "f_sing_w9_04",
+    "file": "app/data/words/woordenlijst-9.json",
+    "action": "replace",
+    "match": { "id": "w_6e12e12f75" },
+    "replace": { "nl": "de klant", "en": "client", "article": "de", "lemma": "klant" },
+    "remove": ["plural"],
+    "rationale": "Plural-headword noun rewritten to singular: 'klanten (de klant)' → 'de klant'."
+  },
+  {
+    "flagId": "f_sing_w9_05",
+    "file": "app/data/words/woordenlijst-9.json",
+    "action": "replace",
+    "match": { "id": "w_b110af95fa" },
+    "replace": { "nl": "de emmer", "en": "bucket", "article": "de", "lemma": "emmer" },
+    "remove": ["plural"],
+    "rationale": "Plural-headword noun rewritten to singular: 'emmers (de emmer)' → 'de emmer'."
+  },
+  {
+    "flagId": "f_sing_w9_06",
+    "file": "app/data/words/woordenlijst-9.json",
+    "action": "replace",
+    "match": { "id": "w_ad87f01d5f" },
+    "replace": { "nl": "de klacht", "en": "complaint", "article": "de", "lemma": "klacht" },
+    "remove": ["plural"],
+    "rationale": "Plural-headword noun rewritten to singular: 'klachten (de klacht)' → 'de klacht'."
+  },
+  {
+    "flagId": "f_sing_w10_01",
+    "file": "app/data/words/woordenlijst-10.json",
+    "action": "replace",
+    "match": { "id": "w_f3477d4fef" },
+    "replace": { "nl": "de band", "en": "tyre", "article": "de", "lemma": "band" },
+    "remove": ["plural"],
+    "rationale": "Plural-headword noun rewritten to singular: 'banden (de band)' → 'de band'."
+  },
+  {
+    "flagId": "f_sing_w10_02",
+    "file": "app/data/words/woordenlijst-10.json",
+    "action": "replace",
+    "match": { "id": "w_e7ec0f66e5" },
+    "replace": { "nl": "de rem", "en": "brake", "article": "de", "lemma": "rem" },
+    "remove": ["plural"],
+    "rationale": "Plural-headword noun rewritten to singular: 'remmen (de rem)' → 'de rem'."
+  },
+  {
+    "flagId": "f_sing_w10_03",
+    "file": "app/data/words/woordenlijst-10.json",
+    "action": "replace",
+    "match": { "id": "w_0b9161d31c" },
+    "replace": { "nl": "de uitdrukking", "en": "expression", "article": "de", "lemma": "uitdrukking" },
+    "remove": ["plural"],
+    "rationale": "Plural-headword noun rewritten to singular: 'uitdrukkingen (de uitdrukking)' → 'de uitdrukking'."
+  },
+  {
+    "flagId": "f_sing_w12_01",
+    "file": "app/data/words/woordenlijst-12.json",
+    "action": "replace",
+    "match": { "id": "w_ebd56ee5dc" },
+    "replace": { "nl": "het toilet", "en": "toilet", "article": "het", "lemma": "toilet" },
+    "remove": ["plural"],
+    "rationale": "Plural-headword noun rewritten to singular: 'toiletten (het toilet)' → 'het toilet'."
+  },
+  {
+    "flagId": "f_sing_w12_02",
+    "file": "app/data/words/woordenlijst-12.json",
+    "action": "replace",
+    "match": { "id": "w_825e12bcd3" },
+    "replace": { "nl": "het bordje", "en": "sign", "article": "het", "lemma": "bordje" },
+    "remove": ["plural"],
+    "rationale": "Plural-headword noun rewritten to singular: 'bordjes (het bordje)' → 'het bordje'."
+  },
+  {
+    "flagId": "f_sing_w13_01",
+    "file": "app/data/words/woordenlijst-13.json",
+    "action": "replace",
+    "match": { "id": "w_dc4c5a4c8e" },
+    "replace": { "nl": "de bonbon", "en": "chocolate", "article": "de", "lemma": "bonbon" },
+    "remove": ["plural"],
+    "rationale": "Plural-headword noun rewritten to singular: 'bonbons (de bonbon)' → 'de bonbon'."
+  },
+  {
+    "flagId": "f_sing_w13_02",
+    "file": "app/data/words/woordenlijst-13.json",
+    "action": "replace",
+    "match": { "id": "w_9fc334df96" },
+    "replace": { "nl": "de bloem", "en": "flower", "article": "de", "lemma": "bloem" },
+    "remove": ["plural"],
+    "rationale": "Plural-headword noun rewritten to singular: 'bloemen (de bloem)' → 'de bloem'."
+  },
+  {
+    "flagId": "f_sing_w13_03",
+    "file": "app/data/words/woordenlijst-13.json",
+    "action": "replace",
+    "match": { "id": "w_e17f41d93a" },
+    "replace": { "nl": "het dier", "en": "animal", "article": "het", "lemma": "dier" },
+    "remove": ["plural"],
+    "rationale": "Plural-headword noun rewritten to singular: 'dieren (het dier)' → 'het dier'."
+  },
+  {
+    "flagId": "f_sing_w13_04",
+    "file": "app/data/words/woordenlijst-13.json",
+    "action": "replace",
+    "match": { "id": "w_040c5e6124" },
+    "replace": { "nl": "de kat", "en": "cat", "article": "de", "lemma": "kat" },
+    "remove": ["plural"],
+    "rationale": "Plural-headword noun rewritten to singular: 'katten (de kat)' → 'de kat'."
+  },
+  {
+    "flagId": "f_sing_w13_05",
+    "file": "app/data/words/woordenlijst-13.json",
+    "action": "replace",
+    "match": { "id": "w_8be1d9d18f" },
+    "replace": { "nl": "de vis", "en": "fish", "article": "de", "lemma": "vis" },
+    "remove": ["plural"],
+    "rationale": "Plural-headword noun rewritten to singular: 'vissen (de vis)' → 'de vis'."
+  },
+  {
+    "flagId": "f_sing_w13_06",
+    "file": "app/data/words/woordenlijst-13.json",
+    "action": "replace",
+    "match": { "id": "w_fd06a83e1c" },
+    "replace": { "nl": "het jong", "en": "young (cub)", "article": "het", "lemma": "jong" },
+    "remove": ["plural"],
+    "rationale": "Plural-headword noun rewritten to singular: 'jongen (het jong)' → 'het jong'."
+  },
+  {
+    "flagId": "f_sing_w14_01",
+    "file": "app/data/words/woordenlijst-14.json",
+    "action": "replace",
+    "match": { "id": "w_27f94a081f" },
+    "replace": { "nl": "de mens", "en": "person", "article": "de", "lemma": "mens" },
+    "remove": ["plural"],
+    "rationale": "Plural-headword noun rewritten to singular: 'mensen (de mens)' → 'de mens'."
+  },
+  {
+    "flagId": "f_sing_w14_02",
+    "file": "app/data/words/woordenlijst-14.json",
+    "action": "replace",
+    "match": { "id": "w_1e96889c12" },
+    "replace": { "nl": "de spier", "en": "muscle", "article": "de", "lemma": "spier" },
+    "remove": ["plural"],
+    "rationale": "Plural-headword noun rewritten to singular: 'spieren (de spier)' → 'de spier'."
+  },
+  {
+    "flagId": "f_sing_w14_03",
+    "file": "app/data/words/woordenlijst-14.json",
+    "action": "replace",
+    "match": { "id": "w_6636b3508a" },
+    "replace": { "nl": "het doel", "en": "goal, target", "article": "het", "lemma": "doel" },
+    "remove": ["plural"],
+    "rationale": "Plural-headword noun rewritten to singular: 'doelen (het doel)' → 'het doel'."
+  },
+  {
+    "flagId": "f_sing_w14_04",
+    "file": "app/data/words/woordenlijst-14.json",
+    "action": "replace",
+    "match": { "id": "w_61b45e3991" },
+    "replace": { "nl": "het energiedrankje", "en": "energy drink", "article": "het", "lemma": "energiedrankje" },
+    "remove": ["plural"],
+    "rationale": "Plural-headword noun rewritten to singular: 'energiedrankjes (het energiedrankje)' → 'het energiedrankje'. Article corrected back to 'het' (the singular's article); the prior 'de' override no longer applies since we're not using the plural form."
+  }
+]

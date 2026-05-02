@@ -1,0 +1,23 @@
+{
+  "id": "imperfectum",
+  "title": "Imperfectum (simple past)",
+  "summary": "Imperfectum is formed by adding -te/-ten or -de/-den to the verb stem.",
+  "rules": [
+    "Take the stem of the verb (infinitive minus -en).",
+    "If the stem ends in K, F, S, T, CH, P (SOFTKETCHUPX / 't kofschip): add -te (singular) or -ten (plural).",
+    "Otherwise add -de (singular) or -den (plural).",
+    "If the stem ends in V, change to F: verven → verfde / verfden. If it ends in Z, change to S: reizen → reisde / reisden.",
+    "Watch out for spelling: double-vowel stems may shorten when adding suffix; single-consonant stems may double in present but not past."
+  ],
+  "examples": [
+    {"nl": "Mijn vader werkte gisterenavond tot laat.", "en": "My father worked yesterday evening until late.", "tags": ["imperfectum", "-te"]},
+    {"nl": "Ik trouwde / wij trouwden.", "en": "I married / we married.", "tags": ["imperfectum", "-de"]},
+    {"nl": "Mijn collega woonde / mijn collega's woonden.", "en": "My colleague lived / my colleagues lived.", "tags": ["imperfectum", "-de"]},
+    {"nl": "Mijn moeder belde / mijn ouders belden.", "en": "My mother called / my parents called.", "tags": ["imperfectum", "-de"]},
+    {"nl": "De schilder verfde / de schilders verfden.", "en": "The painter painted / the painters painted.", "tags": ["imperfectum", "v→f"]},
+    {"nl": "De backpacker reisde / de backpackers reisden.", "en": "The backpacker travelled / the backpackers travelled.", "tags": ["imperfectum", "z→s"]},
+    {"nl": "Ik at / wij aten.", "en": "I ate / we ate.", "tags": ["imperfectum", "irregular"]},
+    {"nl": "Ik liep / wij liepen.", "en": "I walked / we walked.", "tags": ["imperfectum", "irregular"]},
+    {"nl": "Ik schreef / wij schreven.", "en": "I wrote / we wrote.", "tags": ["imperfectum", "irregular"]}
+  ]
+}

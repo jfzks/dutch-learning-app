@@ -1,0 +1,33 @@
+[
+  {
+    "flagId": "f_25432a0f",
+    "file": "app/data/words/woordenlijst-12.json",
+    "action": "replace",
+    "match": { "id": "w_1d2a1257d1" },
+    "replace": { "en": "too (intensifier, e.g. te koud = too cold)" },
+    "rationale": "Dutch 'te' is the intensifier 'too' (te koud = too cold). The English 'too' meaning 'also' is 'ook' in Dutch. The original 'too' was correct but ambiguous — clarifying."
+  },
+  {
+    "flagId": "f_3a0224e3",
+    "file": "app/data/words/woordenlijst-10.json",
+    "action": "delete",
+    "match": { "id": "w_925530c64c" },
+    "rationale": "Parsing artifact: the original wordlist entry was 'in orde maken | fix' but a paragraph-merge issue left the broken entry 'in | orde maken fix'. The clean entry 'in orde maken | fix' already exists in this file (added via wordlist_overrides), so delete this duplicate."
+  },
+  {
+    "flagId": "f_3216db0d",
+    "file": "app/data/words/woordenlijst-10.json",
+    "action": "replace",
+    "match": { "id": "w_2883c21a95" },
+    "replace": { "en": "such a / such an (e.g. zo'n leuk boek = such a nice book)" },
+    "rationale": "The original 'such a' is correct — zo'n is a contraction of 'zo een' meaning 'such a / such an'. Enriching with an example since the user asked for clarification. Translation drills accept '/'-separated alternatives so 'such a' still works as a typed answer."
+  },
+  {
+    "flagId": "f_f4ec33ad",
+    "file": "app/data/words/woordenlijst-14.json",
+    "action": "replace",
+    "match": { "id": "w_61b45e3991" },
+    "replace": { "article": "de" },
+    "rationale": "User is correct: Dutch plurals always take 'de' regardless of the singular's article. The lemma 'het energiedrankje' is neuter, but the plural 'energiedrankjes' takes 'de'. Updating article. (Note: similar plural-form entries elsewhere likely have the same issue — e.g. benen (het been), klanten (de klant) — but only fixing the flagged one in this round.)"
+  }
+]

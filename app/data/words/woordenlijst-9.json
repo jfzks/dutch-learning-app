@@ -1,0 +1,544 @@
+[
+  {
+    "id": "w_411f2b338e",
+    "nl": "meneer",
+    "en": "Mr",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "other",
+    "head": "meneer"
+  },
+  {
+    "id": "w_292d46df00",
+    "nl": "de huisarts",
+    "en": "doctor / gp",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "noun",
+    "head": "de huisarts",
+    "article": "de",
+    "lemma": "huisarts"
+  },
+  {
+    "id": "w_5b87d2b962",
+    "nl": "de dokter",
+    "en": "doctor",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "noun",
+    "head": "de dokter",
+    "article": "de",
+    "lemma": "dokter"
+  },
+  {
+    "id": "w_54083ea26a",
+    "nl": "wat is er aan de hand?",
+    "en": "what’s wrong?",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "phrase",
+    "head": "wat is er aan de hand?"
+  },
+  {
+    "id": "w_7db1945e3f",
+    "nl": "zoals",
+    "en": "as",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "other",
+    "head": "zoals"
+  },
+  {
+    "id": "w_7ff0581d97",
+    "nl": "de bult",
+    "en": "lump",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "noun",
+    "head": "bultjes",
+    "article": "de",
+    "lemma": "bult"
+  },
+  {
+    "id": "w_65a728b735",
+    "nl": "de arm",
+    "en": "arm",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "noun",
+    "head": "armen",
+    "article": "de",
+    "lemma": "arm"
+  },
+  {
+    "id": "w_33a72bce12",
+    "nl": "het been",
+    "en": "leg",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "noun",
+    "head": "benen",
+    "article": "het",
+    "lemma": "been"
+  },
+  {
+    "id": "w_edce3dbc91",
+    "nl": "de buik",
+    "en": "stomach",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "noun",
+    "head": "de buik",
+    "article": "de",
+    "lemma": "buik"
+  },
+  {
+    "id": "w_34a8c73dca",
+    "nl": "de rug",
+    "en": "back",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "noun",
+    "head": "de rug",
+    "article": "de",
+    "lemma": "rug"
+  },
+  {
+    "id": "w_b7aed6cd66",
+    "nl": "het gezicht",
+    "en": "face",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "noun",
+    "head": "het gezicht",
+    "article": "het",
+    "lemma": "gezicht"
+  },
+  {
+    "id": "w_8d291dcfb2",
+    "nl": "jeuken",
+    "en": "itch",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "verb",
+    "head": "jeuken",
+    "infinitive": "jeuken"
+  },
+  {
+    "id": "w_2e67b357ea",
+    "nl": "verschrikkelijk",
+    "en": "terrible",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "other",
+    "head": "verschrikkelijk"
+  },
+  {
+    "id": "w_e3bb4822ee",
+    "nl": "geprobeerd (proberen)",
+    "en": "tried",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "verb",
+    "head": "geprobeerd",
+    "infinitive": "proberen",
+    "reflexive": false
+  },
+  {
+    "id": "w_7ad4031582",
+    "nl": "geholpen (helpen)",
+    "en": "helped",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "verb",
+    "head": "geholpen",
+    "infinitive": "helpen",
+    "reflexive": false
+  },
+  {
+    "id": "w_7dceb57c08",
+    "nl": "begonnen (beginnen)",
+    "en": "begun",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "verb",
+    "head": "begonnen",
+    "infinitive": "beginnen",
+    "reflexive": false
+  },
+  {
+    "id": "w_dbc8153c46",
+    "nl": "gisteravond",
+    "en": "last night",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "other",
+    "head": "gisteravond"
+  },
+  {
+    "id": "w_7ed66caad1",
+    "nl": "gedaan (doen)",
+    "en": "done",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "verb",
+    "head": "gedaan",
+    "infinitive": "doen",
+    "reflexive": false
+  },
+  {
+    "id": "w_4add07f3fd",
+    "nl": "overdag",
+    "en": "during the day",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "other",
+    "head": "overdag"
+  },
+  {
+    "id": "w_c27f922b01",
+    "nl": "gewerkt (werken)",
+    "en": "worked",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "verb",
+    "head": "gewerkt",
+    "infinitive": "werken",
+    "reflexive": false
+  },
+  {
+    "id": "w_6e12e12f75",
+    "nl": "de klant",
+    "en": "client",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "noun",
+    "head": "klanten",
+    "article": "de",
+    "lemma": "klant"
+  },
+  {
+    "id": "w_91b67411c8",
+    "nl": "bekeken (bekijken)",
+    "en": "looked at",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "verb",
+    "head": "bekeken",
+    "infinitive": "bekijken",
+    "reflexive": false
+  },
+  {
+    "id": "w_89e8b19633",
+    "nl": "de voetbalvereniging",
+    "en": "football club",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "noun",
+    "head": "de voetbalvereniging",
+    "article": "de",
+    "lemma": "voetbalvereniging"
+  },
+  {
+    "id": "w_88c620f7d8",
+    "nl": "geweest (zijn)",
+    "en": "been",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "verb",
+    "head": "geweest",
+    "infinitive": "zijn",
+    "reflexive": false
+  },
+  {
+    "id": "w_86fc89b32e",
+    "nl": "het",
+    "en": "wedstrijdje",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "other",
+    "head": "het"
+  },
+  {
+    "id": "w_398e6d45c9",
+    "nl": "gespeeld (spelen)",
+    "en": "played",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "verb",
+    "head": "gespeeld",
+    "infinitive": "spelen",
+    "reflexive": false
+  },
+  {
+    "id": "w_3dba0cd08f",
+    "nl": "daarna",
+    "en": "after that",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "other",
+    "head": "daarna"
+  },
+  {
+    "id": "w_ed998fef79",
+    "nl": "gedronken (drinken)",
+    "en": "drunk",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "verb",
+    "head": "gedronken",
+    "infinitive": "drinken",
+    "reflexive": false
+  },
+  {
+    "id": "w_4a904414a9",
+    "nl": "bijzonders (bijzonder)",
+    "en": "special",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "verb",
+    "head": "bijzonders",
+    "infinitive": "bijzonder",
+    "reflexive": false
+  },
+  {
+    "id": "w_862765169d",
+    "nl": "gegeten (eten)",
+    "en": "eaten",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "verb",
+    "head": "gegeten",
+    "infinitive": "eten",
+    "reflexive": false
+  },
+  {
+    "id": "w_3e400842b3",
+    "nl": "afgelopen",
+    "en": "past / last few",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "verb",
+    "head": "afgelopen",
+    "infinitive": "afgelopen"
+  },
+  {
+    "id": "w_8ce77f699b",
+    "nl": "vergeten (vergeten)",
+    "en": "forgotten",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "verb",
+    "head": "vergeten",
+    "infinitive": "vergeten",
+    "reflexive": false
+  },
+  {
+    "id": "w_227515639a",
+    "nl": "denken",
+    "en": "think",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "verb",
+    "head": "denken",
+    "infinitive": "denken"
+  },
+  {
+    "id": "w_5f7b237484",
+    "nl": "rijp",
+    "en": "ripe",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "other",
+    "head": "rijp"
+  },
+  {
+    "id": "w_b110af95fa",
+    "nl": "de emmer",
+    "en": "bucket",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "noun",
+    "head": "emmers",
+    "article": "de",
+    "lemma": "emmer"
+  },
+  {
+    "id": "w_1a947a5250",
+    "nl": "vol",
+    "en": "full",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "other",
+    "head": "vol"
+  },
+  {
+    "id": "w_2441421454",
+    "nl": "vorig",
+    "en": "last",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "other",
+    "head": "vorig"
+  },
+  {
+    "id": "w_ad87f01d5f",
+    "nl": "de klacht",
+    "en": "complaint",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "noun",
+    "head": "klachten",
+    "article": "de",
+    "lemma": "klacht"
+  },
+  {
+    "id": "w_bc32ad343e",
+    "nl": "lijkt op (lijken op)",
+    "en": "looks like",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "verb",
+    "head": "lijkt op",
+    "infinitive": "lijken op",
+    "reflexive": false
+  },
+  {
+    "id": "w_4168eab29c",
+    "nl": "allergische (allergisch)",
+    "en": "allergic",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "verb",
+    "head": "allergische",
+    "infinitive": "allergisch",
+    "reflexive": false
+  },
+  {
+    "id": "w_72f1e05a7a",
+    "nl": "de reactie",
+    "en": "reaction",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "noun",
+    "head": "de reactie",
+    "article": "de",
+    "lemma": "reactie"
+  },
+  {
+    "id": "w_5139cdfd35",
+    "nl": "geef mee (meegeven)",
+    "en": "give",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "verb",
+    "head": "geef mee",
+    "infinitive": "meegeven",
+    "reflexive": false
+  },
+  {
+    "id": "w_cf99454c25",
+    "nl": "de zalf",
+    "en": "ointment",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "noun",
+    "head": "de zalf",
+    "article": "de",
+    "lemma": "zalf"
+  },
+  {
+    "id": "w_54c51f6056",
+    "nl": "tegen",
+    "en": "against",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "verb",
+    "head": "tegen",
+    "infinitive": "tegen"
+  },
+  {
+    "id": "w_df8dad20ed",
+    "nl": "de jeuk",
+    "en": "itch",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "noun",
+    "head": "de jeuk",
+    "article": "de",
+    "lemma": "jeuk"
+  },
+  {
+    "id": "w_03d99d1279",
+    "nl": "anders",
+    "en": "otherwise",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "other",
+    "head": "anders"
+  },
+  {
+    "id": "w_1d049fadd7",
+    "nl": "krabt (krabben)",
+    "en": "scratch",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "verb",
+    "head": "krabt",
+    "infinitive": "krabben",
+    "reflexive": false
+  },
+  {
+    "id": "w_72be59fb0c",
+    "nl": "de huid",
+    "en": "skin",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "noun",
+    "head": "de huid",
+    "article": "de",
+    "lemma": "huid"
+  },
+  {
+    "id": "w_bc8455647e",
+    "nl": "kapot",
+    "en": "open",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "other",
+    "head": "kapot"
+  },
+  {
+    "id": "w_a2c25a11b0",
+    "nl": "sterkte",
+    "en": "good luck",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "pos": "other",
+    "head": "sterkte"
+  },
+  {
+    "nl": "zit ik onder de bultjes",
+    "en": "I'm covered in lumps / a rash",
+    "pos": "phrase",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "id": "w_c262cab2a1"
+  },
+  {
+    "nl": "van alles",
+    "en": "everything",
+    "pos": "phrase",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "id": "w_897f3107ef"
+  },
+  {
+    "nl": "o ja",
+    "en": "oh yes",
+    "pos": "phrase",
+    "topic": "woordenlijst-9",
+    "source": "NIG Woordenlijst 9",
+    "id": "w_98509e4ea4"
+  }
+]
