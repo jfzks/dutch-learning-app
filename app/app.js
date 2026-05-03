@@ -170,6 +170,8 @@ route('home', (main) => {
   const filterCard = el('div', { class: 'card' });
   filterCard.append(el('h2', {}, 'Pick a drill'));
   filterCard.append(el('h3', {}, 'Topics — wordlists'));
+  filterCard.append(el('p', { class: 'muted', style: { fontSize: '12px', margin: '0 0 6px' } },
+    'Filters: Flashcards, Translate (vocab part), De-het, Make a sentence. Leave empty for all.'));
   const wlRow = el('div', { class: 'row' });
   const wlSelected = new Set();
   for (const key of Object.keys(DATA.words).sort()) {
@@ -180,6 +182,8 @@ route('home', (main) => {
   filterCard.append(wlRow);
 
   filterCard.append(el('h3', { style: { marginTop: '16px' } }, 'Topics — grammar'));
+  filterCard.append(el('p', { class: 'muted', style: { fontSize: '12px', margin: '0 0 6px' } },
+    'Filters: Word-order, Cloze, Dictation, Translate (grammar examples). Leave empty for all.'));
   const grRow = el('div', { class: 'row' });
   const grSelected = new Set();
   for (const t of allGrammarTopics()) {
@@ -187,19 +191,6 @@ route('home', (main) => {
     grRow.append(c);
   }
   filterCard.append(grRow);
-
-  filterCard.append(el('h3', { style: { marginTop: '16px' } }, 'Difficulty'));
-  let difficulty = 'easy';
-  const diffRow = el('div', { class: 'row' });
-  ['easy', 'medium', 'hard'].forEach((d, i) => {
-    const c = el('span', { class: 'chip' + (i === 0 ? ' on' : ''), onclick: () => {
-      $$('.diff-chip', diffRow).forEach(c => c.classList.remove('on'));
-      c.classList.add('on'); difficulty = d;
-    } }, d);
-    c.classList.add('diff-chip');
-    diffRow.append(c);
-  });
-  filterCard.append(diffRow);
 
   main.append(filterCard);
 
@@ -224,7 +215,7 @@ route('home', (main) => {
     { id: 'review-mistakes', name: 'Review mistakes', desc: 'Items you recently got wrong.' },
   ];
   drills.forEach(d => {
-    grid.append(el('div', { class: 'drill-card', onclick: () => go(d.id, { wl: [...wlSelected], gr: [...grSelected], diff: difficulty }) }, [
+    grid.append(el('div', { class: 'drill-card', onclick: () => go(d.id, { wl: [...wlSelected], gr: [...grSelected] }) }, [
       el('div', { class: 'name' }, d.name),
       el('div', { class: 'desc' }, d.desc),
     ]));
@@ -314,17 +305,25 @@ route('flashcards-en-nl', flashcardSession('en-nl'));
 // ============================================================
 function translateSession(direction) {
   return (main, params) => {
-    const pool = filterWords(params).filter(w => w.nl && w.en);
-    const sentencePool = (params.diff !== 'easy') ? filterSentencesForTranslate(params) : [];
-    const items = shuffle(pickDueFirst(pool, 'id', 15)).map(w => ({ kind: 'word', item: w }))
-      .concat(sentencePool.slice(0, params.diff === 'hard' ? 10 : 5).map(s => ({ kind: 'sentence', item: s })));
+    // Translate now mixes whole sentences (curated top-100 + grammar examples) with vocab words.
+    // Sentences first so the user actually translates conversational phrases, not isolated words.
+    const sentencePool = filterSentencesForTranslate(params);
+    const wordPool = filterWords(params).filter(w => w.nl && w.en);
+    const wordItems = shuffle(pickDueFirst(wordPool, 'id', 8)).map(w => ({ kind: 'word', item: w }));
+    const sentenceItems = sentencePool.slice(0, 12).map(s => ({ kind: 'sentence', item: s }));
+    const items = shuffle(sentenceItems.concat(wordItems));
     if (!items.length) return showEmpty(main);
     runTranslate(main, items, direction);
   };
 }
 function filterSentencesForTranslate(params) {
-  // For translate we need EN+NL pairs; only grammar examples have both.
+  // Pool = curated conversational sentences + grammar examples (both have NL+EN pairs).
+  // If grammar topics are selected, restrict grammar examples to those; conversational
+  // sentences are unaffected by topic chips (they're general-purpose).
   let pairs = [];
+  for (const sc of (DATA.conversational || [])) {
+    if (sc.nl && sc.en) pairs.push({ id: sc.id, nl: sc.nl, en: sc.en, tags: sc.tags || [], source: sc.source || 'Conversational' });
+  }
   for (const t of allGrammarTopics()) {
     if (params.gr && params.gr.length && !params.gr.includes(t.id)) continue;
     for (const ex of (t.examples || [])) {
@@ -442,7 +441,7 @@ route('conjugate', (main, params) => {
   const verbs = allVerbs();
   const items = [];
   // build conjugation prompts: random verb × random tense × random person (limited to forms we have)
-  const tenses = params.diff === 'easy' ? ['perfectum'] : (params.diff === 'medium' ? ['perfectum', 'imperfectum'] : ['perfectum', 'imperfectum', 'present-modal']);
+  const tenses = ['perfectum', 'imperfectum'];
   for (let k = 0; k < 20; k++) {
     const v = pick(verbs);
     const tense = pick(tenses);
@@ -728,14 +727,13 @@ route('make-sentence', (main, params) => {
   const timeExprs = ['vandaag', 'morgen', 'gisteren', 'volgende week', 'vorig jaar', 'vanavond', 'altijd', 'nooit'];
   const items = [];
   for (let k = 0; k < 8; k++) {
-    const numContent = params.diff === 'hard' ? 3 : 2;
     const sel = [];
     if (verbs.length) sel.push(pick(verbs));
-    while (sel.length < numContent && otherWords.length) {
+    while (sel.length < 2 && otherWords.length) {
       const w = pick(otherWords);
       if (!sel.includes(w)) sel.push(w);
     }
-    if (params.diff !== 'easy') sel.push({ nl: pick(timeExprs), en: '(time)', pos: 'time' });
+    sel.push({ nl: pick(timeExprs), en: '(time)', pos: 'time' });
     items.push(sel);
   }
   let i = 0, scored = 0;
@@ -831,7 +829,7 @@ function progressHeader(main, i, total, correct) {
 function showEmpty(main) {
   main.append(el('div', { class: 'card' }, [
     el('h2', {}, 'No matching items'),
-    el('p', { class: 'muted' }, 'Pick more wordlists or a different difficulty.'),
+    el('p', { class: 'muted' }, 'Try selecting more wordlists or grammar topics on the home page.'),
     el('button', { class: 'btn', onclick: () => go('home') }, 'Back'),
   ]));
 }

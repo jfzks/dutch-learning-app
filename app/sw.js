@@ -2,13 +2,13 @@
 // Strategy: cache-first for app shell, network-first for everything else.
 // Bump CACHE_NAME whenever app shell files change so old caches get evicted.
 
-const CACHE_NAME = 'dutch-app-2026-05-02-v1';
+const CACHE_NAME = 'dutch-app-2026-05-03-v6';
 const APP_SHELL = [
   './',
   './index.html',
   './styles.css',
-  './app.js?v=5',
-  './data.js?v=5',
+  './app.js?v=6',
+  './data.js?v=6',
   './manifest.json',
   './icons/icon-192.png',
   './icons/icon-512.png',
