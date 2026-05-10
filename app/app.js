@@ -204,7 +204,7 @@ route('home', (main) => {
     { id: 'translate-en-nl', name: 'Translate EN→NL', desc: 'Type the Dutch translation.' },
     { id: 'translate-nl-en', name: 'Translate NL→EN', desc: 'Type the English translation.' },
     { id: 'de-het', name: 'De of het?', desc: 'Pick the right article.' },
-    { id: 'conjugate', name: 'Conjugate verb', desc: 'Present, perfectum, imperfectum.' },
+    { id: 'conjugate', name: 'Verb forms', desc: 'Past + participle + aux for one verb at a time.' },
     { id: 'pingpong-perfectum', name: 'Pingpongen — perfectum', desc: 'Rewrite present in the perfect.' },
     { id: 'pingpong-imperfectum', name: 'Pingpongen — imperfectum', desc: 'Rewrite present in the simple past.' },
     { id: 'word-order', name: 'Word-order builder', desc: 'Drag tiles to form the sentence.' },
@@ -435,61 +435,141 @@ route('de-het', (main, params) => {
 });
 
 // ============================================================
-// CONJUGATE
+// CONJUGATE — one verb per card, asks for the three principal parts:
+//   past_singular, past_participle, auxiliary (heb / ben / both).
+// Variant tolerance: past_singular accepts any '/'-separated form
+// (e.g. "wilde/wou"); auxiliary accepts whichever side(s) of "heb/ben" apply,
+// and "both" is always accepted for verbs with two valid auxiliaries.
 // ============================================================
+function _auxCanonical(auxField) {
+  // Returns "heb", "ben", or "both" for "heb", "ben", "heb/ben", "ben/heb".
+  const s = (auxField || '').toLowerCase();
+  if (s.includes('/')) return 'both';
+  return s.includes('ben') ? 'ben' : 'heb';
+}
+function _pastAcceptable(pastField) {
+  // Returns an array of acceptable past-singular forms.
+  return (pastField || '').toLowerCase().split('/').map(s => s.trim()).filter(Boolean);
+}
 route('conjugate', (main, params) => {
-  const verbs = allVerbs();
-  const items = [];
-  // build conjugation prompts: random verb × random tense × random person (limited to forms we have)
-  const tenses = ['perfectum', 'imperfectum'];
-  for (let k = 0; k < 20; k++) {
-    const v = pick(verbs);
-    const tense = pick(tenses);
-    if (tense === 'perfectum' && v.participle && v.aux) {
-      const persons = [
-        ['ik', v.aux === 'ben' ? 'ben' : (v.aux.includes('ben') ? 'ben' : 'heb')],
-        ['hij', v.aux === 'ben' ? 'is' : (v.aux.includes('ben') ? 'is' : 'heeft')],
-        ['wij', v.aux === 'ben' ? 'zijn' : (v.aux.includes('ben') ? 'zijn' : 'hebben')],
-      ];
-      const [p, aux] = pick(persons);
-      items.push({ kind: 'perfectum', verb: v, person: p, expected: `${p} ${aux} ${v.participle}` });
-    } else if (tense === 'imperfectum' && v.past_singular && v.past_plural) {
-      const choices = [['ik', v.past_singular], ['hij', v.past_singular], ['wij', v.past_plural]];
-      const [p, form] = pick(choices);
-      items.push({ kind: 'imperfectum', verb: v, person: p, expected: `${p} ${form}` });
-    }
-  }
-  if (!items.length) return showEmpty(main);
+  const verbs = allVerbs().filter(v => v.past_singular && v.participle && v.aux);
+  if (!verbs.length) return showEmpty(main);
+  // Show 12 cards per session — one verb each.
+  const items = shuffle(verbs.slice()).slice(0, 12);
   let i = 0, correct = 0;
   const next = () => {
     if (i >= items.length) return finishSession(main, 'conjugate', correct, items.length);
-    const it = items[i];
+    const v = items[i];
+    const correctAux = _auxCanonical(v.aux);
+    const correctPasts = _pastAcceptable(v.past_singular);
+    const correctParticiple = normalize(v.participle);
+    const meaning = glossForVerb(v.infinitive) || v.en || v.infinitive;
+
     main.innerHTML = '';
-    setFlagContext({ drill: 'conjugate', itemKind: 'verb', itemId: it.verb.id, snapshot: { ...it.verb, prompt: `${it.verb.infinitive} — ${it.kind} (${it.person})`, expected: it.expected } });
+    setFlagContext({ drill: 'conjugate', itemKind: 'verb', itemId: v.id,
+      snapshot: { ...v, expected: `${v.past_singular} / ${v.participle} / ${v.aux}` } });
     progressHeader(main, i, items.length, correct);
+
+    // Big infinitive + meaning header
     main.append(el('div', { class: 'prompt' }, [
-      el('div', {}, `${it.verb.infinitive} — ${it.kind} (${it.person})`),
-      el('small', {}, `aux: ${it.verb.aux || '–'}`),
+      el('div', { style: { fontSize: '22px', fontWeight: '600' } }, v.infinitive),
+      el('small', {}, meaning),
     ]));
-    const input = el('input', { type: 'text', autofocus: true, autocomplete: 'off', spellcheck: 'false', placeholder: it.kind === 'perfectum' ? `${it.person} ___ ${it.verb.participle}` : `${it.person} ___` });
-    main.append(input);
+
+    // Past singular input
+    const pastLabel = el('label', { style: { display: 'block', marginTop: '12px', fontSize: '13px', color: 'var(--muted)' } },
+      'Simple past  (ik / hij / zij ___ )');
+    const pastInput = el('input', { type: 'text', autocomplete: 'off', spellcheck: 'false' });
+    main.append(pastLabel);
+    main.append(pastInput);
+
+    // Past participle input
+    const partLabel = el('label', { style: { display: 'block', marginTop: '12px', fontSize: '13px', color: 'var(--muted)' } },
+      'Past participle  (heb / ben ___ )');
+    const partInput = el('input', { type: 'text', autocomplete: 'off', spellcheck: 'false' });
+    main.append(partLabel);
+    main.append(partInput);
+
+    // Auxiliary chips
+    const auxLabel = el('label', { style: { display: 'block', marginTop: '12px', fontSize: '13px', color: 'var(--muted)' } },
+      'Auxiliary verb');
+    main.append(auxLabel);
+    let auxChoice = null;
+    const auxRow = el('div', { class: 'row', style: { marginTop: '4px' } });
+    const auxChips = {};
+    ['heb', 'ben', 'both'].forEach(opt => {
+      const chip = el('span', { class: 'chip', onclick: () => {
+        auxChoice = opt;
+        Object.values(auxChips).forEach(c => c.classList.remove('on'));
+        chip.classList.add('on');
+      } }, opt);
+      auxChips[opt] = chip;
+      auxRow.append(chip);
+    });
+    main.append(auxRow);
+
     const fb = el('div');
-    const submit = () => {
-      const ans = normalize(input.value);
-      const ok = ans === normalize(it.expected) || ans === normalize(it.expected.replace(/^[a-z]+\s+/, ''));
-      srsRecord('verb_' + it.verb.infinitive + '_' + it.kind, ok);
-      if (ok) correct++;
-      fb.innerHTML = '';
-      const _cg = glossForVerb(it.verb.infinitive);
-      const _cgGloss = _cg ? ` — (${_cg})` : el('em', {}, ` — (${it.verb.infinitive})`);
-      fb.append(el('div', { class: 'feedback ' + (ok ? 'good' : 'bad') }, [ok ? '✓ ' + it.expected : `Answer: ${it.expected}`, _cgGloss]));
-      const nx = el('button', { class: 'btn', onclick: () => { i++; next(); } }, 'Next →'); fb.append(el('div', { class: 'btn-row' }, [nx])); setTimeout(() => nx.focus(), 0);
-      input.disabled = true;
-    };
-    input.addEventListener('keydown', (e) => { if (e.key === 'Enter') submit(); });
-    main.append(el('div', { class: 'btn-row' }, [el('button', { class: 'btn', onclick: submit }, 'Check')]));
     main.append(fb);
-    setTimeout(() => input.focus(), 0);
+
+    const submit = () => {
+      const pastAns = normalize(pastInput.value);
+      const partAns = normalize(partInput.value);
+      const pastOK = correctPasts.includes(pastAns);
+      const partOK = partAns === correctParticiple;
+      // Auxiliary matching: if correct is "both", any single value or "both" is acceptable.
+      // If correct is "heb" or "ben", only that one (or "both", since "both" implies the user
+      // knows it works) — but to be strict, require exact match.
+      let auxOK = false;
+      if (auxChoice) {
+        if (correctAux === 'both') auxOK = true; // any selection accepts (user is on safe side)
+        else auxOK = (auxChoice === correctAux);
+      }
+
+      const allOK = pastOK && partOK && auxOK;
+      srsRecord('verb_' + v.infinitive + '_card', allOK);
+      if (allOK) correct++;
+
+      // Render per-part feedback
+      fb.innerHTML = '';
+      const lines = el('div', { class: 'feedback ' + (allOK ? 'good' : 'bad') });
+      const mkLine = (label, ans, ok, expected) => {
+        const row = el('div', { style: { display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', margin: '2px 0' } }, [
+          el('span', {}, label),
+          el('span', { style: { fontFamily: 'monospace' } },
+            ok ? `${ans} ✓` : `${ans || '—'} ✗ → ${expected}`),
+        ]);
+        lines.append(row);
+      };
+      mkLine('Past:', pastAns, pastOK, correctPasts.join(' / '));
+      mkLine('Participle:', partAns, partOK, v.participle);
+      mkLine('Auxiliary:', auxChoice || '—', auxOK, correctAux === 'both' ? 'heb / ben' : correctAux);
+      fb.append(lines);
+
+      // Extras: past plural + meaning recap
+      const extras = el('div', { class: 'muted', style: { marginTop: '8px', fontSize: '13px', lineHeight: '1.5' } }, [
+        v.past_plural ? el('div', {}, `Past plural (wij): ${v.past_plural}`) : null,
+        el('div', {}, `${v.infinitive} — ${meaning}`),
+      ].filter(Boolean));
+      fb.append(extras);
+
+      // Disable inputs and chips
+      pastInput.disabled = true;
+      partInput.disabled = true;
+      Object.values(auxChips).forEach(c => c.style.pointerEvents = 'none');
+
+      const nx = el('button', { class: 'btn', onclick: () => { i++; next(); } }, 'Next →');
+      fb.append(el('div', { class: 'btn-row' }, [nx]));
+      setTimeout(() => nx.focus(), 0);
+    };
+
+    // Enter on the past field → focus participle; enter on participle → submit
+    pastInput.addEventListener('keydown', (e) => { if (e.key === 'Enter') { e.preventDefault(); partInput.focus(); } });
+    partInput.addEventListener('keydown', (e) => { if (e.key === 'Enter') { e.preventDefault(); submit(); } });
+
+    main.append(el('div', { class: 'btn-row', style: { marginTop: '12px' } },
+      [el('button', { class: 'btn', onclick: submit }, 'Check')]));
+
+    setTimeout(() => pastInput.focus(), 0);
   };
   next();
 });
