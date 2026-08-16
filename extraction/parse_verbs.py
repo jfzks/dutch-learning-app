@@ -5,7 +5,7 @@ into structured verb JSON. Each verb gets:
 import re, json, hashlib
 from pathlib import Path
 
-ROOT = Path("/Users/janosfazekas/Desktop/Dutch - learnings")
+ROOT = Path(__file__).resolve().parent.parent
 RAW = ROOT / "extraction" / "raw"
 OUT = ROOT / "app" / "data" / "verbs"
 OUT.mkdir(parents=True, exist_ok=True)

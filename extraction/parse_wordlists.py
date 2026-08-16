@@ -9,7 +9,7 @@ import re, json, hashlib
 from pathlib import Path
 import docx as docxlib
 
-ROOT = Path("/Users/janosfazekas/Desktop/Dutch - learnings")
+ROOT = Path(__file__).resolve().parent.parent
 WORDLISTS_DIR = ROOT / "Wordlists"
 OUT = ROOT / "app" / "data" / "words"
 OUT.mkdir(parents=True, exist_ok=True)

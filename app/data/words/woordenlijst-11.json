@@ -31,12 +31,14 @@
   },
   {
     "id": "w_44efd81d8a",
-    "nl": "het",
-    "en": "cadeautje",
+    "nl": "het cadeautje",
+    "en": "present / little gift",
     "topic": "woordenlijst-11",
     "source": "NIG Woordenlijst 11",
-    "pos": "other",
-    "head": "het"
+    "pos": "noun",
+    "head": "het cadeautje",
+    "article": "het",
+    "lemma": "cadeautje"
   },
   {
     "id": "w_bc405eca3f",

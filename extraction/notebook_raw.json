@@ -1,0 +1,2196 @@
+{
+ "tables": [
+  {
+   "date": "14 Aug",
+   "nl": "opvallende uitschitters",
+   "en": null,
+   "ident": 1733999
+  },
+  {
+   "date": "14 Aug",
+   "nl": "bescheide",
+   "en": "modest",
+   "ident": 1733999
+  },
+  {
+   "date": "14 Aug",
+   "nl": "kunst",
+   "en": "art",
+   "ident": 1733999
+  },
+  {
+   "date": "14 Aug",
+   "nl": "de kunst van het lachen",
+   "en": "the art of laughing",
+   "ident": 1733999
+  },
+  {
+   "date": "14 Aug",
+   "nl": "aandacht besteeden",
+   "en": "to pay attention",
+   "ident": 1733999
+  },
+  {
+   "date": "14 Aug",
+   "nl": "dat blijkt dat onderzoek",
+   "en": "the research shows",
+   "ident": 1733999
+  },
+  {
+   "date": "14 Aug",
+   "nl": "dat blijkt dat cijfers",
+   "en": "the numbers show",
+   "ident": 1733999
+  },
+  {
+   "date": "14 Aug",
+   "nl": "ik schrijf mijn gedachten op",
+   "en": "I write down my thoughts",
+   "ident": 1733999
+  },
+  {
+   "date": "14 Aug",
+   "nl": "mijn colega verteld dat zijn vriendin ten huwelijk heeft gevraagd",
+   "en": "mine colleague said he will propose to his girlfriend.",
+   "ident": 1733999
+  },
+  {
+   "date": "12 Aug",
+   "nl": "een doel voor ogen hebben",
+   "en": "to have a goal in mind",
+   "ident": 1733974
+  },
+  {
+   "date": "12 Aug",
+   "nl": "eetpatron",
+   "en": "eating pattern",
+   "ident": 1733974
+  },
+  {
+   "date": "12 Aug",
+   "nl": "eetgewoonten",
+   "en": "eating habits",
+   "ident": 1733974
+  },
+  {
+   "date": "12 Aug",
+   "nl": "voedsel",
+   "en": "food",
+   "ident": 1733974
+  },
+  {
+   "date": "12 Aug",
+   "nl": "bladgroenten",
+   "en": "leaf vegetable",
+   "ident": 1733974
+  },
+  {
+   "date": "12 Aug",
+   "nl": "behoren",
+   "en": "belongs to (formal)",
+   "ident": 1733974
+  },
+  {
+   "date": "12 Aug",
+   "nl": "kenmerken",
+   "en": "characteristic/feature/trait",
+   "ident": 1733974
+  },
+  {
+   "date": "12 Aug",
+   "nl": "matige",
+   "en": "moderate or mediocre",
+   "ident": 1733974
+  },
+  {
+   "date": "12 Aug",
+   "nl": "matige drinker",
+   "en": "moderate drinker",
+   "ident": 1733974
+  },
+  {
+   "date": "12 Aug",
+   "nl": "met mate",
+   "en": "in moderation",
+   "ident": 1733974
+  },
+  {
+   "date": "12 Aug",
+   "nl": "bij voorkeur",
+   "en": "preferably",
+   "ident": 1733974
+  },
+  {
+   "date": "12 Aug",
+   "nl": "geloof",
+   "en": "belief",
+   "ident": 1733974
+  },
+  {
+   "date": "12 Aug",
+   "nl": "beleiden",
+   "en": "to profess / believe",
+   "ident": 1733974
+  },
+  {
+   "date": "12 Aug",
+   "nl": "het maakt niet uit",
+   "en": "it does not matter",
+   "ident": 1733974
+  },
+  {
+   "date": "12 Aug",
+   "nl": "lijkt niet uit te maken",
+   "en": "seems it does not matter",
+   "ident": 1733974
+  },
+  {
+   "date": "12 Aug",
+   "nl": null,
+   "en": "dit is een regel met deze woorden + te gebruiken",
+   "ident": 1733974
+  },
+  {
+   "date": "12 Aug",
+   "nl": "uitmaken",
+   "en": "to break up",
+   "ident": 1733974
+  },
+  {
+   "date": "12 Aug",
+   "nl": "zij hebben het uitegemaakt",
+   "en": "they broke up",
+   "ident": 1733974
+  },
+  {
+   "date": "12 Aug",
+   "nl": "afhangen",
+   "en": "depends on",
+   "ident": 1733974
+  },
+  {
+   "date": "12 Aug",
+   "nl": "geliefde",
+   "en": "partner/loved one",
+   "ident": 1733974
+  },
+  {
+   "date": "12 Aug",
+   "nl": "levenstijl / leefstijl",
+   "en": "llifestyle",
+   "ident": 1733974
+  },
+  {
+   "date": "12 Aug",
+   "nl": "manier van leven",
+   "en": "way of living",
+   "ident": 1733974
+  },
+  {
+   "date": "12 Aug",
+   "nl": "lief",
+   "en": "dear/ sweet",
+   "ident": 1733974
+  },
+  {
+   "date": "12 Aug",
+   "nl": "liefde",
+   "en": "love",
+   "ident": 1733974
+  },
+  {
+   "date": "12 Aug",
+   "nl": "geliefde",
+   "en": "loved one",
+   "ident": 1733974
+  },
+  {
+   "date": "12 Aug",
+   "nl": "liefhebben",
+   "en": "to love",
+   "ident": 1733974
+  },
+  {
+   "date": "12 Aug",
+   "nl": "verliefd (ik ben verliefd)",
+   "en": "in love",
+   "ident": 1733974
+  },
+  {
+   "date": "12 Aug",
+   "nl": "in huis nemen",
+   "en": "to take sy in your house",
+   "ident": 1733974
+  },
+  {
+   "date": "12 Aug",
+   "nl": "hechten",
+   "en": "attach",
+   "ident": 1733974
+  },
+  {
+   "date": "12 Aug",
+   "nl": "waarde",
+   "en": "value",
+   "ident": 1733974
+  },
+  {
+   "date": "12 Aug",
+   "nl": "verwennen",
+   "en": "to spoil",
+   "ident": 1733974
+  },
+  {
+   "date": "12 Aug",
+   "nl": "zich houden aan",
+   "en": "to adhere to",
+   "ident": 1733974
+  },
+  {
+   "date": "12 Aug",
+   "nl": "scheelen = besparen",
+   "en": "save $",
+   "ident": 1733950
+  },
+  {
+   "date": "12 Aug",
+   "nl": "schappen",
+   "en": "shelfs",
+   "ident": 1733950
+  },
+  {
+   "date": "12 Aug",
+   "nl": "omgeving",
+   "en": "environment",
+   "ident": 1733950
+  },
+  {
+   "date": "12 Aug",
+   "nl": "Klinkt te mooi om waar te zijn",
+   "en": "Sounds too good to be true",
+   "ident": 1733950
+  },
+  {
+   "date": "12 Aug",
+   "nl": "gebieden",
+   "en": "areas",
+   "ident": 1733950
+  },
+  {
+   "date": "12 Aug",
+   "nl": "gemeen",
+   "en": "mean person",
+   "ident": 1733950
+  },
+  {
+   "date": "12 Aug",
+   "nl": "gemeen hebben",
+   "en": "have in common",
+   "ident": 1733950
+  },
+  {
+   "date": "12 Aug",
+   "nl": "wat betreft",
+   "en": "speaking about",
+   "ident": 1733950
+  },
+  {
+   "date": "12 Aug",
+   "nl": "bevolking",
+   "en": "the people",
+   "ident": 1733950
+  },
+  {
+   "date": "12 Aug",
+   "nl": "voortdurend",
+   "en": "constantly",
+   "ident": 1733950
+  },
+  {
+   "date": "12 Aug",
+   "nl": "aanzetten tot",
+   "en": "stimulate = iemand stiumleren om iets te doen",
+   "ident": 1733950
+  },
+  {
+   "date": "12 Aug",
+   "nl": "wel te verstaan",
+   "en": "so to speak",
+   "ident": 1733950
+  },
+  {
+   "date": "12 Aug",
+   "nl": "doel",
+   "en": "goal",
+   "ident": 1733950
+  },
+  {
+   "date": "12 Aug",
+   "nl": "nastreven",
+   "en": "working towards",
+   "ident": 1733950
+  },
+  {
+   "date": "12 Aug",
+   "nl": "streven",
+   "en": "striving",
+   "ident": 1733950
+  },
+  {
+   "date": "12 Aug",
+   "nl": "schakel een versnelling terug",
+   "en": "take a step back (chip)",
+   "ident": 1733950
+  },
+  {
+   "date": "12 Aug",
+   "nl": "vreeten",
+   "en": "animals eating",
+   "ident": 1733950
+  },
+  {
+   "date": "12 Aug",
+   "nl": "vreeten energie",
+   "en": "consumes energy",
+   "ident": 1733950
+  },
+  {
+   "date": "12 Aug",
+   "nl": "gebreken aan",
+   "en": "lacking",
+   "ident": 1733950
+  },
+  {
+   "date": "12 Aug",
+   "nl": "gebreken aan tijd",
+   "en": "lacking time",
+   "ident": 1733950
+  },
+  {
+   "date": "12 Aug",
+   "nl": "gezondheidsklachten",
+   "en": "health issues",
+   "ident": 1733950
+  },
+  {
+   "date": "12 Aug",
+   "nl": "afschudden",
+   "en": "shake off",
+   "ident": 1733950
+  },
+  {
+   "date": "12 Aug",
+   "nl": "een dutje te doen",
+   "en": "to take a nap",
+   "ident": 1733950
+  },
+  {
+   "date": "12 Aug",
+   "nl": "bidden",
+   "en": "pray",
+   "ident": 1733950
+  },
+  {
+   "date": "12 Aug",
+   "nl": "hanteeren = gebruiken",
+   "en": "use (handle, apply, wield)",
+   "ident": 1733950
+  },
+  {
+   "date": "12 Aug",
+   "nl": "maag",
+   "en": "stomach (organ)",
+   "ident": 1733950
+  },
+  {
+   "date": "12 Aug",
+   "nl": "opvatting",
+   "en": "statement",
+   "ident": 1733950
+  },
+  {
+   "date": "12 Aug",
+   "nl": "verliezen",
+   "en": "lose",
+   "ident": 1733950
+  },
+  {
+   "date": "12 Aug",
+   "nl": "dik",
+   "en": "fat",
+   "ident": 1733950
+  },
+  {
+   "date": "12 Aug",
+   "nl": "geloof",
+   "en": "faith",
+   "ident": 1733950
+  },
+  {
+   "date": "12 Aug",
+   "nl": "gelijkgestemde mensen",
+   "en": "likeminded people",
+   "ident": 1733950
+  },
+  {
+   "date": "12 Aug",
+   "nl": "rindje",
+   "en": "ride",
+   "ident": 1733950
+  },
+  {
+   "date": "12 Aug",
+   "nl": "het staat blauw",
+   "en": null,
+   "ident": 1733950
+  },
+  {
+   "date": "12 Aug",
+   "nl": "in plaats daarvan",
+   "en": "instead of that",
+   "ident": 1733950
+  },
+  {
+   "date": "6 Aug",
+   "nl": "aantekeningen (notities)",
+   "en": "notes",
+   "ident": 1733926
+  },
+  {
+   "date": "6 Aug",
+   "nl": "zenuwachtig",
+   "en": "nervous",
+   "ident": 1733926
+  },
+  {
+   "date": "6 Aug",
+   "nl": "tevreden",
+   "en": "satisfied",
+   "ident": 1733926
+  },
+  {
+   "date": "6 Aug",
+   "nl": "onderhandelen",
+   "en": "negotaite",
+   "ident": 1733926
+  },
+  {
+   "date": "3 Aug",
+   "nl": "kwijtraken (kwijtgeraakt)",
+   "en": "lose - e.g. a package",
+   "ident": 1733902
+  },
+  {
+   "date": "3 Aug",
+   "nl": "uitkijken naar",
+   "en": "look forward to",
+   "ident": 1733902
+  },
+  {
+   "date": "3 Aug",
+   "nl": "oppasen",
+   "en": "babysit",
+   "ident": 1733902
+  },
+  {
+   "date": "3 Aug",
+   "nl": "op vakantie gaan",
+   "en": "to go on a vacation",
+   "ident": 1733902
+  },
+  {
+   "date": "30 Jul",
+   "nl": "dierbaarste",
+   "en": "most precious",
+   "ident": 1733878
+  },
+  {
+   "date": "30 Jul",
+   "nl": "stilstaan bij",
+   "en": "reflect on sg.",
+   "ident": 1733878
+  },
+  {
+   "date": "30 Jul",
+   "nl": "meemaken",
+   "en": "experience",
+   "ident": 1733878
+  },
+  {
+   "date": "30 Jul",
+   "nl": "uitkiezen",
+   "en": "decide (but more selective)",
+   "ident": 1733878
+  },
+  {
+   "date": "30 Jul",
+   "nl": "verwerken in",
+   "en": "use for sg",
+   "ident": 1733878
+  },
+  {
+   "date": "30 Jul",
+   "nl": "beschilderen",
+   "en": "paint (on a surface, e.g. hobby) ~ decorate",
+   "ident": 1733878
+  },
+  {
+   "date": "30 Jul",
+   "nl": "schilderen",
+   "en": "paint",
+   "ident": 1733878
+  },
+  {
+   "date": "30 Jul",
+   "nl": "rammelaartje",
+   "en": "rattle",
+   "ident": 1733878
+  },
+  {
+   "date": "30 Jul",
+   "nl": "lijken (leek) zich",
+   "en": "sounds like",
+   "ident": 1733878
+  },
+  {
+   "date": "30 Jul",
+   "nl": "harde schijf",
+   "en": "hard disk",
+   "ident": 1733878
+  },
+  {
+   "date": "30 Jul",
+   "nl": "bewaren",
+   "en": "to store / keep",
+   "ident": 1733878
+  },
+  {
+   "date": "30 Jul",
+   "nl": "oogziekte",
+   "en": "eye disease",
+   "ident": 1733878
+  },
+  {
+   "date": "30 Jul",
+   "nl": "zintuigen",
+   "en": "senses",
+   "ident": 1733878
+  },
+  {
+   "date": "30 Jul",
+   "nl": "zicht",
+   "en": "sight",
+   "ident": 1733878
+  },
+  {
+   "date": "30 Jul",
+   "nl": "ruiken",
+   "en": "smell",
+   "ident": 1733878
+  },
+  {
+   "date": "30 Jul",
+   "nl": "aantrouwen",
+   "en": "get married",
+   "ident": 1733878
+  },
+  {
+   "date": "30 Jul",
+   "nl": "zijn trouw aan = loyal zijn",
+   "en": "be loyal to",
+   "ident": 1733878
+  },
+  {
+   "date": "30 Jul",
+   "nl": "zich inzetten voor",
+   "en": "to commit to, dedicate to",
+   "ident": 1733878
+  },
+  {
+   "date": "30 Jul",
+   "nl": "Zij zetten zich in voor de relatie",
+   "en": "they commit to the relationship",
+   "ident": 1733878
+  },
+  {
+   "date": "30 Jul",
+   "nl": "Ik zet me in voor werk",
+   "en": "I dedicate myself to work",
+   "ident": 1733878
+  },
+  {
+   "date": "30 Jul",
+   "nl": "inzetten",
+   "en": "deploy",
+   "ident": 1733878
+  },
+  {
+   "date": "30 Jul",
+   "nl": "Het bedrijf zet niuewe machines in.",
+   "en": "the comp deploys new machines",
+   "ident": 1733878
+  },
+  {
+   "date": "30 Jul",
+   "nl": "gelijkgestemden",
+   "en": "like-minded people",
+   "ident": 1733878
+  },
+  {
+   "date": "30 Jul",
+   "nl": "gunstig",
+   "en": "favorable",
+   "ident": 1733878
+  },
+  {
+   "date": "30 Jul",
+   "nl": "voldoende = genoeg",
+   "en": "sufficient",
+   "ident": 1733878
+  },
+  {
+   "date": "27 Jul",
+   "nl": "verwarrend",
+   "en": "confusing",
+   "ident": 1733854
+  },
+  {
+   "date": "27 Jul",
+   "nl": "gevaarlijk",
+   "en": "dangerous",
+   "ident": 1733854
+  },
+  {
+   "date": "27 Jul",
+   "nl": "held",
+   "en": "hero",
+   "ident": 1733854
+  },
+  {
+   "date": "27 Jul",
+   "nl": "oplossing",
+   "en": "solution",
+   "ident": 1733854
+  },
+  {
+   "date": "27 Jul",
+   "nl": "“wees niet bang”",
+   "en": null,
+   "ident": 1733854
+  },
+  {
+   "date": "27 Jul",
+   "nl": "vernoemen naar",
+   "en": "named after",
+   "ident": 1733854
+  },
+  {
+   "date": "27 Jul",
+   "nl": "muzikaal",
+   "en": "good at music",
+   "ident": 1733854
+  },
+  {
+   "date": "27 Jul",
+   "nl": "vereniging",
+   "en": "association",
+   "ident": 1733854
+  },
+  {
+   "date": "27 Jul",
+   "nl": "vlinder",
+   "en": "butterfly",
+   "ident": 1733854
+  },
+  {
+   "date": "27 Jul",
+   "nl": "indrukwekkend",
+   "en": "impressive",
+   "ident": 1733854
+  },
+  {
+   "date": "27 Jul",
+   "nl": "ernstig ziek",
+   "en": "badly sick",
+   "ident": 1733854
+  },
+  {
+   "date": "27 Jul",
+   "nl": "ernstig = serious",
+   "en": null,
+   "ident": 1733854
+  },
+  {
+   "date": "27 Jul",
+   "nl": "hekel aan",
+   "en": "strongly dislike",
+   "ident": 1733854
+  },
+  {
+   "date": "27 Jul",
+   "nl": "schreeuwen",
+   "en": "scream",
+   "ident": 1733854
+  },
+  {
+   "date": "27 Jul",
+   "nl": "bescheiden",
+   "en": "modest",
+   "ident": 1733854
+  },
+  {
+   "date": "27 Jul",
+   "nl": "zorgen voor",
+   "en": "to take care of sy",
+   "ident": 1733854
+  },
+  {
+   "date": "27 Jul",
+   "nl": "bezit",
+   "en": "belonging",
+   "ident": 1733854
+  },
+  {
+   "date": "27 Jul",
+   "nl": "spullen = dingen",
+   "en": "objects",
+   "ident": 1733854
+  },
+  {
+   "date": "27 Jul",
+   "nl": "fluisteren",
+   "en": "whisper",
+   "ident": 1733854
+  },
+  {
+   "date": "27 Jul",
+   "nl": "bereiken",
+   "en": "accomplished",
+   "ident": 1733854
+  },
+  {
+   "date": "27 Jul",
+   "nl": "uitkomen",
+   "en": "become reality",
+   "ident": 1733854
+  },
+  {
+   "date": "27 Jul",
+   "nl": "eigenschap",
+   "en": "character treat",
+   "ident": 1733854
+  },
+  {
+   "date": "27 Jul",
+   "nl": "geduldig",
+   "en": "patient",
+   "ident": 1733854
+  },
+  {
+   "date": "27 Jul",
+   "nl": "wetenschappelijk",
+   "en": "scientific",
+   "ident": 1733854
+  },
+  {
+   "date": "27 Jul",
+   "nl": "onderzoek",
+   "en": "research",
+   "ident": 1733854
+  },
+  {
+   "date": "27 Jul",
+   "nl": "platteland",
+   "en": "country side",
+   "ident": 1733854
+  },
+  {
+   "date": "27 Jul",
+   "nl": "voornemens",
+   "en": "new year resolutions",
+   "ident": 1733854
+  },
+  {
+   "date": "27 Jul",
+   "nl": "ergeren aan",
+   "en": "annoyed by",
+   "ident": 1733854
+  },
+  {
+   "date": "27 Jul",
+   "nl": "doelpunten",
+   "en": "goal",
+   "ident": 1733854
+  },
+  {
+   "date": "27 Jul",
+   "nl": "recht",
+   "en": "law",
+   "ident": 1733854
+  },
+  {
+   "date": "27 Jul",
+   "nl": "lied",
+   "en": "song",
+   "ident": 1733854
+  },
+  {
+   "date": "27 Jul",
+   "nl": "aangeven",
+   "en": "describe",
+   "ident": 1733854
+  },
+  {
+   "date": "27 Jul",
+   "nl": "Vergelijkbaar met",
+   "en": "similar",
+   "ident": 1733854
+  },
+  {
+   "date": "27 Jul",
+   "nl": "kwasten",
+   "en": "paintbrush",
+   "ident": 1733854
+  },
+  {
+   "date": "27 Jul",
+   "nl": "neefje",
+   "en": "nephew",
+   "ident": 1733854
+  },
+  {
+   "date": "27 Jul",
+   "nl": "vrolijk",
+   "en": "cheerful",
+   "ident": 1733854
+  },
+  {
+   "date": "27 Jul",
+   "nl": "gitaar",
+   "en": "guitar",
+   "ident": 1733854
+  },
+  {
+   "date": "27 Jul",
+   "nl": "Bijwerkingen",
+   "en": "Side effects",
+   "ident": 1733854
+  },
+  {
+   "date": "20 Jul",
+   "nl": "zijn benieuwd naar",
+   "en": "Curious/Interested to know",
+   "ident": 1733830
+  },
+  {
+   "date": "20 Jul",
+   "nl": "zweten",
+   "en": "sweat",
+   "ident": 1733830
+  },
+  {
+   "date": "20 Jul",
+   "nl": "nul conflict",
+   "en": "no conflict",
+   "ident": 1733830
+  },
+  {
+   "date": "20 Jul",
+   "nl": "zweterig",
+   "en": "sweaty",
+   "ident": 1733830
+  },
+  {
+   "date": "20 Jul",
+   "nl": "opvallend",
+   "en": "noticable",
+   "ident": 1733830
+  },
+  {
+   "date": "20 Jul",
+   "nl": "opvallend schoon",
+   "en": "noticably clean",
+   "ident": 1733830
+  },
+  {
+   "date": "20 Jul",
+   "nl": "schonen uitdoen",
+   "en": "take off shoes",
+   "ident": 1733830
+  },
+  {
+   "date": "20 Jul",
+   "nl": "Uitnodigd = inviteren",
+   "en": "invited",
+   "ident": 1733830
+  },
+  {
+   "date": "20 Jul",
+   "nl": "bladzijde",
+   "en": "page",
+   "ident": 1733830
+  },
+  {
+   "date": "20 Jul",
+   "nl": "vacht",
+   "en": "fur",
+   "ident": 1733830
+  },
+  {
+   "date": "20 Jul",
+   "nl": "oppassen",
+   "en": "babysit",
+   "ident": 1733830
+  },
+  {
+   "date": "20 Jul",
+   "nl": "overtuigen",
+   "en": null,
+   "ident": 1733830
+  },
+  {
+   "date": "20 Jul",
+   "nl": "reden",
+   "en": "reason",
+   "ident": 1733830
+  },
+  {
+   "date": "20 Jul",
+   "nl": "raad (aan)",
+   "en": "advice",
+   "ident": 1733830
+  },
+  {
+   "date": "20 Jul",
+   "nl": "waaier",
+   "en": "flyer",
+   "ident": 1733830
+  },
+  {
+   "date": "20 Jul",
+   "nl": "ontspannend",
+   "en": "relaxing",
+   "ident": 1733830
+  },
+  {
+   "date": "20 Jul",
+   "nl": "spannend",
+   "en": "exciting",
+   "ident": 1733830
+  },
+  {
+   "date": "22 Jun",
+   "nl": "onmiddelijk",
+   "en": "immediately",
+   "ident": 1733806
+  },
+  {
+   "date": "22 Jun",
+   "nl": "steeds",
+   "en": "still",
+   "ident": 1733806
+  },
+  {
+   "date": "22 Jun",
+   "nl": "namelijk",
+   "en": "namely",
+   "ident": 1733806
+  },
+  {
+   "date": "22 Jun",
+   "nl": "nergens",
+   "en": "nowhere",
+   "ident": 1733806
+  },
+  {
+   "date": "22 Jun",
+   "nl": "zulk/zo'n",
+   "en": "such (countable/uncountable)",
+   "ident": 1733806
+  },
+  {
+   "date": "22 Jun",
+   "nl": "trakteeren",
+   "en": "treat",
+   "ident": 1733806
+  },
+  {
+   "date": "18 Jun",
+   "nl": "er + heen",
+   "en": "direction",
+   "ident": 1733782
+  },
+  {
+   "date": "18 Jun",
+   "nl": "er + naartoe",
+   "en": "direction",
+   "ident": 1733782
+  },
+  {
+   "date": "18 Jun",
+   "nl": "aanwezig / beschikbaar",
+   "en": "available",
+   "ident": 1733782
+  },
+  {
+   "date": "18 Jun",
+   "nl": "vreemd",
+   "en": "foreign",
+   "ident": 1733782
+  },
+  {
+   "date": "18 Jun",
+   "nl": "opstaan",
+   "en": "uit bed komen - wake up",
+   "ident": 1733782
+  },
+  {
+   "date": "18 Jun",
+   "nl": "hasten",
+   "en": "to rush",
+   "ident": 1733782
+  },
+  {
+   "date": "18 Jun",
+   "nl": "afzeggen",
+   "en": "call off",
+   "ident": 1733782
+  },
+  {
+   "date": "18 Jun",
+   "nl": "verheugen = blidjschap ervaaren",
+   "en": "to be happy",
+   "ident": 1733782
+  },
+  {
+   "date": "18 Jun",
+   "nl": "en deal sluiten",
+   "en": "to close a deal",
+   "ident": 1733782
+  },
+  {
+   "date": "18 Jun",
+   "nl": "onlangs",
+   "en": "recently",
+   "ident": 1733782
+  },
+  {
+   "date": "18 Jun",
+   "nl": "oplossing",
+   "en": "solution",
+   "ident": 1733782
+  },
+  {
+   "date": "18 Jun",
+   "nl": "hekel aan - ik heb en hekel aan spruitjes",
+   "en": "hate - I hate brussel spruits.",
+   "ident": 1733782
+  },
+  {
+   "date": "18 Jun",
+   "nl": "overlegsituatie",
+   "en": "discussion",
+   "ident": 1733782
+  },
+  {
+   "date": "18 Jun",
+   "nl": "vinden het belangrijk",
+   "en": "find it important",
+   "ident": 1733782
+  },
+  {
+   "date": "18 Jun",
+   "nl": "eenzaam zijn",
+   "en": "lonely",
+   "ident": 1733782
+  },
+  {
+   "date": "18 Jun",
+   "nl": "maatschappelijke",
+   "en": "societial",
+   "ident": 1733782
+  },
+  {
+   "date": "18 Jun",
+   "nl": "redelijk soepel",
+   "en": "quite flexible (mindset)",
+   "ident": 1733782
+  },
+  {
+   "date": "18 Jun",
+   "nl": "voorordelen",
+   "en": "pre-judgement",
+   "ident": 1733782
+  },
+  {
+   "date": "18 Jun",
+   "nl": "bijleren",
+   "en": null,
+   "ident": 1733782
+  },
+  {
+   "date": "18 Jun",
+   "nl": "hekel aan",
+   "en": "dislike",
+   "ident": 1733782
+  },
+  {
+   "date": "18 Jun",
+   "nl": "vrolijk = blij",
+   "en": "happy",
+   "ident": 1733782
+  },
+  {
+   "date": "18 Jun",
+   "nl": "stickie roken",
+   "en": "smoke a joint",
+   "ident": 1733782
+  },
+  {
+   "date": "18 Jun",
+   "nl": "overleggen",
+   "en": "discuss",
+   "ident": 1733782
+  },
+  {
+   "date": "18 Jun",
+   "nl": "streng",
+   "en": "strict",
+   "ident": 1733782
+  },
+  {
+   "date": "18 Jun",
+   "nl": "snurken",
+   "en": "snore",
+   "ident": 1733782
+  },
+  {
+   "date": "18 Jun",
+   "nl": "geen last van hebben",
+   "en": "not bothered by",
+   "ident": 1733782
+  },
+  {
+   "date": "18 Jun",
+   "nl": "onmiddelijk",
+   "en": "immediately",
+   "ident": 1733782
+  },
+  {
+   "date": "18 Jun",
+   "nl": "onhandig",
+   "en": "clumsy",
+   "ident": 1733782
+  },
+  {
+   "date": "18 Jun",
+   "nl": "blijkt / bleek/ bleeken",
+   "en": "turns out",
+   "ident": 1733782
+  },
+  {
+   "date": "18 Jun",
+   "nl": "ziektecijfer",
+   "en": "illness rates",
+   "ident": 1733782
+  },
+  {
+   "date": "18 Jun",
+   "nl": "sterftecijfers",
+   "en": "mortality rates",
+   "ident": 1733782
+  },
+  {
+   "date": "18 Jun",
+   "nl": "voor - en nadelen",
+   "en": "pros and cons",
+   "ident": 1733782
+  },
+  {
+   "date": "14 Jun",
+   "nl": "rondleiding",
+   "en": "tour (in a museum etc.)",
+   "ident": 1733758
+  },
+  {
+   "date": "14 Jun",
+   "nl": "vergarderzaal",
+   "en": "meeting room - plenary",
+   "ident": 1733758
+  },
+  {
+   "date": "14 Jun",
+   "nl": "naartoe",
+   "en": "there",
+   "ident": 1733758
+  },
+  {
+   "date": "14 Jun",
+   "nl": "ik ga er niet vaak naartoe",
+   "en": "I am not going there a lot",
+   "ident": 1733758
+  },
+  {
+   "date": "14 Jun",
+   "nl": "er + naartoe",
+   "en": "direction",
+   "ident": 1733758
+  },
+  {
+   "date": "14 Jun",
+   "nl": "gebied",
+   "en": "area",
+   "ident": 1733758
+  },
+  {
+   "date": "14 Jun",
+   "nl": "doorheen",
+   "en": "through",
+   "ident": 1733758
+  },
+  {
+   "date": "14 Jun",
+   "nl": "over een uur ben ik een voetbalwedstrijd aan het kijken.",
+   "en": "in an hour I will be watching a football match.",
+   "ident": 1733758
+  },
+  {
+   "date": "14 Jun",
+   "nl": "ik ben dan in een vergadering aan het spreken.",
+   "en": "I will be speaking on a meeting.",
+   "ident": 1733758
+  },
+  {
+   "date": "14 Jun",
+   "nl": "vooruit",
+   "en": null,
+   "ident": 1733758
+  },
+  {
+   "date": "8 Jun",
+   "nl": "ik weet niet of + bijzin",
+   "en": "I don’t know if",
+   "ident": 1733734
+  },
+  {
+   "date": "8 Jun",
+   "nl": "laat me weten of + bijzin",
+   "en": "let me know if",
+   "ident": 1733734
+  },
+  {
+   "date": "8 Jun",
+   "nl": "waar over",
+   "en": "what about",
+   "ident": 1733734
+  },
+  {
+   "date": "8 Jun",
+   "nl": "als … dan…",
+   "en": "if… then… -> use of if",
+   "ident": 1733734
+  },
+  {
+   "date": "8 Jun",
+   "nl": "of",
+   "en": "if",
+   "ident": 1733734
+  },
+  {
+   "date": "8 Jun",
+   "nl": "leren kennen",
+   "en": "get to know",
+   "ident": 1733734
+  },
+  {
+   "date": "8 Jun",
+   "nl": "voelen zich verveeld",
+   "en": "to be bored",
+   "ident": 1733734
+  },
+  {
+   "date": "8 Jun",
+   "nl": "saai",
+   "en": "boring",
+   "ident": 1733734
+  },
+  {
+   "date": "8 Jun",
+   "nl": "hun",
+   "en": "their (not zijn)",
+   "ident": 1733734
+  },
+  {
+   "date": "8 Jun",
+   "nl": "vergadering",
+   "en": "meeting",
+   "ident": 1733734
+  },
+  {
+   "date": "8 Jun",
+   "nl": "tentamentijd",
+   "en": "pre-exam",
+   "ident": 1733734
+  },
+  {
+   "date": "8 Jun",
+   "nl": "oplossen",
+   "en": "solve",
+   "ident": 1733734
+  },
+  {
+   "date": "8 Jun",
+   "nl": "gezamenlijk",
+   "en": "shared",
+   "ident": 1733734
+  },
+  {
+   "date": "8 Jun",
+   "nl": "huisgenoten",
+   "en": "house mates",
+   "ident": 1733734
+  },
+  {
+   "date": "8 Jun",
+   "nl": "bekijken",
+   "en": "check something (by looking at it)",
+   "ident": 1733734
+  },
+  {
+   "date": "8 Jun",
+   "nl": "verstonden",
+   "en": "understand",
+   "ident": 1733734
+  },
+  {
+   "date": "8 Jun",
+   "nl": "onzettend",
+   "en": "incredibly, really",
+   "ident": 1733734
+  },
+  {
+   "date": "8 Jun",
+   "nl": "plassen",
+   "en": "pee",
+   "ident": 1733734
+  },
+  {
+   "date": "8 Jun",
+   "nl": "wijkkrant",
+   "en": "local newspaper",
+   "ident": 1733734
+  },
+  {
+   "date": "8 Jun",
+   "nl": "onverwacht",
+   "en": "unexpectedly",
+   "ident": 1733734
+  },
+  {
+   "date": "8 Jun",
+   "nl": "uitgerust",
+   "en": "well rested",
+   "ident": 1733734
+  },
+  {
+   "date": "8 Jun",
+   "nl": "wakker liggen",
+   "en": "being wake",
+   "ident": 1733734
+  },
+  {
+   "date": "8 Jun",
+   "nl": "tentamen",
+   "en": "pre-exam",
+   "ident": 1733734
+  },
+  {
+   "date": "8 Jun",
+   "nl": "publiek",
+   "en": "crowd",
+   "ident": 1733734
+  },
+  {
+   "date": "8 Jun",
+   "nl": "openbaar",
+   "en": "public",
+   "ident": 1733734
+  },
+  {
+   "date": "8 Jun",
+   "nl": "aankomen",
+   "en": "come home",
+   "ident": 1733734
+  },
+  {
+   "date": "8 Jun",
+   "nl": "rijden huis",
+   "en": "go home",
+   "ident": 1733734
+  },
+  {
+   "date": "8 Jun",
+   "nl": "anderhalf",
+   "en": "one and a half",
+   "ident": 1733734
+  },
+  {
+   "date": "8 Jun",
+   "nl": "tintallen",
+   "en": "tens",
+   "ident": 1733734
+  },
+  {
+   "date": "8 Jun",
+   "nl": "op het kantor",
+   "en": "in the office",
+   "ident": 1733734
+  },
+  {
+   "date": "8 Jun",
+   "nl": "beroemen",
+   "en": null,
+   "ident": 1733734
+  },
+  {
+   "date": "8 Jun",
+   "nl": "duiven",
+   "en": null,
+   "ident": 1733734
+  },
+  {
+   "date": "7 Jun",
+   "nl": "ineens",
+   "en": "suddenly",
+   "ident": 1733710
+  },
+  {
+   "date": "7 Jun",
+   "nl": "zin hebben (als je geen zin hebt)",
+   "en": "feel like (if you are not feeling like it)",
+   "ident": 1733710
+  },
+  {
+   "date": "7 Jun",
+   "nl": "zakken voor",
+   "en": "fail e.g. an exam",
+   "ident": 1733710
+  },
+  {
+   "date": "7 Jun",
+   "nl": "herhalen",
+   "en": "to repeat",
+   "ident": 1733710
+  },
+  {
+   "date": "7 Jun",
+   "nl": "vermijden",
+   "en": "to avoid",
+   "ident": 1733710
+  },
+  {
+   "date": "7 Jun",
+   "nl": "moe",
+   "en": "tired",
+   "ident": 1733710
+  },
+  {
+   "date": "7 Jun",
+   "nl": "cassiere",
+   "en": "cashier",
+   "ident": 1733710
+  },
+  {
+   "date": "7 Jun",
+   "nl": "opgenomen",
+   "en": "to record",
+   "ident": 1733710
+  },
+  {
+   "date": "7 Jun",
+   "nl": "fout",
+   "en": "mistake",
+   "ident": 1733710
+  },
+  {
+   "date": "7 Jun",
+   "nl": "verkeerd",
+   "en": "wrong",
+   "ident": 1733710
+  },
+  {
+   "date": "7 Jun",
+   "nl": "verkeerde weg/kant",
+   "en": "wrong side/way",
+   "ident": 1733710
+  },
+  {
+   "date": "7 Jun",
+   "nl": "ik heb een fout gemaakt.",
+   "en": "I made a mistake.",
+   "ident": 1733710
+  },
+  {
+   "date": "7 Jun",
+   "nl": "naar een verhaal van",
+   "en": "based on the story by",
+   "ident": 1733710
+  },
+  {
+   "date": "7 Jun",
+   "nl": "liever",
+   "en": "rather",
+   "ident": 1733710
+  },
+  {
+   "date": "7 Jun",
+   "nl": "jeugdsentiment",
+   "en": "childhood nostalgia",
+   "ident": 1733710
+  },
+  {
+   "date": "4 Jun",
+   "nl": "kennissen",
+   "en": "(friends) acquaintances",
+   "ident": 1733686
+  },
+  {
+   "date": "4 Jun",
+   "nl": "stemming",
+   "en": "voting or mood",
+   "ident": 1733686
+  },
+  {
+   "date": "4 Jun",
+   "nl": "medereizigers",
+   "en": "passenger",
+   "ident": 1733686
+  },
+  {
+   "date": "4 Jun",
+   "nl": "overleggen",
+   "en": "go over it  = bespreken of sparren",
+   "ident": 1733686
+  },
+  {
+   "date": "4 Jun",
+   "nl": "afhankelijk van",
+   "en": "dependent on",
+   "ident": 1733686
+  },
+  {
+   "date": "4 Jun",
+   "nl": "tijdens",
+   "en": "during",
+   "ident": 1733686
+  },
+  {
+   "date": "4 Jun",
+   "nl": "daarbij",
+   "en": "besides",
+   "ident": 1733686
+  },
+  {
+   "date": "4 Jun",
+   "nl": "zijn gewend",
+   "en": "to be accustomed to (used to)",
+   "ident": 1733686
+  },
+  {
+   "date": "4 Jun",
+   "nl": "bereiken",
+   "en": "aankomen op een bestemming - arrive",
+   "ident": 1733686
+  },
+  {
+   "date": "4 Jun",
+   "nl": "we waren niet de einigen",
+   "en": "we are not the only ones",
+   "ident": 1733686
+  },
+  {
+   "date": "4 Jun",
+   "nl": "reisherinnering",
+   "en": "trip memory",
+   "ident": 1733686
+  },
+  {
+   "date": "4 Jun",
+   "nl": "rij",
+   "en": "queue",
+   "ident": 1733686
+  },
+  {
+   "date": "4 Jun",
+   "nl": "beide",
+   "en": "both",
+   "ident": 1733686
+  },
+  {
+   "date": "4 Jun",
+   "nl": "het doel",
+   "en": "the goal",
+   "ident": 1733686
+  },
+  {
+   "date": "4 Jun",
+   "nl": "van plan zijn",
+   "en": "to intend",
+   "ident": 1733686
+  },
+  {
+   "date": "4 Jun",
+   "nl": "buik",
+   "en": "abs",
+   "ident": 1733686
+  },
+  {
+   "date": "4 Jun",
+   "nl": "spieren",
+   "en": "muscle",
+   "ident": 1733686
+  },
+  {
+   "date": "4 Jun",
+   "nl": "bang zijn",
+   "en": "to be afraid of",
+   "ident": 1733686
+  },
+  {
+   "date": "4 Jun",
+   "nl": "belachelijk",
+   "en": "ridiculous",
+   "ident": 1733686
+  },
+  {
+   "date": "4 Jun",
+   "nl": "vervelend zich",
+   "en": "bored",
+   "ident": 1733686
+  },
+  {
+   "date": "4 Jun",
+   "nl": "saai",
+   "en": "boring",
+   "ident": 1733686
+  },
+  {
+   "date": "4 Jun",
+   "nl": "druk",
+   "en": "busy",
+   "ident": 1733686
+  },
+  {
+   "date": "4 Jun",
+   "nl": "verschrikkelijk",
+   "en": "terrible",
+   "ident": 1733686
+  },
+  {
+   "date": "4 Jun",
+   "nl": "zo’n",
+   "en": "such",
+   "ident": 1733686
+  },
+  {
+   "date": "1 Jun",
+   "nl": "bekostigen een deel",
+   "en": "pays part of it",
+   "ident": 0
+  },
+  {
+   "date": "1 Jun",
+   "nl": "hetzelfde / dezelfde",
+   "en": "the same (de/het)",
+   "ident": 0
+  },
+  {
+   "date": "1 Jun",
+   "nl": "gedeeltelijk",
+   "en": "partially",
+   "ident": 0
+  },
+  {
+   "date": "1 Jun",
+   "nl": "10 - 15 minuten naar",
+   "en": "10-15 min away",
+   "ident": 0
+  },
+  {
+   "date": "1 Jun",
+   "nl": "naartoe",
+   "en": "where to",
+   "ident": 0
+  },
+  {
+   "date": "1 Jun",
+   "nl": "vliegveld",
+   "en": "airport",
+   "ident": 0
+  },
+  {
+   "date": "1 Jun",
+   "nl": "nadelen",
+   "en": "disadvantages",
+   "ident": 0
+  },
+  {
+   "date": "1 Jun",
+   "nl": "kost meer tijd",
+   "en": "takes more time",
+   "ident": 0
+  },
+  {
+   "date": "1 Jun",
+   "nl": "het openbaar vervoer",
+   "en": "puiblic transport",
+   "ident": 0
+  },
+  {
+   "date": "1 Jun",
+   "nl": "de wei",
+   "en": "the meadow",
+   "ident": 0
+  },
+  {
+   "date": "1 Jun",
+   "nl": "substantief",
+   "en": "noun",
+   "ident": 0
+  },
+  {
+   "date": "1 Jun",
+   "nl": "tegenovergestelde van",
+   "en": "opposite",
+   "ident": 0
+  },
+  {
+   "date": "1 Jun",
+   "nl": "Als iemand bij ons thuis op bezoek komt",
+   "en": "if somebody comes to visit",
+   "ident": 0
+  },
+  {
+   "date": "1 Jun",
+   "nl": "geweldig",
+   "en": "great",
+   "ident": 0
+  },
+  {
+   "date": "1 Jun",
+   "nl": "ontspan",
+   "en": "relax",
+   "ident": 0
+  },
+  {
+   "date": "1 Jun",
+   "nl": "ik zwem liever",
+   "en": null,
+   "ident": 0
+  },
+  {
+   "date": "1 Jun",
+   "nl": "Documentaires",
+   "en": "documentary movies",
+   "ident": 0
+  },
+  {
+   "date": "1 Jun",
+   "nl": "opschieten",
+   "en": "hurry up",
+   "ident": 0
+  },
+  {
+   "date": "1 Jun",
+   "nl": "klaarmaken",
+   "en": "get ready",
+   "ident": 0
+  }
+ ],
+ "inline": [
+  {
+   "date": "12 Aug",
+   "nl": "hen",
+   "en": "them",
+   "ident": "inline"
+  },
+  {
+   "date": "12 Aug",
+   "nl": "hun",
+   "en": "their",
+   "ident": "inline"
+  },
+  {
+   "date": "12 Aug",
+   "nl": "ze",
+   "en": "they",
+   "ident": "inline"
+  },
+  {
+   "date": "27 Jul",
+   "nl": "op deze manier",
+   "en": "“this way”",
+   "ident": "inline"
+  },
+  {
+   "date": "27 Jul",
+   "nl": "We hadden de kaartje 2 maanden geleden gekocht",
+   "en": "we bought the tickets 2 month earlier.",
+   "ident": "inline"
+  },
+  {
+   "date": "22 Jun",
+   "nl": "dader",
+   "en": "we weet dat niet",
+   "ident": "inline"
+  },
+  {
+   "date": "22 Jun",
+   "nl": "omdat (because)",
+   "en": "Ik blijf thuis, omdat ik ziek ben.",
+   "ident": "inline"
+  },
+  {
+   "date": "22 Jun",
+   "nl": "doordat (because/oorzaak)",
+   "en": "De weg is glad, doordat het vriest.",
+   "ident": "inline"
+  },
+  {
+   "date": "22 Jun",
+   "nl": "hoewel (although)",
+   "en": "Hoewel het regent, ga ik naar buiten.",
+   "ident": "inline"
+  },
+  {
+   "date": "22 Jun",
+   "nl": "terwijl (while)",
+   "en": "Ik kook, terwijl hij opruimt.",
+   "ident": "inline"
+  },
+  {
+   "date": "22 Jun",
+   "nl": "tenzij (unless)",
+   "en": "Ik kom, tenzij ik moe ben.",
+   "ident": "inline"
+  },
+  {
+   "date": "22 Jun",
+   "nl": "zodat (so that)",
+   "en": "Ik schrijf het op, zodat ik het niet vergeet.",
+   "ident": "inline"
+  },
+  {
+   "date": "22 Jun",
+   "nl": "zodra (as soon as)",
+   "en": "Zodra ik thuis ben, bel ik je.",
+   "ident": "inline"
+  },
+  {
+   "date": "22 Jun",
+   "nl": "als (if/when)",
+   "en": "Als het mooi weer is, gaan we fietsen.",
+   "ident": "inline"
+  },
+  {
+   "date": "22 Jun",
+   "nl": "toen (when, verleden)",
+   "en": "Toen ik klein was, woonde ik in Utrecht.",
+   "ident": "inline"
+  },
+  {
+   "date": "22 Jun",
+   "nl": "wanneer (when)",
+   "en": "Ik weet niet wanneer de trein vertrekt.",
+   "ident": "inline"
+  },
+  {
+   "date": "22 Jun",
+   "nl": "dat (that)",
+   "en": "Ik denk dat het goed komt.",
+   "ident": "inline"
+  },
+  {
+   "date": "22 Jun",
+   "nl": "of (whether)",
+   "en": "Ik weet niet of hij komt.",
+   "ident": "inline"
+  },
+  {
+   "date": "22 Jun",
+   "nl": "voordat (before)",
+   "en": "Was je handen, voordat je eet.",
+   "ident": "inline"
+  },
+  {
+   "date": "22 Jun",
+   "nl": "nadat (after)",
+   "en": "Nadat ik gegeten heb, ga ik wandelen.",
+   "ident": "inline"
+  },
+  {
+   "date": "22 Jun",
+   "nl": "sinds (since)",
+   "en": "Sinds ik hier woon, fiets ik veel.",
+   "ident": "inline"
+  },
+  {
+   "date": "22 Jun",
+   "nl": "totdat (until)",
+   "en": "Ik wacht, totdat je klaar bent.",
+   "ident": "inline"
+  },
+  {
+   "date": "22 Jun",
+   "nl": "zoals (as/like)",
+   "en": "Doe het zoals ik het je uitleg.",
+   "ident": "inline"
+  },
+  {
+   "date": "22 Jun",
+   "nl": "mits (provided that, formeel)",
+   "en": "Je slaagt, mits je hard werkt.",
+   "ident": "inline"
+  },
+  {
+   "date": "18 Jun",
+   "nl": "Heen geeft een richting aan",
+   "en": "je beweegt naar een plek toe. Het versterkt het werkwoord gaan.",
+   "ident": "inline"
+  },
+  {
+   "date": "11 Jun",
+   "nl": "Quantity",
+   "en": "er replacing the subject",
+   "ident": "inline"
+  },
+  {
+   "date": "11 Jun",
+   "nl": "Location",
+   "en": "er replacing the location itself",
+   "ident": "inline"
+  },
+  {
+   "date": "11 Jun",
+   "nl": "There is",
+   "en": "er is/zijn",
+   "ident": "inline"
+  },
+  {
+   "date": "29 Mai",
+   "nl": "gelden",
+   "en": "to apply",
+   "ident": "inline"
+  },
+  {
+   "date": "29 Mai",
+   "nl": "knipperen",
+   "en": "flashing",
+   "ident": "inline"
+  },
+  {
+   "date": "29 Mai",
+   "nl": "boete",
+   "en": "fine",
+   "ident": "inline"
+  },
+  {
+   "date": "29 Mai",
+   "nl": "aangereden",
+   "en": "to get hit by something",
+   "ident": "inline"
+  },
+  {
+   "date": "29 Mai",
+   "nl": "kans",
+   "en": "chance",
+   "ident": "inline"
+  },
+  {
+   "date": "29 Mai",
+   "nl": "ongeluk",
+   "en": "accident",
+   "ident": "inline"
+  },
+  {
+   "date": "29 Mai",
+   "nl": "gebeuren",
+   "en": "happen",
+   "ident": "inline"
+  },
+  {
+   "date": "29 Mai",
+   "nl": "veilig",
+   "en": "safe",
+   "ident": "inline"
+  },
+  {
+   "date": "29 Mai",
+   "nl": "moe",
+   "en": "tired",
+   "ident": "inline"
+  },
+  {
+   "date": "29 Mai",
+   "nl": "deeden",
+   "en": "doen (did)",
+   "ident": "inline"
+  },
+  {
+   "date": "29 Mai",
+   "nl": "Waar heb je zin in?",
+   "en": "what do you feel like doing?",
+   "ident": "inline"
+  },
+  {
+   "date": "29 Mai",
+   "nl": "schreeuwende",
+   "en": "screaming",
+   "ident": "inline"
+  },
+  {
+   "date": "29 Mai",
+   "nl": "logeren",
+   "en": "to stay somewhere",
+   "ident": "inline"
+  },
+  {
+   "date": "29 Mai",
+   "nl": "ANWB stelletje",
+   "en": "ANWB couple",
+   "ident": "inline"
+  },
+  {
+   "date": "29 Mai",
+   "nl": "raampje",
+   "en": "small window",
+   "ident": "inline"
+  },
+  {
+   "date": "29 Mai",
+   "nl": "schilderijn",
+   "en": "painting",
+   "ident": "inline"
+  },
+  {
+   "date": "29 Mai",
+   "nl": "ben gewend",
+   "en": "used to",
+   "ident": "inline"
+  },
+  {
+   "date": "29 Mai",
+   "nl": "zonder",
+   "en": "without",
+   "ident": "inline"
+  },
+  {
+   "date": "29 Mai",
+   "nl": "anders",
+   "en": "different",
+   "ident": "inline"
+  },
+  {
+   "date": "29 Mai",
+   "nl": "gelukkig",
+   "en": "luckily",
+   "ident": "inline"
+  },
+  {
+   "date": "29 Mai",
+   "nl": "balkon",
+   "en": "balcony",
+   "ident": "inline"
+  },
+  {
+   "date": "29 Mai",
+   "nl": "juist",
+   "en": "correct",
+   "ident": "inline"
+  },
+  {
+   "date": "29 Mai",
+   "nl": "precies",
+   "en": "precise",
+   "ident": "inline"
+  },
+  {
+   "date": "29 Mai",
+   "nl": "bestemming",
+   "en": "destination",
+   "ident": "inline"
+  },
+  {
+   "date": "29 Mai",
+   "nl": "vervelend",
+   "en": "annoying",
+   "ident": "inline"
+  },
+  {
+   "date": "19 Mai",
+   "nl": "balie",
+   "en": "counter",
+   "ident": "inline"
+  },
+  {
+   "date": "19 Mai",
+   "nl": "lid",
+   "en": "member",
+   "ident": "inline"
+  },
+  {
+   "date": "19 Mai",
+   "nl": "opzeggen",
+   "en": "sign out",
+   "ident": "inline"
+  },
+  {
+   "date": "19 Mai",
+   "nl": "verliezen",
+   "en": "to lose",
+   "ident": "inline"
+  },
+  {
+   "date": "19 Mai",
+   "nl": "aantrekkelijke",
+   "en": "attractive",
+   "ident": "inline"
+  },
+  {
+   "date": "19 Mai",
+   "nl": "waarschijnlijk",
+   "en": "most likely",
+   "ident": "inline"
+  },
+  {
+   "date": "19 Mai",
+   "nl": "aanbieding",
+   "en": "offer",
+   "ident": "inline"
+  },
+  {
+   "date": "19 Mai",
+   "nl": "toen ik jong was",
+   "en": "when I was young",
+   "ident": "inline"
+  },
+  {
+   "date": "19 Mai",
+   "nl": "lekker om te doen",
+   "en": "great to do",
+   "ident": "inline"
+  },
+  {
+   "date": "19 Mai",
+   "nl": "om to",
+   "en": "in order to",
+   "ident": "inline"
+  },
+  {
+   "date": "19 Mai",
+   "nl": "ik spoorts graag",
+   "en": "I like to sport",
+   "ident": "inline"
+  }
+ ]
+}

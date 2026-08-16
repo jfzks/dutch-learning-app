@@ -3,7 +3,7 @@ We'll then read those .txt files to build the structured JSON content."""
 import os, sys, re
 from pathlib import Path
 
-ROOT = Path("/Users/janosfazekas/Desktop/Dutch - learnings")
+ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "extraction" / "raw"
 OUT.mkdir(parents=True, exist_ok=True)
 

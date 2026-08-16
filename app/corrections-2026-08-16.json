@@ -1,0 +1,69 @@
+[
+  {
+    "flagId": "f_split_w9_01",
+    "file": "app/data/words/woordenlijst-9.json",
+    "action": "replace",
+    "match": { "id": "w_86fc89b32e" },
+    "replace": {
+      "nl": "het wedstrijdje",
+      "en": "match / game (little)",
+      "pos": "noun",
+      "head": "het wedstrijdje",
+      "article": "het",
+      "lemma": "wedstrijdje"
+    },
+    "rationale": "Parsing artifact: the source row 'het wedstrijdje | match' was split across the NL/EN columns, leaving nl='het' / en='wedstrijdje' — a Dutch word sitting in the English field. Context in the list (de voetbalvereniging, geweest, gespeeld) confirms the headword. Same class of bug as the already-deleted 'in | orde maken fix'."
+  },
+  {
+    "flagId": "f_split_w11_01",
+    "file": "app/data/words/woordenlijst-11.json",
+    "action": "replace",
+    "match": { "id": "w_44efd81d8a" },
+    "replace": {
+      "nl": "het cadeautje",
+      "en": "present / little gift",
+      "pos": "noun",
+      "head": "het cadeautje",
+      "article": "het",
+      "lemma": "cadeautje"
+    },
+    "rationale": "Same column-split artifact: nl='het' / en='cadeautje'. Restored to a proper NL/EN pair."
+  },
+  {
+    "flagId": "f_split_w13_01",
+    "file": "app/data/words/woordenlijst-13.json",
+    "action": "replace",
+    "match": { "id": "w_6f497b396e" },
+    "replace": {
+      "nl": "kom verder",
+      "en": "come on in / come further in",
+      "pos": "phrase",
+      "head": "kom verder"
+    },
+    "rationale": "Same column-split artifact: nl='kom' / en='… verder'. The English field held the tail of the Dutch phrase, so the item was unanswerable in either direction. Woordenlijst 13 is the 'visiting someone' dialogue, where 'Kom verder!' invites a guest further into the house."
+  },
+  {
+    "flagId": "f_dup_kapot",
+    "file": "app/data/words/woordenlijst-9.json",
+    "action": "replace",
+    "match": { "id": "w_bc8455647e" },
+    "replace": { "en": "open (de huid kapot krabben = to scratch the skin open)" },
+    "rationale": "'kapot' appears in woordenlijst 9 glossed 'open' and in woordenlijst 10 glossed 'broken'. Both are right in context, but as bare pairs they contradict each other and one of the two always graded as wrong. Woordenlijst 9's sense is disambiguated here; app.js now also accepts any recorded translation of the same headword."
+  },
+  {
+    "flagId": "f_warm_w13",
+    "file": "app/data/words/woordenlijst-13.json",
+    "action": "replace",
+    "match": { "id": "w_3be578588a" },
+    "replace": { "en": "warm / hot" },
+    "rationale": "'warm' was glossed as 'warm', so the NL→EN and EN→NL drills asked the user to type back the prompt verbatim. Dutch 'warm' covers English 'hot' as well (warm water = hot water), so the added sense makes the card teach something."
+  },
+  {
+    "flagId": "f_energiedrankje_article",
+    "file": "app/data/words/woordenlijst-14.json",
+    "action": "replace",
+    "match": { "id": "w_61b45e3991" },
+    "replace": { "article": "het" },
+    "rationale": "Supersedes f_f4ec33ad. That correction set article='de' because the headword was then the plural 'energiedrankjes (het energiedrankje)', and Dutch plurals take 'de'. The later corrections-singulars pass rewrote the headword to the singular 'het energiedrankje', which makes 'de' wrong — the De-of-het drill would have marked the correct answer 'het' as a miss. Pinning it back to 'het'."
+  }
+]

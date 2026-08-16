@@ -245,12 +245,12 @@
   },
   {
     "id": "w_6f497b396e",
-    "nl": "kom",
-    "en": "… verder",
+    "nl": "kom verder",
+    "en": "come on in / come further in",
     "topic": "woordenlijst-13",
     "source": "NIG Woordenlijst 13",
-    "pos": "other",
-    "head": "kom"
+    "pos": "phrase",
+    "head": "kom verder"
   },
   {
     "id": "w_d10ff87020",
@@ -264,7 +264,7 @@
   {
     "id": "w_3be578588a",
     "nl": "warm",
-    "en": "warm",
+    "en": "warm / hot",
     "topic": "woordenlijst-13",
     "source": "NIG Woordenlijst 13",
     "pos": "other",

@@ -1,0 +1,1356 @@
+[
+  {
+    "id": "w_eeef1ab709",
+    "nl": "onmiddellijk",
+    "en": "immediately",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 22 Jun 2026",
+    "head": "onmiddellijk",
+    "pos": "other"
+  },
+  {
+    "id": "w_71318ae11d",
+    "nl": "steeds",
+    "en": "continually / always (nog steeds = still)",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 22 Jun 2026",
+    "head": "steeds",
+    "pos": "other"
+  },
+  {
+    "id": "w_b75d5136d3",
+    "nl": "namelijk",
+    "en": "namely",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 22 Jun 2026",
+    "head": "namelijk",
+    "pos": "other"
+  },
+  {
+    "id": "w_073efd4256",
+    "nl": "nergens",
+    "en": "nowhere",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 22 Jun 2026",
+    "head": "nergens",
+    "pos": "other"
+  },
+  {
+    "id": "w_044765c947",
+    "nl": "zulk / zo'n",
+    "en": "such (uncountable / countable)",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 22 Jun 2026",
+    "head": "zulk / zo'n",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_e2b8ff751c",
+    "nl": "trakteren",
+    "en": "to treat (someone)",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 22 Jun 2026",
+    "head": "trakteren",
+    "pos": "verb",
+    "infinitive": "trakteren"
+  },
+  {
+    "id": "w_37ac741d54",
+    "nl": "erheen",
+    "en": "(to) there — direction",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 18 Jun 2026",
+    "head": "erheen",
+    "pos": "verb",
+    "infinitive": "erheen"
+  },
+  {
+    "id": "w_961044c020",
+    "nl": "ernaartoe",
+    "en": "(to) there — direction",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 18 Jun 2026",
+    "head": "ernaartoe",
+    "pos": "other"
+  },
+  {
+    "id": "w_6c9bf6ca39",
+    "nl": "aanwezig / beschikbaar",
+    "en": "present / available",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 18 Jun 2026",
+    "head": "aanwezig / beschikbaar",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_c210123d72",
+    "nl": "vreemd",
+    "en": "strange / foreign",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 18 Jun 2026",
+    "head": "vreemd",
+    "pos": "other"
+  },
+  {
+    "id": "w_cdfb794da6",
+    "nl": "opstaan (= uit bed komen)",
+    "en": "to get up",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 18 Jun 2026",
+    "head": "opstaan (= uit bed komen)",
+    "pos": "other"
+  },
+  {
+    "id": "w_b1264af816",
+    "nl": "zich haasten",
+    "en": "to rush / hurry",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 18 Jun 2026",
+    "head": "zich haasten",
+    "pos": "verb",
+    "reflexive": true,
+    "infinitive": "haasten"
+  },
+  {
+    "id": "w_2766e26058",
+    "nl": "afzeggen",
+    "en": "to call off / cancel",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 18 Jun 2026",
+    "head": "afzeggen",
+    "pos": "verb",
+    "infinitive": "afzeggen"
+  },
+  {
+    "id": "w_053a38dbe1",
+    "nl": "zich verheugen op",
+    "en": "to look forward to",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 18 Jun 2026",
+    "head": "zich verheugen op",
+    "pos": "verb",
+    "reflexive": true,
+    "infinitive": "verheugen"
+  },
+  {
+    "id": "w_91d93f6463",
+    "nl": "een deal sluiten",
+    "en": "to close a deal",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 18 Jun 2026",
+    "head": "een deal sluiten",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_82676df2d9",
+    "nl": "onlangs",
+    "en": "recently",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 18 Jun 2026",
+    "head": "onlangs",
+    "pos": "other"
+  },
+  {
+    "id": "w_76909041d6",
+    "nl": "ik heb een hekel aan spruitjes",
+    "en": "I hate brussels sprouts",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 18 Jun 2026",
+    "head": "ik heb een hekel aan spruitjes",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_78426927d5",
+    "nl": "de overlegsituatie",
+    "en": "discussion setting",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 18 Jun 2026",
+    "head": "de overlegsituatie",
+    "pos": "noun",
+    "article": "de",
+    "lemma": "overlegsituatie"
+  },
+  {
+    "id": "w_0759723cee",
+    "nl": "vinden het belangrijk",
+    "en": "find it important",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 18 Jun 2026",
+    "head": "vinden het belangrijk",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_ed6bc905d8",
+    "nl": "eenzaam zijn",
+    "en": "to be lonely",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 18 Jun 2026",
+    "head": "eenzaam zijn",
+    "pos": "other"
+  },
+  {
+    "id": "w_6c01590f89",
+    "nl": "maatschappelijk",
+    "en": "social / societal",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 18 Jun 2026",
+    "head": "maatschappelijk",
+    "pos": "other"
+  },
+  {
+    "id": "w_5e281ab49d",
+    "nl": "redelijk soepel",
+    "en": "fairly flexible / easy-going",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 18 Jun 2026",
+    "head": "redelijk soepel",
+    "pos": "other"
+  },
+  {
+    "id": "w_737b15d6fd",
+    "nl": "de vooroordelen",
+    "en": "prejudices",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 18 Jun 2026",
+    "head": "de vooroordelen",
+    "pos": "noun",
+    "article": "de",
+    "lemma": "vooroordelen"
+  },
+  {
+    "id": "w_8fdeca0685",
+    "nl": "bijleren",
+    "en": "to learn something extra / pick up",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 18 Jun 2026",
+    "head": "bijleren",
+    "pos": "verb",
+    "infinitive": "bijleren"
+  },
+  {
+    "id": "w_e2d0e2c4c4",
+    "nl": "vrolijk (= blij)",
+    "en": "cheerful / happy",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 18 Jun 2026",
+    "head": "vrolijk (= blij)",
+    "pos": "other"
+  },
+  {
+    "id": "w_6c3afb199c",
+    "nl": "een stickie roken",
+    "en": "to smoke a joint",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 18 Jun 2026",
+    "head": "een stickie roken",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_02a17224c3",
+    "nl": "overleggen",
+    "en": "to discuss / confer",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 18 Jun 2026",
+    "head": "overleggen",
+    "pos": "verb",
+    "infinitive": "overleggen"
+  },
+  {
+    "id": "w_4099c9ee7b",
+    "nl": "streng",
+    "en": "strict",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 18 Jun 2026",
+    "head": "streng",
+    "pos": "other"
+  },
+  {
+    "id": "w_1304aec7e0",
+    "nl": "snurken",
+    "en": "to snore",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 18 Jun 2026",
+    "head": "snurken",
+    "pos": "verb",
+    "infinitive": "snurken"
+  },
+  {
+    "id": "w_e5176d519d",
+    "nl": "geen last van hebben",
+    "en": "to not be bothered by",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 18 Jun 2026",
+    "head": "geen last van hebben",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_8cbc1df052",
+    "nl": "onhandig",
+    "en": "clumsy / awkward",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 18 Jun 2026",
+    "head": "onhandig",
+    "pos": "other"
+  },
+  {
+    "id": "w_3f159a5da8",
+    "nl": "blijken (bleek, gebleken)",
+    "en": "to turn out / appear",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 18 Jun 2026",
+    "head": "blijken (bleek, gebleken)",
+    "pos": "verb",
+    "infinitive": "blijken"
+  },
+  {
+    "id": "w_8617f27ed0",
+    "nl": "de ziektecijfers",
+    "en": "illness rates",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 18 Jun 2026",
+    "head": "de ziektecijfers",
+    "pos": "noun",
+    "article": "de",
+    "lemma": "ziektecijfers"
+  },
+  {
+    "id": "w_7337a80313",
+    "nl": "de sterftecijfers",
+    "en": "mortality rates",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 18 Jun 2026",
+    "head": "de sterftecijfers",
+    "pos": "noun",
+    "article": "de",
+    "lemma": "sterftecijfers"
+  },
+  {
+    "id": "w_546b0f746a",
+    "nl": "voor- en nadelen",
+    "en": "pros and cons",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 18 Jun 2026",
+    "head": "voor- en nadelen",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_0af3ded3bc",
+    "nl": "de rondleiding",
+    "en": "guided tour",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 14 Jun 2026",
+    "head": "de rondleiding",
+    "pos": "noun",
+    "article": "de",
+    "lemma": "rondleiding"
+  },
+  {
+    "id": "w_97f985f5ad",
+    "nl": "de vergaderzaal",
+    "en": "meeting room / conference hall",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 14 Jun 2026",
+    "head": "de vergaderzaal",
+    "pos": "noun",
+    "article": "de",
+    "lemma": "vergaderzaal"
+  },
+  {
+    "id": "w_a8d2f198af",
+    "nl": "naartoe",
+    "en": "to there / where to",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 14 Jun 2026",
+    "head": "naartoe",
+    "pos": "other"
+  },
+  {
+    "id": "w_d937793f6c",
+    "nl": "ik ga er niet vaak naartoe",
+    "en": "I don't go there often",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 14 Jun 2026",
+    "head": "ik ga er niet vaak naartoe",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_184cfcacf0",
+    "nl": "het gebied",
+    "en": "area / region",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 14 Jun 2026",
+    "head": "het gebied",
+    "pos": "noun",
+    "article": "het",
+    "lemma": "gebied"
+  },
+  {
+    "id": "w_73b36008ed",
+    "nl": "doorheen",
+    "en": "through",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 14 Jun 2026",
+    "head": "doorheen",
+    "pos": "verb",
+    "infinitive": "doorheen"
+  },
+  {
+    "id": "w_3cbf1d13a8",
+    "nl": "over een uur ben ik naar een voetbalwedstrijd aan het kijken",
+    "en": "in an hour I'll be watching a football match",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 14 Jun 2026",
+    "head": "over een uur ben ik naar een voetbalwedstrijd aan het kijken",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_de93ca783c",
+    "nl": "ik ben dan in een vergadering aan het spreken",
+    "en": "I'll be speaking in a meeting then",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 14 Jun 2026",
+    "head": "ik ben dan in een vergadering aan het spreken",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_9b6fa0dd36",
+    "nl": "vooruit",
+    "en": "forward / ahead",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 14 Jun 2026",
+    "head": "vooruit",
+    "pos": "other"
+  },
+  {
+    "id": "w_be98a646db",
+    "nl": "ik weet niet of + bijzin",
+    "en": "I don’t know if",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 8 Jun 2026",
+    "head": "ik weet niet of + bijzin",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_7bfcb0cc6f",
+    "nl": "laat me weten of + bijzin",
+    "en": "let me know if",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 8 Jun 2026",
+    "head": "laat me weten of + bijzin",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_ed69b33144",
+    "nl": "waarover",
+    "en": "about what / what about",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 8 Jun 2026",
+    "head": "waarover",
+    "pos": "other"
+  },
+  {
+    "id": "w_c55cc373ca",
+    "nl": "als … dan …",
+    "en": "if … then …",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 8 Jun 2026",
+    "head": "als … dan …",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_af0b169580",
+    "nl": "of",
+    "en": "whether / if",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 8 Jun 2026",
+    "head": "of",
+    "pos": "other"
+  },
+  {
+    "id": "w_c78cf21a50",
+    "nl": "leren kennen",
+    "en": "get to know",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 8 Jun 2026",
+    "head": "leren kennen",
+    "pos": "other"
+  },
+  {
+    "id": "w_244f09ab58",
+    "nl": "zich vervelen",
+    "en": "to be bored",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 8 Jun 2026",
+    "head": "zich vervelen",
+    "pos": "verb",
+    "reflexive": true,
+    "infinitive": "vervelen"
+  },
+  {
+    "id": "w_69b2f1cd5b",
+    "nl": "hun",
+    "en": "their",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 8 Jun 2026",
+    "head": "hun",
+    "pos": "other"
+  },
+  {
+    "id": "w_ddcd3b6d4f",
+    "nl": "de vergadering",
+    "en": "meeting",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 8 Jun 2026",
+    "head": "de vergadering",
+    "pos": "noun",
+    "article": "de",
+    "lemma": "vergadering"
+  },
+  {
+    "id": "w_493efba71e",
+    "nl": "de tentamentijd",
+    "en": "exam period",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 8 Jun 2026",
+    "head": "de tentamentijd",
+    "pos": "noun",
+    "article": "de",
+    "lemma": "tentamentijd"
+  },
+  {
+    "id": "w_be21e5d6ad",
+    "nl": "oplossen",
+    "en": "solve",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 8 Jun 2026",
+    "head": "oplossen",
+    "pos": "verb",
+    "infinitive": "oplossen"
+  },
+  {
+    "id": "w_7f29452b83",
+    "nl": "gezamenlijk",
+    "en": "joint / shared",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 8 Jun 2026",
+    "head": "gezamenlijk",
+    "pos": "other"
+  },
+  {
+    "id": "w_57688c6528",
+    "nl": "de huisgenoten",
+    "en": "housemates",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 8 Jun 2026",
+    "head": "de huisgenoten",
+    "pos": "noun",
+    "article": "de",
+    "lemma": "huisgenoten"
+  },
+  {
+    "id": "w_b0ace8f2ae",
+    "nl": "bekijken",
+    "en": "to look at / check (by looking)",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 8 Jun 2026",
+    "head": "bekijken",
+    "pos": "verb",
+    "infinitive": "bekijken"
+  },
+  {
+    "id": "w_4aab28fcff",
+    "nl": "verstonden (verstaan)",
+    "en": "understood (to understand)",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 8 Jun 2026",
+    "head": "verstonden (verstaan)",
+    "pos": "verb",
+    "infinitive": "verstonden"
+  },
+  {
+    "id": "w_005ec9da75",
+    "nl": "ontzettend",
+    "en": "incredibly / really",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 8 Jun 2026",
+    "head": "ontzettend",
+    "pos": "other"
+  },
+  {
+    "id": "w_838a403f34",
+    "nl": "plassen",
+    "en": "to pee",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 8 Jun 2026",
+    "head": "plassen",
+    "pos": "verb",
+    "infinitive": "plassen"
+  },
+  {
+    "id": "w_0383829d47",
+    "nl": "de wijkkrant",
+    "en": "local neighbourhood paper",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 8 Jun 2026",
+    "head": "de wijkkrant",
+    "pos": "noun",
+    "article": "de",
+    "lemma": "wijkkrant"
+  },
+  {
+    "id": "w_af4ba87a3b",
+    "nl": "onverwacht",
+    "en": "unexpected / unexpectedly",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 8 Jun 2026",
+    "head": "onverwacht",
+    "pos": "other"
+  },
+  {
+    "id": "w_b5ec3c4340",
+    "nl": "uitgerust",
+    "en": "well rested",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 8 Jun 2026",
+    "head": "uitgerust",
+    "pos": "other"
+  },
+  {
+    "id": "w_b66a936864",
+    "nl": "wakker liggen",
+    "en": "to lie awake",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 8 Jun 2026",
+    "head": "wakker liggen",
+    "pos": "other"
+  },
+  {
+    "id": "w_a3ba834805",
+    "nl": "het tentamen",
+    "en": "exam (university)",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 8 Jun 2026",
+    "head": "het tentamen",
+    "pos": "noun",
+    "article": "het",
+    "lemma": "tentamen"
+  },
+  {
+    "id": "w_33e98b6372",
+    "nl": "het publiek",
+    "en": "audience / crowd",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 8 Jun 2026",
+    "head": "het publiek",
+    "pos": "noun",
+    "article": "het",
+    "lemma": "publiek"
+  },
+  {
+    "id": "w_073a2ee881",
+    "nl": "openbaar",
+    "en": "public",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 8 Jun 2026",
+    "head": "openbaar",
+    "pos": "other"
+  },
+  {
+    "id": "w_b4111497fe",
+    "nl": "aankomen",
+    "en": "to arrive",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 8 Jun 2026",
+    "head": "aankomen",
+    "pos": "verb",
+    "infinitive": "aankomen"
+  },
+  {
+    "id": "w_820cc3ceda",
+    "nl": "naar huis rijden",
+    "en": "to drive home",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 8 Jun 2026",
+    "head": "naar huis rijden",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_76fe909e76",
+    "nl": "anderhalf",
+    "en": "one and a half",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 8 Jun 2026",
+    "head": "anderhalf",
+    "pos": "other"
+  },
+  {
+    "id": "w_67fba9d88c",
+    "nl": "tientallen",
+    "en": "dozens / tens",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 8 Jun 2026",
+    "head": "tientallen",
+    "pos": "other"
+  },
+  {
+    "id": "w_23a2b4b9d4",
+    "nl": "op kantoor",
+    "en": "at the office",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 8 Jun 2026",
+    "head": "op kantoor",
+    "pos": "other"
+  },
+  {
+    "id": "w_ef187c34fe",
+    "nl": "de duiven",
+    "en": "pigeons",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 8 Jun 2026",
+    "head": "de duiven",
+    "pos": "noun",
+    "article": "de",
+    "lemma": "duiven"
+  },
+  {
+    "id": "w_45cc4f5ad2",
+    "nl": "ineens",
+    "en": "suddenly",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 7 Jun 2026",
+    "head": "ineens",
+    "pos": "other"
+  },
+  {
+    "id": "w_291d056dd5",
+    "nl": "zin hebben (als je geen zin hebt)",
+    "en": "feel like (if you are not feeling like it)",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 7 Jun 2026",
+    "head": "zin hebben (als je geen zin hebt)",
+    "pos": "other"
+  },
+  {
+    "id": "w_c7a75ec554",
+    "nl": "zakken voor",
+    "en": "to fail (an exam)",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 7 Jun 2026",
+    "head": "zakken voor",
+    "pos": "other"
+  },
+  {
+    "id": "w_5b0cd11a05",
+    "nl": "herhalen",
+    "en": "to repeat",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 7 Jun 2026",
+    "head": "herhalen",
+    "pos": "verb",
+    "infinitive": "herhalen"
+  },
+  {
+    "id": "w_daf1dc237f",
+    "nl": "vermijden",
+    "en": "to avoid",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 7 Jun 2026",
+    "head": "vermijden",
+    "pos": "verb",
+    "infinitive": "vermijden"
+  },
+  {
+    "id": "w_420e548300",
+    "nl": "de caissière",
+    "en": "cashier",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 7 Jun 2026",
+    "head": "de caissière",
+    "pos": "noun",
+    "article": "de",
+    "lemma": "caissière"
+  },
+  {
+    "id": "w_f24e983076",
+    "nl": "opgenomen (opnemen)",
+    "en": "recorded (to record)",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 7 Jun 2026",
+    "head": "opgenomen (opnemen)",
+    "pos": "verb",
+    "infinitive": "opgenomen"
+  },
+  {
+    "id": "w_c0d323923b",
+    "nl": "de fout",
+    "en": "mistake",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 7 Jun 2026",
+    "head": "de fout",
+    "pos": "noun",
+    "article": "de",
+    "lemma": "fout"
+  },
+  {
+    "id": "w_7a5231f943",
+    "nl": "verkeerd",
+    "en": "wrong",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 7 Jun 2026",
+    "head": "verkeerd",
+    "pos": "other"
+  },
+  {
+    "id": "w_543c3dc844",
+    "nl": "de verkeerde weg / kant",
+    "en": "the wrong way / side",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 7 Jun 2026",
+    "head": "de verkeerde weg / kant",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_87131fc8e7",
+    "nl": "ik heb een fout gemaakt.",
+    "en": "I made a mistake.",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 7 Jun 2026",
+    "head": "ik heb een fout gemaakt.",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_1f54d6aa76",
+    "nl": "naar een verhaal van",
+    "en": "based on the story by",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 7 Jun 2026",
+    "head": "naar een verhaal van",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_1a45cb914a",
+    "nl": "liever",
+    "en": "rather",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 7 Jun 2026",
+    "head": "liever",
+    "pos": "other"
+  },
+  {
+    "id": "w_5ed81637ab",
+    "nl": "het jeugdsentiment",
+    "en": "childhood nostalgia",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 7 Jun 2026",
+    "head": "het jeugdsentiment",
+    "pos": "noun",
+    "article": "het",
+    "lemma": "jeugdsentiment"
+  },
+  {
+    "id": "w_a156c40cb4",
+    "nl": "de kennissen",
+    "en": "acquaintances",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 4 Jun 2026",
+    "head": "de kennissen",
+    "pos": "noun",
+    "article": "de",
+    "lemma": "kennissen"
+  },
+  {
+    "id": "w_e717d82b33",
+    "nl": "de stemming",
+    "en": "mood / vote",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 4 Jun 2026",
+    "head": "de stemming",
+    "pos": "noun",
+    "article": "de",
+    "lemma": "stemming"
+  },
+  {
+    "id": "w_b9d46a19ed",
+    "nl": "de medereizigers",
+    "en": "fellow travellers",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 4 Jun 2026",
+    "head": "de medereizigers",
+    "pos": "noun",
+    "article": "de",
+    "lemma": "medereizigers"
+  },
+  {
+    "id": "w_97c145b47d",
+    "nl": "afhankelijk van",
+    "en": "dependent on",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 4 Jun 2026",
+    "head": "afhankelijk van",
+    "pos": "other"
+  },
+  {
+    "id": "w_ab23e1cc5c",
+    "nl": "tijdens",
+    "en": "during",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 4 Jun 2026",
+    "head": "tijdens",
+    "pos": "other"
+  },
+  {
+    "id": "w_9545dea933",
+    "nl": "daarbij",
+    "en": "besides / on top of that",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 4 Jun 2026",
+    "head": "daarbij",
+    "pos": "other"
+  },
+  {
+    "id": "w_698fc0da29",
+    "nl": "gewend zijn aan",
+    "en": "to be used to",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 4 Jun 2026",
+    "head": "gewend zijn aan",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_47c26e86ef",
+    "nl": "we waren niet de enigen",
+    "en": "we were not the only ones",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 4 Jun 2026",
+    "head": "we waren niet de enigen",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_99062e1b6c",
+    "nl": "de reisherinnering",
+    "en": "travel memory",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 4 Jun 2026",
+    "head": "de reisherinnering",
+    "pos": "noun",
+    "article": "de",
+    "lemma": "reisherinnering"
+  },
+  {
+    "id": "w_8493cab876",
+    "nl": "de rij",
+    "en": "queue / row",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 4 Jun 2026",
+    "head": "de rij",
+    "pos": "noun",
+    "article": "de",
+    "lemma": "rij"
+  },
+  {
+    "id": "w_1cc899f940",
+    "nl": "van plan zijn",
+    "en": "to intend / plan to",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 4 Jun 2026",
+    "head": "van plan zijn",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_cd51ef88c2",
+    "nl": "de buik",
+    "en": "belly / abdomen",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 4 Jun 2026",
+    "head": "de buik",
+    "pos": "noun",
+    "article": "de",
+    "lemma": "buik"
+  },
+  {
+    "id": "w_e832d5438b",
+    "nl": "de spieren",
+    "en": "muscles",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 4 Jun 2026",
+    "head": "de spieren",
+    "pos": "noun",
+    "article": "de",
+    "lemma": "spieren"
+  },
+  {
+    "id": "w_ca29141f71",
+    "nl": "bang zijn voor",
+    "en": "to be afraid of",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 4 Jun 2026",
+    "head": "bang zijn voor",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_d95b3427c2",
+    "nl": "saai",
+    "en": "boring",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 4 Jun 2026",
+    "head": "saai",
+    "pos": "other"
+  },
+  {
+    "id": "w_84988dc155",
+    "nl": "een deel bekostigen",
+    "en": "to pay for part of it",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 1 Jun 2026",
+    "head": "een deel bekostigen",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_4cf42d96e7",
+    "nl": "hetzelfde / dezelfde",
+    "en": "the same (het-word / de-word)",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 1 Jun 2026",
+    "head": "hetzelfde / dezelfde",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_7340cbd8df",
+    "nl": "gedeeltelijk",
+    "en": "partially",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 1 Jun 2026",
+    "head": "gedeeltelijk",
+    "pos": "other"
+  },
+  {
+    "id": "w_86f2026b45",
+    "nl": "tien à vijftien minuten hiervandaan",
+    "en": "ten to fifteen minutes away",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 1 Jun 2026",
+    "head": "tien à vijftien minuten hiervandaan",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_ef011a8cf7",
+    "nl": "het vliegveld",
+    "en": "airport",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 1 Jun 2026",
+    "head": "het vliegveld",
+    "pos": "noun",
+    "article": "het",
+    "lemma": "vliegveld"
+  },
+  {
+    "id": "w_117a4d2b76",
+    "nl": "de nadelen",
+    "en": "disadvantages",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 1 Jun 2026",
+    "head": "de nadelen",
+    "pos": "noun",
+    "article": "de",
+    "lemma": "nadelen"
+  },
+  {
+    "id": "w_d7f5dfa8b7",
+    "nl": "kost meer tijd",
+    "en": "takes more time",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 1 Jun 2026",
+    "head": "kost meer tijd",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_447e09e12b",
+    "nl": "het openbaar vervoer",
+    "en": "public transport",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 1 Jun 2026",
+    "head": "het openbaar vervoer",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_b147caa380",
+    "nl": "de wei",
+    "en": "meadow / pasture",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 1 Jun 2026",
+    "head": "de wei",
+    "pos": "noun",
+    "article": "de",
+    "lemma": "wei"
+  },
+  {
+    "id": "w_ad71413701",
+    "nl": "het substantief",
+    "en": "noun (grammar term)",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 1 Jun 2026",
+    "head": "het substantief",
+    "pos": "noun",
+    "article": "het",
+    "lemma": "substantief"
+  },
+  {
+    "id": "w_adfe567c70",
+    "nl": "het tegenovergestelde van",
+    "en": "the opposite of",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 1 Jun 2026",
+    "head": "het tegenovergestelde van",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_e2cf614b23",
+    "nl": "als iemand bij ons thuis op bezoek komt",
+    "en": "if someone comes to visit us at home",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 1 Jun 2026",
+    "head": "als iemand bij ons thuis op bezoek komt",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_225f4a98bd",
+    "nl": "geweldig",
+    "en": "great",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 1 Jun 2026",
+    "head": "geweldig",
+    "pos": "other"
+  },
+  {
+    "id": "w_5045038846",
+    "nl": "ontspannen",
+    "en": "to relax",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 1 Jun 2026",
+    "head": "ontspannen",
+    "pos": "verb",
+    "infinitive": "ontspannen"
+  },
+  {
+    "id": "w_f6effb516c",
+    "nl": "ik zwem liever",
+    "en": "I'd rather swim",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 1 Jun 2026",
+    "head": "ik zwem liever",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_ffb29f3f74",
+    "nl": "de documentaires",
+    "en": "documentaries",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 1 Jun 2026",
+    "head": "de documentaires",
+    "pos": "noun",
+    "article": "de",
+    "lemma": "documentaires"
+  },
+  {
+    "id": "w_6acece38bf",
+    "nl": "opschieten",
+    "en": "hurry up",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 1 Jun 2026",
+    "head": "opschieten",
+    "pos": "verb",
+    "infinitive": "opschieten"
+  },
+  {
+    "id": "w_4a4daf1a83",
+    "nl": "klaarmaken",
+    "en": "get ready",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 1 Jun 2026",
+    "head": "klaarmaken",
+    "pos": "verb",
+    "infinitive": "klaarmaken"
+  },
+  {
+    "id": "w_332e85f03a",
+    "nl": "de dader",
+    "en": "culprit / perpetrator",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 22 Jun 2026",
+    "head": "de dader",
+    "pos": "noun",
+    "article": "de",
+    "lemma": "dader"
+  },
+  {
+    "id": "w_b7588b13fd",
+    "nl": "omdat",
+    "en": "because",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 22 Jun 2026",
+    "head": "omdat",
+    "pos": "other",
+    "example": "Ik blijf thuis, omdat ik ziek ben."
+  },
+  {
+    "id": "w_1f9783fcc9",
+    "nl": "doordat",
+    "en": "because (of a cause)",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 22 Jun 2026",
+    "head": "doordat",
+    "pos": "other",
+    "example": "De weg is glad, doordat het vriest."
+  },
+  {
+    "id": "w_8ebdfad61d",
+    "nl": "hoewel",
+    "en": "although",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 22 Jun 2026",
+    "head": "hoewel",
+    "pos": "other",
+    "example": "Hoewel het regent, ga ik naar buiten."
+  },
+  {
+    "id": "w_8badda47a5",
+    "nl": "terwijl",
+    "en": "while",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 22 Jun 2026",
+    "head": "terwijl",
+    "pos": "other",
+    "example": "Ik kook, terwijl hij opruimt."
+  },
+  {
+    "id": "w_20172561bc",
+    "nl": "tenzij",
+    "en": "unless",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 22 Jun 2026",
+    "head": "tenzij",
+    "pos": "other",
+    "example": "Ik kom, tenzij ik moe ben."
+  },
+  {
+    "id": "w_25379a28f0",
+    "nl": "zodat",
+    "en": "so that",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 22 Jun 2026",
+    "head": "zodat",
+    "pos": "other",
+    "example": "Ik schrijf het op, zodat ik het niet vergeet."
+  },
+  {
+    "id": "w_c03a5690e9",
+    "nl": "zodra",
+    "en": "as soon as",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 22 Jun 2026",
+    "head": "zodra",
+    "pos": "other",
+    "example": "Zodra ik thuis ben, bel ik je."
+  },
+  {
+    "id": "w_70a528c5f1",
+    "nl": "als",
+    "en": "if / when",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 22 Jun 2026",
+    "head": "als",
+    "pos": "other",
+    "example": "Als het mooi weer is, gaan we fietsen."
+  },
+  {
+    "id": "w_2efd79ffef",
+    "nl": "toen",
+    "en": "when (about the past)",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 22 Jun 2026",
+    "head": "toen",
+    "pos": "verb",
+    "infinitive": "toen",
+    "example": "Toen ik klein was, woonde ik in Utrecht."
+  },
+  {
+    "id": "w_e9ead8414d",
+    "nl": "wanneer",
+    "en": "when",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 22 Jun 2026",
+    "head": "wanneer",
+    "pos": "other",
+    "example": "Ik weet niet wanneer de trein vertrekt."
+  },
+  {
+    "id": "w_fdc74054a1",
+    "nl": "dat",
+    "en": "that",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 22 Jun 2026",
+    "head": "dat",
+    "pos": "other",
+    "example": "Ik denk dat het goed komt."
+  },
+  {
+    "id": "w_3eee414197",
+    "nl": "voordat",
+    "en": "before",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 22 Jun 2026",
+    "head": "voordat",
+    "pos": "other",
+    "example": "Was je handen, voordat je eet."
+  },
+  {
+    "id": "w_aa5b8efb94",
+    "nl": "nadat",
+    "en": "after",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 22 Jun 2026",
+    "head": "nadat",
+    "pos": "other",
+    "example": "Nadat ik gegeten heb, ga ik wandelen."
+  },
+  {
+    "id": "w_79310c8df7",
+    "nl": "sinds",
+    "en": "since",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 22 Jun 2026",
+    "head": "sinds",
+    "pos": "other",
+    "example": "Sinds ik hier woon, fiets ik veel."
+  },
+  {
+    "id": "w_b1426ac3dc",
+    "nl": "totdat",
+    "en": "until",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 22 Jun 2026",
+    "head": "totdat",
+    "pos": "other",
+    "example": "Ik wacht, totdat je klaar bent."
+  },
+  {
+    "id": "w_9048ca51ca",
+    "nl": "zoals",
+    "en": "as / like",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 22 Jun 2026",
+    "head": "zoals",
+    "pos": "other",
+    "example": "Doe het zoals ik het je uitleg."
+  },
+  {
+    "id": "w_7878443d55",
+    "nl": "mits",
+    "en": "provided that (formal)",
+    "topic": "notitieboek-2026-06",
+    "source": "Notitieboek — 22 Jun 2026",
+    "head": "mits",
+    "pos": "other",
+    "example": "Je slaagt, mits je hard werkt."
+  }
+]

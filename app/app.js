@@ -95,6 +95,31 @@ function allWords({ topics = null, includeCustom = true } = {}) {
   return out;
 }
 function allVerbs() { return DATA.verbs.irregular || []; }
+
+// Chip label + ordering for the wordlist filters. Course lists (woordenlijst-N)
+// come first in numeric order — a plain .sort() put WL 9 after WL 14 — then the
+// notebook lists, newest month first.
+const MONTH_NAMES = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+function wordlistLabel(key) {
+  const wl = key.match(/^woordenlijst-(\d+)$/);
+  if (wl) return 'WL ' + wl[1];
+  const nb = key.match(/^notitieboek-(\d{4})-(\d{2})$/);
+  if (nb) return 'Notitieboek ' + MONTH_NAMES[+nb[2] - 1] + ' ' + nb[1];
+  return key;
+}
+function wordlistSortKey(key) {
+  const wl = key.match(/^woordenlijst-(\d+)$/);
+  if (wl) return [0, +wl[1]];
+  const nb = key.match(/^notitieboek-(\d{4})-(\d{2})$/);
+  if (nb) return [1, +nb[1] * 12 + +nb[2]];
+  return [2, 0];
+}
+function wordlistKeys() {
+  return Object.keys(DATA.words).sort((a, b) => {
+    const [ga, na] = wordlistSortKey(a), [gb, nb] = wordlistSortKey(b);
+    return ga - gb || na - nb || a.localeCompare(b);
+  });
+}
 function allSentences({ tags = null, includeCustom = true } = {}) {
   let out = (DATA.sentences || []).slice();
   if (includeCustom) out = out.concat(state.custom.sentences || []);
@@ -174,9 +199,9 @@ route('home', (main) => {
     'Filters: Flashcards, Translate (vocab part), De-het, Make a sentence. Leave empty for all.'));
   const wlRow = el('div', { class: 'row' });
   const wlSelected = new Set();
-  for (const key of Object.keys(DATA.words).sort()) {
+  for (const key of wordlistKeys()) {
     const count = DATA.words[key].length;
-    const c = el('span', { class: 'chip', onclick: () => { c.classList.toggle('on'); wlSelected.has(key) ? wlSelected.delete(key) : wlSelected.add(key); } }, `${key.replace('woordenlijst-', 'WL ')} (${count})`);
+    const c = el('span', { class: 'chip', onclick: () => { c.classList.toggle('on'); wlSelected.has(key) ? wlSelected.delete(key) : wlSelected.add(key); } }, `${wordlistLabel(key)} (${count})`);
     wlRow.append(c);
   }
   filterCard.append(wlRow);
@@ -226,14 +251,14 @@ route('home', (main) => {
   // Mastery breakdown by topic
   const masteryCard = el('div', { class: 'card' });
   masteryCard.append(el('h2', {}, 'Mastery by wordlist'));
-  for (const key of Object.keys(DATA.words).sort()) {
+  for (const key of wordlistKeys()) {
     const list = DATA.words[key];
     const seen = list.filter(w => state.srs[w.id]).length;
     const mas = list.filter(w => state.srs[w.id] && state.srs[w.id].box >= 4).length;
     const pct = list.length ? Math.round(100 * mas / list.length) : 0;
     const row = el('div', { style: { margin: '8px 0' } }, [
       el('div', { class: 'progress' }, [
-        el('div', { style: { width: '120px' } }, key.replace('woordenlijst-', 'WL ')),
+        el('div', { style: { width: '120px' } }, wordlistLabel(key)),
         el('div', { class: 'bar' }, [el('div', { style: { width: pct + '%' } })]),
         el('div', {}, `${mas}/${list.length} • seen ${seen}`),
       ]),
@@ -354,7 +379,7 @@ function runTranslate(main, items, direction) {
     main.append(fb);
     const submit = () => {
       const ans = input.value;
-      const acceptable = expandAcceptable(answerText);
+      const acceptable = acceptableAnswers(promptText, answerText, direction);
       const ok = acceptable.some(a => normalize(a) === normalize(ans));
       const close = !ok && acceptable.some(a => editDist(normalize(a), normalize(ans)) <= 2);
       srsRecord(w.id, ok);
@@ -379,8 +404,59 @@ function runTranslate(main, items, direction) {
   next();
 }
 function expandAcceptable(s) {
-  // Split on " / " or "," and accept any.
-  return s.split(/\s*\/\s*|,\s+/).map(x => x.trim()).filter(Boolean);
+  // Split on " / " or "," and accept any of the alternatives.
+  const parts = (s || '').split(/\s*\/\s*|,\s+/).map(x => x.trim()).filter(Boolean);
+  const out = new Set(parts);
+  for (const p of parts) {
+    // Many entries carry a parenthetical: the lemma behind an inflected form
+    // ("geprobeerd (proberen)"), a gender or number hint ("neighbour (f)"), or a
+    // usage note ("open (de huid kapot krabben = …)"). Typing just the headword —
+    // or just the lemma — has to count as correct.
+    const stripped = p.replace(/\([^)]*\)/g, ' ').replace(/\s+/g, ' ').trim();
+    if (stripped) out.add(stripped);
+    for (const m of p.matchAll(/\(([^)]*)\)/g)) {
+      const inner = m[1].trim();
+      // Only offer the parenthetical itself when it reads like a word or lemma,
+      // not when it's a full usage note.
+      if (inner && inner.split(/\s+/).length <= 2 && !/[=…]/.test(inner)) out.add(inner);
+    }
+  }
+  return [...out].filter(Boolean);
+}
+
+// Index every translation the dataset records for a given headword, in both
+// directions. Two lists can gloss the same Dutch word differently ("kapot" is
+// "broken" in WL 10 and "open" in WL 9); without this, whichever card came up
+// graded the other list's answer as a miss.
+let _synonymIndex = null;
+function synonymIndex() {
+  if (_synonymIndex) return _synonymIndex;
+  const nl2en = new Map(), en2nl = new Map();
+  const add = (map, k, v) => {
+    const key = normalize(k);
+    if (!key) return;
+    if (!map.has(key)) map.set(key, new Set());
+    for (const alt of expandAcceptable(v)) map.get(key).add(alt);
+  };
+  const pairs = [];
+  for (const w of allWords({})) if (w.nl && w.en) pairs.push([w.nl, w.en]);
+  for (const sc of (DATA.conversational || [])) if (sc.nl && sc.en) pairs.push([sc.nl, sc.en]);
+  for (const t of allGrammarTopics()) {
+    for (const ex of (t.examples || [])) if (ex.nl && ex.en) pairs.push([ex.nl, ex.en]);
+  }
+  for (const [nl, en] of pairs) { add(nl2en, nl, en); add(en2nl, en, nl); }
+  _synonymIndex = { nl2en, en2nl };
+  return _synonymIndex;
+}
+
+// Answers acceptable for `answerText` when the user was shown `promptText`.
+// direction 'en-nl' means the prompt was English and the answer is Dutch.
+function acceptableAnswers(promptText, answerText, direction) {
+  const out = new Set(expandAcceptable(answerText));
+  const idx = synonymIndex();
+  const fromPrompt = (direction === 'en-nl' ? idx.en2nl : idx.nl2en).get(normalize(promptText));
+  if (fromPrompt) for (const a of fromPrompt) out.add(a);
+  return [...out];
 }
 function editDist(a, b) {
   const m = a.length, n = b.length;

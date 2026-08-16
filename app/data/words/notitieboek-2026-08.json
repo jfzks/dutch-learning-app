@@ -1,0 +1,796 @@
+[
+  {
+    "id": "w_e767a46fbc",
+    "nl": "opvallende uitschieters",
+    "en": "notable outliers / standouts",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 14 Aug 2026",
+    "head": "opvallende uitschieters",
+    "pos": "other"
+  },
+  {
+    "id": "w_47656766fc",
+    "nl": "bescheiden",
+    "en": "modest",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 14 Aug 2026",
+    "head": "bescheiden",
+    "pos": "verb",
+    "infinitive": "bescheiden"
+  },
+  {
+    "id": "w_adc0d9cec5",
+    "nl": "de kunst",
+    "en": "art",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 14 Aug 2026",
+    "head": "de kunst",
+    "pos": "noun",
+    "article": "de",
+    "lemma": "kunst"
+  },
+  {
+    "id": "w_b20cb973ac",
+    "nl": "de kunst van het lachen",
+    "en": "the art of laughing",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 14 Aug 2026",
+    "head": "de kunst van het lachen",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_d820e83d6c",
+    "nl": "aandacht besteden aan",
+    "en": "to pay attention to",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 14 Aug 2026",
+    "head": "aandacht besteden aan",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_b15fe3a78c",
+    "nl": "dat blijkt uit het onderzoek",
+    "en": "the research shows that",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 14 Aug 2026",
+    "head": "dat blijkt uit het onderzoek",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_cf881157df",
+    "nl": "dat blijkt uit de cijfers",
+    "en": "the numbers show that",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 14 Aug 2026",
+    "head": "dat blijkt uit de cijfers",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_b47c90172d",
+    "nl": "ik schrijf mijn gedachten op",
+    "en": "I write down my thoughts",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 14 Aug 2026",
+    "head": "ik schrijf mijn gedachten op",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_fd9bd5be96",
+    "nl": "mijn collega vertelde dat hij zijn vriendin ten huwelijk heeft gevraagd",
+    "en": "my colleague said he proposed to his girlfriend",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 14 Aug 2026",
+    "head": "mijn collega vertelde dat hij zijn vriendin ten huwelijk heeft gevraagd",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_e3cd5d9fd4",
+    "nl": "een doel voor ogen hebben",
+    "en": "to have a goal in mind",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "een doel voor ogen hebben",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_3013816118",
+    "nl": "het eetpatroon",
+    "en": "eating pattern",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "het eetpatroon",
+    "pos": "noun",
+    "article": "het",
+    "lemma": "eetpatroon"
+  },
+  {
+    "id": "w_f2998474a9",
+    "nl": "de eetgewoonten",
+    "en": "eating habits",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "de eetgewoonten",
+    "pos": "noun",
+    "article": "de",
+    "lemma": "eetgewoonten"
+  },
+  {
+    "id": "w_3ccc2dd89a",
+    "nl": "het voedsel",
+    "en": "food",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "het voedsel",
+    "pos": "noun",
+    "article": "het",
+    "lemma": "voedsel"
+  },
+  {
+    "id": "w_805a90ab5a",
+    "nl": "de bladgroenten",
+    "en": "leaf vegetables",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "de bladgroenten",
+    "pos": "noun",
+    "article": "de",
+    "lemma": "bladgroenten"
+  },
+  {
+    "id": "w_53b8ec27a0",
+    "nl": "behoren",
+    "en": "to belong to (formal)",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "behoren",
+    "pos": "verb",
+    "infinitive": "behoren"
+  },
+  {
+    "id": "w_2a0f1f547f",
+    "nl": "kenmerken",
+    "en": "characteristics / features / traits",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "kenmerken",
+    "pos": "verb",
+    "infinitive": "kenmerken"
+  },
+  {
+    "id": "w_d77a6a14a6",
+    "nl": "matig",
+    "en": "moderate / mediocre",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "matig",
+    "pos": "other"
+  },
+  {
+    "id": "w_00da9ce3a1",
+    "nl": "matige drinker",
+    "en": "moderate drinker",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "matige drinker",
+    "pos": "other"
+  },
+  {
+    "id": "w_f88471d869",
+    "nl": "met mate",
+    "en": "in moderation",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "met mate",
+    "pos": "other"
+  },
+  {
+    "id": "w_76cddec951",
+    "nl": "bij voorkeur",
+    "en": "preferably",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "bij voorkeur",
+    "pos": "other"
+  },
+  {
+    "id": "w_6e9e4e78f7",
+    "nl": "het geloof",
+    "en": "belief / faith",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "het geloof",
+    "pos": "noun",
+    "article": "het",
+    "lemma": "geloof"
+  },
+  {
+    "id": "w_8e6e0ec45d",
+    "nl": "belijden",
+    "en": "to profess (a faith)",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "belijden",
+    "pos": "verb",
+    "infinitive": "belijden"
+  },
+  {
+    "id": "w_912ac617d5",
+    "nl": "het maakt niet uit",
+    "en": "it does not matter",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "het maakt niet uit",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_1a5ba5c38d",
+    "nl": "lijkt niet uit te maken",
+    "en": "it doesn't seem to matter",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "lijkt niet uit te maken",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_2a7aeb9fca",
+    "nl": "uitmaken",
+    "en": "to break up",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "uitmaken",
+    "pos": "verb",
+    "infinitive": "uitmaken"
+  },
+  {
+    "id": "w_ae55d294f9",
+    "nl": "zij hebben het uitgemaakt",
+    "en": "they broke up",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "zij hebben het uitgemaakt",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_e9836adbab",
+    "nl": "afhangen van",
+    "en": "to depend on",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "afhangen van",
+    "pos": "other"
+  },
+  {
+    "id": "w_ab0dd6b491",
+    "nl": "de geliefde",
+    "en": "loved one / partner",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "de geliefde",
+    "pos": "noun",
+    "article": "de",
+    "lemma": "geliefde"
+  },
+  {
+    "id": "w_6d39d90419",
+    "nl": "de levensstijl / de leefstijl",
+    "en": "lifestyle",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "de levensstijl / de leefstijl",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_c72848a501",
+    "nl": "manier van leven",
+    "en": "way of living",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "manier van leven",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_da6ed135e4",
+    "nl": "lief",
+    "en": "dear/ sweet",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "lief",
+    "pos": "other"
+  },
+  {
+    "id": "w_d30a922318",
+    "nl": "liefde",
+    "en": "love",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "liefde",
+    "pos": "other"
+  },
+  {
+    "id": "w_6bd65744c3",
+    "nl": "liefhebben",
+    "en": "to love",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "liefhebben",
+    "pos": "verb",
+    "infinitive": "liefhebben"
+  },
+  {
+    "id": "w_2d28b348ba",
+    "nl": "verliefd (ik ben verliefd)",
+    "en": "in love",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "verliefd (ik ben verliefd)",
+    "pos": "other"
+  },
+  {
+    "id": "w_6bfb93d4fb",
+    "nl": "in huis nemen",
+    "en": "to take someone into your home",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "in huis nemen",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_4a33a4e523",
+    "nl": "hechten aan",
+    "en": "to attach value to",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "hechten aan",
+    "pos": "other"
+  },
+  {
+    "id": "w_1fa60a72b7",
+    "nl": "de waarde",
+    "en": "value",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "de waarde",
+    "pos": "noun",
+    "article": "de",
+    "lemma": "waarde"
+  },
+  {
+    "id": "w_cf428d11cc",
+    "nl": "verwennen",
+    "en": "to spoil",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "verwennen",
+    "pos": "verb",
+    "infinitive": "verwennen"
+  },
+  {
+    "id": "w_c9e87b03cd",
+    "nl": "zich houden aan",
+    "en": "to adhere to",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "zich houden aan",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_dfb7b7b2f5",
+    "nl": "schelen",
+    "en": "to save (money) / to make a difference",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "schelen",
+    "pos": "verb",
+    "infinitive": "schelen"
+  },
+  {
+    "id": "w_eddce4256e",
+    "nl": "de schappen",
+    "en": "shelves",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "de schappen",
+    "pos": "noun",
+    "article": "de",
+    "lemma": "schappen"
+  },
+  {
+    "id": "w_43539401e8",
+    "nl": "de omgeving",
+    "en": "environment / surroundings",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "de omgeving",
+    "pos": "noun",
+    "article": "de",
+    "lemma": "omgeving"
+  },
+  {
+    "id": "w_d447b13d83",
+    "nl": "Klinkt te mooi om waar te zijn",
+    "en": "Sounds too good to be true",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "Klinkt te mooi om waar te zijn",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_76cfc6e9e7",
+    "nl": "de gebieden",
+    "en": "areas / fields",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "de gebieden",
+    "pos": "noun",
+    "article": "de",
+    "lemma": "gebieden"
+  },
+  {
+    "id": "w_c59ffa6461",
+    "nl": "gemeen",
+    "en": "mean / nasty (of a person)",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "gemeen",
+    "pos": "verb",
+    "infinitive": "gemeen"
+  },
+  {
+    "id": "w_13925ccc23",
+    "nl": "gemeen hebben",
+    "en": "have in common",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "gemeen hebben",
+    "pos": "other"
+  },
+  {
+    "id": "w_209fd50d07",
+    "nl": "wat betreft",
+    "en": "as regards / when it comes to",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "wat betreft",
+    "pos": "other"
+  },
+  {
+    "id": "w_7529fe7533",
+    "nl": "de bevolking",
+    "en": "population",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "de bevolking",
+    "pos": "noun",
+    "article": "de",
+    "lemma": "bevolking"
+  },
+  {
+    "id": "w_a06c590bbd",
+    "nl": "voortdurend",
+    "en": "constantly",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "voortdurend",
+    "pos": "other"
+  },
+  {
+    "id": "w_358f6d48cb",
+    "nl": "aanzetten tot",
+    "en": "to prompt / encourage (someone to do something)",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "aanzetten tot",
+    "pos": "other"
+  },
+  {
+    "id": "w_6ed61e599f",
+    "nl": "wel te verstaan",
+    "en": "so to speak",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "wel te verstaan",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_8fe499525d",
+    "nl": "het doel",
+    "en": "goal / aim",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "het doel",
+    "pos": "noun",
+    "article": "het",
+    "lemma": "doel"
+  },
+  {
+    "id": "w_7a72378471",
+    "nl": "nastreven",
+    "en": "to pursue / work towards",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "nastreven",
+    "pos": "verb",
+    "infinitive": "nastreven"
+  },
+  {
+    "id": "w_8ab33ecfc7",
+    "nl": "streven",
+    "en": "striving",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "streven",
+    "pos": "verb",
+    "infinitive": "streven"
+  },
+  {
+    "id": "w_4aa9aa1aa1",
+    "nl": "een versnelling terugschakelen",
+    "en": "to shift down a gear / take it easier",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "een versnelling terugschakelen",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_e4e8e10583",
+    "nl": "vreten",
+    "en": "to devour / eat (of animals)",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "vreten",
+    "pos": "verb",
+    "infinitive": "vreten"
+  },
+  {
+    "id": "w_36469d5ede",
+    "nl": "energie vreten",
+    "en": "to eat up energy",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "energie vreten",
+    "pos": "other"
+  },
+  {
+    "id": "w_2c9e1a7b33",
+    "nl": "gebrek aan",
+    "en": "lack of",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "gebrek aan",
+    "pos": "other"
+  },
+  {
+    "id": "w_00b673e0d7",
+    "nl": "gebrek aan tijd",
+    "en": "lack of time",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "gebrek aan tijd",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_5d2a8c91fb",
+    "nl": "de gezondheidsklachten",
+    "en": "health complaints",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "de gezondheidsklachten",
+    "pos": "noun",
+    "article": "de",
+    "lemma": "gezondheidsklachten"
+  },
+  {
+    "id": "w_4e171ba085",
+    "nl": "afschudden",
+    "en": "shake off",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "afschudden",
+    "pos": "verb",
+    "infinitive": "afschudden"
+  },
+  {
+    "id": "w_932b4d32f5",
+    "nl": "een dutje doen",
+    "en": "to take a nap",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "een dutje doen",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_a7d3820417",
+    "nl": "bidden",
+    "en": "pray",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "bidden",
+    "pos": "verb",
+    "infinitive": "bidden"
+  },
+  {
+    "id": "w_db76490e17",
+    "nl": "hanteren",
+    "en": "to use / handle / apply",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "hanteren",
+    "pos": "verb",
+    "infinitive": "hanteren"
+  },
+  {
+    "id": "w_b02392dbd5",
+    "nl": "de maag",
+    "en": "stomach (the organ)",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "de maag",
+    "pos": "noun",
+    "article": "de",
+    "lemma": "maag"
+  },
+  {
+    "id": "w_0b2f18c250",
+    "nl": "de opvatting",
+    "en": "view / opinion",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "de opvatting",
+    "pos": "noun",
+    "article": "de",
+    "lemma": "opvatting"
+  },
+  {
+    "id": "w_be289f1027",
+    "nl": "verliezen",
+    "en": "lose",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "verliezen",
+    "pos": "verb",
+    "infinitive": "verliezen"
+  },
+  {
+    "id": "w_0ef034932a",
+    "nl": "dik",
+    "en": "fat / thick",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "dik",
+    "pos": "other"
+  },
+  {
+    "id": "w_a9c9371c9f",
+    "nl": "gelijkgestemde mensen",
+    "en": "likeminded people",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "gelijkgestemde mensen",
+    "pos": "other"
+  },
+  {
+    "id": "w_382abe97e6",
+    "nl": "het ritje",
+    "en": "ride / short trip",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "het ritje",
+    "pos": "noun",
+    "article": "het",
+    "lemma": "ritje"
+  },
+  {
+    "id": "w_cbe0c5b8f4",
+    "nl": "in plaats daarvan",
+    "en": "instead of that",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "in plaats daarvan",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_4837c9ef2c",
+    "nl": "de aantekeningen",
+    "en": "notes",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 6 Aug 2026",
+    "head": "de aantekeningen",
+    "pos": "noun",
+    "article": "de",
+    "lemma": "aantekeningen"
+  },
+  {
+    "id": "w_44d76e68d7",
+    "nl": "zenuwachtig",
+    "en": "nervous",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 6 Aug 2026",
+    "head": "zenuwachtig",
+    "pos": "other"
+  },
+  {
+    "id": "w_9bca15c907",
+    "nl": "tevreden",
+    "en": "satisfied / content",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 6 Aug 2026",
+    "head": "tevreden",
+    "pos": "verb",
+    "infinitive": "tevreden"
+  },
+  {
+    "id": "w_aa6b59e8ab",
+    "nl": "onderhandelen",
+    "en": "to negotiate",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 6 Aug 2026",
+    "head": "onderhandelen",
+    "pos": "verb",
+    "infinitive": "onderhandelen"
+  },
+  {
+    "id": "w_424a08d510",
+    "nl": "kwijtraken",
+    "en": "to lose (e.g. a package)",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 3 Aug 2026",
+    "head": "kwijtraken",
+    "pos": "verb",
+    "infinitive": "kwijtraken"
+  },
+  {
+    "id": "w_69c719528c",
+    "nl": "uitkijken naar",
+    "en": "look forward to",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 3 Aug 2026",
+    "head": "uitkijken naar",
+    "pos": "other"
+  },
+  {
+    "id": "w_14e7ca9b80",
+    "nl": "oppassen",
+    "en": "to babysit / watch out",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 3 Aug 2026",
+    "head": "oppassen",
+    "pos": "verb",
+    "infinitive": "oppassen"
+  },
+  {
+    "id": "w_8ccb69b147",
+    "nl": "op vakantie gaan",
+    "en": "to go on holiday",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 3 Aug 2026",
+    "head": "op vakantie gaan",
+    "pos": "phrase"
+  },
+  {
+    "id": "w_bfd9b07b4b",
+    "nl": "hen",
+    "en": "them",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "hen",
+    "pos": "other"
+  },
+  {
+    "id": "w_d082e9dfe8",
+    "nl": "hun",
+    "en": "their",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "hun",
+    "pos": "other"
+  },
+  {
+    "id": "w_deaaf9dbee",
+    "nl": "ze",
+    "en": "they",
+    "topic": "notitieboek-2026-08",
+    "source": "Notitieboek — 12 Aug 2026",
+    "head": "ze",
+    "pos": "other"
+  }
+]

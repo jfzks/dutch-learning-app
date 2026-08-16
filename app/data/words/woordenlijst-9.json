@@ -252,12 +252,14 @@
   },
   {
     "id": "w_86fc89b32e",
-    "nl": "het",
-    "en": "wedstrijdje",
+    "nl": "het wedstrijdje",
+    "en": "match / game (little)",
     "topic": "woordenlijst-9",
     "source": "NIG Woordenlijst 9",
-    "pos": "other",
-    "head": "het"
+    "pos": "noun",
+    "head": "het wedstrijdje",
+    "article": "het",
+    "lemma": "wedstrijdje"
   },
   {
     "id": "w_398e6d45c9",
@@ -502,7 +504,7 @@
   {
     "id": "w_bc8455647e",
     "nl": "kapot",
-    "en": "open",
+    "en": "open (de huid kapot krabben = to scratch the skin open)",
     "topic": "woordenlijst-9",
     "source": "NIG Woordenlijst 9",
     "pos": "other",

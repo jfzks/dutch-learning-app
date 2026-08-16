@@ -2,7 +2,7 @@
 import re, json, hashlib
 from pathlib import Path
 
-ROOT = Path("/Users/janosfazekas/Desktop/Dutch - learnings")
+ROOT = Path(__file__).resolve().parent.parent
 RAW = ROOT / "extraction" / "raw"
 OUT = ROOT / "app" / "data" / "sentences.json"
 
