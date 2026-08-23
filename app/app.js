@@ -95,6 +95,15 @@ function allWords({ topics = null, includeCustom = true } = {}) {
   return out;
 }
 function allVerbs() { return DATA.verbs.irregular || []; }
+
+// Chip / progress-row label for a wordlist key: "woordenlijst-9" → "WL 9",
+// "lesson-2026-08-23" → "Les 23 Aug".
+const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+function wordlistLabel(key) {
+  const m = /^lesson-(\d{4})-(\d{2})-(\d{2})$/.exec(key);
+  if (m) return `Les ${Number(m[3])} ${MONTHS[Number(m[2]) - 1]}`;
+  return key.replace('woordenlijst-', 'WL ');
+}
 function allSentences({ tags = null, includeCustom = true } = {}) {
   let out = (DATA.sentences || []).slice();
   if (includeCustom) out = out.concat(state.custom.sentences || []);
@@ -176,7 +185,7 @@ route('home', (main) => {
   const wlSelected = new Set();
   for (const key of Object.keys(DATA.words).sort()) {
     const count = DATA.words[key].length;
-    const c = el('span', { class: 'chip', onclick: () => { c.classList.toggle('on'); wlSelected.has(key) ? wlSelected.delete(key) : wlSelected.add(key); } }, `${key.replace('woordenlijst-', 'WL ')} (${count})`);
+    const c = el('span', { class: 'chip', onclick: () => { c.classList.toggle('on'); wlSelected.has(key) ? wlSelected.delete(key) : wlSelected.add(key); } }, `${wordlistLabel(key)} (${count})`);
     wlRow.append(c);
   }
   filterCard.append(wlRow);
@@ -233,7 +242,7 @@ route('home', (main) => {
     const pct = list.length ? Math.round(100 * mas / list.length) : 0;
     const row = el('div', { style: { margin: '8px 0' } }, [
       el('div', { class: 'progress' }, [
-        el('div', { style: { width: '120px' } }, key.replace('woordenlijst-', 'WL ')),
+        el('div', { style: { width: '120px' } }, wordlistLabel(key)),
         el('div', { class: 'bar' }, [el('div', { style: { width: pct + '%' } })]),
         el('div', {}, `${mas}/${list.length} • seen ${seen}`),
       ]),

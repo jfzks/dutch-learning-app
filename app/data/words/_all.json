@@ -50,39 +50,36 @@
   },
   {
     "id": "w_7ff0581d97",
-    "nl": "bultjes (de bult)",
-    "en": "lumps",
+    "nl": "de bult",
+    "en": "lump",
     "topic": "woordenlijst-9",
     "source": "NIG Woordenlijst 9",
     "pos": "noun",
     "head": "bultjes",
     "article": "de",
-    "lemma": "bult",
-    "plural": "bultjes"
+    "lemma": "bult"
   },
   {
     "id": "w_65a728b735",
-    "nl": "armen (de arm)",
-    "en": "arms",
+    "nl": "de arm",
+    "en": "arm",
     "topic": "woordenlijst-9",
     "source": "NIG Woordenlijst 9",
     "pos": "noun",
     "head": "armen",
     "article": "de",
-    "lemma": "arm",
-    "plural": "armen"
+    "lemma": "arm"
   },
   {
     "id": "w_33a72bce12",
-    "nl": "benen (het been)",
-    "en": "legs",
+    "nl": "het been",
+    "en": "leg",
     "topic": "woordenlijst-9",
     "source": "NIG Woordenlijst 9",
     "pos": "noun",
     "head": "benen",
     "article": "het",
-    "lemma": "been",
-    "plural": "benen"
+    "lemma": "been"
   },
   {
     "id": "w_edce3dbc91",
@@ -211,15 +208,14 @@
   },
   {
     "id": "w_6e12e12f75",
-    "nl": "klanten (de klant)",
-    "en": "clients",
+    "nl": "de klant",
+    "en": "client",
     "topic": "woordenlijst-9",
     "source": "NIG Woordenlijst 9",
     "pos": "noun",
     "head": "klanten",
     "article": "de",
-    "lemma": "klant",
-    "plural": "klanten"
+    "lemma": "klant"
   },
   {
     "id": "w_91b67411c8",
@@ -358,15 +354,14 @@
   },
   {
     "id": "w_b110af95fa",
-    "nl": "emmers (de emmer)",
-    "en": "buckets",
+    "nl": "de emmer",
+    "en": "bucket",
     "topic": "woordenlijst-9",
     "source": "NIG Woordenlijst 9",
     "pos": "noun",
     "head": "emmers",
     "article": "de",
-    "lemma": "emmer",
-    "plural": "emmers"
+    "lemma": "emmer"
   },
   {
     "id": "w_1a947a5250",
@@ -388,15 +383,14 @@
   },
   {
     "id": "w_ad87f01d5f",
-    "nl": "klachten (de klacht)",
-    "en": "complaints",
+    "nl": "de klacht",
+    "en": "complaint",
     "topic": "woordenlijst-9",
     "source": "NIG Woordenlijst 9",
     "pos": "noun",
     "head": "klachten",
     "article": "de",
-    "lemma": "klacht",
-    "plural": "klachten"
+    "lemma": "klacht"
   },
   {
     "id": "w_bc32ad343e",
@@ -779,7 +773,7 @@
   {
     "id": "w_2883c21a95",
     "nl": "zo’n",
-    "en": "such a",
+    "en": "such a / such an (e.g. zo'n leuk boek = such a nice book)",
     "topic": "woordenlijst-10",
     "source": "NIG Woordenlijst 10",
     "pos": "other",
@@ -840,15 +834,14 @@
   },
   {
     "id": "w_f3477d4fef",
-    "nl": "banden (de band)",
-    "en": "tyres",
+    "nl": "de band",
+    "en": "tyre",
     "topic": "woordenlijst-10",
     "source": "NIG Woordenlijst 10",
     "pos": "noun",
     "head": "banden",
     "article": "de",
-    "lemma": "band",
-    "plural": "banden"
+    "lemma": "band"
   },
   {
     "id": "w_6be5d1023a",
@@ -892,15 +885,14 @@
   },
   {
     "id": "w_e7ec0f66e5",
-    "nl": "remmen (de rem)",
-    "en": "brakes",
+    "nl": "de rem",
+    "en": "brake",
     "topic": "woordenlijst-10",
     "source": "NIG Woordenlijst 10",
     "pos": "noun",
     "head": "remmen",
     "article": "de",
-    "lemma": "rem",
-    "plural": "remmen"
+    "lemma": "rem"
   },
   {
     "id": "w_a98a0322d5",
@@ -924,15 +916,6 @@
     "infinitive": "controleren"
   },
   {
-    "id": "w_925530c64c",
-    "nl": "in",
-    "en": "orde maken fix",
-    "topic": "woordenlijst-10",
-    "source": "NIG Woordenlijst 10",
-    "pos": "other",
-    "head": "in"
-  },
-  {
     "id": "w_5f417ba973",
     "nl": "leer (leren)",
     "en": "learn",
@@ -945,15 +928,14 @@
   },
   {
     "id": "w_0b9161d31c",
-    "nl": "uitdrukkingen (de uitdrukking)",
+    "nl": "de uitdrukking",
     "en": "expression",
     "topic": "woordenlijst-10",
     "source": "NIG Woordenlijst 10",
     "pos": "noun",
     "head": "uitdrukkingen",
     "article": "de",
-    "lemma": "uitdrukking",
-    "plural": "uitdrukkingen"
+    "lemma": "uitdrukking"
   },
   {
     "id": "w_1f57533271",
@@ -1863,7 +1845,7 @@
   {
     "id": "w_1d2a1257d1",
     "nl": "te",
-    "en": "too",
+    "en": "too (intensifier, e.g. te koud = too cold)",
     "topic": "woordenlijst-12",
     "source": "NIG Woordenlijst 12",
     "pos": "other",
@@ -2128,15 +2110,14 @@
   },
   {
     "id": "w_ebd56ee5dc",
-    "nl": "toiletten (het toilet)",
-    "en": "toilets",
+    "nl": "het toilet",
+    "en": "toilet",
     "topic": "woordenlijst-12",
     "source": "NIG Woordenlijst 12",
     "pos": "noun",
     "head": "toiletten",
     "article": "het",
-    "lemma": "toilet",
-    "plural": "toiletten"
+    "lemma": "toilet"
   },
   {
     "id": "w_20fcc8121b",
@@ -2202,15 +2183,14 @@
   },
   {
     "id": "w_825e12bcd3",
-    "nl": "bordjes (het bordje)",
-    "en": "signs",
+    "nl": "het bordje",
+    "en": "sign",
     "topic": "woordenlijst-12",
     "source": "NIG Woordenlijst 12",
     "pos": "noun",
     "head": "bordjes",
     "article": "het",
-    "lemma": "bordje",
-    "plural": "bordjes"
+    "lemma": "bordje"
   },
   {
     "id": "w_80ab3ee0b3",
@@ -2524,15 +2504,14 @@
   },
   {
     "id": "w_dc4c5a4c8e",
-    "nl": "bonbons (de bonbon)",
-    "en": "chocolates",
+    "nl": "de bonbon",
+    "en": "chocolate",
     "topic": "woordenlijst-13",
     "source": "NIG Woordenlijst 13",
     "pos": "noun",
     "head": "bonbons",
     "article": "de",
-    "lemma": "bonbon",
-    "plural": "bonbons"
+    "lemma": "bonbon"
   },
   {
     "id": "w_fee7606cc5",
@@ -2547,15 +2526,14 @@
   },
   {
     "id": "w_9fc334df96",
-    "nl": "bloemen (de bloem)",
-    "en": "flowers",
+    "nl": "de bloem",
+    "en": "flower",
     "topic": "woordenlijst-13",
     "source": "NIG Woordenlijst 13",
     "pos": "noun",
     "head": "bloemen",
     "article": "de",
-    "lemma": "bloem",
-    "plural": "bloemen"
+    "lemma": "bloem"
   },
   {
     "id": "w_c253042377",
@@ -2610,15 +2588,14 @@
   },
   {
     "id": "w_e17f41d93a",
-    "nl": "dieren (het dier)",
-    "en": "animals",
+    "nl": "het dier",
+    "en": "animal",
     "topic": "woordenlijst-13",
     "source": "NIG Woordenlijst 13",
     "pos": "noun",
     "head": "dieren",
     "article": "het",
-    "lemma": "dier",
-    "plural": "dieren"
+    "lemma": "dier"
   },
   {
     "id": "w_020b49e07c",
@@ -2633,27 +2610,25 @@
   },
   {
     "id": "w_040c5e6124",
-    "nl": "katten (de kat)",
-    "en": "cats",
+    "nl": "de kat",
+    "en": "cat",
     "topic": "woordenlijst-13",
     "source": "NIG Woordenlijst 13",
     "pos": "noun",
     "head": "katten",
     "article": "de",
-    "lemma": "kat",
-    "plural": "katten"
+    "lemma": "kat"
   },
   {
     "id": "w_8be1d9d18f",
-    "nl": "vissen (de vis)",
+    "nl": "de vis",
     "en": "fish",
     "topic": "woordenlijst-13",
     "source": "NIG Woordenlijst 13",
     "pos": "noun",
     "head": "vissen",
     "article": "de",
-    "lemma": "vis",
-    "plural": "vissen"
+    "lemma": "vis"
   },
   {
     "id": "w_42447d5800",
@@ -2800,15 +2775,14 @@
   },
   {
     "id": "w_fd06a83e1c",
-    "nl": "jongen (het jong)",
-    "en": "litter",
+    "nl": "het jong",
+    "en": "young (cub)",
     "topic": "woordenlijst-13",
     "source": "NIG Woordenlijst 13",
     "pos": "noun",
     "head": "jongen",
     "article": "het",
-    "lemma": "jong",
-    "plural": "jongen"
+    "lemma": "jong"
   },
   {
     "id": "w_27545d8ac8",
@@ -2951,15 +2925,14 @@
   },
   {
     "id": "w_27f94a081f",
-    "nl": "mensen (de mens)",
-    "en": "people (person)",
+    "nl": "de mens",
+    "en": "person",
     "topic": "woordenlijst-14",
     "source": "NIG Woordenlijst 14",
     "pos": "noun",
     "head": "mensen",
     "article": "de",
-    "lemma": "mens",
-    "plural": "mensen"
+    "lemma": "mens"
   },
   {
     "id": "w_b6027ad79b",
@@ -3139,15 +3112,14 @@
   },
   {
     "id": "w_1e96889c12",
-    "nl": "spieren (de spier)",
-    "en": "muscles",
+    "nl": "de spier",
+    "en": "muscle",
     "topic": "woordenlijst-14",
     "source": "NIG Woordenlijst 14",
     "pos": "noun",
     "head": "spieren",
     "article": "de",
-    "lemma": "spier",
-    "plural": "spieren"
+    "lemma": "spier"
   },
   {
     "id": "w_7f17dbc68e",
@@ -3182,15 +3154,14 @@
   },
   {
     "id": "w_6636b3508a",
-    "nl": "doelen (het doel)",
-    "en": "goals, targets",
+    "nl": "het doel",
+    "en": "goal, target",
     "topic": "woordenlijst-14",
     "source": "NIG Woordenlijst 14",
     "pos": "noun",
     "head": "doelen",
     "article": "het",
-    "lemma": "doel",
-    "plural": "doelen"
+    "lemma": "doel"
   },
   {
     "id": "w_bf566e7622",
@@ -3566,15 +3537,14 @@
   },
   {
     "id": "w_61b45e3991",
-    "nl": "energiedrankjes (het energiedrankje)",
-    "en": "energy drinks",
+    "nl": "het energiedrankje",
+    "en": "energy drink",
     "topic": "woordenlijst-14",
     "source": "NIG Woordenlijst 14",
     "pos": "noun",
     "head": "energiedrankjes",
     "article": "het",
-    "lemma": "energiedrankje",
-    "plural": "energiedrankjes"
+    "lemma": "energiedrankje"
   },
   {
     "id": "w_8fe47b96ec",
@@ -3704,5 +3674,454 @@
     "topic": "woordenlijst-14",
     "source": "NIG Woordenlijst 14",
     "id": "w_8e0333606e"
+  },
+  {
+    "id": "w_1194c0a713",
+    "nl": "ze wisten het al",
+    "en": "they already knew",
+    "topic": "lesson-2026-08-17",
+    "source": "Lesson notes 2026-08-17",
+    "pos": "phrase",
+    "head": "ze wisten het al"
+  },
+  {
+    "id": "w_3a712a9ca7",
+    "nl": "plaatsvinden",
+    "en": "take place / happen",
+    "topic": "lesson-2026-08-17",
+    "source": "Lesson notes 2026-08-17",
+    "pos": "verb",
+    "head": "plaatsvinden",
+    "infinitive": "plaatsvinden"
+  },
+  {
+    "id": "w_248b4a7780",
+    "nl": "rijden op",
+    "en": "to ride (on)",
+    "topic": "lesson-2026-08-17",
+    "source": "Lesson notes 2026-08-17",
+    "pos": "verb",
+    "head": "rijden op",
+    "infinitive": "rijden"
+  },
+  {
+    "id": "w_a19274aa2e",
+    "nl": "inmiddels",
+    "en": "by now",
+    "topic": "lesson-2026-08-17",
+    "source": "Lesson notes 2026-08-17",
+    "pos": "other",
+    "head": "inmiddels"
+  },
+  {
+    "id": "w_873f8ba6dc",
+    "nl": "vertrekken",
+    "en": "to leave / to depart",
+    "topic": "lesson-2026-08-17",
+    "source": "Lesson notes 2026-08-17",
+    "pos": "verb",
+    "head": "vertrekken",
+    "infinitive": "vertrekken"
+  },
+  {
+    "id": "w_6c75c45bcb",
+    "nl": "uitgaan",
+    "en": "to go out / to party",
+    "topic": "lesson-2026-08-17",
+    "source": "Lesson notes 2026-08-17",
+    "pos": "verb",
+    "head": "uitgaan",
+    "infinitive": "uitgaan"
+  },
+  {
+    "id": "w_304fb6b694",
+    "nl": "ze volgen de regels niet",
+    "en": "they don't follow the rules",
+    "topic": "lesson-2026-08-17",
+    "source": "Lesson notes 2026-08-17",
+    "pos": "phrase",
+    "head": "ze volgen de regels niet"
+  },
+  {
+    "id": "w_7e8a3d8ff2",
+    "nl": "afstandelijker",
+    "en": "more distant / more aloof",
+    "topic": "lesson-2026-08-17",
+    "source": "Lesson notes 2026-08-17",
+    "pos": "other",
+    "head": "afstandelijker"
+  },
+  {
+    "id": "w_6ee8c74f16",
+    "nl": "echter",
+    "en": "however",
+    "topic": "lesson-2026-08-17",
+    "source": "Lesson notes 2026-08-17",
+    "pos": "other",
+    "head": "echter"
+  },
+  {
+    "id": "w_13d653f9ab",
+    "nl": "het uitwisselingsprogramma",
+    "en": "exchange programme",
+    "topic": "lesson-2026-08-17",
+    "source": "Lesson notes 2026-08-17",
+    "pos": "noun",
+    "head": "het uitwisselingsprogramma",
+    "article": "het",
+    "lemma": "uitwisselingsprogramma"
+  },
+  {
+    "id": "w_134ca0f710",
+    "nl": "behoorlijk vaak",
+    "en": "quite often",
+    "topic": "lesson-2026-08-17",
+    "source": "Lesson notes 2026-08-17",
+    "pos": "phrase",
+    "head": "behoorlijk vaak"
+  },
+  {
+    "id": "w_832c8b35ed",
+    "nl": "het heimwee",
+    "en": "homesickness",
+    "topic": "lesson-2026-08-17",
+    "source": "Lesson notes 2026-08-17",
+    "pos": "noun",
+    "head": "het heimwee",
+    "article": "het",
+    "lemma": "heimwee"
+  },
+  {
+    "id": "w_69fa729b47",
+    "nl": "tegelijkertijd",
+    "en": "at the same time",
+    "topic": "lesson-2026-08-17",
+    "source": "Lesson notes 2026-08-17",
+    "pos": "other",
+    "head": "tegelijkertijd"
+  },
+  {
+    "id": "w_1430ae47a7",
+    "nl": "de familieomstandigheden",
+    "en": "family circumstances",
+    "topic": "lesson-2026-08-17",
+    "source": "Lesson notes 2026-08-17",
+    "pos": "noun",
+    "head": "de familieomstandigheden",
+    "article": "de",
+    "lemma": "familieomstandigheden"
+  },
+  {
+    "id": "w_3899444294",
+    "nl": "levendig",
+    "en": "lively",
+    "topic": "lesson-2026-08-17",
+    "source": "Lesson notes 2026-08-17",
+    "pos": "other",
+    "head": "levendig"
+  },
+  {
+    "id": "w_0fb4dd6589",
+    "nl": "de hondenuitlaatservice",
+    "en": "dog walking service",
+    "topic": "lesson-2026-08-17",
+    "source": "Lesson notes 2026-08-17",
+    "pos": "noun",
+    "head": "de hondenuitlaatservice",
+    "article": "de",
+    "lemma": "hondenuitlaatservice"
+  },
+  {
+    "id": "w_910b8a7c0e",
+    "nl": "zo veel mogelijk",
+    "en": "as much as possible",
+    "topic": "lesson-2026-08-17",
+    "source": "Lesson notes 2026-08-17",
+    "pos": "phrase",
+    "head": "zo veel mogelijk"
+  },
+  {
+    "id": "w_1eefafd38d",
+    "nl": "in de armen vallen",
+    "en": "to give a hug",
+    "topic": "lesson-2026-08-17",
+    "source": "Lesson notes 2026-08-17",
+    "pos": "phrase",
+    "head": "in de armen vallen"
+  },
+  {
+    "id": "w_6102223685",
+    "nl": "last hebben van",
+    "en": "to be bothered by",
+    "topic": "lesson-2026-08-17",
+    "source": "Lesson notes 2026-08-17",
+    "pos": "phrase",
+    "head": "last hebben van"
+  },
+  {
+    "id": "w_323617522a",
+    "nl": "de sociale samenleving",
+    "en": "social society",
+    "topic": "lesson-2026-08-17",
+    "source": "Lesson notes 2026-08-17",
+    "pos": "noun",
+    "head": "de sociale samenleving",
+    "article": "de",
+    "lemma": "sociale samenleving"
+  },
+  {
+    "id": "w_b85f775445",
+    "nl": "snikheet",
+    "en": "boiling hot",
+    "topic": "lesson-2026-08-17",
+    "source": "Lesson notes 2026-08-17",
+    "pos": "other",
+    "head": "snikheet"
+  },
+  {
+    "id": "w_55eb0edcbf",
+    "nl": "kroegen (de kroeg)",
+    "en": "pubs",
+    "topic": "lesson-2026-08-17",
+    "source": "Lesson notes 2026-08-17",
+    "pos": "noun",
+    "head": "de kroeg",
+    "article": "de",
+    "lemma": "kroeg",
+    "plural": "kroegen"
+  },
+  {
+    "id": "w_0809fc3254",
+    "nl": "richtingen (de richting)",
+    "en": "directions",
+    "topic": "lesson-2026-08-17",
+    "source": "Lesson notes 2026-08-17",
+    "pos": "noun",
+    "head": "de richting",
+    "article": "de",
+    "lemma": "richting",
+    "plural": "richtingen"
+  },
+  {
+    "id": "w_b1c51ba919",
+    "nl": "wensen (de wens)",
+    "en": "wishes",
+    "topic": "lesson-2026-08-17",
+    "source": "Lesson notes 2026-08-17",
+    "pos": "noun",
+    "head": "de wens",
+    "article": "de",
+    "lemma": "wens",
+    "plural": "wensen"
+  },
+  {
+    "id": "w_77564b0160",
+    "nl": "zich afvragen",
+    "en": "to wonder",
+    "topic": "lesson-2026-08-17",
+    "source": "Lesson notes 2026-08-17",
+    "pos": "verb",
+    "head": "zich afvragen",
+    "infinitive": "afvragen",
+    "reflexive": true
+  },
+  {
+    "id": "w_a52a311394",
+    "nl": "eenvoudig",
+    "en": "simple / easy",
+    "topic": "lesson-2026-08-17",
+    "source": "Lesson notes 2026-08-17",
+    "pos": "other",
+    "head": "eenvoudig"
+  },
+  {
+    "id": "w_75afd4ad68",
+    "nl": "verslavend",
+    "en": "addictive",
+    "topic": "lesson-2026-08-17",
+    "source": "Lesson notes 2026-08-17",
+    "pos": "other",
+    "head": "verslavend"
+  },
+  {
+    "id": "w_435c752456",
+    "nl": "merken (het merk)",
+    "en": "brands",
+    "topic": "lesson-2026-08-17",
+    "source": "Lesson notes 2026-08-17",
+    "pos": "noun",
+    "head": "het merk",
+    "article": "het",
+    "lemma": "merk",
+    "plural": "merken"
+  },
+  {
+    "id": "w_26b11e1954",
+    "nl": "de gelegenheid",
+    "en": "occasion",
+    "topic": "lesson-2026-08-23",
+    "source": "Lesson notes 2026-08-23",
+    "pos": "noun",
+    "head": "de gelegenheid",
+    "article": "de",
+    "lemma": "gelegenheid"
+  },
+  {
+    "id": "w_f4dafe6279",
+    "nl": "de krans",
+    "en": "wreath (crown-like thing)",
+    "topic": "lesson-2026-08-23",
+    "source": "Lesson notes 2026-08-23",
+    "pos": "noun",
+    "head": "de krans",
+    "article": "de",
+    "lemma": "krans"
+  },
+  {
+    "id": "w_491f672e91",
+    "nl": "de bloemenkrans",
+    "en": "flower wreath",
+    "topic": "lesson-2026-08-23",
+    "source": "Lesson notes 2026-08-23",
+    "pos": "noun",
+    "head": "de bloemenkrans",
+    "article": "de",
+    "lemma": "bloemenkrans"
+  },
+  {
+    "id": "w_974a47cb20",
+    "nl": "de meiboom",
+    "en": "maypole",
+    "topic": "lesson-2026-08-23",
+    "source": "Lesson notes 2026-08-23",
+    "pos": "noun",
+    "head": "de meiboom",
+    "article": "de",
+    "lemma": "meiboom"
+  },
+  {
+    "id": "w_86176bfed6",
+    "nl": "knapperig",
+    "en": "crispy",
+    "topic": "lesson-2026-08-23",
+    "source": "Lesson notes 2026-08-23",
+    "pos": "other",
+    "head": "knapperig"
+  },
+  {
+    "id": "w_b4d4b338fe",
+    "nl": "plaatselijk",
+    "en": "local",
+    "topic": "lesson-2026-08-23",
+    "source": "Lesson notes 2026-08-23",
+    "pos": "other",
+    "head": "plaatselijk"
+  },
+  {
+    "id": "w_3ae4e35711",
+    "nl": "gepekeld",
+    "en": "pickled (brined)",
+    "topic": "lesson-2026-08-23",
+    "source": "Lesson notes 2026-08-23",
+    "pos": "other",
+    "head": "gepekeld"
+  },
+  {
+    "id": "w_cca29dba47",
+    "nl": "terecht kunnen bij",
+    "en": "can go to / can turn to",
+    "topic": "lesson-2026-08-23",
+    "source": "Lesson notes 2026-08-23",
+    "pos": "phrase",
+    "head": "terecht kunnen bij"
+  },
+  {
+    "id": "w_1ca91010a6",
+    "nl": "met z'n twintigen",
+    "en": "with about twenty people",
+    "topic": "lesson-2026-08-23",
+    "source": "Lesson notes 2026-08-23",
+    "pos": "phrase",
+    "head": "met z'n twintigen"
+  },
+  {
+    "id": "w_8b50f7aebc",
+    "nl": "allerleukste",
+    "en": "very nicest / absolute favourite",
+    "topic": "lesson-2026-08-23",
+    "source": "Lesson notes 2026-08-23",
+    "pos": "other",
+    "head": "allerleukste"
+  },
+  {
+    "id": "w_c32afb76ff",
+    "nl": "de voormalige overheid",
+    "en": "the former government",
+    "topic": "lesson-2026-08-23",
+    "source": "Lesson notes 2026-08-23",
+    "pos": "phrase",
+    "head": "de voormalige overheid",
+    "article": "de",
+    "lemma": "voormalige overheid"
+  },
+  {
+    "id": "w_ed0d7d8816",
+    "nl": "stelen",
+    "en": "to steal",
+    "topic": "lesson-2026-08-23",
+    "source": "Lesson notes 2026-08-23",
+    "pos": "verb",
+    "head": "stelen",
+    "infinitive": "stelen"
+  },
+  {
+    "id": "w_77939d851f",
+    "nl": "vergelijkbaar",
+    "en": "similar / comparable",
+    "topic": "lesson-2026-08-23",
+    "source": "Lesson notes 2026-08-23",
+    "pos": "other",
+    "head": "vergelijkbaar"
+  },
+  {
+    "id": "w_b4ec55b85b",
+    "nl": "klagen over",
+    "en": "to complain about",
+    "topic": "lesson-2026-08-23",
+    "source": "Lesson notes 2026-08-23",
+    "pos": "verb",
+    "head": "klagen over",
+    "infinitive": "klagen"
+  },
+  {
+    "id": "w_c502e00822",
+    "nl": "de kakker",
+    "en": "posh person / snob",
+    "topic": "lesson-2026-08-23",
+    "source": "Lesson notes 2026-08-23",
+    "pos": "noun",
+    "head": "de kakker",
+    "article": "de",
+    "lemma": "kakker"
+  },
+  {
+    "id": "w_fe8264cf3a",
+    "nl": "aan de beurt zijn",
+    "en": "to be somebody's turn",
+    "topic": "lesson-2026-08-23",
+    "source": "Lesson notes 2026-08-23",
+    "pos": "phrase",
+    "head": "aan de beurt zijn"
+  },
+  {
+    "id": "w_985f4940fb",
+    "nl": "het college",
+    "en": "lecture",
+    "topic": "lesson-2026-08-23",
+    "source": "Lesson notes 2026-08-23",
+    "pos": "noun",
+    "head": "het college",
+    "article": "het",
+    "lemma": "college"
   }
 ]

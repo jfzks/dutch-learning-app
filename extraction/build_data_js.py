@@ -3,7 +3,7 @@ from file:// without fetch()."""
 import json
 from pathlib import Path
 
-ROOT = Path("/Users/janosfazekas/Desktop/Dutch - learnings")
+ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "app" / "data"
 OUT = ROOT / "app" / "data.js"
 
