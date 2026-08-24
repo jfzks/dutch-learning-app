@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Dutch — learning tool</title>
+  <title>Dutch — flashcards</title>
 
   <!-- PWA / iOS home-screen support -->
   <link rel="manifest" href="manifest.json">
@@ -14,23 +14,15 @@
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
 
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=8">
 </head>
 <body>
   <header>
-    <h1><span class="flag">🇳🇱</span> Dutch — learning tool</h1>
-    <nav>
-      <button data-page="home"     onclick="go('home')">Home</button>
-      <button data-page="grammar"  onclick="go('grammar')">Grammar</button>
-      <button data-page="verbs"    onclick="go('verbs')">Verbs</button>
-      <button data-page="add"      onclick="go('add')">Add</button>
-      <button data-page="flags"    onclick="go('flags')">🚩 Flags</button>
-      <button data-page="settings" onclick="go('settings')">Backup</button>
-    </nav>
+    <h1><span class="flag">🇳🇱</span> Dutch flashcards</h1>
   </header>
   <main id="main"></main>
-  <script src="data.js?v=7"></script>
-  <script src="app.js?v=7"></script>
+  <script src="data.js?v=8"></script>
+  <script src="app.js?v=8"></script>
   <script>
     // Register the service worker so the app works offline once installed.
     if ('serviceWorker' in navigator) {
