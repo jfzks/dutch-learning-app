@@ -1,8 +1,15 @@
-// Dutch learning tool — minimal service worker.
-// Strategy: cache-first for app shell, network-first for everything else.
-// Bump CACHE_NAME whenever app shell files change so old caches get evicted.
+// Dutch flashcards — service worker.
+//
+// Strategy:
+//   - Navigations / HTML  → network-first (fall back to cache when offline).
+//     This is what stops an old app version from being pinned forever: the
+//     page is always re-fetched when online, so a fresh deploy shows up on the
+//     next load instead of being served from a stale cache.
+//   - Versioned static assets (?v=N) and other GETs → cache-first (fast; the
+//     ?v query busts them on each release).
+// Bump CACHE_NAME whenever the app shell changes so old caches are evicted.
 
-const CACHE_NAME = 'dutch-app-2026-08-24-v8';
+const CACHE_NAME = 'dutch-app-2026-08-24-v9';
 const APP_SHELL = [
   './',
   './index.html',
@@ -15,14 +22,14 @@ const APP_SHELL = [
   './icons/apple-touch-icon.png',
 ];
 
-// On install: pre-cache the app shell so the app boots offline immediately.
+// On install: pre-cache the app shell, then activate immediately.
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => cache.addAll(APP_SHELL)).then(() => self.skipWaiting())
   );
 });
 
-// On activate: drop any old caches that don't match the current name.
+// On activate: drop any old caches and take control of open pages at once.
 self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches.keys().then((keys) =>
@@ -31,28 +38,36 @@ self.addEventListener('activate', (event) => {
   );
 });
 
-// Fetch: try cache first, then network. Cache successful network responses for next time.
 self.addEventListener('fetch', (event) => {
   const req = event.request;
-  // Only handle same-origin GET requests; skip everything else (e.g. speech synthesis, analytics).
   if (req.method !== 'GET') return;
   const url = new URL(req.url);
   if (url.origin !== self.location.origin) return;
 
+  // Network-first for page navigations so new deploys are picked up promptly.
+  if (req.mode === 'navigate') {
+    event.respondWith(
+      fetch(req)
+        .then((res) => {
+          const copy = res.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put('./index.html', copy));
+          return res;
+        })
+        .catch(() => caches.match(req).then((c) => c || caches.match('./index.html')))
+    );
+    return;
+  }
+
+  // Cache-first for everything else (assets are versioned via ?v=N).
   event.respondWith(
     caches.match(req).then((cached) => {
       if (cached) return cached;
       return fetch(req).then((res) => {
-        // Only cache valid 200 responses
         if (res && res.status === 200 && res.type === 'basic') {
           const copy = res.clone();
           caches.open(CACHE_NAME).then((cache) => cache.put(req, copy));
         }
         return res;
-      }).catch(() => {
-        // Offline & not cached — fall back to index.html for navigations
-        if (req.mode === 'navigate') return caches.match('./index.html');
-        return Response.error();
       });
     })
   );

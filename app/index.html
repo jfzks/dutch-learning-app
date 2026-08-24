@@ -25,7 +25,19 @@
   <script src="app.js?v=8"></script>
   <script>
     // Register the service worker so the app works offline once installed.
+    // When a new worker takes control (a fresh deploy), reload once so the
+    // page swaps to the new version instead of needing a manual double-refresh.
     if ('serviceWorker' in navigator) {
+      // Only auto-reload when an *existing* controller is replaced by a new
+      // one (a deploy). On the first-ever visit the controller starts null and
+      // clients.claim() fires controllerchange too — don't reload for that.
+      const hadController = !!navigator.serviceWorker.controller;
+      let reloading = false;
+      navigator.serviceWorker.addEventListener('controllerchange', () => {
+        if (!hadController || reloading) return;
+        reloading = true;
+        window.location.reload();
+      });
       window.addEventListener('load', () => {
         navigator.serviceWorker.register('./sw.js').catch(err => console.warn('SW failed:', err));
       });
