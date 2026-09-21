@@ -112,9 +112,11 @@
         el('div', { class: 'form-label' }, 'Article'),
         el('div', { class: 'form-value' }, [el('span', { class: 'article' }, f.article), ' ' + word.dutch]),
       ]));
+      // Uncountable nouns carry "—" as their plural in the data.
       block.append(el('div', { class: 'form-row' }, [
         el('div', { class: 'form-label' }, 'Plural'),
-        el('div', { class: 'form-value' }, `de ${f.plural}`),
+        el('div', { class: 'form-value' },
+          f.plural === '—' ? el('span', { class: 'muted' }, 'no plural (uncountable)') : `de ${f.plural}`),
       ]));
     } else if (word.type === 'adjective') {
       block.append(el('div', { class: 'form-row' }, [

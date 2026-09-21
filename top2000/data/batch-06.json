@@ -1,0 +1,873 @@
+{
+  "batch": 6,
+  "range": [501, 600],
+  "title": "Words 501–600",
+  "words": [
+    {
+      "rank": 501,
+      "dutch": "omlaag",
+      "english": "down, downwards",
+      "type": "other",
+      "example": { "nl": "De prijzen gaan omlaag.", "en": "Prices are going down." }
+    },
+    {
+      "rank": 502,
+      "dutch": "vlakbij",
+      "english": "right near",
+      "type": "other",
+      "example": { "nl": "Ik woon vlakbij de markt.", "en": "I live right by the market." }
+    },
+    {
+      "rank": 503,
+      "dutch": "breed",
+      "english": "wide, broad",
+      "type": "adjective",
+      "forms": {
+        "inflected": "brede",
+        "examples": ["een brede straat", "een breed bed"]
+      },
+      "example": { "nl": "De gracht is hier breed.", "en": "The canal is wide here." }
+    },
+    {
+      "rank": 504,
+      "dutch": "smal",
+      "english": "narrow",
+      "type": "adjective",
+      "forms": {
+        "inflected": "smalle",
+        "examples": ["een smalle straat", "een smal huis"]
+      },
+      "example": { "nl": "De Amsterdamse huizen zijn smal.", "en": "Amsterdam houses are narrow." }
+    },
+    {
+      "rank": 505,
+      "dutch": "diep",
+      "english": "deep",
+      "type": "adjective",
+      "forms": {
+        "inflected": "diepe",
+        "examples": ["een diepe sloot", "een diep gat"]
+      },
+      "example": { "nl": "Het water is hier diep.", "en": "The water is deep here." }
+    },
+    {
+      "rank": 506,
+      "dutch": "plat",
+      "english": "flat",
+      "type": "adjective",
+      "forms": {
+        "inflected": "platte",
+        "examples": ["een platte band", "een plat dak"]
+      },
+      "example": { "nl": "Nederland is heel plat.", "en": "The Netherlands is very flat." }
+    },
+    {
+      "rank": 507,
+      "dutch": "modern",
+      "english": "modern",
+      "type": "adjective",
+      "forms": {
+        "inflected": "moderne",
+        "examples": ["een moderne keuken", "een modern gebouw"]
+      },
+      "example": { "nl": "Het museum ziet er modern uit.", "en": "The museum looks modern." }
+    },
+    {
+      "rank": 508,
+      "dutch": "kapot",
+      "english": "broken",
+      "type": "adjective",
+      "forms": {
+        "inflected": "kapotte",
+        "examples": ["een kapotte fiets", "een kapot raam"]
+      },
+      "example": { "nl": "Mijn telefoon is kapot.", "en": "My phone is broken." }
+    },
+    {
+      "rank": 509,
+      "dutch": "dicht",
+      "english": "closed; dense",
+      "type": "adjective",
+      "forms": {
+        "inflected": "dichte",
+        "examples": ["een dichte deur", "een dicht bos"]
+      },
+      "example": { "nl": "De winkel is al dicht.", "en": "The shop is already closed." }
+    },
+    {
+      "rank": 510,
+      "dutch": "stil",
+      "english": "quiet, silent",
+      "type": "adjective",
+      "forms": {
+        "inflected": "stille",
+        "examples": ["een stille straat", "een stil dorp"]
+      },
+      "example": { "nl": "Het is hier heerlijk stil.", "en": "It's wonderfully quiet here." }
+    },
+    {
+      "rank": 511,
+      "dutch": "veilig",
+      "english": "safe",
+      "type": "adjective",
+      "forms": {
+        "inflected": "veilige",
+        "examples": ["een veilige plek", "een veilig gevoel"]
+      },
+      "example": { "nl": "Fietsen is hier veilig.", "en": "Cycling is safe here." }
+    },
+    {
+      "rank": 512,
+      "dutch": "gevaarlijk",
+      "english": "dangerous",
+      "type": "adjective",
+      "forms": {
+        "inflected": "gevaarlijke",
+        "examples": ["een gevaarlijke kruising", "een gevaarlijk idee"]
+      },
+      "example": { "nl": "Dat is een gevaarlijke bocht.", "en": "That's a dangerous bend." }
+    },
+    {
+      "rank": 513,
+      "dutch": "nul",
+      "english": "zero",
+      "type": "other",
+      "example": { "nl": "Het is nul graden.", "en": "It's zero degrees." }
+    },
+    {
+      "rank": 514,
+      "dutch": "één",
+      "english": "one",
+      "type": "other",
+      "note": "Written with accents when it's the number, to tell it from the article 'een'.",
+      "example": { "nl": "Ik heb er maar één.", "en": "I only have one." }
+    },
+    {
+      "rank": 515,
+      "dutch": "twee",
+      "english": "two",
+      "type": "other",
+      "example": { "nl": "Wij hebben twee kinderen.", "en": "We have two children." }
+    },
+    {
+      "rank": 516,
+      "dutch": "drie",
+      "english": "three",
+      "type": "other",
+      "example": { "nl": "Over drie dagen ben ik terug.", "en": "I'll be back in three days." }
+    },
+    {
+      "rank": 517,
+      "dutch": "vier",
+      "english": "four",
+      "type": "other",
+      "example": { "nl": "De les duurt vier uur.", "en": "The lesson lasts four hours." }
+    },
+    {
+      "rank": 518,
+      "dutch": "vijf",
+      "english": "five",
+      "type": "other",
+      "note": "Dutch clock times count from the half hour: half acht = 7:30.",
+      "example": { "nl": "Het is vijf over half acht.", "en": "It's twenty-five to eight." }
+    },
+    {
+      "rank": 519,
+      "dutch": "zes",
+      "english": "six",
+      "type": "other",
+      "example": { "nl": "We eten om zes uur.", "en": "We eat at six." }
+    },
+    {
+      "rank": 520,
+      "dutch": "zeven",
+      "english": "seven",
+      "type": "other",
+      "example": { "nl": "De winkel opent om zeven uur.", "en": "The shop opens at seven." }
+    },
+    {
+      "rank": 521,
+      "dutch": "acht",
+      "english": "eight",
+      "type": "other",
+      "example": { "nl": "Ik begin om acht uur.", "en": "I start at eight." }
+    },
+    {
+      "rank": 522,
+      "dutch": "negen",
+      "english": "nine",
+      "type": "other",
+      "example": { "nl": "Negen van de tien mensen fietsen hier.", "en": "Nine out of ten people cycle here." }
+    },
+    {
+      "rank": 523,
+      "dutch": "tien",
+      "english": "ten",
+      "type": "other",
+      "example": { "nl": "Het kost tien euro.", "en": "It costs ten euros." }
+    },
+    {
+      "rank": 524,
+      "dutch": "elf",
+      "english": "eleven",
+      "type": "other",
+      "example": { "nl": "De trein vertrekt om elf uur.", "en": "The train leaves at eleven." }
+    },
+    {
+      "rank": 525,
+      "dutch": "twaalf",
+      "english": "twelve",
+      "type": "other",
+      "example": { "nl": "Om twaalf uur is het middag.", "en": "At twelve it's midday." }
+    },
+    {
+      "rank": 526,
+      "dutch": "twintig",
+      "english": "twenty",
+      "type": "other",
+      "note": "13–19 add -tien: dertien, veertien … negentien.",
+      "example": { "nl": "Ik ben twintig minuten onderweg.", "en": "I'm twenty minutes on the way." }
+    },
+    {
+      "rank": 527,
+      "dutch": "dertig",
+      "english": "thirty",
+      "type": "other",
+      "note": "The tens run dertig, veertig, vijftig, zestig, zeventig, tachtig, negentig.",
+      "example": { "nl": "Hij is dertig jaar oud.", "en": "He's thirty years old." }
+    },
+    {
+      "rank": 528,
+      "dutch": "veertig",
+      "english": "forty",
+      "type": "other",
+      "example": { "nl": "De snelheid hier is veertig kilometer per uur.", "en": "The speed limit here is forty kilometres an hour." }
+    },
+    {
+      "rank": 529,
+      "dutch": "vijftig",
+      "english": "fifty",
+      "type": "other",
+      "example": { "nl": "Er waren vijftig mensen.", "en": "There were fifty people." }
+    },
+    {
+      "rank": 530,
+      "dutch": "honderd",
+      "english": "hundred",
+      "type": "other",
+      "example": { "nl": "Het boek heeft honderd bladzijden.", "en": "The book has a hundred pages." }
+    },
+    {
+      "rank": 531,
+      "dutch": "duizend",
+      "english": "thousand",
+      "type": "other",
+      "example": { "nl": "De stad heeft tienduizend inwoners.", "en": "The town has ten thousand inhabitants." }
+    },
+    {
+      "rank": 532,
+      "dutch": "miljoen",
+      "english": "million",
+      "type": "other",
+      "example": { "nl": "Amsterdam heeft bijna een miljoen inwoners.", "en": "Amsterdam has almost a million inhabitants." }
+    },
+    {
+      "rank": 533,
+      "dutch": "eerste",
+      "english": "first",
+      "type": "other",
+      "example": { "nl": "Dit is mijn eerste keer in Nederland.", "en": "This is my first time in the Netherlands." }
+    },
+    {
+      "rank": 534,
+      "dutch": "tweede",
+      "english": "second",
+      "type": "other",
+      "example": { "nl": "Zij woont op de tweede verdieping.", "en": "She lives on the second floor." }
+    },
+    {
+      "rank": 535,
+      "dutch": "derde",
+      "english": "third",
+      "type": "other",
+      "example": { "nl": "Neem de derde straat rechts.", "en": "Take the third street on the right." }
+    },
+    {
+      "rank": 536,
+      "dutch": "laatste",
+      "english": "last",
+      "type": "other",
+      "example": { "nl": "Dit is de laatste bus.", "en": "This is the last bus." }
+    },
+    {
+      "rank": 537,
+      "dutch": "volgende",
+      "english": "next",
+      "type": "other",
+      "example": { "nl": "Volgende week heb ik vakantie.", "en": "Next week I'm on holiday." }
+    },
+    {
+      "rank": 538,
+      "dutch": "vorige",
+      "english": "previous, last",
+      "type": "other",
+      "example": { "nl": "Vorige maand was het veel warmer.", "en": "Last month it was much warmer." }
+    },
+    {
+      "rank": 539,
+      "dutch": "half",
+      "english": "half",
+      "type": "other",
+      "note": "Careful: half negen means 8:30 — halfway to nine.",
+      "example": { "nl": "Het is half negen.", "en": "It's half past eight." }
+    },
+    {
+      "rank": 540,
+      "dutch": "maandag",
+      "english": "Monday",
+      "type": "noun",
+      "note": "Days are lower case in Dutch.",
+      "forms": {
+        "article": "de",
+        "plural": "maandagen"
+      },
+      "example": { "nl": "Op maandag werk ik thuis.", "en": "On Mondays I work from home." }
+    },
+    {
+      "rank": 541,
+      "dutch": "dinsdag",
+      "english": "Tuesday",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "dinsdagen"
+      },
+      "example": { "nl": "Dinsdag heb ik een afspraak.", "en": "On Tuesday I have an appointment." }
+    },
+    {
+      "rank": 542,
+      "dutch": "woensdag",
+      "english": "Wednesday",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "woensdagen"
+      },
+      "example": { "nl": "Woensdagmiddag zijn de kinderen vrij.", "en": "On Wednesday afternoons the children are off." }
+    },
+    {
+      "rank": 543,
+      "dutch": "donderdag",
+      "english": "Thursday",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "donderdagen"
+      },
+      "example": { "nl": "De markt is op donderdag.", "en": "The market is on Thursday." }
+    },
+    {
+      "rank": 544,
+      "dutch": "vrijdag",
+      "english": "Friday",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "vrijdagen"
+      },
+      "example": { "nl": "Vrijdag is mijn laatste werkdag.", "en": "Friday is my last working day." }
+    },
+    {
+      "rank": 545,
+      "dutch": "zaterdag",
+      "english": "Saturday",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "zaterdagen"
+      },
+      "example": { "nl": "Zaterdag gaan we naar de stad.", "en": "On Saturday we're going into town." }
+    },
+    {
+      "rank": 546,
+      "dutch": "zondag",
+      "english": "Sunday",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "zondagen"
+      },
+      "example": { "nl": "Op zondag zijn veel winkels dicht.", "en": "On Sunday many shops are closed." }
+    },
+    {
+      "rank": 547,
+      "dutch": "weekdag",
+      "english": "weekday",
+      "type": "noun",
+      "note": "'doordeweeks' is the everyday adverb for on weekdays.",
+      "forms": {
+        "article": "de",
+        "plural": "weekdagen"
+      },
+      "example": { "nl": "Doordeweeks is het hier rustig.", "en": "On weekdays it's quiet here." }
+    },
+    {
+      "rank": 548,
+      "dutch": "januari",
+      "english": "January",
+      "type": "other",
+      "note": "Months are lower case and take 'in': in maart.",
+      "example": { "nl": "Mijn verjaardag is in januari.", "en": "My birthday is in January." }
+    },
+    {
+      "rank": 549,
+      "dutch": "februari",
+      "english": "February",
+      "type": "other",
+      "example": { "nl": "Februari is de kortste maand.", "en": "February is the shortest month." }
+    },
+    {
+      "rank": 550,
+      "dutch": "maart",
+      "english": "March",
+      "type": "other",
+      "example": { "nl": "In maart begint de lente.", "en": "Spring starts in March." }
+    },
+    {
+      "rank": 551,
+      "dutch": "april",
+      "english": "April",
+      "type": "other",
+      "example": { "nl": "In april kunnen alle vier de seizoenen voorbijkomen.", "en": "In April all four seasons can go by." }
+    },
+    {
+      "rank": 552,
+      "dutch": "mei",
+      "english": "May",
+      "type": "other",
+      "example": { "nl": "De tulpen bloeien in mei.", "en": "The tulips bloom in May." }
+    },
+    {
+      "rank": 553,
+      "dutch": "juni",
+      "english": "June",
+      "type": "other",
+      "example": { "nl": "In juni worden de dagen het langst.", "en": "In June the days get longest." }
+    },
+    {
+      "rank": 554,
+      "dutch": "juli",
+      "english": "July",
+      "type": "other",
+      "example": { "nl": "In juli gaan we op vakantie.", "en": "In July we go on holiday." }
+    },
+    {
+      "rank": 555,
+      "dutch": "augustus",
+      "english": "August",
+      "type": "other",
+      "example": { "nl": "Augustus is vaak de warmste maand.", "en": "August is often the warmest month." }
+    },
+    {
+      "rank": 556,
+      "dutch": "september",
+      "english": "September",
+      "type": "other",
+      "example": { "nl": "In september begint de school weer.", "en": "In September school starts again." }
+    },
+    {
+      "rank": 557,
+      "dutch": "oktober",
+      "english": "October",
+      "type": "other",
+      "example": { "nl": "Oktober is een natte maand.", "en": "October is a wet month." }
+    },
+    {
+      "rank": 558,
+      "dutch": "november",
+      "english": "November",
+      "type": "other",
+      "example": { "nl": "In november is het vroeg donker.", "en": "In November it gets dark early." }
+    },
+    {
+      "rank": 559,
+      "dutch": "december",
+      "english": "December",
+      "type": "other",
+      "example": { "nl": "In december vieren we kerst.", "en": "In December we celebrate Christmas." }
+    },
+    {
+      "rank": 560,
+      "dutch": "vandaag",
+      "english": "today",
+      "type": "other",
+      "example": { "nl": "Vandaag is het mooi weer.", "en": "The weather is nice today." }
+    },
+    {
+      "rank": 561,
+      "dutch": "morgen",
+      "english": "tomorrow",
+      "type": "other",
+      "note": "'morgen' is tomorrow; the morning is 'de ochtend' (or 'morgenochtend' for tomorrow morning).",
+      "example": { "nl": "Tot morgen!", "en": "See you tomorrow!" }
+    },
+    {
+      "rank": 562,
+      "dutch": "gisteren",
+      "english": "yesterday",
+      "type": "other",
+      "example": { "nl": "Gisteren heb ik je gebeld.", "en": "I called you yesterday." }
+    },
+    {
+      "rank": 563,
+      "dutch": "overmorgen",
+      "english": "the day after tomorrow",
+      "type": "other",
+      "example": { "nl": "Overmorgen komt mijn zus.", "en": "My sister is coming the day after tomorrow." }
+    },
+    {
+      "rank": 564,
+      "dutch": "eergisteren",
+      "english": "the day before yesterday",
+      "type": "other",
+      "example": { "nl": "Eergisteren regende het de hele dag.", "en": "The day before yesterday it rained all day." }
+    },
+    {
+      "rank": 565,
+      "dutch": "vanochtend",
+      "english": "this morning",
+      "type": "other",
+      "example": { "nl": "Vanochtend was het mistig.", "en": "This morning it was foggy." }
+    },
+    {
+      "rank": 566,
+      "dutch": "vanmiddag",
+      "english": "this afternoon",
+      "type": "other",
+      "example": { "nl": "Vanmiddag heb ik een vergadering.", "en": "This afternoon I have a meeting." }
+    },
+    {
+      "rank": 567,
+      "dutch": "vanavond",
+      "english": "this evening, tonight",
+      "type": "other",
+      "example": { "nl": "Wat eten we vanavond?", "en": "What are we eating tonight?" }
+    },
+    {
+      "rank": 568,
+      "dutch": "tegenwoordig",
+      "english": "nowadays",
+      "type": "other",
+      "example": { "nl": "Tegenwoordig werkt bijna iedereen met een laptop.", "en": "Nowadays almost everyone works with a laptop." }
+    },
+    {
+      "rank": 569,
+      "dutch": "vroeger",
+      "english": "in the past, formerly",
+      "type": "other",
+      "example": { "nl": "Vroeger woonde ik in Engeland.", "en": "I used to live in England." }
+    },
+    {
+      "rank": 570,
+      "dutch": "later",
+      "english": "later",
+      "type": "other",
+      "example": { "nl": "Dat doen we later wel.", "en": "We'll do that later." }
+    },
+    {
+      "rank": 571,
+      "dutch": "toen",
+      "english": "then, when (in the past)",
+      "type": "other",
+      "note": "'toen' for a single event in the past, 'als' for the present or future.",
+      "example": { "nl": "Toen ik klein was, woonden we op het platteland.", "en": "When I was little, we lived in the countryside." }
+    },
+    {
+      "rank": 572,
+      "dutch": "sinds",
+      "english": "since",
+      "type": "other",
+      "note": "Dutch uses the present tense: ik woon hier al drie jaar.",
+      "example": { "nl": "Ik woon hier sinds 2020.", "en": "I've lived here since 2020." }
+    },
+    {
+      "rank": 573,
+      "dutch": "tijdens",
+      "english": "during",
+      "type": "other",
+      "example": { "nl": "Tijdens de pauze drinken we koffie.", "en": "During the break we drink coffee." }
+    },
+    {
+      "rank": 574,
+      "dutch": "terwijl",
+      "english": "while",
+      "type": "other",
+      "note": "Subordinating: the verb moves to the end.",
+      "example": { "nl": "Ik luister naar de radio terwijl ik kook.", "en": "I listen to the radio while I cook." }
+    },
+    {
+      "rank": 575,
+      "dutch": "voordat",
+      "english": "before (conjunction)",
+      "type": "other",
+      "example": { "nl": "Bel me voordat je komt.", "en": "Call me before you come." }
+    },
+    {
+      "rank": 576,
+      "dutch": "nadat",
+      "english": "after (conjunction)",
+      "type": "other",
+      "example": { "nl": "Nadat we gegeten hadden, gingen we wandelen.", "en": "After we had eaten, we went for a walk." }
+    },
+    {
+      "rank": 577,
+      "dutch": "steeds",
+      "english": "increasingly, again and again",
+      "type": "other",
+      "example": { "nl": "Het wordt steeds drukker.", "en": "It's getting busier and busier." }
+    },
+    {
+      "rank": 578,
+      "dutch": "nog steeds",
+      "english": "still",
+      "type": "other",
+      "example": { "nl": "Ze woont hier nog steeds.", "en": "She still lives here." }
+    },
+    {
+      "rank": 579,
+      "dutch": "net",
+      "english": "just (a moment ago)",
+      "type": "other",
+      "example": { "nl": "Hij is net weg.", "en": "He's just left." }
+    },
+    {
+      "rank": 580,
+      "dutch": "al lang",
+      "english": "for a long time",
+      "type": "other",
+      "example": { "nl": "Ik wacht hier al lang.", "en": "I've been waiting here a long time." }
+    },
+    {
+      "rank": 581,
+      "dutch": "moment",
+      "english": "moment",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "momenten"
+      },
+      "example": { "nl": "Een moment, alstublieft.", "en": "One moment, please." }
+    },
+    {
+      "rank": 582,
+      "dutch": "seconde",
+      "english": "second",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "seconden"
+      },
+      "example": { "nl": "Wacht een paar seconden.", "en": "Wait a few seconds." }
+    },
+    {
+      "rank": 583,
+      "dutch": "kwartier",
+      "english": "quarter of an hour",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "kwartieren"
+      },
+      "example": { "nl": "Het duurt een kwartier.", "en": "It takes fifteen minutes." }
+    },
+    {
+      "rank": 584,
+      "dutch": "datum",
+      "english": "date",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "data"
+      },
+      "example": { "nl": "Wat is de datum van vandaag?", "en": "What's today's date?" }
+    },
+    {
+      "rank": 585,
+      "dutch": "verjaardag",
+      "english": "birthday",
+      "type": "noun",
+      "note": "At a Dutch birthday you also congratulate the guests on the birthday of their friend.",
+      "forms": {
+        "article": "de",
+        "plural": "verjaardagen"
+      },
+      "example": { "nl": "Gefeliciteerd met je verjaardag!", "en": "Happy birthday!" }
+    },
+    {
+      "rank": 586,
+      "dutch": "feest",
+      "english": "party, celebration",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "feesten"
+      },
+      "example": { "nl": "Het was een geslaagd feest.", "en": "It was a great party." }
+    },
+    {
+      "rank": 587,
+      "dutch": "vakantie",
+      "english": "holiday, vacation",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "vakanties"
+      },
+      "example": { "nl": "In augustus hebben we vakantie.", "en": "In August we're on holiday." }
+    },
+    {
+      "rank": 588,
+      "dutch": "seizoen",
+      "english": "season",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "seizoenen"
+      },
+      "example": { "nl": "De lente is mijn favoriete seizoen.", "en": "Spring is my favourite season." }
+    },
+    {
+      "rank": 589,
+      "dutch": "baan",
+      "english": "job",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "banen"
+      },
+      "example": { "nl": "Zij heeft een nieuwe baan gevonden.", "en": "She's found a new job." }
+    },
+    {
+      "rank": 590,
+      "dutch": "beroep",
+      "english": "profession",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "beroepen"
+      },
+      "example": { "nl": "Wat is uw beroep?", "en": "What's your profession?" }
+    },
+    {
+      "rank": 591,
+      "dutch": "kantoor",
+      "english": "office",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "kantoren"
+      },
+      "example": { "nl": "Ik ben twee dagen per week op kantoor.", "en": "I'm at the office two days a week." }
+    },
+    {
+      "rank": 592,
+      "dutch": "collega",
+      "english": "colleague",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "collega's"
+      },
+      "example": { "nl": "Mijn collega's zijn erg behulpzaam.", "en": "My colleagues are very helpful." }
+    },
+    {
+      "rank": 593,
+      "dutch": "baas",
+      "english": "boss",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "bazen"
+      },
+      "example": { "nl": "Mijn baas is op vakantie.", "en": "My boss is on holiday." }
+    },
+    {
+      "rank": 594,
+      "dutch": "bedrijf",
+      "english": "company, business",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "bedrijven"
+      },
+      "example": { "nl": "Hij werkt bij een klein bedrijf.", "en": "He works at a small company." }
+    },
+    {
+      "rank": 595,
+      "dutch": "klant",
+      "english": "customer, client",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "klanten"
+      },
+      "example": { "nl": "De klant wacht op antwoord.", "en": "The customer is waiting for an answer." }
+    },
+    {
+      "rank": 596,
+      "dutch": "afspraak",
+      "english": "appointment; agreement",
+      "type": "noun",
+      "note": "'een afspraak maken' = to make an appointment or arrange to meet.",
+      "forms": {
+        "article": "de",
+        "plural": "afspraken"
+      },
+      "example": { "nl": "Ik heb om drie uur een afspraak.", "en": "I have an appointment at three." }
+    },
+    {
+      "rank": 597,
+      "dutch": "vergadering",
+      "english": "meeting",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "vergaderingen"
+      },
+      "example": { "nl": "De vergadering duurde twee uur.", "en": "The meeting lasted two hours." }
+    },
+    {
+      "rank": 598,
+      "dutch": "project",
+      "english": "project",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "projecten"
+      },
+      "example": { "nl": "Dit project loopt tot december.", "en": "This project runs until December." }
+    },
+    {
+      "rank": 599,
+      "dutch": "salaris",
+      "english": "salary",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "salarissen"
+      },
+      "example": { "nl": "Het salaris wordt maandelijks betaald.", "en": "The salary is paid monthly." }
+    },
+    {
+      "rank": 600,
+      "dutch": "contract",
+      "english": "contract",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "contracten"
+      },
+      "example": { "nl": "Mijn contract loopt af in juni.", "en": "My contract ends in June." }
+    }
+  ]
+}

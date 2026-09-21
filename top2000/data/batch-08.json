@@ -1,0 +1,1103 @@
+{
+  "batch": 8,
+  "range": [701, 800],
+  "title": "Words 701–800",
+  "words": [
+    {
+      "rank": 701,
+      "dutch": "griep",
+      "english": "flu",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "de",
+        "plural": "—"
+      },
+      "example": { "nl": "Ze ligt met griep in bed.", "en": "She's in bed with flu." }
+    },
+    {
+      "rank": 702,
+      "dutch": "hoofdpijn",
+      "english": "headache",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "de",
+        "plural": "—"
+      },
+      "example": { "nl": "Ik heb vreselijke hoofdpijn.", "en": "I have a terrible headache." }
+    },
+    {
+      "rank": 703,
+      "dutch": "ongeluk",
+      "english": "accident",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "ongelukken"
+      },
+      "example": { "nl": "Er is een ongeluk gebeurd op de snelweg.", "en": "There's been an accident on the motorway." }
+    },
+    {
+      "rank": 704,
+      "dutch": "hulp",
+      "english": "help",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "de",
+        "plural": "—"
+      },
+      "example": { "nl": "Heb je hulp nodig?", "en": "Do you need help?" }
+    },
+    {
+      "rank": 705,
+      "dutch": "rusten",
+      "english": "to rest",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "rust", "jij": "rust", "hij": "rust", "wij": "rusten" },
+        "past": { "singular": "rustte", "plural": "rustten" },
+        "perfect": "heeft gerust"
+      },
+      "example": { "nl": "Rust maar even uit.", "en": "Just have a rest." }
+    },
+    {
+      "rank": 706,
+      "dutch": "hoesten",
+      "english": "to cough",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "hoest", "jij": "hoest", "hij": "hoest", "wij": "hoesten" },
+        "past": { "singular": "hoestte", "plural": "hoestten" },
+        "perfect": "heeft gehoest"
+      },
+      "example": { "nl": "Hij hoest al een week.", "en": "He's been coughing for a week." }
+    },
+    {
+      "rank": 707,
+      "dutch": "genezen",
+      "english": "to heal, to cure",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "genees", "jij": "geneest", "hij": "geneest", "wij": "genezen" },
+        "past": { "singular": "genas", "plural": "genazen" },
+        "perfect": "is genezen"
+      },
+      "example": { "nl": "De wond is goed genezen.", "en": "The wound has healed well." }
+    },
+    {
+      "rank": 708,
+      "dutch": "bezoeken",
+      "english": "to visit",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "bezoek", "jij": "bezoekt", "hij": "bezoekt", "wij": "bezoeken" },
+        "past": { "singular": "bezocht", "plural": "bezochten" },
+        "perfect": "heeft bezocht"
+      },
+      "example": { "nl": "We bezoeken mijn oma in het weekend.", "en": "We're visiting my grandma at the weekend." }
+    },
+    {
+      "rank": 709,
+      "dutch": "zorgen",
+      "english": "to take care; to make sure",
+      "type": "verb",
+      "note": "zorgen voor = to take care of; zorgen dat = to make sure that.",
+      "forms": {
+        "present": { "ik": "zorg", "jij": "zorgt", "hij": "zorgt", "wij": "zorgen" },
+        "past": { "singular": "zorgde", "plural": "zorgden" },
+        "perfect": "heeft gezorgd"
+      },
+      "example": { "nl": "Ik zorg voor de kinderen.", "en": "I look after the children." }
+    },
+    {
+      "rank": 710,
+      "dutch": "pijn doen",
+      "english": "to hurt",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "doe pijn", "jij": "doet pijn", "hij": "doet pijn", "wij": "doen pijn" },
+        "past": { "singular": "deed pijn", "plural": "deden pijn" },
+        "perfect": "heeft pijn gedaan"
+      },
+      "example": { "nl": "Mijn rug doet pijn.", "en": "My back hurts." }
+    },
+    {
+      "rank": 711,
+      "dutch": "nodig hebben",
+      "english": "to need",
+      "type": "verb",
+      "note": "The usual way to say 'need': ik heb … nodig, with nodig at the end.",
+      "forms": {
+        "present": { "ik": "heb nodig", "jij": "hebt nodig", "hij": "heeft nodig", "wij": "hebben nodig" },
+        "past": { "singular": "had nodig", "plural": "hadden nodig" },
+        "perfect": "heeft nodig gehad"
+      },
+      "example": { "nl": "Ik heb een nieuwe fiets nodig.", "en": "I need a new bike." }
+    },
+    {
+      "rank": 712,
+      "dutch": "gevoel",
+      "english": "feeling",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "gevoelens"
+      },
+      "example": { "nl": "Ik heb een goed gevoel over morgen.", "en": "I have a good feeling about tomorrow." }
+    },
+    {
+      "rank": 713,
+      "dutch": "liefde",
+      "english": "love",
+      "type": "noun",
+      "note": "Usually uncountable.",
+      "forms": {
+        "article": "de",
+        "plural": "—"
+      },
+      "example": { "nl": "Liefde op het eerste gezicht.", "en": "Love at first sight." }
+    },
+    {
+      "rank": 714,
+      "dutch": "geluk",
+      "english": "happiness; luck",
+      "type": "noun",
+      "note": "Uncountable — the same word for luck and happiness.",
+      "forms": {
+        "article": "het",
+        "plural": "—"
+      },
+      "example": { "nl": "Veel geluk!", "en": "Good luck!" }
+    },
+    {
+      "rank": 715,
+      "dutch": "angst",
+      "english": "fear, anxiety",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "angsten"
+      },
+      "example": { "nl": "Hij heeft angst voor honden.", "en": "He's afraid of dogs." }
+    },
+    {
+      "rank": 716,
+      "dutch": "zorg",
+      "english": "worry; care",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "zorgen"
+      },
+      "example": { "nl": "Maak je geen zorgen.", "en": "Don't worry." }
+    },
+    {
+      "rank": 717,
+      "dutch": "plezier",
+      "english": "fun, pleasure",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "het",
+        "plural": "—"
+      },
+      "example": { "nl": "Veel plezier vanavond!", "en": "Have fun tonight!" }
+    },
+    {
+      "rank": 718,
+      "dutch": "humeur",
+      "english": "mood",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "humeuren"
+      },
+      "example": { "nl": "Hij is in een goed humeur.", "en": "He's in a good mood." }
+    },
+    {
+      "rank": 719,
+      "dutch": "lachen",
+      "english": "to laugh",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "lach", "jij": "lacht", "hij": "lacht", "wij": "lachen" },
+        "past": { "singular": "lachte", "plural": "lachten" },
+        "perfect": "heeft gelachen"
+      },
+      "example": { "nl": "We hebben veel gelachen.", "en": "We laughed a lot." }
+    },
+    {
+      "rank": 720,
+      "dutch": "huilen",
+      "english": "to cry",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "huil", "jij": "huilt", "hij": "huilt", "wij": "huilen" },
+        "past": { "singular": "huilde", "plural": "huilden" },
+        "perfect": "heeft gehuild"
+      },
+      "example": { "nl": "De baby huilt de hele nacht.", "en": "The baby cries all night." }
+    },
+    {
+      "rank": 721,
+      "dutch": "glimlachen",
+      "english": "to smile",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "glimlach", "jij": "glimlacht", "hij": "glimlacht", "wij": "glimlachen" },
+        "past": { "singular": "glimlachte", "plural": "glimlachten" },
+        "perfect": "heeft geglimlacht"
+      },
+      "example": { "nl": "Ze glimlachte vriendelijk.", "en": "She smiled kindly." }
+    },
+    {
+      "rank": 722,
+      "dutch": "hopen",
+      "english": "to hope",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "hoop", "jij": "hoopt", "hij": "hoopt", "wij": "hopen" },
+        "past": { "singular": "hoopte", "plural": "hoopten" },
+        "perfect": "heeft gehoopt"
+      },
+      "example": { "nl": "Ik hoop dat het morgen droog blijft.", "en": "I hope it stays dry tomorrow." }
+    },
+    {
+      "rank": 723,
+      "dutch": "dromen",
+      "english": "to dream",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "droom", "jij": "droomt", "hij": "droomt", "wij": "dromen" },
+        "past": { "singular": "droomde", "plural": "droomden" },
+        "perfect": "heeft gedroomd"
+      },
+      "example": { "nl": "Ik droom vaak over vroeger.", "en": "I often dream about the past." }
+    },
+    {
+      "rank": 724,
+      "dutch": "wensen",
+      "english": "to wish",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "wens", "jij": "wenst", "hij": "wenst", "wij": "wensen" },
+        "past": { "singular": "wenste", "plural": "wensten" },
+        "perfect": "heeft gewenst"
+      },
+      "example": { "nl": "Ik wens je een fijne dag.", "en": "I wish you a nice day." }
+    },
+    {
+      "rank": 725,
+      "dutch": "vertrouwen",
+      "english": "to trust",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "vertrouw", "jij": "vertrouwt", "hij": "vertrouwt", "wij": "vertrouwen" },
+        "past": { "singular": "vertrouwde", "plural": "vertrouwden" },
+        "perfect": "heeft vertrouwd"
+      },
+      "example": { "nl": "Ik vertrouw haar volledig.", "en": "I trust her completely." }
+    },
+    {
+      "rank": 726,
+      "dutch": "boos",
+      "english": "angry",
+      "type": "adjective",
+      "note": "boos op iemand = angry with someone.",
+      "forms": {
+        "inflected": "boze",
+        "examples": ["een boze buurman", "een boos gezicht"]
+      },
+      "example": { "nl": "Ben je boos op mij?", "en": "Are you angry with me?" }
+    },
+    {
+      "rank": 727,
+      "dutch": "bang",
+      "english": "afraid, scared",
+      "type": "adjective",
+      "note": "bang voor = afraid of.",
+      "forms": {
+        "inflected": "bange",
+        "examples": ["een bange hond", "een bang kind"]
+      },
+      "example": { "nl": "Ik ben bang voor spinnen.", "en": "I'm afraid of spiders." }
+    },
+    {
+      "rank": 728,
+      "dutch": "verdrietig",
+      "english": "sad",
+      "type": "adjective",
+      "forms": {
+        "inflected": "verdrietige",
+        "examples": ["een verdrietige film", "een verdrietig bericht"]
+      },
+      "example": { "nl": "Ze was erg verdrietig.", "en": "She was very sad." }
+    },
+    {
+      "rank": 729,
+      "dutch": "moe",
+      "english": "tired",
+      "type": "adjective",
+      "forms": {
+        "inflected": "moeë",
+        "examples": ["een moeë reiziger", "een moe kind"]
+      },
+      "example": { "nl": "Ik ben doodmoe.", "en": "I'm dead tired." }
+    },
+    {
+      "rank": 730,
+      "dutch": "gelukkig",
+      "english": "happy; fortunately",
+      "type": "adjective",
+      "note": "As an adverb at the start of a sentence it means 'fortunately'.",
+      "forms": {
+        "inflected": "gelukkige",
+        "examples": ["een gelukkig stel", "een gelukkig einde"]
+      },
+      "example": { "nl": "Gelukkig regende het niet.", "en": "Fortunately it didn't rain." }
+    },
+    {
+      "rank": 731,
+      "dutch": "trots",
+      "english": "proud",
+      "type": "adjective",
+      "note": "trots op = proud of.",
+      "forms": {
+        "inflected": "trotze",
+        "examples": ["een trotse vader", "een trots gezicht"]
+      },
+      "example": { "nl": "Ik ben trots op je.", "en": "I'm proud of you." }
+    },
+    {
+      "rank": 732,
+      "dutch": "verliefd",
+      "english": "in love",
+      "type": "adjective",
+      "forms": {
+        "inflected": "verliefde",
+        "examples": ["een verliefde blik", "een verliefd stel"]
+      },
+      "example": { "nl": "Hij is verliefd op haar.", "en": "He's in love with her." }
+    },
+    {
+      "rank": 733,
+      "dutch": "zenuwachtig",
+      "english": "nervous",
+      "type": "adjective",
+      "forms": {
+        "inflected": "zenuwachtige",
+        "examples": ["een zenuwachtige student", "een zenuwachtig gevoel"]
+      },
+      "example": { "nl": "Ik ben zenuwachtig voor het examen.", "en": "I'm nervous about the exam." }
+    },
+    {
+      "rank": 734,
+      "dutch": "tevreden",
+      "english": "satisfied, content",
+      "type": "adjective",
+      "forms": {
+        "inflected": "tevreden",
+        "examples": ["een tevreden klant", "een tevreden gevoel"]
+      },
+      "example": { "nl": "Ik ben tevreden met het resultaat.", "en": "I'm satisfied with the result." }
+    },
+    {
+      "rank": 735,
+      "dutch": "teleurgesteld",
+      "english": "disappointed",
+      "type": "adjective",
+      "forms": {
+        "inflected": "teleurgestelde",
+        "examples": ["een teleurgestelde fan", "een teleurgesteld publiek"]
+      },
+      "example": { "nl": "Ik was een beetje teleurgesteld.", "en": "I was a little disappointed." }
+    },
+    {
+      "rank": 736,
+      "dutch": "benieuwd",
+      "english": "curious, keen to know",
+      "type": "adjective",
+      "note": "benieuwd naar = curious about — a very common Dutch reply.",
+      "forms": {
+        "inflected": "benieuwde",
+        "examples": ["een benieuwde collega", "een benieuwd publiek"]
+      },
+      "example": { "nl": "Ik ben benieuwd naar je verhaal.", "en": "I'm curious to hear your story." }
+    },
+    {
+      "rank": 737,
+      "dutch": "jammer",
+      "english": "a shame, unfortunate",
+      "type": "adjective",
+      "note": "Mostly used on its own: jammer!",
+      "forms": {
+        "inflected": "jammere",
+        "examples": ["een jammere afloop", "een jammer geval"]
+      },
+      "example": { "nl": "Wat jammer dat je niet kunt komen.", "en": "What a shame you can't come." }
+    },
+    {
+      "rank": 738,
+      "dutch": "aardig",
+      "english": "nice, kind",
+      "type": "adjective",
+      "forms": {
+        "inflected": "aardige",
+        "examples": ["een aardige buurvrouw", "een aardig gebaar"]
+      },
+      "example": { "nl": "Wat aardig van je!", "en": "How kind of you!" }
+    },
+    {
+      "rank": 739,
+      "dutch": "vriendelijk",
+      "english": "friendly",
+      "type": "adjective",
+      "forms": {
+        "inflected": "vriendelijke",
+        "examples": ["een vriendelijke verkoper", "een vriendelijk woord"]
+      },
+      "example": { "nl": "De mensen hier zijn heel vriendelijk.", "en": "People here are very friendly." }
+    },
+    {
+      "rank": 740,
+      "dutch": "eerlijk",
+      "english": "honest; fair",
+      "type": "adjective",
+      "forms": {
+        "inflected": "eerlijke",
+        "examples": ["een eerlijke man", "een eerlijk antwoord"]
+      },
+      "example": { "nl": "Zeg eerlijk wat je denkt.", "en": "Say honestly what you think." }
+    },
+    {
+      "rank": 741,
+      "dutch": "slim",
+      "english": "clever, smart",
+      "type": "adjective",
+      "forms": {
+        "inflected": "slimme",
+        "examples": ["een slimme oplossing", "een slim kind"]
+      },
+      "example": { "nl": "Dat is een slimme vraag.", "en": "That's a clever question." }
+    },
+    {
+      "rank": 742,
+      "dutch": "dom",
+      "english": "stupid, silly",
+      "type": "adjective",
+      "forms": {
+        "inflected": "domme",
+        "examples": ["een domme fout", "een dom idee"]
+      },
+      "example": { "nl": "Dat was dom van mij.", "en": "That was silly of me." }
+    },
+    {
+      "rank": 743,
+      "dutch": "lui",
+      "english": "lazy",
+      "type": "adjective",
+      "forms": {
+        "inflected": "luie",
+        "examples": ["een luie zondag", "een lui gevoel"]
+      },
+      "example": { "nl": "Ik ben vandaag lekker lui.", "en": "I'm being nicely lazy today." }
+    },
+    {
+      "rank": 744,
+      "dutch": "sterk",
+      "english": "strong",
+      "type": "adjective",
+      "forms": {
+        "inflected": "sterke",
+        "examples": ["een sterke kop koffie", "een sterk verhaal"]
+      },
+      "example": { "nl": "Hij is sterker dan hij eruitziet.", "en": "He's stronger than he looks." }
+    },
+    {
+      "rank": 745,
+      "dutch": "zwak",
+      "english": "weak",
+      "type": "adjective",
+      "forms": {
+        "inflected": "zwakke",
+        "examples": ["een zwakke verbinding", "een zwak excuus"]
+      },
+      "example": { "nl": "Mijn Nederlands is nog zwak.", "en": "My Dutch is still weak." }
+    },
+    {
+      "rank": 746,
+      "dutch": "grappig",
+      "english": "funny",
+      "type": "adjective",
+      "forms": {
+        "inflected": "grappige",
+        "examples": ["een grappige opmerking", "een grappig verhaal"]
+      },
+      "example": { "nl": "Dat is echt grappig.", "en": "That's really funny." }
+    },
+    {
+      "rank": 747,
+      "dutch": "serieus",
+      "english": "serious",
+      "type": "adjective",
+      "forms": {
+        "inflected": "serieuze",
+        "examples": ["een serieuze vraag", "een serieus probleem"]
+      },
+      "example": { "nl": "Meen je dat serieus?", "en": "Are you serious?" }
+    },
+    {
+      "rank": 748,
+      "dutch": "rijk",
+      "english": "rich",
+      "type": "adjective",
+      "forms": {
+        "inflected": "rijke",
+        "examples": ["een rijke buurt", "een rijk land"]
+      },
+      "example": { "nl": "Nederland is een rijk land.", "en": "The Netherlands is a rich country." }
+    },
+    {
+      "rank": 749,
+      "dutch": "eenvoudig",
+      "english": "simple, plain",
+      "type": "adjective",
+      "forms": {
+        "inflected": "eenvoudige",
+        "examples": ["een eenvoudige oplossing", "een eenvoudig gerecht"]
+      },
+      "example": { "nl": "Het recept is heel eenvoudig.", "en": "The recipe is very simple." }
+    },
+    {
+      "rank": 750,
+      "dutch": "beroemd",
+      "english": "famous",
+      "type": "adjective",
+      "forms": {
+        "inflected": "beroemde",
+        "examples": ["een beroemde schilder", "een beroemd museum"]
+      },
+      "example": { "nl": "Rembrandt is wereldberoemd.", "en": "Rembrandt is world famous." }
+    },
+    {
+      "rank": 751,
+      "dutch": "beleefd",
+      "english": "polite",
+      "type": "adjective",
+      "forms": {
+        "inflected": "beleefde",
+        "examples": ["een beleefde vraag", "een beleefd antwoord"]
+      },
+      "example": { "nl": "Hij is altijd beleefd.", "en": "He's always polite." }
+    },
+    {
+      "rank": 752,
+      "dutch": "verlegen",
+      "english": "shy",
+      "type": "adjective",
+      "forms": {
+        "inflected": "verlegen",
+        "examples": ["een verlegen jongen", "een verlegen kind"]
+      },
+      "example": { "nl": "Ze is een beetje verlegen.", "en": "She's a bit shy." }
+    },
+    {
+      "rank": 753,
+      "dutch": "streng",
+      "english": "strict",
+      "type": "adjective",
+      "forms": {
+        "inflected": "strenge",
+        "examples": ["een strenge leraar", "een streng regime"]
+      },
+      "example": { "nl": "De regels zijn hier streng.", "en": "The rules here are strict." }
+    },
+    {
+      "rank": 754,
+      "dutch": "geduldig",
+      "english": "patient",
+      "type": "adjective",
+      "forms": {
+        "inflected": "geduldige",
+        "examples": ["een geduldige docent", "een geduldig kind"]
+      },
+      "example": { "nl": "Wees even geduldig.", "en": "Be patient for a moment." }
+    },
+    {
+      "rank": 755,
+      "dutch": "behulpzaam",
+      "english": "helpful",
+      "type": "adjective",
+      "forms": {
+        "inflected": "behulpzame",
+        "examples": ["een behulpzame collega", "een behulpzaam gebaar"]
+      },
+      "example": { "nl": "De buren zijn erg behulpzaam.", "en": "The neighbours are very helpful." }
+    },
+    {
+      "rank": 756,
+      "dutch": "nieuwsgierig",
+      "english": "curious, nosy",
+      "type": "adjective",
+      "forms": {
+        "inflected": "nieuwsgierige",
+        "examples": ["een nieuwsgierige buurman", "een nieuwsgierig kind"]
+      },
+      "example": { "nl": "Kinderen zijn van nature nieuwsgierig.", "en": "Children are naturally curious." }
+    },
+    {
+      "rank": 757,
+      "dutch": "gek",
+      "english": "crazy, mad",
+      "type": "adjective",
+      "note": "gek op = mad about: ik ben gek op drop.",
+      "forms": {
+        "inflected": "gekke",
+        "examples": ["een gekke dag", "een gek idee"]
+      },
+      "example": { "nl": "Ben je gek geworden?", "en": "Have you gone mad?" }
+    },
+    {
+      "rank": 758,
+      "dutch": "hallo",
+      "english": "hello",
+      "type": "other",
+      "example": { "nl": "Hallo, hoe gaat het?", "en": "Hello, how are you?" }
+    },
+    {
+      "rank": 759,
+      "dutch": "doei",
+      "english": "bye",
+      "type": "other",
+      "note": "Informal. 'Tot ziens' is the polite version.",
+      "example": { "nl": "Doei, tot morgen!", "en": "Bye, see you tomorrow!" }
+    },
+    {
+      "rank": 760,
+      "dutch": "goedemorgen",
+      "english": "good morning",
+      "type": "other",
+      "example": { "nl": "Goedemorgen allemaal.", "en": "Good morning everyone." }
+    },
+    {
+      "rank": 761,
+      "dutch": "goedenavond",
+      "english": "good evening",
+      "type": "other",
+      "example": { "nl": "Goedenavond, komt u binnen.", "en": "Good evening, do come in." }
+    },
+    {
+      "rank": 762,
+      "dutch": "alsjeblieft",
+      "english": "please; here you are",
+      "type": "other",
+      "note": "'alstublieft' is the polite form; both also mean 'here you are' when handing something over.",
+      "example": { "nl": "Een koffie, alsjeblieft.", "en": "A coffee, please." }
+    },
+    {
+      "rank": 763,
+      "dutch": "dank je wel",
+      "english": "thank you",
+      "type": "other",
+      "note": "'dank u wel' is the polite form; 'bedankt' is the everyday one.",
+      "example": { "nl": "Dank je wel voor je hulp.", "en": "Thank you for your help." }
+    },
+    {
+      "rank": 764,
+      "dutch": "sorry",
+      "english": "sorry",
+      "type": "other",
+      "note": "'Pardon' is used to get past someone or to ask for a repeat.",
+      "example": { "nl": "Sorry, dat was mijn fout.", "en": "Sorry, that was my mistake." }
+    },
+    {
+      "rank": 765,
+      "dutch": "tot ziens",
+      "english": "goodbye",
+      "type": "other",
+      "example": { "nl": "Tot ziens en bedankt!", "en": "Goodbye and thanks!" }
+    },
+    {
+      "rank": 766,
+      "dutch": "welkom",
+      "english": "welcome",
+      "type": "other",
+      "example": { "nl": "Welkom bij ons thuis.", "en": "Welcome to our home." }
+    },
+    {
+      "rank": 767,
+      "dutch": "succes",
+      "english": "good luck",
+      "type": "other",
+      "note": "What Dutch people say instead of 'good luck' for something you work at.",
+      "example": { "nl": "Succes met je examen!", "en": "Good luck with your exam!" }
+    },
+    {
+      "rank": 768,
+      "dutch": "hoezo",
+      "english": "how so, why",
+      "type": "other",
+      "example": { "nl": "Hoezo, is er iets mis?", "en": "How come, is something wrong?" }
+    },
+    {
+      "rank": 769,
+      "dutch": "geen probleem",
+      "english": "no problem",
+      "type": "other",
+      "example": { "nl": "Geen probleem, ik doe het wel.", "en": "No problem, I'll do it." }
+    },
+    {
+      "rank": 770,
+      "dutch": "tot straks",
+      "english": "see you later",
+      "type": "other",
+      "example": { "nl": "Tot straks bij de koffie.", "en": "See you later at coffee." }
+    },
+    {
+      "rank": 771,
+      "dutch": "weerbericht",
+      "english": "weather forecast",
+      "type": "noun",
+      "note": "The weather itself is 'het weer'.",
+      "forms": {
+        "article": "het",
+        "plural": "weerberichten"
+      },
+      "example": { "nl": "Het weerbericht belooft regen.", "en": "The forecast promises rain." }
+    },
+    {
+      "rank": 772,
+      "dutch": "regen",
+      "english": "rain",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "de",
+        "plural": "—"
+      },
+      "example": { "nl": "Na de regen kwam de zon.", "en": "After the rain the sun came out." }
+    },
+    {
+      "rank": 773,
+      "dutch": "zon",
+      "english": "sun",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "zonnen"
+      },
+      "example": { "nl": "De zon schijnt eindelijk.", "en": "The sun is finally shining." }
+    },
+    {
+      "rank": 774,
+      "dutch": "wind",
+      "english": "wind",
+      "type": "noun",
+      "note": "'Er staat wind' is how Dutch says the wind is blowing.",
+      "forms": {
+        "article": "de",
+        "plural": "winden"
+      },
+      "example": { "nl": "Er staat een harde wind.", "en": "There's a strong wind." }
+    },
+    {
+      "rank": 775,
+      "dutch": "sneeuw",
+      "english": "snow",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "de",
+        "plural": "—"
+      },
+      "example": { "nl": "Er ligt sneeuw op het fietspad.", "en": "There's snow on the cycle path." }
+    },
+    {
+      "rank": 776,
+      "dutch": "wolk",
+      "english": "cloud",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "wolken"
+      },
+      "example": { "nl": "Er drijven donkere wolken boven de stad.", "en": "Dark clouds are drifting over the city." }
+    },
+    {
+      "rank": 777,
+      "dutch": "lucht",
+      "english": "sky; air",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "luchten"
+      },
+      "example": { "nl": "De lucht is grijs vandaag.", "en": "The sky is grey today." }
+    },
+    {
+      "rank": 778,
+      "dutch": "bui",
+      "english": "shower (of rain)",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "buien"
+      },
+      "example": { "nl": "Er komt een bui aan.", "en": "A shower is coming." }
+    },
+    {
+      "rank": 779,
+      "dutch": "storm",
+      "english": "storm",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "stormen"
+      },
+      "example": { "nl": "Door de storm reden er geen treinen.", "en": "Because of the storm no trains were running." }
+    },
+    {
+      "rank": 780,
+      "dutch": "onweer",
+      "english": "thunderstorm",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "het",
+        "plural": "—"
+      },
+      "example": { "nl": "Vannacht was er onweer.", "en": "There was a thunderstorm last night." }
+    },
+    {
+      "rank": 781,
+      "dutch": "mist",
+      "english": "fog, mist",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "de",
+        "plural": "—"
+      },
+      "example": { "nl": "In de mist rijd je langzaam.", "en": "In fog you drive slowly." }
+    },
+    {
+      "rank": 782,
+      "dutch": "temperatuur",
+      "english": "temperature",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "temperaturen"
+      },
+      "example": { "nl": "De temperatuur daalt vanavond.", "en": "The temperature drops tonight." }
+    },
+    {
+      "rank": 783,
+      "dutch": "graad",
+      "english": "degree",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "graden"
+      },
+      "example": { "nl": "Het is tien graden buiten.", "en": "It's ten degrees outside." }
+    },
+    {
+      "rank": 784,
+      "dutch": "ijs",
+      "english": "ice; ice cream",
+      "type": "noun",
+      "note": "Uncountable, and also the word for ice cream: een ijsje.",
+      "forms": {
+        "article": "het",
+        "plural": "—"
+      },
+      "example": { "nl": "Er ligt ijs op de sloot.", "en": "There's ice on the ditch." }
+    },
+    {
+      "rank": 785,
+      "dutch": "kou",
+      "english": "cold (the cold)",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "de",
+        "plural": "—"
+      },
+      "example": { "nl": "Ik kan niet tegen de kou.", "en": "I can't stand the cold." }
+    },
+    {
+      "rank": 786,
+      "dutch": "paraplu",
+      "english": "umbrella",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "paraplu's"
+      },
+      "example": { "nl": "Neem een paraplu mee.", "en": "Take an umbrella with you." }
+    },
+    {
+      "rank": 787,
+      "dutch": "regenen",
+      "english": "to rain",
+      "type": "verb",
+      "note": "Always with 'het': het regent.",
+      "forms": {
+        "present": { "ik": "regen", "jij": "regent", "hij": "regent", "wij": "regenen" },
+        "past": { "singular": "regende", "plural": "regenden" },
+        "perfect": "heeft geregend"
+      },
+      "example": { "nl": "Het regent al de hele dag.", "en": "It's been raining all day." }
+    },
+    {
+      "rank": 788,
+      "dutch": "sneeuwen",
+      "english": "to snow",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "sneeuw", "jij": "sneeuwt", "hij": "sneeuwt", "wij": "sneeuwen" },
+        "past": { "singular": "sneeuwde", "plural": "sneeuwden" },
+        "perfect": "heeft gesneeuwd"
+      },
+      "example": { "nl": "Het sneeuwt bijna nooit meer.", "en": "It hardly ever snows any more." }
+    },
+    {
+      "rank": 789,
+      "dutch": "waaien",
+      "english": "to blow (of wind)",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "waai", "jij": "waait", "hij": "waait", "wij": "waaien" },
+        "past": { "singular": "waaide", "plural": "waaiden" },
+        "perfect": "heeft gewaaid"
+      },
+      "example": { "nl": "Het waait hard vandaag.", "en": "It's very windy today." }
+    },
+    {
+      "rank": 790,
+      "dutch": "vriezen",
+      "english": "to freeze",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "vries", "jij": "vriest", "hij": "vriest", "wij": "vriezen" },
+        "past": { "singular": "vroor", "plural": "vroren" },
+        "perfect": "heeft gevroren"
+      },
+      "example": { "nl": "Vannacht gaat het vriezen.", "en": "It's going to freeze tonight." }
+    },
+    {
+      "rank": 791,
+      "dutch": "schijnen",
+      "english": "to shine; to seem",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "schijn", "jij": "schijnt", "hij": "schijnt", "wij": "schijnen" },
+        "past": { "singular": "scheen", "plural": "schenen" },
+        "perfect": "heeft geschenen"
+      },
+      "example": { "nl": "De zon schijnt.", "en": "The sun is shining." }
+    },
+    {
+      "rank": 792,
+      "dutch": "nat",
+      "english": "wet",
+      "type": "adjective",
+      "forms": {
+        "inflected": "natte",
+        "examples": ["een natte jas", "een nat pak"]
+      },
+      "example": { "nl": "Ik ben helemaal nat geworden.", "en": "I got completely soaked." }
+    },
+    {
+      "rank": 793,
+      "dutch": "droog",
+      "english": "dry",
+      "type": "adjective",
+      "forms": {
+        "inflected": "droge",
+        "examples": ["een droge zomer", "een droog weekend"]
+      },
+      "example": { "nl": "Blijft het droog vandaag?", "en": "Will it stay dry today?" }
+    },
+    {
+      "rank": 794,
+      "dutch": "zonnig",
+      "english": "sunny",
+      "type": "adjective",
+      "forms": {
+        "inflected": "zonnige",
+        "examples": ["een zonnige dag", "een zonnig terras"]
+      },
+      "example": { "nl": "Het wordt morgen zonnig.", "en": "It'll be sunny tomorrow." }
+    },
+    {
+      "rank": 795,
+      "dutch": "bewolkt",
+      "english": "cloudy",
+      "type": "adjective",
+      "forms": {
+        "inflected": "bewolkte",
+        "examples": ["een bewolkte ochtend", "een bewolkt begin"]
+      },
+      "example": { "nl": "Het is zwaar bewolkt.", "en": "It's heavily overcast." }
+    },
+    {
+      "rank": 796,
+      "dutch": "mistig",
+      "english": "foggy",
+      "type": "adjective",
+      "forms": {
+        "inflected": "mistige",
+        "examples": ["een mistige ochtend", "een mistig landschap"]
+      },
+      "example": { "nl": "Het is mistig op de snelweg.", "en": "It's foggy on the motorway." }
+    },
+    {
+      "rank": 797,
+      "dutch": "winderig",
+      "english": "windy",
+      "type": "adjective",
+      "forms": {
+        "inflected": "winderige",
+        "examples": ["een winderige dag", "een winderig strand"]
+      },
+      "example": { "nl": "Het is hier altijd winderig.", "en": "It's always windy here." }
+    },
+    {
+      "rank": 798,
+      "dutch": "koel",
+      "english": "cool",
+      "type": "adjective",
+      "forms": {
+        "inflected": "koele",
+        "examples": ["een koele avond", "een koel drankje"]
+      },
+      "example": { "nl": "Bewaar het op een koele plek.", "en": "Keep it in a cool place." }
+    },
+    {
+      "rank": 799,
+      "dutch": "fris",
+      "english": "fresh, chilly",
+      "type": "adjective",
+      "forms": {
+        "inflected": "frisse",
+        "examples": ["een frisse wind", "een fris begin"]
+      },
+      "example": { "nl": "Het is vanochtend fris.", "en": "It's chilly this morning." }
+    },
+    {
+      "rank": 800,
+      "dutch": "helder",
+      "english": "clear, bright",
+      "type": "adjective",
+      "forms": {
+        "inflected": "heldere",
+        "examples": ["een heldere lucht", "een helder antwoord"]
+      },
+      "example": { "nl": "De lucht is vanavond helder.", "en": "The sky is clear tonight." }
+    }
+  ]
+}
