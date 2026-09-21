@@ -1,4 +1,4 @@
-name: Deploy app/ to GitHub Pages
+name: Deploy app/ and top2000/ to GitHub Pages
 
 on:
   push:
@@ -29,10 +29,19 @@ jobs:
         with:
           enablement: true
 
-      - name: Upload app/ as artifact
+      # The flashcard app keeps the site root so installed PWAs and existing
+      # links carry on working; the frequency app is published beneath it.
+      - name: Stage both apps
+        run: |
+          mkdir -p _site/top2000
+          cp -R app/. _site/
+          cp -R top2000/. _site/top2000/
+          rm -rf _site/top2000/tools
+
+      - name: Upload site as artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./app
+          path: ./_site
 
       - name: Deploy to GitHub Pages
         id: deployment

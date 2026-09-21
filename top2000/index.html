@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Dutch 2000 — frequency flashcards</title>
+  <meta name="description" content="Spaced-repetition flashcards for the 2,000 most frequent Dutch words.">
+
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#f7f6f3">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Dutch 2000">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+
+  <link rel="stylesheet" href="styles.css?v=1">
+</head>
+<body>
+  <header id="topbar">
+    <h1><span class="flag">🇳🇱</span> Dutch 2000</h1>
+  </header>
+
+  <main id="main"></main>
+
+  <nav id="nav" aria-label="Sections"></nav>
+
+  <script src="js/storage.js?v=1"></script>
+  <script src="js/srs.js?v=1"></script>
+  <script src="js/data.js?v=1"></script>
+  <script src="js/speech.js?v=1"></script>
+  <script src="js/ui.js?v=1"></script>
+  <script src="js/study.js?v=1"></script>
+  <script src="js/app.js?v=1"></script>
+  <script>
+    // Offline support when the app is served over http(s). Opened from disk
+    // (file://) service workers aren't allowed, and aren't needed.
+    if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('sw.js').catch(err => console.warn('SW failed:', err));
+      });
+    }
+  </script>
+</body>
+</html>
