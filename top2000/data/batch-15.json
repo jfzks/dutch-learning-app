@@ -1,0 +1,1063 @@
+{
+  "batch": 15,
+  "range": [1401, 1500],
+  "title": "Words 1401–1500",
+  "words": [
+    {
+      "rank": 1401,
+      "dutch": "ingewikkeld",
+      "english": "complicated",
+      "type": "adjective",
+      "forms": {
+        "inflected": "ingewikkelde",
+        "examples": ["een ingewikkelde regel", "een ingewikkeld probleem"]
+      },
+      "example": { "nl": "Het is best ingewikkeld.", "en": "It's quite complicated." }
+    },
+    {
+      "rank": 1402,
+      "dutch": "simpel",
+      "english": "simple",
+      "type": "adjective",
+      "forms": {
+        "inflected": "simpele",
+        "examples": ["een simpele vraag", "een simpel plan"]
+      },
+      "example": { "nl": "Houd het simpel.", "en": "Keep it simple." }
+    },
+    {
+      "rank": 1403,
+      "dutch": "vrij",
+      "english": "free; available",
+      "type": "adjective",
+      "forms": {
+        "inflected": "vrije",
+        "examples": ["een vrije dag", "een vrij uur"]
+      },
+      "example": { "nl": "Is deze plek vrij?", "en": "Is this seat free?" }
+    },
+    {
+      "rank": 1404,
+      "dutch": "bezet",
+      "english": "occupied, taken",
+      "type": "adjective",
+      "forms": {
+        "inflected": "bezette",
+        "examples": ["de bezette stoel", "het bezette toilet"]
+      },
+      "example": { "nl": "Deze plek is bezet.", "en": "This seat is taken." }
+    },
+    {
+      "rank": 1405,
+      "dutch": "open",
+      "english": "open",
+      "type": "adjective",
+      "note": "Never inflected.",
+      "forms": {
+        "inflected": "open",
+        "examples": ["de open deur", "het open raam"]
+      },
+      "example": { "nl": "De winkel is nog open.", "en": "The shop is still open." }
+    },
+    {
+      "rank": 1406,
+      "dutch": "gesloten",
+      "english": "closed",
+      "type": "adjective",
+      "forms": {
+        "inflected": "gesloten",
+        "examples": ["de gesloten deur", "het gesloten museum"]
+      },
+      "example": { "nl": "Op maandag gesloten.", "en": "Closed on Mondays." }
+    },
+    {
+      "rank": 1407,
+      "dutch": "gemiddeld",
+      "english": "average",
+      "type": "adjective",
+      "forms": {
+        "inflected": "gemiddelde",
+        "examples": ["de gemiddelde prijs", "het gemiddelde cijfer"]
+      },
+      "example": { "nl": "Gemiddeld regent het hier vaak.", "en": "On average it rains a lot here." }
+    },
+    {
+      "rank": 1408,
+      "dutch": "totaal",
+      "english": "total",
+      "type": "adjective",
+      "forms": {
+        "inflected": "totale",
+        "examples": ["de totale kosten", "het totale bedrag"]
+      },
+      "example": { "nl": "Dat is totaal iets anders.", "en": "That's something totally different." }
+    },
+    {
+      "rank": 1409,
+      "dutch": "dubbel",
+      "english": "double",
+      "type": "adjective",
+      "forms": {
+        "inflected": "dubbele",
+        "examples": ["de dubbele prijs", "het dubbele bedrag"]
+      },
+      "example": { "nl": "Je betaalt hier het dubbele.", "en": "You pay double here." }
+    },
+    {
+      "rank": 1410,
+      "dutch": "enkel",
+      "english": "single; only",
+      "type": "adjective",
+      "forms": {
+        "inflected": "enkele",
+        "examples": ["de enkele reis", "het enkele voorbeeld"]
+      },
+      "example": { "nl": "Een enkele reis, graag.", "en": "A single ticket, please." }
+    },
+    {
+      "rank": 1411,
+      "dutch": "helemaal",
+      "english": "completely",
+      "type": "other",
+      "example": { "nl": "Ik ben het er helemaal mee eens.", "en": "I completely agree." }
+    },
+    {
+      "rank": 1412,
+      "dutch": "absoluut",
+      "english": "absolutely",
+      "type": "other",
+      "example": { "nl": "Dat is absoluut niet waar.", "en": "That's absolutely not true." }
+    },
+    {
+      "rank": 1413,
+      "dutch": "intussen",
+      "english": "meanwhile",
+      "type": "other",
+      "example": { "nl": "Ik kook; jij kunt intussen de tafel dekken.", "en": "I'll cook; meanwhile you can set the table." }
+    },
+    {
+      "rank": 1414,
+      "dutch": "ondertussen",
+      "english": "in the meantime",
+      "type": "other",
+      "example": { "nl": "Ondertussen was het gaan regenen.", "en": "In the meantime it had started raining." }
+    },
+    {
+      "rank": 1415,
+      "dutch": "voortaan",
+      "english": "from now on",
+      "type": "other",
+      "example": { "nl": "Voortaan neem ik de fiets.", "en": "From now on I'll take the bike." }
+    },
+    {
+      "rank": 1416,
+      "dutch": "onlangs",
+      "english": "recently",
+      "type": "other",
+      "example": { "nl": "We hebben onlangs verbouwd.", "en": "We renovated recently." }
+    },
+    {
+      "rank": 1417,
+      "dutch": "binnenkort",
+      "english": "soon, shortly",
+      "type": "other",
+      "example": { "nl": "We komen binnenkort langs.", "en": "We'll drop by soon." }
+    },
+    {
+      "rank": 1418,
+      "dutch": "destijds",
+      "english": "at the time",
+      "type": "other",
+      "example": { "nl": "Destijds woonde ik in Den Haag.", "en": "At the time I lived in The Hague." }
+    },
+    {
+      "rank": 1419,
+      "dutch": "normaal gesproken",
+      "english": "normally",
+      "type": "other",
+      "example": { "nl": "Normaal gesproken ben ik om zes uur thuis.", "en": "Normally I'm home at six." }
+    },
+    {
+      "rank": 1420,
+      "dutch": "in ieder geval",
+      "english": "in any case",
+      "type": "other",
+      "example": { "nl": "In ieder geval bedankt.", "en": "Thanks in any case." }
+    },
+    {
+      "rank": 1421,
+      "dutch": "met name",
+      "english": "in particular",
+      "type": "other",
+      "example": { "nl": "Met name in de zomer is het druk.", "en": "In summer in particular it's busy." }
+    },
+    {
+      "rank": 1422,
+      "dutch": "zo'n",
+      "english": "such a, about",
+      "type": "other",
+      "note": "Short for 'zo een': also 'such a' — zo'n mooie dag.",
+      "example": { "nl": "Het duurt zo'n twee uur.", "en": "It takes about two hours." }
+    },
+    {
+      "rank": 1423,
+      "dutch": "nogal",
+      "english": "rather, quite",
+      "type": "other",
+      "example": { "nl": "Het was nogal druk.", "en": "It was rather busy." }
+    },
+    {
+      "rank": 1424,
+      "dutch": "behoorlijk",
+      "english": "considerably, quite",
+      "type": "other",
+      "example": { "nl": "Dat is behoorlijk duur.", "en": "That's quite expensive." }
+    },
+    {
+      "rank": 1425,
+      "dutch": "redelijk",
+      "english": "reasonably",
+      "type": "other",
+      "example": { "nl": "Het gaat redelijk goed.", "en": "It's going reasonably well." }
+    },
+    {
+      "rank": 1426,
+      "dutch": "volledig",
+      "english": "fully",
+      "type": "other",
+      "example": { "nl": "Ik ben het volledig met je eens.", "en": "I fully agree with you." }
+    },
+    {
+      "rank": 1427,
+      "dutch": "arts",
+      "english": "doctor, physician",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "artsen"
+      },
+      "example": { "nl": "De arts komt zo bij u.", "en": "The doctor will be with you shortly." }
+    },
+    {
+      "rank": 1428,
+      "dutch": "verpleegkundige",
+      "english": "nurse",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "verpleegkundigen"
+      },
+      "example": { "nl": "De verpleegkundige neemt bloed af.", "en": "The nurse is taking blood." }
+    },
+    {
+      "rank": 1429,
+      "dutch": "boer",
+      "english": "farmer",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "boeren"
+      },
+      "example": { "nl": "De boer melkt de koeien.", "en": "The farmer milks the cows." }
+    },
+    {
+      "rank": 1430,
+      "dutch": "slager",
+      "english": "butcher",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "slagers"
+      },
+      "example": { "nl": "Bij de slager koop ik gehakt.", "en": "I buy mince at the butcher's." }
+    },
+    {
+      "rank": 1431,
+      "dutch": "kok",
+      "english": "cook, chef",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "koks"
+      },
+      "example": { "nl": "De kok komt zelf het gerecht brengen.", "en": "The chef brings the dish himself." }
+    },
+    {
+      "rank": 1432,
+      "dutch": "ober",
+      "english": "waiter",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "obers"
+      },
+      "example": { "nl": "De ober neemt de bestelling op.", "en": "The waiter takes the order." }
+    },
+    {
+      "rank": 1433,
+      "dutch": "chauffeur",
+      "english": "driver",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "chauffeurs"
+      },
+      "example": { "nl": "De chauffeur wacht buiten.", "en": "The driver is waiting outside." }
+    },
+    {
+      "rank": 1434,
+      "dutch": "piloot",
+      "english": "pilot",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "piloten"
+      },
+      "example": { "nl": "De piloot verwelkomde de passagiers.", "en": "The pilot welcomed the passengers." }
+    },
+    {
+      "rank": 1435,
+      "dutch": "ingenieur",
+      "english": "engineer",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "ingenieurs"
+      },
+      "example": { "nl": "Hij werkt als ingenieur bij een bouwbedrijf.", "en": "He works as an engineer at a construction firm." }
+    },
+    {
+      "rank": 1436,
+      "dutch": "advocaat",
+      "english": "lawyer",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "advocaten"
+      },
+      "example": { "nl": "Neem een advocaat in de arm.", "en": "Get yourself a lawyer." }
+    },
+    {
+      "rank": 1437,
+      "dutch": "directeur",
+      "english": "director, manager",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "directeuren"
+      },
+      "example": { "nl": "De directeur houdt een toespraak.", "en": "The director is giving a speech." }
+    },
+    {
+      "rank": 1438,
+      "dutch": "medewerker",
+      "english": "employee, staff member",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "medewerkers"
+      },
+      "example": { "nl": "Een medewerker helpt u verder.", "en": "A member of staff will help you." }
+    },
+    {
+      "rank": 1439,
+      "dutch": "vrijwilliger",
+      "english": "volunteer",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "vrijwilligers"
+      },
+      "example": { "nl": "De club draait op vrijwilligers.", "en": "The club runs on volunteers." }
+    },
+    {
+      "rank": 1440,
+      "dutch": "passagier",
+      "english": "passenger",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "passagiers"
+      },
+      "example": { "nl": "De passagiers stappen in.", "en": "The passengers are boarding." }
+    },
+    {
+      "rank": 1441,
+      "dutch": "publiek",
+      "english": "audience, public",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "het",
+        "plural": "—"
+      },
+      "example": { "nl": "Het publiek klapte lang.", "en": "The audience clapped for a long time." }
+    },
+    {
+      "rank": 1442,
+      "dutch": "overhemd",
+      "english": "shirt",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "overhemden"
+      },
+      "example": { "nl": "Hij draagt een wit overhemd.", "en": "He's wearing a white shirt." }
+    },
+    {
+      "rank": 1443,
+      "dutch": "rok",
+      "english": "skirt",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "rokken"
+      },
+      "example": { "nl": "Die rok past mooi bij je trui.", "en": "That skirt goes nicely with your jumper." }
+    },
+    {
+      "rank": 1444,
+      "dutch": "sjaal",
+      "english": "scarf",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "sjaals"
+      },
+      "example": { "nl": "Vergeet je sjaal niet.", "en": "Don't forget your scarf." }
+    },
+    {
+      "rank": 1445,
+      "dutch": "handschoen",
+      "english": "glove",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "handschoenen"
+      },
+      "example": { "nl": "Ik ben mijn handschoenen kwijt.", "en": "I've lost my gloves." }
+    },
+    {
+      "rank": 1446,
+      "dutch": "riem",
+      "english": "belt",
+      "type": "noun",
+      "note": "Also a seat belt: de veiligheidsriem.",
+      "forms": {
+        "article": "de",
+        "plural": "riemen"
+      },
+      "example": { "nl": "Doe je riem om.", "en": "Put your belt on." }
+    },
+    {
+      "rank": 1447,
+      "dutch": "ring",
+      "english": "ring",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "ringen"
+      },
+      "example": { "nl": "Ze draagt een gouden ring.", "en": "She wears a gold ring." }
+    },
+    {
+      "rank": 1448,
+      "dutch": "horloge",
+      "english": "watch",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "horloges"
+      },
+      "example": { "nl": "Mijn horloge loopt achter.", "en": "My watch is slow." }
+    },
+    {
+      "rank": 1449,
+      "dutch": "bril",
+      "english": "glasses",
+      "type": "noun",
+      "note": "Singular in Dutch: een bril = a pair of glasses.",
+      "forms": {
+        "article": "de",
+        "plural": "brillen"
+      },
+      "example": { "nl": "Waar is mijn bril?", "en": "Where are my glasses?" }
+    },
+    {
+      "rank": 1450,
+      "dutch": "zonnebril",
+      "english": "sunglasses",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "zonnebrillen"
+      },
+      "example": { "nl": "Neem je zonnebril mee.", "en": "Take your sunglasses." }
+    },
+    {
+      "rank": 1451,
+      "dutch": "portemonnee",
+      "english": "wallet, purse",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "portemonnees"
+      },
+      "example": { "nl": "Mijn portemonnee zit in mijn jas.", "en": "My wallet is in my coat." }
+    },
+    {
+      "rank": 1452,
+      "dutch": "sieraad",
+      "english": "piece of jewellery",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "sieraden"
+      },
+      "example": { "nl": "Ze draagt weinig sieraden.", "en": "She wears little jewellery." }
+    },
+    {
+      "rank": 1453,
+      "dutch": "jam",
+      "english": "jam",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "de",
+        "plural": "—"
+      },
+      "example": { "nl": "Doe je jam op je boterham?", "en": "Do you put jam on your bread?" }
+    },
+    {
+      "rank": 1454,
+      "dutch": "honing",
+      "english": "honey",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "de",
+        "plural": "—"
+      },
+      "example": { "nl": "Roer honing door je thee.", "en": "Stir honey into your tea." }
+    },
+    {
+      "rank": 1455,
+      "dutch": "chocolade",
+      "english": "chocolate",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "de",
+        "plural": "—"
+      },
+      "example": { "nl": "Wil je een stukje chocolade?", "en": "Would you like a piece of chocolate?" }
+    },
+    {
+      "rank": 1456,
+      "dutch": "noot",
+      "english": "nut",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "noten"
+      },
+      "example": { "nl": "Er zitten noten in dit brood.", "en": "There are nuts in this bread." }
+    },
+    {
+      "rank": 1457,
+      "dutch": "knoflook",
+      "english": "garlic",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "de",
+        "plural": "—"
+      },
+      "example": { "nl": "Doe er twee tenen knoflook bij.", "en": "Add two cloves of garlic." }
+    },
+    {
+      "rank": 1458,
+      "dutch": "kruid",
+      "english": "herb, spice",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "kruiden"
+      },
+      "example": { "nl": "Welke kruiden gebruik je?", "en": "Which herbs do you use?" }
+    },
+    {
+      "rank": 1459,
+      "dutch": "azijn",
+      "english": "vinegar",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "de",
+        "plural": "—"
+      },
+      "example": { "nl": "Een scheutje azijn erbij.", "en": "A dash of vinegar with it." }
+    },
+    {
+      "rank": 1460,
+      "dutch": "gerecht",
+      "english": "dish (food)",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "gerechten"
+      },
+      "example": { "nl": "Dit gerecht komt uit Indonesië.", "en": "This dish comes from Indonesia." }
+    },
+    {
+      "rank": 1461,
+      "dutch": "menu",
+      "english": "menu",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "menu's"
+      },
+      "example": { "nl": "Mogen we het menu zien?", "en": "May we see the menu?" }
+    },
+    {
+      "rank": 1462,
+      "dutch": "fooi",
+      "english": "tip (gratuity)",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "fooien"
+      },
+      "example": { "nl": "In Nederland is een fooi niet verplicht.", "en": "In the Netherlands a tip isn't obligatory." }
+    },
+    {
+      "rank": 1463,
+      "dutch": "terras",
+      "english": "terrace, outdoor seating",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "terrassen"
+      },
+      "example": { "nl": "Bij mooi weer zit iedereen op het terras.", "en": "In good weather everyone sits outside." }
+    },
+    {
+      "rank": 1464,
+      "dutch": "vaas",
+      "english": "vase",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "vazen"
+      },
+      "example": { "nl": "Zet de bloemen in een vaas.", "en": "Put the flowers in a vase." }
+    },
+    {
+      "rank": 1465,
+      "dutch": "postkantoor",
+      "english": "post office",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "postkantoren"
+      },
+      "example": { "nl": "Het postkantoor is verdwenen.", "en": "The post office has disappeared." }
+    },
+    {
+      "rank": 1466,
+      "dutch": "gemeentehuis",
+      "english": "town hall",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "gemeentehuizen"
+      },
+      "example": { "nl": "Je haalt je paspoort op het gemeentehuis.", "en": "You collect your passport at the town hall." }
+    },
+    {
+      "rank": 1467,
+      "dutch": "speeltuin",
+      "english": "playground",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "speeltuinen"
+      },
+      "example": { "nl": "De kinderen zijn in de speeltuin.", "en": "The children are at the playground." }
+    },
+    {
+      "rank": 1468,
+      "dutch": "zwembad",
+      "english": "swimming pool",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "zwembaden"
+      },
+      "example": { "nl": "Het zwembad is op maandag dicht.", "en": "The pool is closed on Mondays." }
+    },
+    {
+      "rank": 1469,
+      "dutch": "sportschool",
+      "english": "gym",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "sportscholen"
+      },
+      "example": { "nl": "Ik ga twee keer per week naar de sportschool.", "en": "I go to the gym twice a week." }
+    },
+    {
+      "rank": 1470,
+      "dutch": "marktkraam",
+      "english": "market stall",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "marktkramen"
+      },
+      "example": { "nl": "Bij deze marktkraam is de kaas het lekkerst.", "en": "The cheese is best at this market stall." }
+    },
+    {
+      "rank": 1471,
+      "dutch": "rijbewijs",
+      "english": "driving licence",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "rijbewijzen"
+      },
+      "example": { "nl": "Ik heb mijn rijbewijs gehaald.", "en": "I passed my driving test." }
+    },
+    {
+      "rank": 1472,
+      "dutch": "taxi",
+      "english": "taxi",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "taxi's"
+      },
+      "example": { "nl": "Zullen we een taxi bellen?", "en": "Shall we call a taxi?" }
+    },
+    {
+      "rank": 1473,
+      "dutch": "motor",
+      "english": "motorbike; engine",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "motoren"
+      },
+      "example": { "nl": "De motor slaat niet aan.", "en": "The engine won't start." }
+    },
+    {
+      "rank": 1474,
+      "dutch": "vrachtwagen",
+      "english": "lorry, truck",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "vrachtwagens"
+      },
+      "example": { "nl": "Een vrachtwagen blokkeert de straat.", "en": "A lorry is blocking the street." }
+    },
+    {
+      "rank": 1475,
+      "dutch": "stuur",
+      "english": "handlebars; steering wheel",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "sturen"
+      },
+      "example": { "nl": "Houd je stuur goed vast.", "en": "Hold on to your handlebars." }
+    },
+    {
+      "rank": 1476,
+      "dutch": "scooter",
+      "english": "scooter",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "scooters"
+      },
+      "example": { "nl": "Scooters mogen hier niet op het fietspad.", "en": "Scooters aren't allowed on the cycle path here." }
+    },
+    {
+      "rank": 1477,
+      "dutch": "spits",
+      "english": "rush hour",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "spitsen"
+      },
+      "example": { "nl": "In de spits is het erg druk.", "en": "It's very busy in the rush hour." }
+    },
+    {
+      "rank": 1478,
+      "dutch": "vertraging",
+      "english": "delay",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "vertragingen"
+      },
+      "example": { "nl": "De trein heeft tien minuten vertraging.", "en": "The train is ten minutes late." }
+    },
+    {
+      "rank": 1479,
+      "dutch": "conducteur",
+      "english": "conductor, ticket inspector",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "conducteurs"
+      },
+      "example": { "nl": "De conducteur controleert de kaartjes.", "en": "The conductor checks the tickets." }
+    },
+    {
+      "rank": 1480,
+      "dutch": "toekomst",
+      "english": "future",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "de",
+        "plural": "—"
+      },
+      "example": { "nl": "In de toekomst wordt alles digitaal.", "en": "In the future everything will be digital." }
+    },
+    {
+      "rank": 1481,
+      "dutch": "verleden",
+      "english": "past",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "het",
+        "plural": "—"
+      },
+      "example": { "nl": "Dat is verleden tijd.", "en": "That's water under the bridge." }
+    },
+    {
+      "rank": 1482,
+      "dutch": "periode",
+      "english": "period",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "periodes"
+      },
+      "example": { "nl": "Dit is een drukke periode.", "en": "This is a busy period." }
+    },
+    {
+      "rank": 1483,
+      "dutch": "verandering",
+      "english": "change",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "veranderingen"
+      },
+      "example": { "nl": "Er komt een grote verandering aan.", "en": "A big change is coming." }
+    },
+    {
+      "rank": 1484,
+      "dutch": "ontwikkeling",
+      "english": "development",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "ontwikkelingen"
+      },
+      "example": { "nl": "De ontwikkelingen gaan snel.", "en": "Developments are moving fast." }
+    },
+    {
+      "rank": 1485,
+      "dutch": "besluit",
+      "english": "decision",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "besluiten"
+      },
+      "example": { "nl": "Het besluit is genomen.", "en": "The decision has been made." }
+    },
+    {
+      "rank": 1486,
+      "dutch": "beslissing",
+      "english": "decision",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "beslissingen"
+      },
+      "example": { "nl": "Dat is een moeilijke beslissing.", "en": "That's a difficult decision." }
+    },
+    {
+      "rank": 1487,
+      "dutch": "succes",
+      "english": "success",
+      "type": "noun",
+      "note": "'Succes!' on its own is how you wish someone good luck.",
+      "forms": {
+        "article": "het",
+        "plural": "successen"
+      },
+      "example": { "nl": "Het feest was een groot succes.", "en": "The party was a great success." }
+    },
+    {
+      "rank": 1488,
+      "dutch": "behoefte",
+      "english": "need",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "behoeften"
+      },
+      "example": { "nl": "Er is behoefte aan meer woningen.", "en": "There's a need for more housing." }
+    },
+    {
+      "rank": 1489,
+      "dutch": "maatschappij",
+      "english": "society",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "maatschappijen"
+      },
+      "example": { "nl": "De maatschappij verandert snel.", "en": "Society is changing fast." }
+    },
+    {
+      "rank": 1490,
+      "dutch": "cultuur",
+      "english": "culture",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "culturen"
+      },
+      "example": { "nl": "Nederland kent veel culturen.", "en": "The Netherlands has many cultures." }
+    },
+    {
+      "rank": 1491,
+      "dutch": "geloof",
+      "english": "faith, belief",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "het",
+        "plural": "—"
+      },
+      "example": { "nl": "Zijn geloof is hem dierbaar.", "en": "His faith is dear to him." }
+    },
+    {
+      "rank": 1492,
+      "dutch": "feestdag",
+      "english": "public holiday",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "feestdagen"
+      },
+      "example": { "nl": "Op feestdagen rijden er minder treinen.", "en": "On public holidays fewer trains run." }
+    },
+    {
+      "rank": 1493,
+      "dutch": "percentage",
+      "english": "percentage",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "percentages"
+      },
+      "example": { "nl": "Een klein percentage fietst niet.", "en": "A small percentage don't cycle." }
+    },
+    {
+      "rank": 1494,
+      "dutch": "meter",
+      "english": "metre",
+      "type": "noun",
+      "note": "After a number it stays singular: tien meter.",
+      "forms": {
+        "article": "de",
+        "plural": "meters"
+      },
+      "example": { "nl": "Het is nog honderd meter.", "en": "It's another hundred metres." }
+    },
+    {
+      "rank": 1495,
+      "dutch": "centimeter",
+      "english": "centimetre",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "centimeters"
+      },
+      "example": { "nl": "Het scheelt maar een paar centimeter.", "en": "It's only a few centimetres off." }
+    },
+    {
+      "rank": 1496,
+      "dutch": "samenwerken",
+      "english": "to work together",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "werk samen", "jij": "werkt samen", "hij": "werkt samen", "wij": "werken samen" },
+        "past": { "singular": "werkte samen", "plural": "werkten samen" },
+        "perfect": "heeft samengewerkt"
+      },
+      "example": { "nl": "We werken samen aan dit project.", "en": "We're working on this project together." }
+    },
+    {
+      "rank": 1497,
+      "dutch": "deelnemen",
+      "english": "to take part",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "neem deel", "jij": "neemt deel", "hij": "neemt deel", "wij": "nemen deel" },
+        "past": { "singular": "nam deel", "plural": "namen deel" },
+        "perfect": "heeft deelgenomen"
+      },
+      "example": { "nl": "Doe je mee, of neem je niet deel?", "en": "Are you joining in, or not taking part?" }
+    },
+    {
+      "rank": 1498,
+      "dutch": "steunen",
+      "english": "to support",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "steun", "jij": "steunt", "hij": "steunt", "wij": "steunen" },
+        "past": { "singular": "steunde", "plural": "steunden" },
+        "perfect": "heeft gesteund"
+      },
+      "example": { "nl": "Mijn familie steunt me.", "en": "My family supports me." }
+    },
+    {
+      "rank": 1499,
+      "dutch": "beschermen",
+      "english": "to protect",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "bescherm", "jij": "beschermt", "hij": "beschermt", "wij": "beschermen" },
+        "past": { "singular": "beschermde", "plural": "beschermden" },
+        "perfect": "heeft beschermd"
+      },
+      "example": { "nl": "Een helm beschermt je hoofd.", "en": "A helmet protects your head." }
+    },
+    {
+      "rank": 1500,
+      "dutch": "vervangen",
+      "english": "to replace",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "vervang", "jij": "vervangt", "hij": "vervangt", "wij": "vervangen" },
+        "past": { "singular": "verving", "plural": "vervingen" },
+        "perfect": "heeft vervangen"
+      },
+      "example": { "nl": "De band moet vervangen worden.", "en": "The tyre needs replacing." }
+    }
+  ]
+}

@@ -1,0 +1,1055 @@
+{
+  "batch": 13,
+  "range": [1201, 1300],
+  "title": "Words 1201–1300",
+  "words": [
+    {
+      "rank": 1201,
+      "dutch": "vooruit",
+      "english": "forward, ahead",
+      "type": "other",
+      "example": { "nl": "We gaan vooruit.", "en": "We're making progress." }
+    },
+    {
+      "rank": 1202,
+      "dutch": "achteruit",
+      "english": "backwards",
+      "type": "other",
+      "example": { "nl": "De auto rijdt achteruit.", "en": "The car is reversing." }
+    },
+    {
+      "rank": 1203,
+      "dutch": "opnieuw",
+      "english": "again, anew",
+      "type": "other",
+      "example": { "nl": "Probeer het opnieuw.", "en": "Try again." }
+    },
+    {
+      "rank": 1204,
+      "dutch": "nogmaals",
+      "english": "once more",
+      "type": "other",
+      "example": { "nl": "Nogmaals bedankt voor alles.", "en": "Thanks again for everything." }
+    },
+    {
+      "rank": 1205,
+      "dutch": "pas",
+      "english": "only, not until",
+      "type": "other",
+      "note": "'pas' marks something as later or more recent than expected.",
+      "example": { "nl": "Ik kom pas om acht uur.", "en": "I won't be there until eight." }
+    },
+    {
+      "rank": 1206,
+      "dutch": "amper",
+      "english": "hardly",
+      "type": "other",
+      "example": { "nl": "Ik heb hem amper gezien.", "en": "I hardly saw him." }
+    },
+    {
+      "rank": 1207,
+      "dutch": "nauwelijks",
+      "english": "barely",
+      "type": "other",
+      "example": { "nl": "Er was nauwelijks plek.", "en": "There was barely any room." }
+    },
+    {
+      "rank": 1208,
+      "dutch": "tenminste",
+      "english": "at least",
+      "type": "other",
+      "example": { "nl": "Het is tenminste droog.", "en": "At least it's dry." }
+    },
+    {
+      "rank": 1209,
+      "dutch": "hooguit",
+      "english": "at most",
+      "type": "other",
+      "example": { "nl": "Het duurt hooguit tien minuten.", "en": "It takes ten minutes at most." }
+    },
+    {
+      "rank": 1210,
+      "dutch": "minstens",
+      "english": "at least (a number)",
+      "type": "other",
+      "example": { "nl": "Het kost minstens vijftig euro.", "en": "It costs at least fifty euros." }
+    },
+    {
+      "rank": 1211,
+      "dutch": "vaker",
+      "english": "more often",
+      "type": "other",
+      "example": { "nl": "Dat zou je vaker moeten doen.", "en": "You should do that more often." }
+    },
+    {
+      "rank": 1212,
+      "dutch": "eindelijk",
+      "english": "finally, at last",
+      "type": "other",
+      "example": { "nl": "Eindelijk zomer!", "en": "Summer at last!" }
+    },
+    {
+      "rank": 1213,
+      "dutch": "plotseling",
+      "english": "suddenly",
+      "type": "other",
+      "example": { "nl": "Plotseling begon het te regenen.", "en": "Suddenly it started raining." }
+    },
+    {
+      "rank": 1214,
+      "dutch": "apart",
+      "english": "separately; odd",
+      "type": "other",
+      "example": { "nl": "We betalen apart.", "en": "We're paying separately." }
+    },
+    {
+      "rank": 1215,
+      "dutch": "per",
+      "english": "per, by",
+      "type": "other",
+      "example": { "nl": "Twee keer per week.", "en": "Twice a week." }
+    },
+    {
+      "rank": 1216,
+      "dutch": "ieder",
+      "english": "each, every",
+      "type": "other",
+      "note": "'iedere' before de-words, 'ieder' before het-words.",
+      "example": { "nl": "Ieder kind krijgt een boek.", "en": "Each child gets a book." }
+    },
+    {
+      "rank": 1217,
+      "dutch": "elkaars",
+      "english": "each other's",
+      "type": "other",
+      "example": { "nl": "We gebruiken elkaars spullen.", "en": "We use each other's things." }
+    },
+    {
+      "rank": 1218,
+      "dutch": "zulke",
+      "english": "such",
+      "type": "other",
+      "example": { "nl": "Zulke dingen gebeuren.", "en": "Such things happen." }
+    },
+    {
+      "rank": 1219,
+      "dutch": "dezelfde",
+      "english": "the same",
+      "type": "other",
+      "note": "'hetzelfde' before het-words: hetzelfde boek.",
+      "example": { "nl": "We nemen dezelfde trein.", "en": "We're taking the same train." }
+    },
+    {
+      "rank": 1220,
+      "dutch": "allerlei",
+      "english": "all kinds of",
+      "type": "other",
+      "example": { "nl": "Er waren allerlei broodjes.", "en": "There were all kinds of sandwiches." }
+    },
+    {
+      "rank": 1221,
+      "dutch": "vlucht",
+      "english": "flight",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "vluchten"
+      },
+      "example": { "nl": "Onze vlucht vertrekt om zeven uur.", "en": "Our flight leaves at seven." }
+    },
+    {
+      "rank": 1222,
+      "dutch": "vliegveld",
+      "english": "airport",
+      "type": "noun",
+      "note": "'luchthaven' is the more formal word.",
+      "forms": {
+        "article": "het",
+        "plural": "vliegvelden"
+      },
+      "example": { "nl": "Schiphol is het grootste vliegveld.", "en": "Schiphol is the biggest airport." }
+    },
+    {
+      "rank": 1223,
+      "dutch": "koffer",
+      "english": "suitcase",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "koffers"
+      },
+      "example": { "nl": "Mijn koffer is te zwaar.", "en": "My suitcase is too heavy." }
+    },
+    {
+      "rank": 1224,
+      "dutch": "rugzak",
+      "english": "backpack",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "rugzakken"
+      },
+      "example": { "nl": "Neem alleen een rugzak mee.", "en": "Just bring a backpack." }
+    },
+    {
+      "rank": 1225,
+      "dutch": "bagage",
+      "english": "luggage",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "de",
+        "plural": "—"
+      },
+      "example": { "nl": "De bagage komt op band drie.", "en": "The luggage comes on belt three." }
+    },
+    {
+      "rank": 1226,
+      "dutch": "camping",
+      "english": "campsite",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "campings"
+      },
+      "example": { "nl": "We staan op een camping bij de zee.", "en": "We're staying at a campsite by the sea." }
+    },
+    {
+      "rank": 1227,
+      "dutch": "tent",
+      "english": "tent",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "tenten"
+      },
+      "example": { "nl": "De tent staat scheef.", "en": "The tent is crooked." }
+    },
+    {
+      "rank": 1228,
+      "dutch": "kaart",
+      "english": "map; card",
+      "type": "noun",
+      "note": "Also a greetings card and a playing card; a ticket is 'een kaartje'.",
+      "forms": {
+        "article": "de",
+        "plural": "kaarten"
+      },
+      "example": { "nl": "Kijk even op de kaart.", "en": "Have a look at the map." }
+    },
+    {
+      "rank": 1229,
+      "dutch": "gids",
+      "english": "guide",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "gidsen"
+      },
+      "example": { "nl": "De gids vertelde over de stad.", "en": "The guide talked about the city." }
+    },
+    {
+      "rank": 1230,
+      "dutch": "toerist",
+      "english": "tourist",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "toeristen"
+      },
+      "example": { "nl": "In de zomer zijn er veel toeristen.", "en": "In summer there are lots of tourists." }
+    },
+    {
+      "rank": 1231,
+      "dutch": "uitzicht",
+      "english": "view",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "uitzichten"
+      },
+      "example": { "nl": "Vanaf het balkon heb je een mooi uitzicht.", "en": "From the balcony you have a lovely view." }
+    },
+    {
+      "rank": 1232,
+      "dutch": "bezienswaardigheid",
+      "english": "sight, attraction",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "bezienswaardigheden"
+      },
+      "example": { "nl": "We bekijken de bezienswaardigheden te voet.", "en": "We're seeing the sights on foot." }
+    },
+    {
+      "rank": 1233,
+      "dutch": "souvenir",
+      "english": "souvenir",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "souvenirs"
+      },
+      "example": { "nl": "Ik neem een souvenir voor mijn zus mee.", "en": "I'm bringing a souvenir for my sister." }
+    },
+    {
+      "rank": 1234,
+      "dutch": "grensovergang",
+      "english": "border crossing",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "grensovergangen"
+      },
+      "example": { "nl": "Bij de grensovergang stond geen controle.", "en": "There was no check at the border crossing." }
+    },
+    {
+      "rank": 1235,
+      "dutch": "op vakantie gaan",
+      "english": "to go on holiday",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "ga op vakantie", "jij": "gaat op vakantie", "hij": "gaat op vakantie", "wij": "gaan op vakantie" },
+        "past": { "singular": "ging op vakantie", "plural": "gingen op vakantie" },
+        "perfect": "is op vakantie gegaan"
+      },
+      "example": { "nl": "In juli gaan we op vakantie.", "en": "In July we're going on holiday." }
+    },
+    {
+      "rank": 1236,
+      "dutch": "inpakken",
+      "english": "to pack",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "pak in", "jij": "pakt in", "hij": "pakt in", "wij": "pakken in" },
+        "past": { "singular": "pakte in", "plural": "pakten in" },
+        "perfect": "heeft ingepakt"
+      },
+      "example": { "nl": "Heb je alles ingepakt?", "en": "Have you packed everything?" }
+    },
+    {
+      "rank": 1237,
+      "dutch": "uitpakken",
+      "english": "to unpack",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "pak uit", "jij": "pakt uit", "hij": "pakt uit", "wij": "pakken uit" },
+        "past": { "singular": "pakte uit", "plural": "pakten uit" },
+        "perfect": "heeft uitgepakt"
+      },
+      "example": { "nl": "Ik pak de koffer morgen wel uit.", "en": "I'll unpack the suitcase tomorrow." }
+    },
+    {
+      "rank": 1238,
+      "dutch": "logeren",
+      "english": "to stay (the night)",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "logeer", "jij": "logeert", "hij": "logeert", "wij": "logeren" },
+        "past": { "singular": "logeerde", "plural": "logeerden" },
+        "perfect": "heeft gelogeerd"
+      },
+      "example": { "nl": "We logeren bij vrienden.", "en": "We're staying with friends." }
+    },
+    {
+      "rank": 1239,
+      "dutch": "boeken",
+      "english": "to book",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "boek", "jij": "boekt", "hij": "boekt", "wij": "boeken" },
+        "past": { "singular": "boekte", "plural": "boekten" },
+        "perfect": "heeft geboekt"
+      },
+      "example": { "nl": "Ik heb het hotel online geboekt.", "en": "I booked the hotel online." }
+    },
+    {
+      "rank": 1240,
+      "dutch": "bekijken",
+      "english": "to look at, to view",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "bekijk", "jij": "bekijkt", "hij": "bekijkt", "wij": "bekijken" },
+        "past": { "singular": "bekeek", "plural": "bekeken" },
+        "perfect": "heeft bekeken"
+      },
+      "example": { "nl": "We hebben het museum bekeken.", "en": "We had a look round the museum." }
+    },
+    {
+      "rank": 1241,
+      "dutch": "rondlopen",
+      "english": "to walk around",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "loop rond", "jij": "loopt rond", "hij": "loopt rond", "wij": "lopen rond" },
+        "past": { "singular": "liep rond", "plural": "liepen rond" },
+        "perfect": "heeft rondgelopen"
+      },
+      "example": { "nl": "We liepen een uur door de stad rond.", "en": "We walked around the city for an hour." }
+    },
+    {
+      "rank": 1242,
+      "dutch": "genieten",
+      "english": "to enjoy",
+      "type": "verb",
+      "note": "genieten van = to enjoy.",
+      "forms": {
+        "present": { "ik": "geniet", "jij": "geniet", "hij": "geniet", "wij": "genieten" },
+        "past": { "singular": "genoot", "plural": "genoten" },
+        "perfect": "heeft genoten"
+      },
+      "example": { "nl": "Geniet van je vakantie!", "en": "Enjoy your holiday!" }
+    },
+    {
+      "rank": 1243,
+      "dutch": "kunst",
+      "english": "art",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "kunsten"
+      },
+      "example": { "nl": "Zij studeert kunstgeschiedenis.", "en": "She studies art history." }
+    },
+    {
+      "rank": 1244,
+      "dutch": "schilderij",
+      "english": "painting",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "schilderijen"
+      },
+      "example": { "nl": "Dat schilderij hangt in het Rijksmuseum.", "en": "That painting hangs in the Rijksmuseum." }
+    },
+    {
+      "rank": 1245,
+      "dutch": "kunstenaar",
+      "english": "artist",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "kunstenaars"
+      },
+      "example": { "nl": "De kunstenaar woont in Rotterdam.", "en": "The artist lives in Rotterdam." }
+    },
+    {
+      "rank": 1246,
+      "dutch": "schrijver",
+      "english": "writer",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "schrijvers"
+      },
+      "example": { "nl": "Wie is je favoriete schrijver?", "en": "Who's your favourite writer?" }
+    },
+    {
+      "rank": 1247,
+      "dutch": "gedicht",
+      "english": "poem",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "gedichten"
+      },
+      "example": { "nl": "Zij schreef een gedicht voor hem.", "en": "She wrote a poem for him." }
+    },
+    {
+      "rank": 1248,
+      "dutch": "theater",
+      "english": "theatre",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "theaters"
+      },
+      "example": { "nl": "We gaan vanavond naar het theater.", "en": "We're going to the theatre tonight." }
+    },
+    {
+      "rank": 1249,
+      "dutch": "concert",
+      "english": "concert",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "concerten"
+      },
+      "example": { "nl": "Het concert begint om acht uur.", "en": "The concert starts at eight." }
+    },
+    {
+      "rank": 1250,
+      "dutch": "zanger",
+      "english": "singer",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "zangers"
+      },
+      "example": { "nl": "De zanger kwam te laat op.", "en": "The singer came on late." }
+    },
+    {
+      "rank": 1251,
+      "dutch": "acteur",
+      "english": "actor",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "acteurs"
+      },
+      "example": { "nl": "Die acteur ken ik van televisie.", "en": "I know that actor from television." }
+    },
+    {
+      "rank": 1252,
+      "dutch": "tentoonstelling",
+      "english": "exhibition",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "tentoonstellingen"
+      },
+      "example": { "nl": "De tentoonstelling loopt tot mei.", "en": "The exhibition runs until May." }
+    },
+    {
+      "rank": 1253,
+      "dutch": "festival",
+      "english": "festival",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "festivals"
+      },
+      "example": { "nl": "In de zomer is er een festival in het park.", "en": "In summer there's a festival in the park." }
+    },
+    {
+      "rank": 1254,
+      "dutch": "traditie",
+      "english": "tradition",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "tradities"
+      },
+      "example": { "nl": "Dat is hier een oude traditie.", "en": "That's an old tradition here." }
+    },
+    {
+      "rank": 1255,
+      "dutch": "geschiedenis",
+      "english": "history",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "geschiedenissen"
+      },
+      "example": { "nl": "De geschiedenis van de stad is lang.", "en": "The city's history is long." }
+    },
+    {
+      "rank": 1256,
+      "dutch": "eeuw",
+      "english": "century",
+      "type": "noun",
+      "note": "De Gouden Eeuw — the Golden Age — is the seventeenth century.",
+      "forms": {
+        "article": "de",
+        "plural": "eeuwen"
+      },
+      "example": { "nl": "Dat huis is uit de zeventiende eeuw.", "en": "That house is from the seventeenth century." }
+    },
+    {
+      "rank": 1257,
+      "dutch": "vlag",
+      "english": "flag",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "vlaggen"
+      },
+      "example": { "nl": "Op Koningsdag hangt de vlag uit.", "en": "On King's Day the flag is flown." }
+    },
+    {
+      "rank": 1258,
+      "dutch": "kerst",
+      "english": "Christmas",
+      "type": "noun",
+      "note": "Uncountable. 'Eerste en tweede kerstdag' are the 25th and 26th.",
+      "forms": {
+        "article": "de",
+        "plural": "—"
+      },
+      "example": { "nl": "Met kerst zijn we bij mijn ouders.", "en": "At Christmas we're at my parents'." }
+    },
+    {
+      "rank": 1259,
+      "dutch": "Sinterklaas",
+      "english": "Sinterklaas (5 December)",
+      "type": "noun",
+      "note": "Uncountable. The children's gift festival, bigger than Christmas for many families.",
+      "forms": {
+        "article": "de",
+        "plural": "—"
+      },
+      "example": { "nl": "Sinterklaas vieren we op 5 december.", "en": "We celebrate Sinterklaas on 5 December." }
+    },
+    {
+      "rank": 1260,
+      "dutch": "Koningsdag",
+      "english": "King's Day",
+      "type": "noun",
+      "note": "Uncountable. 27 April — street markets and a lot of orange.",
+      "forms": {
+        "article": "de",
+        "plural": "—"
+      },
+      "example": { "nl": "Op Koningsdag draagt iedereen oranje.", "en": "On King's Day everyone wears orange." }
+    },
+    {
+      "rank": 1261,
+      "dutch": "oudejaarsavond",
+      "english": "New Year's Eve",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "de",
+        "plural": "—"
+      },
+      "example": { "nl": "Op oudejaarsavond eten we oliebollen.", "en": "On New Year's Eve we eat oliebollen." }
+    },
+    {
+      "rank": 1262,
+      "dutch": "leerling",
+      "english": "pupil",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "leerlingen"
+      },
+      "example": { "nl": "De leerlingen maken een toets.", "en": "The pupils are taking a test." }
+    },
+    {
+      "rank": 1263,
+      "dutch": "basisschool",
+      "english": "primary school",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "basisscholen"
+      },
+      "example": { "nl": "Mijn dochter zit op de basisschool.", "en": "My daughter is at primary school." }
+    },
+    {
+      "rank": 1264,
+      "dutch": "toets",
+      "english": "test",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "toetsen"
+      },
+      "example": { "nl": "De toets was makkelijker dan verwacht.", "en": "The test was easier than expected." }
+    },
+    {
+      "rank": 1265,
+      "dutch": "vak",
+      "english": "subject; trade",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "vakken"
+      },
+      "example": { "nl": "Welk vak vind je het leukst?", "en": "Which subject do you like best?" }
+    },
+    {
+      "rank": 1266,
+      "dutch": "onderzoek",
+      "english": "research, investigation",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "onderzoeken"
+      },
+      "example": { "nl": "Het onderzoek duurt twee jaar.", "en": "The research takes two years." }
+    },
+    {
+      "rank": 1267,
+      "dutch": "wetenschap",
+      "english": "science",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "wetenschappen"
+      },
+      "example": { "nl": "Zij werkt in de wetenschap.", "en": "She works in science." }
+    },
+    {
+      "rank": 1268,
+      "dutch": "boekenkast",
+      "english": "bookcase",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "boekenkasten"
+      },
+      "example": { "nl": "De boekenkast staat vol.", "en": "The bookcase is full." }
+    },
+    {
+      "rank": 1269,
+      "dutch": "uitleg",
+      "english": "explanation",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "de",
+        "plural": "—"
+      },
+      "example": { "nl": "Dank je voor de uitleg.", "en": "Thanks for the explanation." }
+    },
+    {
+      "rank": 1270,
+      "dutch": "broodje",
+      "english": "roll, sandwich",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "broodjes"
+      },
+      "example": { "nl": "Ik neem een broodje kaas.", "en": "I'll have a cheese roll." }
+    },
+    {
+      "rank": 1271,
+      "dutch": "pannenkoek",
+      "english": "pancake",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "pannenkoeken"
+      },
+      "example": { "nl": "Vanavond bakken we pannenkoeken.", "en": "Tonight we're making pancakes." }
+    },
+    {
+      "rank": 1272,
+      "dutch": "patat",
+      "english": "chips, fries",
+      "type": "noun",
+      "note": "Uncountable. In the south they say 'friet'; 'met' means with mayonnaise.",
+      "forms": {
+        "article": "de",
+        "plural": "—"
+      },
+      "example": { "nl": "Een patatje met, alsjeblieft.", "en": "Chips with mayonnaise, please." }
+    },
+    {
+      "rank": 1273,
+      "dutch": "stamppot",
+      "english": "mashed pot (winter dish)",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "stamppotten"
+      },
+      "example": { "nl": "In de winter eten we vaak stamppot.", "en": "In winter we often eat stamppot." }
+    },
+    {
+      "rank": 1274,
+      "dutch": "haring",
+      "english": "herring",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "haringen"
+      },
+      "example": { "nl": "Nieuwe haring eet je met ui.", "en": "New herring is eaten with onion." }
+    },
+    {
+      "rank": 1275,
+      "dutch": "stroopwafel",
+      "english": "syrup waffle",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "stroopwafels"
+      },
+      "example": { "nl": "Leg de stroopwafel op je kopje thee.", "en": "Put the stroopwafel on your cup of tea." }
+    },
+    {
+      "rank": 1276,
+      "dutch": "drop",
+      "english": "liquorice",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "de",
+        "plural": "—"
+      },
+      "example": { "nl": "Nederlanders zijn gek op drop.", "en": "The Dutch are mad about liquorice." }
+    },
+    {
+      "rank": 1277,
+      "dutch": "ui",
+      "english": "onion",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "uien"
+      },
+      "example": { "nl": "Snijd twee uien fijn.", "en": "Chop two onions finely." }
+    },
+    {
+      "rank": 1278,
+      "dutch": "tomaat",
+      "english": "tomato",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "tomaten"
+      },
+      "example": { "nl": "De tomaten uit de tuin zijn rijp.", "en": "The tomatoes from the garden are ripe." }
+    },
+    {
+      "rank": 1279,
+      "dutch": "wortel",
+      "english": "carrot; root",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "wortels"
+      },
+      "example": { "nl": "Doe er ook wortels bij.", "en": "Add carrots as well." }
+    },
+    {
+      "rank": 1280,
+      "dutch": "sla",
+      "english": "lettuce",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "de",
+        "plural": "—"
+      },
+      "example": { "nl": "Doe wat sla op je brood.", "en": "Put some lettuce on your bread." }
+    },
+    {
+      "rank": 1281,
+      "dutch": "komkommer",
+      "english": "cucumber",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "komkommers"
+      },
+      "example": { "nl": "Op mijn brood doe ik komkommer.", "en": "I put cucumber on my bread." }
+    },
+    {
+      "rank": 1282,
+      "dutch": "banaan",
+      "english": "banana",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "bananen"
+      },
+      "example": { "nl": "Neem een banaan voor onderweg.", "en": "Take a banana for the journey." }
+    },
+    {
+      "rank": 1283,
+      "dutch": "sinaasappel",
+      "english": "orange (fruit)",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "sinaasappels"
+      },
+      "example": { "nl": "Ik pers verse sinaasappels.", "en": "I'm squeezing fresh oranges." }
+    },
+    {
+      "rank": 1284,
+      "dutch": "olie",
+      "english": "oil",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "oliën"
+      },
+      "example": { "nl": "Doe wat olie in de pan.", "en": "Put some oil in the pan." }
+    },
+    {
+      "rank": 1285,
+      "dutch": "peper",
+      "english": "pepper",
+      "type": "noun",
+      "note": "Uncountable for the spice.",
+      "forms": {
+        "article": "de",
+        "plural": "—"
+      },
+      "example": { "nl": "Zout en peper staan op tafel.", "en": "Salt and pepper are on the table." }
+    },
+    {
+      "rank": 1286,
+      "dutch": "pan",
+      "english": "pan",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "pannen"
+      },
+      "example": { "nl": "De pan staat nog op het vuur.", "en": "The pan is still on the heat." }
+    },
+    {
+      "rank": 1287,
+      "dutch": "oven",
+      "english": "oven",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "ovens"
+      },
+      "example": { "nl": "Zet de oven op tweehonderd graden.", "en": "Set the oven to two hundred degrees." }
+    },
+    {
+      "rank": 1288,
+      "dutch": "koffiezetapparaat",
+      "english": "coffee machine",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "koffiezetapparaten"
+      },
+      "example": { "nl": "Het koffiezetapparaat is stuk.", "en": "The coffee machine is broken." }
+    },
+    {
+      "rank": 1289,
+      "dutch": "prullenbak",
+      "english": "waste bin",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "prullenbakken"
+      },
+      "example": { "nl": "Gooi het in de prullenbak.", "en": "Throw it in the bin." }
+    },
+    {
+      "rank": 1290,
+      "dutch": "emmer",
+      "english": "bucket",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "emmers"
+      },
+      "example": { "nl": "Vul de emmer met warm water.", "en": "Fill the bucket with warm water." }
+    },
+    {
+      "rank": 1291,
+      "dutch": "gereedschap",
+      "english": "tools",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "het",
+        "plural": "—"
+      },
+      "example": { "nl": "Heb je gereedschap bij je?", "en": "Do you have tools with you?" }
+    },
+    {
+      "rank": 1292,
+      "dutch": "hamer",
+      "english": "hammer",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "hamers"
+      },
+      "example": { "nl": "Geef me even de hamer.", "en": "Pass me the hammer." }
+    },
+    {
+      "rank": 1293,
+      "dutch": "schaar",
+      "english": "scissors",
+      "type": "noun",
+      "note": "Singular in Dutch: een schaar = a pair of scissors.",
+      "forms": {
+        "article": "de",
+        "plural": "scharen"
+      },
+      "example": { "nl": "De schaar ligt in de la.", "en": "The scissors are in the drawer." }
+    },
+    {
+      "rank": 1294,
+      "dutch": "pen",
+      "english": "pen",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "pennen"
+      },
+      "example": { "nl": "Mag ik je pen even lenen?", "en": "May I borrow your pen?" }
+    },
+    {
+      "rank": 1295,
+      "dutch": "potlood",
+      "english": "pencil",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "potloden"
+      },
+      "example": { "nl": "Schrijf het met potlood.", "en": "Write it in pencil." }
+    },
+    {
+      "rank": 1296,
+      "dutch": "doos",
+      "english": "box",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "dozen"
+      },
+      "example": { "nl": "De dozen staan nog in de gang.", "en": "The boxes are still in the hallway." }
+    },
+    {
+      "rank": 1297,
+      "dutch": "zak",
+      "english": "bag; pocket",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "zakken"
+      },
+      "example": { "nl": "Stop het in je zak.", "en": "Put it in your pocket." }
+    },
+    {
+      "rank": 1298,
+      "dutch": "knop",
+      "english": "button, knob",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "knoppen"
+      },
+      "example": { "nl": "Druk op de groene knop.", "en": "Press the green button." }
+    },
+    {
+      "rank": 1299,
+      "dutch": "slot",
+      "english": "lock; end",
+      "type": "noun",
+      "note": "'tot slot' means finally.",
+      "forms": {
+        "article": "het",
+        "plural": "sloten"
+      },
+      "example": { "nl": "Het slot is kapot.", "en": "The lock is broken." }
+    },
+    {
+      "rank": 1300,
+      "dutch": "bel",
+      "english": "bell, doorbell",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "bellen"
+      },
+      "example": { "nl": "Er gaat een bel.", "en": "A bell is ringing." }
+    }
+  ]
+}

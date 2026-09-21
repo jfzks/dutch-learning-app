@@ -728,35 +728,27 @@
     },
     {
       "rank": 767,
-      "dutch": "succes",
-      "english": "good luck",
-      "type": "other",
-      "note": "What Dutch people say instead of 'good luck' for something you work at.",
-      "example": { "nl": "Succes met je examen!", "en": "Good luck with your exam!" }
-    },
-    {
-      "rank": 768,
       "dutch": "hoezo",
       "english": "how so, why",
       "type": "other",
       "example": { "nl": "Hoezo, is er iets mis?", "en": "How come, is something wrong?" }
     },
     {
-      "rank": 769,
+      "rank": 768,
       "dutch": "geen probleem",
       "english": "no problem",
       "type": "other",
       "example": { "nl": "Geen probleem, ik doe het wel.", "en": "No problem, I'll do it." }
     },
     {
-      "rank": 770,
+      "rank": 769,
       "dutch": "tot straks",
       "english": "see you later",
       "type": "other",
       "example": { "nl": "Tot straks bij de koffie.", "en": "See you later at coffee." }
     },
     {
-      "rank": 771,
+      "rank": 770,
       "dutch": "weerbericht",
       "english": "weather forecast",
       "type": "noun",
@@ -768,7 +760,7 @@
       "example": { "nl": "Het weerbericht belooft regen.", "en": "The forecast promises rain." }
     },
     {
-      "rank": 772,
+      "rank": 771,
       "dutch": "regen",
       "english": "rain",
       "type": "noun",
@@ -780,7 +772,7 @@
       "example": { "nl": "Na de regen kwam de zon.", "en": "After the rain the sun came out." }
     },
     {
-      "rank": 773,
+      "rank": 772,
       "dutch": "zon",
       "english": "sun",
       "type": "noun",
@@ -791,7 +783,7 @@
       "example": { "nl": "De zon schijnt eindelijk.", "en": "The sun is finally shining." }
     },
     {
-      "rank": 774,
+      "rank": 773,
       "dutch": "wind",
       "english": "wind",
       "type": "noun",
@@ -803,7 +795,7 @@
       "example": { "nl": "Er staat een harde wind.", "en": "There's a strong wind." }
     },
     {
-      "rank": 775,
+      "rank": 774,
       "dutch": "sneeuw",
       "english": "snow",
       "type": "noun",
@@ -815,7 +807,7 @@
       "example": { "nl": "Er ligt sneeuw op het fietspad.", "en": "There's snow on the cycle path." }
     },
     {
-      "rank": 776,
+      "rank": 775,
       "dutch": "wolk",
       "english": "cloud",
       "type": "noun",
@@ -826,7 +818,7 @@
       "example": { "nl": "Er drijven donkere wolken boven de stad.", "en": "Dark clouds are drifting over the city." }
     },
     {
-      "rank": 777,
+      "rank": 776,
       "dutch": "lucht",
       "english": "sky; air",
       "type": "noun",
@@ -837,7 +829,7 @@
       "example": { "nl": "De lucht is grijs vandaag.", "en": "The sky is grey today." }
     },
     {
-      "rank": 778,
+      "rank": 777,
       "dutch": "bui",
       "english": "shower (of rain)",
       "type": "noun",
@@ -848,7 +840,7 @@
       "example": { "nl": "Er komt een bui aan.", "en": "A shower is coming." }
     },
     {
-      "rank": 779,
+      "rank": 778,
       "dutch": "storm",
       "english": "storm",
       "type": "noun",
@@ -859,7 +851,7 @@
       "example": { "nl": "Door de storm reden er geen treinen.", "en": "Because of the storm no trains were running." }
     },
     {
-      "rank": 780,
+      "rank": 779,
       "dutch": "onweer",
       "english": "thunderstorm",
       "type": "noun",
@@ -871,7 +863,7 @@
       "example": { "nl": "Vannacht was er onweer.", "en": "There was a thunderstorm last night." }
     },
     {
-      "rank": 781,
+      "rank": 780,
       "dutch": "mist",
       "english": "fog, mist",
       "type": "noun",
@@ -883,7 +875,7 @@
       "example": { "nl": "In de mist rijd je langzaam.", "en": "In fog you drive slowly." }
     },
     {
-      "rank": 782,
+      "rank": 781,
       "dutch": "temperatuur",
       "english": "temperature",
       "type": "noun",
@@ -894,7 +886,7 @@
       "example": { "nl": "De temperatuur daalt vanavond.", "en": "The temperature drops tonight." }
     },
     {
-      "rank": 783,
+      "rank": 782,
       "dutch": "graad",
       "english": "degree",
       "type": "noun",
@@ -905,7 +897,7 @@
       "example": { "nl": "Het is tien graden buiten.", "en": "It's ten degrees outside." }
     },
     {
-      "rank": 784,
+      "rank": 783,
       "dutch": "ijs",
       "english": "ice; ice cream",
       "type": "noun",
@@ -917,7 +909,7 @@
       "example": { "nl": "Er ligt ijs op de sloot.", "en": "There's ice on the ditch." }
     },
     {
-      "rank": 785,
+      "rank": 784,
       "dutch": "kou",
       "english": "cold (the cold)",
       "type": "noun",
@@ -929,7 +921,7 @@
       "example": { "nl": "Ik kan niet tegen de kou.", "en": "I can't stand the cold." }
     },
     {
-      "rank": 786,
+      "rank": 785,
       "dutch": "paraplu",
       "english": "umbrella",
       "type": "noun",
@@ -940,7 +932,7 @@
       "example": { "nl": "Neem een paraplu mee.", "en": "Take an umbrella with you." }
     },
     {
-      "rank": 787,
+      "rank": 786,
       "dutch": "regenen",
       "english": "to rain",
       "type": "verb",
@@ -953,7 +945,7 @@
       "example": { "nl": "Het regent al de hele dag.", "en": "It's been raining all day." }
     },
     {
-      "rank": 788,
+      "rank": 787,
       "dutch": "sneeuwen",
       "english": "to snow",
       "type": "verb",
@@ -965,7 +957,7 @@
       "example": { "nl": "Het sneeuwt bijna nooit meer.", "en": "It hardly ever snows any more." }
     },
     {
-      "rank": 789,
+      "rank": 788,
       "dutch": "waaien",
       "english": "to blow (of wind)",
       "type": "verb",
@@ -977,7 +969,7 @@
       "example": { "nl": "Het waait hard vandaag.", "en": "It's very windy today." }
     },
     {
-      "rank": 790,
+      "rank": 789,
       "dutch": "vriezen",
       "english": "to freeze",
       "type": "verb",
@@ -989,7 +981,7 @@
       "example": { "nl": "Vannacht gaat het vriezen.", "en": "It's going to freeze tonight." }
     },
     {
-      "rank": 791,
+      "rank": 790,
       "dutch": "schijnen",
       "english": "to shine; to seem",
       "type": "verb",
@@ -1001,7 +993,7 @@
       "example": { "nl": "De zon schijnt.", "en": "The sun is shining." }
     },
     {
-      "rank": 792,
+      "rank": 791,
       "dutch": "nat",
       "english": "wet",
       "type": "adjective",
@@ -1012,7 +1004,7 @@
       "example": { "nl": "Ik ben helemaal nat geworden.", "en": "I got completely soaked." }
     },
     {
-      "rank": 793,
+      "rank": 792,
       "dutch": "droog",
       "english": "dry",
       "type": "adjective",
@@ -1023,7 +1015,7 @@
       "example": { "nl": "Blijft het droog vandaag?", "en": "Will it stay dry today?" }
     },
     {
-      "rank": 794,
+      "rank": 793,
       "dutch": "zonnig",
       "english": "sunny",
       "type": "adjective",
@@ -1034,7 +1026,7 @@
       "example": { "nl": "Het wordt morgen zonnig.", "en": "It'll be sunny tomorrow." }
     },
     {
-      "rank": 795,
+      "rank": 794,
       "dutch": "bewolkt",
       "english": "cloudy",
       "type": "adjective",
@@ -1045,7 +1037,7 @@
       "example": { "nl": "Het is zwaar bewolkt.", "en": "It's heavily overcast." }
     },
     {
-      "rank": 796,
+      "rank": 795,
       "dutch": "mistig",
       "english": "foggy",
       "type": "adjective",
@@ -1056,7 +1048,7 @@
       "example": { "nl": "Het is mistig op de snelweg.", "en": "It's foggy on the motorway." }
     },
     {
-      "rank": 797,
+      "rank": 796,
       "dutch": "winderig",
       "english": "windy",
       "type": "adjective",
@@ -1067,7 +1059,7 @@
       "example": { "nl": "Het is hier altijd winderig.", "en": "It's always windy here." }
     },
     {
-      "rank": 798,
+      "rank": 797,
       "dutch": "koel",
       "english": "cool",
       "type": "adjective",
@@ -1078,7 +1070,7 @@
       "example": { "nl": "Bewaar het op een koele plek.", "en": "Keep it in a cool place." }
     },
     {
-      "rank": 799,
+      "rank": 798,
       "dutch": "fris",
       "english": "fresh, chilly",
       "type": "adjective",
@@ -1089,7 +1081,7 @@
       "example": { "nl": "Het is vanochtend fris.", "en": "It's chilly this morning." }
     },
     {
-      "rank": 800,
+      "rank": 799,
       "dutch": "helder",
       "english": "clear, bright",
       "type": "adjective",
@@ -1098,6 +1090,17 @@
         "examples": ["een heldere lucht", "een helder antwoord"]
       },
       "example": { "nl": "De lucht is vanavond helder.", "en": "The sky is clear tonight." }
+    },
+    {
+      "rank": 800,
+      "dutch": "donker",
+      "english": "dark",
+      "type": "adjective",
+      "forms": {
+        "inflected": "donkere",
+        "examples": ["een donkere kamer", "een donker pak"]
+      },
+      "example": { "nl": "Het wordt vroeg donker.", "en": "It gets dark early." }
     }
   ]
 }

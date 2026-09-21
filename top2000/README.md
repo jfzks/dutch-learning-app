@@ -1,8 +1,11 @@
 # Dutch 2000 — frequency flashcards
 
 Spaced-repetition flashcards for the 2,000 most frequent Dutch words, for an
-English speaker. Plain HTML, CSS and JavaScript — no build step, no backend, no
-login. Progress lives in the browser and can be exported as a JSON file.
+English speaker. All 2,000 are here, in twenty batches of a hundred: verbs with
+their conjugations, nouns with article and plural, adjectives with the inflected
+form, and an example sentence with translation for every single word. Plain
+HTML, CSS and JavaScript — no build step, no backend, no login. Progress lives
+in the browser and can be exported as a JSON file.
 
 This is a separate app from the one in `../app/`, which drills the vocabulary
 from your course wordlists. Neither reads the other's data.
@@ -75,7 +78,7 @@ mode or with storage blocked the app still runs for the session and shows a
 warning. **Export a backup** before switching device or clearing site data;
 import replaces the current progress after a confirmation.
 
-## Adding the next batch
+## Adding or changing a batch
 
 Words are split into files of 100, in frequency order:
 
@@ -83,14 +86,22 @@ Words are split into files of 100, in frequency order:
 data/batch-01.json     words 1–100
 data/batch-02.json     words 101–200
 …
+data/batch-20.json     words 1901–2000
 ```
 
-Drop in `data/batch-02.json` and the app finds it — it asks for each numbered
-file in turn until one is missing, so **no code changes are needed**. Then:
+Drop in `data/batch-21.json` and the app finds it — it asks for the numbered
+files in turn (six at a time) until one is missing, so **no code changes are
+needed**. After adding or editing any batch:
 
 ```bash
+python3 top2000/tools/check_batches.py     # validates every batch
 python3 top2000/tools/bundle_batches.py    # only needed for the file:// version
 ```
+
+`check_batches.py` catches the mistakes that matter: a repeated rank or lemma, a
+gap in the sequence, a verb missing a tense or with a perfect that has no
+`heeft`/`is`, a noun without a `de`/`het` article, an adjective without its two
+example uses.
 
 `rank` is the word's identity in your saved progress, so don't renumber words
 that already exist — append new ranks instead.
@@ -132,7 +143,8 @@ no perfect, such as *zullen*.
 ```
 
 **noun** — article and plural. The article is shown on the front of the card
-(`de man`) and coloured on the back.
+(`de man`) and coloured on the back. Uncountable nouns take `"—"` as their
+plural, which the card renders as "no plural (uncountable)".
 
 ```json
 {
@@ -159,8 +171,8 @@ and one with a het-word.
 }
 ```
 
-**other** — function words, adverbs, pronouns, conjunctions. No `forms`; put the
-grammar in `note`.
+**other** — function words, adverbs, pronouns, conjunctions, numbers. No
+`forms`; put the grammar in `note`.
 
 ```json
 {
@@ -187,7 +199,18 @@ grammar in `note`.
 | `js/study.js` | The session queue and the card itself |
 | `js/app.js` | Boot |
 | `sw.js` | Offline cache; pages and word data are network-first, so new batches appear |
+| `tools/check_batches.py` | Validates the batch files |
 | `tools/bundle_batches.py` | Regenerates `data/bundle.js` from the batch files |
 
 One 404 in the browser console per load is expected: it's how the app finds the
 end of the batch list.
+
+## What's in the 2,000
+
+474 verbs (every irregular one with its full forms), 881 nouns with article and
+plural, 257 adjectives, and 388 function words, adverbs, numbers and fixed
+expressions. The order is frequency-first — articles, pronouns and the
+core verbs come before the everyday nouns, and the later batches shade into
+vocabulary you meet once you can hold a conversation: work and study, health,
+government paperwork, the environment, and a fair amount of thoroughly Dutch
+material (pinnen, gezellig, meevallen, stroopwafel, bakfiets, Koningsdag).

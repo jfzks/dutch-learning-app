@@ -1,0 +1,1160 @@
+{
+  "batch": 10,
+  "range": [901, 1000],
+  "title": "Words 901–1000",
+  "words": [
+    {
+      "rank": 901,
+      "dutch": "burgemeester",
+      "english": "mayor",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "burgemeesters"
+      },
+      "example": { "nl": "De burgemeester opende het nieuwe park.", "en": "The mayor opened the new park." }
+    },
+    {
+      "rank": 902,
+      "dutch": "koning",
+      "english": "king",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "koningen"
+      },
+      "example": { "nl": "De koning woont in Den Haag.", "en": "The king lives in The Hague." }
+    },
+    {
+      "rank": 903,
+      "dutch": "koningin",
+      "english": "queen",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "koninginnen"
+      },
+      "example": { "nl": "Zijn moeder was koningin.", "en": "His mother was queen." }
+    },
+    {
+      "rank": 904,
+      "dutch": "burger",
+      "english": "citizen",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "burgers"
+      },
+      "example": { "nl": "Elke burger heeft dezelfde rechten.", "en": "Every citizen has the same rights." }
+    },
+    {
+      "rank": 905,
+      "dutch": "inwoner",
+      "english": "inhabitant, resident",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "inwoners"
+      },
+      "example": { "nl": "Utrecht heeft ruim driehonderdduizend inwoners.", "en": "Utrecht has over three hundred thousand inhabitants." }
+    },
+    {
+      "rank": 906,
+      "dutch": "bevolking",
+      "english": "population",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "bevolkingen"
+      },
+      "example": { "nl": "De bevolking wordt ouder.", "en": "The population is ageing." }
+    },
+    {
+      "rank": 907,
+      "dutch": "volk",
+      "english": "people, nation",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "volken"
+      },
+      "example": { "nl": "Het Nederlandse volk stemt in maart.", "en": "The Dutch people vote in March." }
+    },
+    {
+      "rank": 908,
+      "dutch": "grens",
+      "english": "border; limit",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "grenzen"
+      },
+      "example": { "nl": "De grens met België is vlakbij.", "en": "The Belgian border is close by." }
+    },
+    {
+      "rank": 909,
+      "dutch": "buitenland",
+      "english": "abroad, foreign countries",
+      "type": "noun",
+      "note": "Uncountable; 'naar het buitenland' = abroad.",
+      "forms": {
+        "article": "het",
+        "plural": "—"
+      },
+      "example": { "nl": "Zij werkt veel in het buitenland.", "en": "She works abroad a lot." }
+    },
+    {
+      "rank": 910,
+      "dutch": "oorlog",
+      "english": "war",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "oorlogen"
+      },
+      "example": { "nl": "Mijn opa heeft de oorlog meegemaakt.", "en": "My grandfather lived through the war." }
+    },
+    {
+      "rank": 911,
+      "dutch": "vrede",
+      "english": "peace",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "de",
+        "plural": "—"
+      },
+      "example": { "nl": "Iedereen wil vrede.", "en": "Everyone wants peace." }
+    },
+    {
+      "rank": 912,
+      "dutch": "wet",
+      "english": "law",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "wetten"
+      },
+      "example": { "nl": "Dat staat in de wet.", "en": "That's in the law." }
+    },
+    {
+      "rank": 913,
+      "dutch": "regel",
+      "english": "rule; line",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "regels"
+      },
+      "example": { "nl": "Hier gelden strenge regels.", "en": "Strict rules apply here." }
+    },
+    {
+      "rank": 914,
+      "dutch": "recht",
+      "english": "right; law (as a field)",
+      "type": "noun",
+      "note": "recht hebben op = to be entitled to.",
+      "forms": {
+        "article": "het",
+        "plural": "rechten"
+      },
+      "example": { "nl": "Je hebt recht op een pauze.", "en": "You're entitled to a break." }
+    },
+    {
+      "rank": 915,
+      "dutch": "plicht",
+      "english": "duty, obligation",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "plichten"
+      },
+      "example": { "nl": "Stemmen is een recht, geen plicht.", "en": "Voting is a right, not a duty." }
+    },
+    {
+      "rank": 916,
+      "dutch": "vrijheid",
+      "english": "freedom",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "vrijheden"
+      },
+      "example": { "nl": "Vrijheid van meningsuiting is belangrijk.", "en": "Freedom of expression is important." }
+    },
+    {
+      "rank": 917,
+      "dutch": "politie",
+      "english": "police",
+      "type": "noun",
+      "note": "Uncountable and singular: de politie komt.",
+      "forms": {
+        "article": "de",
+        "plural": "—"
+      },
+      "example": { "nl": "Bel de politie.", "en": "Call the police." }
+    },
+    {
+      "rank": 918,
+      "dutch": "agent",
+      "english": "police officer",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "agenten"
+      },
+      "example": { "nl": "Een agent hield ons staande.", "en": "An officer stopped us." }
+    },
+    {
+      "rank": 919,
+      "dutch": "brandweer",
+      "english": "fire brigade",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "de",
+        "plural": "—"
+      },
+      "example": { "nl": "De brandweer was er binnen vijf minuten.", "en": "The fire brigade was there within five minutes." }
+    },
+    {
+      "rank": 920,
+      "dutch": "rechter",
+      "english": "judge",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "rechters"
+      },
+      "example": { "nl": "De rechter doet volgende week uitspraak.", "en": "The judge will rule next week." }
+    },
+    {
+      "rank": 921,
+      "dutch": "boete",
+      "english": "fine",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "boetes"
+      },
+      "example": { "nl": "Ik heb een boete gekregen voor fietsen zonder licht.", "en": "I got a fine for cycling without lights." }
+    },
+    {
+      "rank": 922,
+      "dutch": "paspoort",
+      "english": "passport",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "paspoorten"
+      },
+      "example": { "nl": "Mijn paspoort is verlopen.", "en": "My passport has expired." }
+    },
+    {
+      "rank": 923,
+      "dutch": "formulier",
+      "english": "form",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "formulieren"
+      },
+      "example": { "nl": "Vul dit formulier volledig in.", "en": "Fill in this form completely." }
+    },
+    {
+      "rank": 924,
+      "dutch": "vergunning",
+      "english": "permit, licence",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "vergunningen"
+      },
+      "example": { "nl": "Voor de verbouwing heb je een vergunning nodig.", "en": "You need a permit for the renovation." }
+    },
+    {
+      "rank": 925,
+      "dutch": "belasting",
+      "english": "tax",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "belastingen"
+      },
+      "example": { "nl": "In mei moet je belastingaangifte doen.", "en": "In May you have to file your tax return." }
+    },
+    {
+      "rank": 926,
+      "dutch": "verzekering",
+      "english": "insurance",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "verzekeringen"
+      },
+      "example": { "nl": "Een zorgverzekering is hier verplicht.", "en": "Health insurance is compulsory here." }
+    },
+    {
+      "rank": 927,
+      "dutch": "post",
+      "english": "post, mail",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "de",
+        "plural": "—"
+      },
+      "example": { "nl": "Is de post al geweest?", "en": "Has the post come yet?" }
+    },
+    {
+      "rank": 928,
+      "dutch": "pakket",
+      "english": "parcel, package",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "pakketten"
+      },
+      "example": { "nl": "Het pakket komt morgen aan.", "en": "The parcel arrives tomorrow." }
+    },
+    {
+      "rank": 929,
+      "dutch": "economie",
+      "english": "economy; economics",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "economieën"
+      },
+      "example": { "nl": "De economie groeit langzaam.", "en": "The economy is growing slowly." }
+    },
+    {
+      "rank": 930,
+      "dutch": "handel",
+      "english": "trade",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "de",
+        "plural": "—"
+      },
+      "example": { "nl": "Nederland leeft van de handel.", "en": "The Netherlands lives on trade." }
+    },
+    {
+      "rank": 931,
+      "dutch": "product",
+      "english": "product",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "producten"
+      },
+      "example": { "nl": "Dit product is uitverkocht.", "en": "This product is sold out." }
+    },
+    {
+      "rank": 932,
+      "dutch": "dienst",
+      "english": "service; shift",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "diensten"
+      },
+      "example": { "nl": "De gemeente biedt die dienst online aan.", "en": "The council offers that service online." }
+    },
+    {
+      "rank": 933,
+      "dutch": "organisatie",
+      "english": "organisation",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "organisaties"
+      },
+      "example": { "nl": "Zij werkt voor een internationale organisatie.", "en": "She works for an international organisation." }
+    },
+    {
+      "rank": 934,
+      "dutch": "vereniging",
+      "english": "association, club",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "verenigingen"
+      },
+      "example": { "nl": "Bijna iedereen zit bij een vereniging.", "en": "Almost everyone belongs to a club." }
+    },
+    {
+      "rank": 935,
+      "dutch": "lid",
+      "english": "member",
+      "type": "noun",
+      "note": "Irregular plural: leden.",
+      "forms": {
+        "article": "het",
+        "plural": "leden"
+      },
+      "example": { "nl": "Ik ben lid van de bibliotheek.", "en": "I'm a member of the library." }
+    },
+    {
+      "rank": 936,
+      "dutch": "winst",
+      "english": "profit",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "winsten"
+      },
+      "example": { "nl": "Het bedrijf maakt weer winst.", "en": "The company is making a profit again." }
+    },
+    {
+      "rank": 937,
+      "dutch": "verlies",
+      "english": "loss",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "verliezen"
+      },
+      "example": { "nl": "Het verlies was groter dan verwacht.", "en": "The loss was bigger than expected." }
+    },
+    {
+      "rank": 938,
+      "dutch": "schuld",
+      "english": "debt; fault",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "schulden"
+      },
+      "example": { "nl": "Het is niet jouw schuld.", "en": "It's not your fault." }
+    },
+    {
+      "rank": 939,
+      "dutch": "inkomen",
+      "english": "income",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "inkomens"
+      },
+      "example": { "nl": "Het gemiddelde inkomen stijgt.", "en": "The average income is rising." }
+    },
+    {
+      "rank": 940,
+      "dutch": "informatie",
+      "english": "information",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "de",
+        "plural": "—"
+      },
+      "example": { "nl": "Op de website staat meer informatie.", "en": "There's more information on the website." }
+    },
+    {
+      "rank": 941,
+      "dutch": "programma",
+      "english": "programme",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "programma's"
+      },
+      "example": { "nl": "Dat programma kijk ik elke week.", "en": "I watch that programme every week." }
+    },
+    {
+      "rank": 942,
+      "dutch": "artikel",
+      "english": "article",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "artikelen"
+      },
+      "example": { "nl": "Heb je dat artikel in de krant gelezen?", "en": "Did you read that article in the paper?" }
+    },
+    {
+      "rank": 943,
+      "dutch": "journalist",
+      "english": "journalist",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "journalisten"
+      },
+      "example": { "nl": "De journalist stelde lastige vragen.", "en": "The journalist asked awkward questions." }
+    },
+    {
+      "rank": 944,
+      "dutch": "reclame",
+      "english": "advertising, commercial",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "reclames"
+      },
+      "example": { "nl": "Er komt weer reclame op televisie.", "en": "There's advertising on television again." }
+    },
+    {
+      "rank": 945,
+      "dutch": "verhaal",
+      "english": "story",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "verhalen"
+      },
+      "example": { "nl": "Vertel het hele verhaal maar.", "en": "Tell the whole story." }
+    },
+    {
+      "rank": 946,
+      "dutch": "mening",
+      "english": "opinion",
+      "type": "noun",
+      "note": "mijns inziens is the formal version of 'in my opinion'.",
+      "forms": {
+        "article": "de",
+        "plural": "meningen"
+      },
+      "example": { "nl": "Wat is jouw mening hierover?", "en": "What's your opinion on this?" }
+    },
+    {
+      "rank": 947,
+      "dutch": "discussie",
+      "english": "discussion, argument",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "discussies"
+      },
+      "example": { "nl": "We hadden een lange discussie.", "en": "We had a long discussion." }
+    },
+    {
+      "rank": 948,
+      "dutch": "onderwerp",
+      "english": "subject, topic",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "onderwerpen"
+      },
+      "example": { "nl": "Laten we van onderwerp veranderen.", "en": "Let's change the subject." }
+    },
+    {
+      "rank": 949,
+      "dutch": "stemmen",
+      "english": "to vote",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "stem", "jij": "stemt", "hij": "stemt", "wij": "stemmen" },
+        "past": { "singular": "stemde", "plural": "stemden" },
+        "perfect": "heeft gestemd"
+      },
+      "example": { "nl": "In maart stemmen we.", "en": "We're voting in March." }
+    },
+    {
+      "rank": 950,
+      "dutch": "aanvragen",
+      "english": "to apply for, to request",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "vraag aan", "jij": "vraagt aan", "hij": "vraagt aan", "wij": "vragen aan" },
+        "past": { "singular": "vroeg aan", "plural": "vroegen aan" },
+        "perfect": "heeft aangevraagd"
+      },
+      "example": { "nl": "Ik heb een vergunning aangevraagd.", "en": "I've applied for a permit." }
+    },
+    {
+      "rank": 951,
+      "dutch": "verzekeren",
+      "english": "to insure; to assure",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "verzekeer", "jij": "verzekeert", "hij": "verzekeert", "wij": "verzekeren" },
+        "past": { "singular": "verzekeerde", "plural": "verzekeerden" },
+        "perfect": "heeft verzekeerd"
+      },
+      "example": { "nl": "Onze fietsen zijn verzekerd.", "en": "Our bikes are insured." }
+    },
+    {
+      "rank": 952,
+      "dutch": "verbieden",
+      "english": "to forbid, to ban",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "verbied", "jij": "verbiedt", "hij": "verbiedt", "wij": "verbieden" },
+        "past": { "singular": "verbood", "plural": "verboden" },
+        "perfect": "heeft verboden"
+      },
+      "example": { "nl": "Roken is hier verboden.", "en": "Smoking is forbidden here." }
+    },
+    {
+      "rank": 953,
+      "dutch": "toestaan",
+      "english": "to allow, to permit",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "sta toe", "jij": "staat toe", "hij": "staat toe", "wij": "staan toe" },
+        "past": { "singular": "stond toe", "plural": "stonden toe" },
+        "perfect": "heeft toegestaan"
+      },
+      "example": { "nl": "Honden zijn hier niet toegestaan.", "en": "Dogs aren't allowed here." }
+    },
+    {
+      "rank": 954,
+      "dutch": "controleren",
+      "english": "to check",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "controleer", "jij": "controleert", "hij": "controleert", "wij": "controleren" },
+        "past": { "singular": "controleerde", "plural": "controleerden" },
+        "perfect": "heeft gecontroleerd"
+      },
+      "example": { "nl": "De conducteur controleert de kaartjes.", "en": "The conductor checks the tickets." }
+    },
+    {
+      "rank": 955,
+      "dutch": "stelen",
+      "english": "to steal",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "steel", "jij": "steelt", "hij": "steelt", "wij": "stelen" },
+        "past": { "singular": "stal", "plural": "stalen" },
+        "perfect": "heeft gestolen"
+      },
+      "example": { "nl": "Mijn fiets is gestolen.", "en": "My bike has been stolen." }
+    },
+    {
+      "rank": 956,
+      "dutch": "ontvangen",
+      "english": "to receive",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "ontvang", "jij": "ontvangt", "hij": "ontvangt", "wij": "ontvangen" },
+        "past": { "singular": "ontving", "plural": "ontvingen" },
+        "perfect": "heeft ontvangen"
+      },
+      "example": { "nl": "Ik heb je bericht ontvangen.", "en": "I've received your message." }
+    },
+    {
+      "rank": 957,
+      "dutch": "versturen",
+      "english": "to send off",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "verstuur", "jij": "verstuurt", "hij": "verstuurt", "wij": "versturen" },
+        "past": { "singular": "verstuurde", "plural": "verstuurden" },
+        "perfect": "heeft verstuurd"
+      },
+      "example": { "nl": "De brief is gisteren verstuurd.", "en": "The letter was sent yesterday." }
+    },
+    {
+      "rank": 958,
+      "dutch": "bezorgen",
+      "english": "to deliver",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "bezorg", "jij": "bezorgt", "hij": "bezorgt", "wij": "bezorgen" },
+        "past": { "singular": "bezorgde", "plural": "bezorgden" },
+        "perfect": "heeft bezorgd"
+      },
+      "example": { "nl": "Het pakket wordt morgen bezorgd.", "en": "The parcel will be delivered tomorrow." }
+    },
+    {
+      "rank": 959,
+      "dutch": "beslissen",
+      "english": "to decide",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "beslis", "jij": "beslist", "hij": "beslist", "wij": "beslissen" },
+        "past": { "singular": "besliste", "plural": "beslisten" },
+        "perfect": "heeft beslist"
+      },
+      "example": { "nl": "Jij mag beslissen.", "en": "You can decide." }
+    },
+    {
+      "rank": 960,
+      "dutch": "besluiten",
+      "english": "to decide, to resolve",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "besluit", "jij": "besluit", "hij": "besluit", "wij": "besluiten" },
+        "past": { "singular": "besloot", "plural": "besloten" },
+        "perfect": "heeft besloten"
+      },
+      "example": { "nl": "We hebben besloten te verhuizen.", "en": "We've decided to move." }
+    },
+    {
+      "rank": 961,
+      "dutch": "bepalen",
+      "english": "to determine, to set",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "bepaal", "jij": "bepaalt", "hij": "bepaalt", "wij": "bepalen" },
+        "past": { "singular": "bepaalde", "plural": "bepaalden" },
+        "perfect": "heeft bepaald"
+      },
+      "example": { "nl": "De gemeente bepaalt de regels.", "en": "The council sets the rules." }
+    },
+    {
+      "rank": 962,
+      "dutch": "veranderen",
+      "english": "to change",
+      "type": "verb",
+      "note": "With 'is' when something itself changes, with 'heeft' when you change something.",
+      "forms": {
+        "present": { "ik": "verander", "jij": "verandert", "hij": "verandert", "wij": "veranderen" },
+        "past": { "singular": "veranderde", "plural": "veranderden" },
+        "perfect": "heeft veranderd"
+      },
+      "example": { "nl": "Er is niets veranderd.", "en": "Nothing has changed." }
+    },
+    {
+      "rank": 963,
+      "dutch": "verbeteren",
+      "english": "to improve; to correct",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "verbeter", "jij": "verbetert", "hij": "verbetert", "wij": "verbeteren" },
+        "past": { "singular": "verbeterde", "plural": "verbeterden" },
+        "perfect": "heeft verbeterd"
+      },
+      "example": { "nl": "Mijn Nederlands verbetert langzaam.", "en": "My Dutch is slowly improving." }
+    },
+    {
+      "rank": 964,
+      "dutch": "vergelijken",
+      "english": "to compare",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "vergelijk", "jij": "vergelijkt", "hij": "vergelijkt", "wij": "vergelijken" },
+        "past": { "singular": "vergeleek", "plural": "vergeleken" },
+        "perfect": "heeft vergeleken"
+      },
+      "example": { "nl": "Vergelijk de prijzen eerst.", "en": "Compare the prices first." }
+    },
+    {
+      "rank": 965,
+      "dutch": "verwachten",
+      "english": "to expect",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "verwacht", "jij": "verwacht", "hij": "verwacht", "wij": "verwachten" },
+        "past": { "singular": "verwachtte", "plural": "verwachtten" },
+        "perfect": "heeft verwacht"
+      },
+      "example": { "nl": "We verwachten twintig gasten.", "en": "We're expecting twenty guests." }
+    },
+    {
+      "rank": 966,
+      "dutch": "geloven",
+      "english": "to believe",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "geloof", "jij": "gelooft", "hij": "gelooft", "wij": "geloven" },
+        "past": { "singular": "geloofde", "plural": "geloofden" },
+        "perfect": "heeft geloofd"
+      },
+      "example": { "nl": "Dat geloof ik niet.", "en": "I don't believe that." }
+    },
+    {
+      "rank": 967,
+      "dutch": "twijfelen",
+      "english": "to doubt, to hesitate",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "twijfel", "jij": "twijfelt", "hij": "twijfelt", "wij": "twijfelen" },
+        "past": { "singular": "twijfelde", "plural": "twijfelden" },
+        "perfect": "heeft getwijfeld"
+      },
+      "example": { "nl": "Ik twijfel nog over de datum.", "en": "I'm still unsure about the date." }
+    },
+    {
+      "rank": 968,
+      "dutch": "bedoelen",
+      "english": "to mean",
+      "type": "verb",
+      "note": "'betekenen' is what a word means; 'bedoelen' is what a person means.",
+      "forms": {
+        "present": { "ik": "bedoel", "jij": "bedoelt", "hij": "bedoelt", "wij": "bedoelen" },
+        "past": { "singular": "bedoelde", "plural": "bedoelden" },
+        "perfect": "heeft bedoeld"
+      },
+      "example": { "nl": "Wat bedoel je precies?", "en": "What exactly do you mean?" }
+    },
+    {
+      "rank": 969,
+      "dutch": "betekenen",
+      "english": "to mean (of a word)",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "beteken", "jij": "betekent", "hij": "betekent", "wij": "betekenen" },
+        "past": { "singular": "betekende", "plural": "betekenden" },
+        "perfect": "heeft betekend"
+      },
+      "example": { "nl": "Wat betekent dit woord?", "en": "What does this word mean?" }
+    },
+    {
+      "rank": 970,
+      "dutch": "lijken",
+      "english": "to seem; to resemble",
+      "type": "verb",
+      "note": "lijken op = to look like.",
+      "forms": {
+        "present": { "ik": "lijk", "jij": "lijkt", "hij": "lijkt", "wij": "lijken" },
+        "past": { "singular": "leek", "plural": "leken" },
+        "perfect": "heeft geleken"
+      },
+      "example": { "nl": "Het lijkt me een goed plan.", "en": "It seems like a good plan to me." }
+    },
+    {
+      "rank": 971,
+      "dutch": "blijken",
+      "english": "to turn out",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "blijk", "jij": "blijkt", "hij": "blijkt", "wij": "blijken" },
+        "past": { "singular": "bleek", "plural": "bleken" },
+        "perfect": "is gebleken"
+      },
+      "example": { "nl": "Het bleek een misverstand te zijn.", "en": "It turned out to be a misunderstanding." }
+    },
+    {
+      "rank": 972,
+      "dutch": "bestaan",
+      "english": "to exist",
+      "type": "verb",
+      "note": "bestaan uit = to consist of.",
+      "forms": {
+        "present": { "ik": "besta", "jij": "bestaat", "hij": "bestaat", "wij": "bestaan" },
+        "past": { "singular": "bestond", "plural": "bestonden" },
+        "perfect": "heeft bestaan"
+      },
+      "example": { "nl": "Dat woord bestaat niet.", "en": "That word doesn't exist." }
+    },
+    {
+      "rank": 973,
+      "dutch": "openbaar",
+      "english": "public",
+      "type": "adjective",
+      "forms": {
+        "inflected": "openbare",
+        "examples": ["de openbare bibliotheek", "het openbaar vervoer"]
+      },
+      "example": { "nl": "Het openbaar vervoer is hier goed.", "en": "Public transport is good here." }
+    },
+    {
+      "rank": 974,
+      "dutch": "gratis",
+      "english": "free of charge",
+      "type": "adjective",
+      "note": "Never inflected.",
+      "forms": {
+        "inflected": "gratis",
+        "examples": ["de gratis krant", "het gratis museum"]
+      },
+      "example": { "nl": "De toegang is gratis.", "en": "Admission is free." }
+    },
+    {
+      "rank": 975,
+      "dutch": "duidelijk",
+      "english": "clear",
+      "type": "adjective",
+      "forms": {
+        "inflected": "duidelijke",
+        "examples": ["een duidelijke uitleg", "een duidelijk antwoord"]
+      },
+      "example": { "nl": "Is dat duidelijk?", "en": "Is that clear?" }
+    },
+    {
+      "rank": 976,
+      "dutch": "mogelijk",
+      "english": "possible",
+      "type": "adjective",
+      "forms": {
+        "inflected": "mogelijke",
+        "examples": ["een mogelijke oplossing", "een mogelijk probleem"]
+      },
+      "example": { "nl": "Dat is niet mogelijk.", "en": "That's not possible." }
+    },
+    {
+      "rank": 977,
+      "dutch": "onmogelijk",
+      "english": "impossible",
+      "type": "adjective",
+      "forms": {
+        "inflected": "onmogelijke",
+        "examples": ["een onmogelijke vraag", "een onmogelijk plan"]
+      },
+      "example": { "nl": "Niets is onmogelijk.", "en": "Nothing is impossible." }
+    },
+    {
+      "rank": 978,
+      "dutch": "nodig",
+      "english": "necessary",
+      "type": "adjective",
+      "forms": {
+        "inflected": "nodige",
+        "examples": ["de nodige tijd", "het nodige geduld"]
+      },
+      "example": { "nl": "Is dat echt nodig?", "en": "Is that really necessary?" }
+    },
+    {
+      "rank": 979,
+      "dutch": "verplicht",
+      "english": "compulsory",
+      "type": "adjective",
+      "forms": {
+        "inflected": "verplichte",
+        "examples": ["een verplichte cursus", "een verplicht examen"]
+      },
+      "example": { "nl": "Een fietslicht is verplicht.", "en": "A bike light is compulsory." }
+    },
+    {
+      "rank": 980,
+      "dutch": "verboden",
+      "english": "forbidden",
+      "type": "adjective",
+      "forms": {
+        "inflected": "verboden",
+        "examples": ["de verboden richting", "het verboden terrein"]
+      },
+      "example": { "nl": "Verboden toegang.", "en": "No entry." }
+    },
+    {
+      "rank": 981,
+      "dutch": "officieel",
+      "english": "official",
+      "type": "adjective",
+      "forms": {
+        "inflected": "officiële",
+        "examples": ["een officiële brief", "een officieel document"]
+      },
+      "example": { "nl": "Dit is de officiële versie.", "en": "This is the official version." }
+    },
+    {
+      "rank": 982,
+      "dutch": "persoonlijk",
+      "english": "personal",
+      "type": "adjective",
+      "forms": {
+        "inflected": "persoonlijke",
+        "examples": ["een persoonlijke vraag", "een persoonlijk bericht"]
+      },
+      "example": { "nl": "Dat vind ik te persoonlijk.", "en": "I find that too personal." }
+    },
+    {
+      "rank": 983,
+      "dutch": "algemeen",
+      "english": "general",
+      "type": "adjective",
+      "forms": {
+        "inflected": "algemene",
+        "examples": ["de algemene regel", "het algemeen belang"]
+      },
+      "example": { "nl": "In het algemeen gaat het goed.", "en": "In general things are going well." }
+    },
+    {
+      "rank": 984,
+      "dutch": "bekend",
+      "english": "well-known, familiar",
+      "type": "adjective",
+      "forms": {
+        "inflected": "bekende",
+        "examples": ["een bekende schrijver", "een bekend gezicht"]
+      },
+      "example": { "nl": "Die naam komt me bekend voor.", "en": "That name sounds familiar." }
+    },
+    {
+      "rank": 985,
+      "dutch": "onbekend",
+      "english": "unknown",
+      "type": "adjective",
+      "forms": {
+        "inflected": "onbekende",
+        "examples": ["een onbekende beller", "een onbekend nummer"]
+      },
+      "example": { "nl": "De oorzaak is nog onbekend.", "en": "The cause is still unknown." }
+    },
+    {
+      "rank": 986,
+      "dutch": "normaal",
+      "english": "normal",
+      "type": "adjective",
+      "forms": {
+        "inflected": "normale",
+        "examples": ["een normale werkdag", "een normaal antwoord"]
+      },
+      "example": { "nl": "Dat is heel normaal hier.", "en": "That's completely normal here." }
+    },
+    {
+      "rank": 987,
+      "dutch": "bijzonder",
+      "english": "special, particular",
+      "type": "adjective",
+      "forms": {
+        "inflected": "bijzondere",
+        "examples": ["een bijzondere dag", "een bijzonder verhaal"]
+      },
+      "example": { "nl": "Dat is niets bijzonders.", "en": "That's nothing special." }
+    },
+    {
+      "rank": 988,
+      "dutch": "gewoon",
+      "english": "ordinary; just",
+      "type": "adjective",
+      "note": "As an adverb it means 'simply, just' — very common in speech.",
+      "forms": {
+        "inflected": "gewone",
+        "examples": ["een gewone dag", "een gewoon huis"]
+      },
+      "example": { "nl": "Zeg het gewoon eerlijk.", "en": "Just say it honestly." }
+    },
+    {
+      "rank": 989,
+      "dutch": "juist",
+      "english": "correct; precisely",
+      "type": "adjective",
+      "forms": {
+        "inflected": "juiste",
+        "examples": ["het juiste antwoord", "het juiste moment"]
+      },
+      "example": { "nl": "Dat is juist.", "en": "That's correct." }
+    },
+    {
+      "rank": 990,
+      "dutch": "bedanken",
+      "english": "to thank",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "bedank", "jij": "bedankt", "hij": "bedankt", "wij": "bedanken" },
+        "past": { "singular": "bedankte", "plural": "bedankten" },
+        "perfect": "heeft bedankt"
+      },
+      "example": { "nl": "Ik wil je bedanken voor je hulp.", "en": "I want to thank you for your help." }
+    },
+    {
+      "rank": 991,
+      "dutch": "feliciteren",
+      "english": "to congratulate",
+      "type": "verb",
+      "note": "feliciteren met = to congratulate on.",
+      "forms": {
+        "present": { "ik": "feliciteer", "jij": "feliciteert", "hij": "feliciteert", "wij": "feliciteren" },
+        "past": { "singular": "feliciteerde", "plural": "feliciteerden" },
+        "perfect": "heeft gefeliciteerd"
+      },
+      "example": { "nl": "Wij feliciteren je met je nieuwe baan.", "en": "We congratulate you on your new job." }
+    },
+    {
+      "rank": 992,
+      "dutch": "groeten",
+      "english": "to greet",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "groet", "jij": "groet", "hij": "groet", "wij": "groeten" },
+        "past": { "singular": "groette", "plural": "groetten" },
+        "perfect": "heeft gegroet"
+      },
+      "example": { "nl": "Groet je ouders van me.", "en": "Say hello to your parents from me." }
+    },
+    {
+      "rank": 993,
+      "dutch": "uitnodigen",
+      "english": "to invite",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "nodiig uit", "jij": "nodiigt uit", "hij": "nodiigt uit", "wij": "nodigen uit" },
+        "past": { "singular": "nodiigde uit", "plural": "nodiigden uit" },
+        "perfect": "heeft uitgenodiigd"
+      },
+      "example": { "nl": "Ze hebben ons uitgenodigd voor het feest.", "en": "They've invited us to the party." }
+    },
+    {
+      "rank": 994,
+      "dutch": "afzeggen",
+      "english": "to cancel (an appointment)",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "zeg af", "jij": "zegt af", "hij": "zegt af", "wij": "zeggen af" },
+        "past": { "singular": "zegde af", "plural": "zegden af" },
+        "perfect": "heeft afgezegd"
+      },
+      "example": { "nl": "Ik moet onze afspraak afzeggen.", "en": "I have to cancel our appointment." }
+    },
+    {
+      "rank": 995,
+      "dutch": "beloven",
+      "english": "to promise",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "beloof", "jij": "belooft", "hij": "belooft", "wij": "beloven" },
+        "past": { "singular": "beloofde", "plural": "beloofden" },
+        "perfect": "heeft beloofd"
+      },
+      "example": { "nl": "Dat beloof ik je.", "en": "I promise you that." }
+    },
+    {
+      "rank": 996,
+      "dutch": "adviseren",
+      "english": "to advise",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "adviseer", "jij": "adviseert", "hij": "adviseert", "wij": "adviseren" },
+        "past": { "singular": "adviseerde", "plural": "adviseerden" },
+        "perfect": "heeft geadviseerd"
+      },
+      "example": { "nl": "De dokter adviseerde rust.", "en": "The doctor advised rest." }
+    },
+    {
+      "rank": 997,
+      "dutch": "waarschuwen",
+      "english": "to warn",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "waarschuw", "jij": "waarschuwt", "hij": "waarschuwt", "wij": "waarschuwen" },
+        "past": { "singular": "waarschuwde", "plural": "waarschuwden" },
+        "perfect": "heeft gewaarschuwd"
+      },
+      "example": { "nl": "Ik heb je gewaarschuwd.", "en": "I warned you." }
+    },
+    {
+      "rank": 998,
+      "dutch": "voorstellen",
+      "english": "to suggest; to introduce",
+      "type": "verb",
+      "note": "zich voorstellen = to introduce yourself, and also to imagine.",
+      "forms": {
+        "present": { "ik": "stel voor", "jij": "stelt voor", "hij": "stelt voor", "wij": "stellen voor" },
+        "past": { "singular": "stelde voor", "plural": "stelden voor" },
+        "perfect": "heeft voorgesteld"
+      },
+      "example": { "nl": "Mag ik je aan mijn collega voorstellen?", "en": "May I introduce you to my colleague?" }
+    },
+    {
+      "rank": 999,
+      "dutch": "bespreken",
+      "english": "to discuss",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "bespreek", "jij": "bespreekt", "hij": "bespreekt", "wij": "bespreken" },
+        "past": { "singular": "besprak", "plural": "bespraken" },
+        "perfect": "heeft besproken"
+      },
+      "example": { "nl": "Dat bespreken we morgen.", "en": "We'll discuss that tomorrow." }
+    },
+    {
+      "rank": 1000,
+      "dutch": "overleggen",
+      "english": "to consult, to confer",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "overleg", "jij": "overlegt", "hij": "overlegt", "wij": "overleggen" },
+        "past": { "singular": "overlegde", "plural": "overlegden" },
+        "perfect": "heeft geoverlegd"
+      },
+      "example": { "nl": "Ik moet even met mijn collega overleggen.", "en": "I need to check with my colleague." }
+    }
+  ]
+}

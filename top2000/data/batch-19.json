@@ -1,0 +1,984 @@
+{
+  "batch": 19,
+  "range": [1801, 1900],
+  "title": "Words 1801–1900",
+  "words": [
+    {
+      "rank": 1801,
+      "dutch": "nuchter",
+      "english": "sober; down to earth",
+      "type": "adjective",
+      "forms": {
+        "inflected": "nuchtere",
+        "examples": ["de nuchtere Nederlander", "het nuchtere antwoord"]
+      },
+      "example": { "nl": "Hij blijft altijd nuchter.", "en": "He always stays level-headed." }
+    },
+    {
+      "rank": 1802,
+      "dutch": "zuinig",
+      "english": "thrifty, economical",
+      "type": "adjective",
+      "forms": {
+        "inflected": "zuinige",
+        "examples": ["een zuinige auto", "een zuinig huishouden"]
+      },
+      "example": { "nl": "Wees zuinig met water.", "en": "Be sparing with water." }
+    },
+    {
+      "rank": 1803,
+      "dutch": "betrouwbaar",
+      "english": "reliable",
+      "type": "adjective",
+      "forms": {
+        "inflected": "betrouwbare",
+        "examples": ["een betrouwbare fiets", "een betrouwbaar merk"]
+      },
+      "example": { "nl": "De trein is meestal betrouwbaar.", "en": "The train is usually reliable." }
+    },
+    {
+      "rank": 1804,
+      "dutch": "brutaal",
+      "english": "cheeky, bold",
+      "type": "adjective",
+      "forms": {
+        "inflected": "brutale",
+        "examples": ["een brutale opmerking", "een brutaal kind"]
+      },
+      "example": { "nl": "Wat een brutale vraag!", "en": "What a cheeky question!" }
+    },
+    {
+      "rank": 1805,
+      "dutch": "irritant",
+      "english": "irritating",
+      "type": "adjective",
+      "forms": {
+        "inflected": "irritante",
+        "examples": ["een irritant geluid", "een irritante gewoonte"]
+      },
+      "example": { "nl": "Dat geluid is irritant.", "en": "That noise is irritating." }
+    },
+    {
+      "rank": 1806,
+      "dutch": "flexibel",
+      "english": "flexible",
+      "type": "adjective",
+      "forms": {
+        "inflected": "flexibele",
+        "examples": ["een flexibele werktijd", "een flexibel rooster"]
+      },
+      "example": { "nl": "Ik ben flexibel met tijden.", "en": "I'm flexible about times." }
+    },
+    {
+      "rank": 1807,
+      "dutch": "guur",
+      "english": "raw, bleak (weather)",
+      "type": "adjective",
+      "forms": {
+        "inflected": "gure",
+        "examples": ["een gure wind", "een guur weertype"]
+      },
+      "example": { "nl": "Het is guur buiten.", "en": "It's bleak outside." }
+    },
+    {
+      "rank": 1808,
+      "dutch": "smakelijk",
+      "english": "tasty",
+      "type": "adjective",
+      "note": "'Smakelijk eten' is what you say before a meal.",
+      "forms": {
+        "inflected": "smakelijke",
+        "examples": ["een smakelijke maaltijd", "een smakelijk gerecht"]
+      },
+      "example": { "nl": "Smakelijk eten!", "en": "Enjoy your meal!" }
+    },
+    {
+      "rank": 1809,
+      "dutch": "rauw",
+      "english": "raw",
+      "type": "adjective",
+      "forms": {
+        "inflected": "rauwe",
+        "examples": ["rauwe groente", "rauw vlees"]
+      },
+      "example": { "nl": "Deze vis eet je rauw.", "en": "You eat this fish raw." }
+    },
+    {
+      "rank": 1810,
+      "dutch": "dringend",
+      "english": "urgent",
+      "type": "adjective",
+      "forms": {
+        "inflected": "dringende",
+        "examples": ["een dringende vraag", "een dringend verzoek"]
+      },
+      "example": { "nl": "Dit is dringend.", "en": "This is urgent." }
+    },
+    {
+      "rank": 1811,
+      "dutch": "fantastisch",
+      "english": "fantastic",
+      "type": "adjective",
+      "forms": {
+        "inflected": "fantastische",
+        "examples": ["een fantastische avond", "een fantastisch idee"]
+      },
+      "example": { "nl": "Dat klinkt fantastisch!", "en": "That sounds fantastic!" }
+    },
+    {
+      "rank": 1812,
+      "dutch": "verschrikkelijk",
+      "english": "awful",
+      "type": "adjective",
+      "forms": {
+        "inflected": "verschrikkelijke",
+        "examples": ["een verschrikkelijke dag", "een verschrikkelijk ongeluk"]
+      },
+      "example": { "nl": "Het was verschrikkelijk druk.", "en": "It was awfully busy." }
+    },
+    {
+      "rank": 1813,
+      "dutch": "tweedehands",
+      "english": "second-hand",
+      "type": "adjective",
+      "note": "Never inflected.",
+      "forms": {
+        "inflected": "tweedehands",
+        "examples": ["een tweedehands fiets", "een tweedehands boek"]
+      },
+      "example": { "nl": "Ik koop meestal tweedehands.", "en": "I usually buy second-hand." }
+    },
+    {
+      "rank": 1814,
+      "dutch": "gelijk",
+      "english": "equal; same",
+      "type": "adjective",
+      "note": "Also 'gelijk hebben' = to be right.",
+      "forms": {
+        "inflected": "gelijke",
+        "examples": ["de gelijke kansen", "het gelijke deel"]
+      },
+      "example": { "nl": "Ze zijn allebei even groot.", "en": "They're both the same size." }
+    },
+    {
+      "rank": 1815,
+      "dutch": "los",
+      "english": "loose",
+      "type": "adjective",
+      "forms": {
+        "inflected": "losse",
+        "examples": ["een losse knoop", "een los blaadje"]
+      },
+      "example": { "nl": "De schroef zit los.", "en": "The screw is loose." }
+    },
+    {
+      "rank": 1816,
+      "dutch": "vast",
+      "english": "fixed, firm",
+      "type": "adjective",
+      "forms": {
+        "inflected": "vaste",
+        "examples": ["een vaste klant", "een vast bedrag"]
+      },
+      "example": { "nl": "Ik heb een vaste baan.", "en": "I have a permanent job." }
+    },
+    {
+      "rank": 1817,
+      "dutch": "'s ochtends",
+      "english": "in the morning",
+      "type": "other",
+      "note": "The 's is a leftover of an old genitive: 's ochtends, 's middags, 's avonds, 's nachts.",
+      "example": { "nl": "'s Ochtends drink ik koffie.", "en": "In the morning I drink coffee." }
+    },
+    {
+      "rank": 1818,
+      "dutch": "'s middags",
+      "english": "in the afternoon",
+      "type": "other",
+      "example": { "nl": "'s Middags is het hier rustig.", "en": "In the afternoon it's quiet here." }
+    },
+    {
+      "rank": 1819,
+      "dutch": "'s avonds",
+      "english": "in the evening",
+      "type": "other",
+      "example": { "nl": "'s Avonds kijken we tv.", "en": "In the evening we watch TV." }
+    },
+    {
+      "rank": 1820,
+      "dutch": "'s nachts",
+      "english": "at night",
+      "type": "other",
+      "example": { "nl": "'s Nachts rijdt er geen trein.", "en": "At night no train runs." }
+    },
+    {
+      "rank": 1821,
+      "dutch": "overdag",
+      "english": "during the day",
+      "type": "other",
+      "example": { "nl": "Overdag is hij aan het werk.", "en": "During the day he's at work." }
+    },
+    {
+      "rank": 1822,
+      "dutch": "vannacht",
+      "english": "tonight, last night",
+      "type": "other",
+      "example": { "nl": "Vannacht heeft het gevroren.", "en": "It froze last night." }
+    },
+    {
+      "rank": 1823,
+      "dutch": "morgenochtend",
+      "english": "tomorrow morning",
+      "type": "other",
+      "example": { "nl": "Morgenochtend bel ik je.", "en": "I'll call you tomorrow morning." }
+    },
+    {
+      "rank": 1824,
+      "dutch": "gisteravond",
+      "english": "last night, yesterday evening",
+      "type": "other",
+      "example": { "nl": "Gisteravond waren we bij vrienden.", "en": "Last night we were at friends'." }
+    },
+    {
+      "rank": 1825,
+      "dutch": "eerst",
+      "english": "first",
+      "type": "other",
+      "example": { "nl": "Eerst eten, dan pas werken.", "en": "Eat first, only then work." }
+    },
+    {
+      "rank": 1826,
+      "dutch": "vervolgens",
+      "english": "then, next",
+      "type": "other",
+      "example": { "nl": "Vervolgens gingen we naar huis.", "en": "Next we went home." }
+    },
+    {
+      "rank": 1827,
+      "dutch": "uiteindelijk",
+      "english": "in the end",
+      "type": "other",
+      "example": { "nl": "Uiteindelijk viel het mee.", "en": "In the end it wasn't so bad." }
+    },
+    {
+      "rank": 1828,
+      "dutch": "helaas",
+      "english": "unfortunately",
+      "type": "other",
+      "example": { "nl": "Helaas is het uitverkocht.", "en": "Unfortunately it's sold out." }
+    },
+    {
+      "rank": 1829,
+      "dutch": "zelden",
+      "english": "rarely",
+      "type": "other",
+      "example": { "nl": "Dat gebeurt zelden.", "en": "That rarely happens." }
+    },
+    {
+      "rank": 1830,
+      "dutch": "regelmatig",
+      "english": "regularly",
+      "type": "other",
+      "example": { "nl": "Ik fiets regelmatig naar het werk.", "en": "I regularly cycle to work." }
+    },
+    {
+      "rank": 1831,
+      "dutch": "dagelijks",
+      "english": "daily",
+      "type": "other",
+      "example": { "nl": "De winkel is dagelijks open.", "en": "The shop is open daily." }
+    },
+    {
+      "rank": 1832,
+      "dutch": "wekelijks",
+      "english": "weekly",
+      "type": "other",
+      "example": { "nl": "We hebben wekelijks overleg.", "en": "We have a weekly meeting." }
+    },
+    {
+      "rank": 1833,
+      "dutch": "maandelijks",
+      "english": "monthly",
+      "type": "other",
+      "example": { "nl": "De huur wordt maandelijks betaald.", "en": "The rent is paid monthly." }
+    },
+    {
+      "rank": 1834,
+      "dutch": "vast wel",
+      "english": "probably, surely",
+      "type": "other",
+      "example": { "nl": "Dat komt vast wel goed.", "en": "That'll surely be fine." }
+    },
+    {
+      "rank": 1835,
+      "dutch": "best",
+      "english": "quite; fine",
+      "type": "other",
+      "note": "Also 'fine, all right': dat is best.",
+      "example": { "nl": "Het was best leuk.", "en": "It was quite nice." }
+    },
+    {
+      "rank": 1836,
+      "dutch": "expres",
+      "english": "on purpose",
+      "type": "other",
+      "example": { "nl": "Hij deed het expres.", "en": "He did it on purpose." }
+    },
+    {
+      "rank": 1837,
+      "dutch": "per ongeluk",
+      "english": "by accident",
+      "type": "other",
+      "example": { "nl": "Ik heb het per ongeluk verwijderd.", "en": "I deleted it by accident." }
+    },
+    {
+      "rank": 1838,
+      "dutch": "linksaf",
+      "english": "to the left",
+      "type": "other",
+      "example": { "nl": "Sla bij de kerk linksaf.", "en": "Turn left at the church." }
+    },
+    {
+      "rank": 1839,
+      "dutch": "rechtsaf",
+      "english": "to the right",
+      "type": "other",
+      "example": { "nl": "Ga bij het stoplicht rechtsaf.", "en": "Turn right at the traffic light." }
+    },
+    {
+      "rank": 1840,
+      "dutch": "heen en weer",
+      "english": "back and forth",
+      "type": "other",
+      "example": { "nl": "Ik reis heen en weer naar Amsterdam.", "en": "I travel back and forth to Amsterdam." }
+    },
+    {
+      "rank": 1841,
+      "dutch": "met de fiets",
+      "english": "by bike",
+      "type": "other",
+      "note": "Transport takes 'met de': met de trein, met de auto.",
+      "example": { "nl": "Ik ga met de fiets.", "en": "I'm going by bike." }
+    },
+    {
+      "rank": 1842,
+      "dutch": "aan het werk",
+      "english": "at work, working",
+      "type": "other",
+      "note": "'aan het' + infinitive makes the Dutch continuous: ik ben aan het koken.",
+      "example": { "nl": "Ik ben aan het werk.", "en": "I'm at work." }
+    },
+    {
+      "rank": 1843,
+      "dutch": "van harte",
+      "english": "warmly, sincerely",
+      "type": "other",
+      "example": { "nl": "Van harte welkom!", "en": "A warm welcome!" }
+    },
+    {
+      "rank": 1844,
+      "dutch": "tot slot",
+      "english": "finally, to close",
+      "type": "other",
+      "example": { "nl": "Tot slot wil ik iedereen bedanken.", "en": "Finally, I'd like to thank everyone." }
+    },
+    {
+      "rank": 1845,
+      "dutch": "op tijd",
+      "english": "on time",
+      "type": "other",
+      "example": { "nl": "De trein was op tijd.", "en": "The train was on time." }
+    },
+    {
+      "rank": 1846,
+      "dutch": "te laat",
+      "english": "late, too late",
+      "type": "other",
+      "example": { "nl": "Sorry dat ik te laat ben.", "en": "Sorry I'm late." }
+    },
+    {
+      "rank": 1847,
+      "dutch": "uit het hoofd",
+      "english": "by heart",
+      "type": "other",
+      "example": { "nl": "Ik ken het nummer uit mijn hoofd.", "en": "I know the number by heart." }
+    },
+    {
+      "rank": 1848,
+      "dutch": "in het begin",
+      "english": "at first",
+      "type": "other",
+      "example": { "nl": "In het begin vond ik het moeilijk.", "en": "At first I found it difficult." }
+    },
+    {
+      "rank": 1849,
+      "dutch": "de hele tijd",
+      "english": "the whole time",
+      "type": "other",
+      "example": { "nl": "Hij praatte de hele tijd.", "en": "He talked the whole time." }
+    },
+    {
+      "rank": 1850,
+      "dutch": "een beetje",
+      "english": "a little",
+      "type": "other",
+      "example": { "nl": "Ik spreek een beetje Nederlands.", "en": "I speak a little Dutch." }
+    },
+    {
+      "rank": 1851,
+      "dutch": "heel veel",
+      "english": "a great deal",
+      "type": "other",
+      "example": { "nl": "Heel veel succes!", "en": "The very best of luck!" }
+    },
+    {
+      "rank": 1852,
+      "dutch": "zo goed mogelijk",
+      "english": "as well as possible",
+      "type": "other",
+      "example": { "nl": "Doe het zo goed mogelijk.", "en": "Do it as well as you can." }
+    },
+    {
+      "rank": 1853,
+      "dutch": "met plezier",
+      "english": "with pleasure",
+      "type": "other",
+      "example": { "nl": "Met plezier, hoor!", "en": "With pleasure!" }
+    },
+    {
+      "rank": 1854,
+      "dutch": "buurvrouw",
+      "english": "female neighbour",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "buurvrouwen"
+      },
+      "example": { "nl": "Onze buurvrouw let op ons huis.", "en": "Our neighbour keeps an eye on our house." }
+    },
+    {
+      "rank": 1855,
+      "dutch": "oppas",
+      "english": "babysitter, childcare",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "oppassen"
+      },
+      "example": { "nl": "We hebben vanavond een oppas.", "en": "We have a babysitter tonight." }
+    },
+    {
+      "rank": 1856,
+      "dutch": "kinderopvang",
+      "english": "childcare, nursery",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "de",
+        "plural": "—"
+      },
+      "example": { "nl": "De kinderopvang is duur.", "en": "Childcare is expensive." }
+    },
+    {
+      "rank": 1857,
+      "dutch": "schoolplein",
+      "english": "schoolyard",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "schoolpleinen"
+      },
+      "example": { "nl": "De ouders wachten op het schoolplein.", "en": "The parents wait in the schoolyard." }
+    },
+    {
+      "rank": 1858,
+      "dutch": "juf",
+      "english": "teacher (female, primary)",
+      "type": "noun",
+      "note": "Children say juf and meester at primary school.",
+      "forms": {
+        "article": "de",
+        "plural": "juffen"
+      },
+      "example": { "nl": "De juf leest een verhaal voor.", "en": "The teacher is reading a story." }
+    },
+    {
+      "rank": 1859,
+      "dutch": "meester",
+      "english": "teacher (male, primary); master",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "meesters"
+      },
+      "example": { "nl": "Meester Jan geeft groep zeven.", "en": "Meester Jan teaches year seven." }
+    },
+    {
+      "rank": 1860,
+      "dutch": "balie",
+      "english": "desk, counter",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "balies"
+      },
+      "example": { "nl": "Meld je even bij de balie.", "en": "Report at the desk." }
+    },
+    {
+      "rank": 1861,
+      "dutch": "loket",
+      "english": "counter, window (service)",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "loketten"
+      },
+      "example": { "nl": "Ga naar loket drie.", "en": "Go to counter three." }
+    },
+    {
+      "rank": 1862,
+      "dutch": "pinautomaat",
+      "english": "cash machine",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "pinautomaten"
+      },
+      "example": { "nl": "Er staat een pinautomaat bij de supermarkt.", "en": "There's a cash machine by the supermarket." }
+    },
+    {
+      "rank": 1863,
+      "dutch": "moskee",
+      "english": "mosque",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "moskeeën"
+      },
+      "example": { "nl": "De moskee staat aan het plein.", "en": "The mosque is on the square." }
+    },
+    {
+      "rank": 1864,
+      "dutch": "warenhuis",
+      "english": "department store",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "warenhuizen"
+      },
+      "example": { "nl": "Het warenhuis heeft uitverkoop.", "en": "The department store has a sale." }
+    },
+    {
+      "rank": 1865,
+      "dutch": "etalage",
+      "english": "shop window",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "etalages"
+      },
+      "example": { "nl": "In de etalage staat een mooie jas.", "en": "There's a lovely coat in the window." }
+    },
+    {
+      "rank": 1866,
+      "dutch": "kringloopwinkel",
+      "english": "charity shop",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "kringloopwinkels"
+      },
+      "example": { "nl": "Deze kast komt uit de kringloopwinkel.", "en": "This cupboard is from the charity shop." }
+    },
+    {
+      "rank": 1867,
+      "dutch": "groenteboer",
+      "english": "greengrocer",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "groenteboeren"
+      },
+      "example": { "nl": "De groenteboer heeft vandaag aardbeien.", "en": "The greengrocer has strawberries today." }
+    },
+    {
+      "rank": 1868,
+      "dutch": "bloemenwinkel",
+      "english": "flower shop",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "bloemenwinkels"
+      },
+      "example": { "nl": "Ik haal bloemen bij de bloemenwinkel.", "en": "I'll get flowers at the flower shop." }
+    },
+    {
+      "rank": 1869,
+      "dutch": "receptie",
+      "english": "reception",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "recepties"
+      },
+      "example": { "nl": "Meld u bij de receptie.", "en": "Report to reception." }
+    },
+    {
+      "rank": 1870,
+      "dutch": "zakdoek",
+      "english": "handkerchief, tissue",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "zakdoeken"
+      },
+      "example": { "nl": "Heb je een zakdoek voor me?", "en": "Do you have a tissue for me?" }
+    },
+    {
+      "rank": 1871,
+      "dutch": "tandenborstel",
+      "english": "toothbrush",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "tandenborstels"
+      },
+      "example": { "nl": "Vergeet je tandenborstel niet.", "en": "Don't forget your toothbrush." }
+    },
+    {
+      "rank": 1872,
+      "dutch": "tandpasta",
+      "english": "toothpaste",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "de",
+        "plural": "—"
+      },
+      "example": { "nl": "De tandpasta is op.", "en": "The toothpaste is finished." }
+    },
+    {
+      "rank": 1873,
+      "dutch": "shampoo",
+      "english": "shampoo",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "de",
+        "plural": "—"
+      },
+      "example": { "nl": "Er staat shampoo onder de douche.", "en": "There's shampoo in the shower." }
+    },
+    {
+      "rank": 1874,
+      "dutch": "bad",
+      "english": "bath",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "baden"
+      },
+      "example": { "nl": "Ik neem een warm bad.", "en": "I'm having a hot bath." }
+    },
+    {
+      "rank": 1875,
+      "dutch": "wastafel",
+      "english": "washbasin",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "wastafels"
+      },
+      "example": { "nl": "De kraan van de wastafel lekt.", "en": "The washbasin tap is leaking." }
+    },
+    {
+      "rank": 1876,
+      "dutch": "toiletpapier",
+      "english": "toilet paper",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "het",
+        "plural": "—"
+      },
+      "example": { "nl": "Koop je nog toiletpapier?", "en": "Will you buy toilet paper?" }
+    },
+    {
+      "rank": 1877,
+      "dutch": "vuilniszak",
+      "english": "bin bag",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "vuilniszakken"
+      },
+      "example": { "nl": "Zet de vuilniszak buiten.", "en": "Put the bin bag outside." }
+    },
+    {
+      "rank": 1878,
+      "dutch": "container",
+      "english": "container, wheelie bin",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "containers"
+      },
+      "example": { "nl": "De container wordt woensdag geleegd.", "en": "The bin is emptied on Wednesday." }
+    },
+    {
+      "rank": 1879,
+      "dutch": "winkelwagentje",
+      "english": "shopping trolley",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "winkelwagentjes"
+      },
+      "example": { "nl": "Voor het winkelwagentje heb je een muntje nodig.", "en": "You need a coin for the trolley." }
+    },
+    {
+      "rank": 1880,
+      "dutch": "verpakking",
+      "english": "packaging",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "verpakkingen"
+      },
+      "example": { "nl": "De verpakking is van karton.", "en": "The packaging is cardboard." }
+    },
+    {
+      "rank": 1881,
+      "dutch": "munt",
+      "english": "coin; mint",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "munten"
+      },
+      "example": { "nl": "Heb je een munt van een euro?", "en": "Do you have a one-euro coin?" }
+    },
+    {
+      "rank": 1882,
+      "dutch": "weegschaal",
+      "english": "scales",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "weegschalen"
+      },
+      "example": { "nl": "Leg het op de weegschaal.", "en": "Put it on the scales." }
+    },
+    {
+      "rank": 1883,
+      "dutch": "kapstok",
+      "english": "coat rack",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "kapstokken"
+      },
+      "example": { "nl": "Hang je jas aan de kapstok.", "en": "Hang your coat on the rack." }
+    },
+    {
+      "rank": 1884,
+      "dutch": "stof",
+      "english": "fabric; dust",
+      "type": "noun",
+      "note": "'de stof' is fabric or subject matter; 'het stof' is dust.",
+      "forms": {
+        "article": "de",
+        "plural": "stoffen"
+      },
+      "example": { "nl": "Deze stof wast makkelijk.", "en": "This fabric washes easily." }
+    },
+    {
+      "rank": 1885,
+      "dutch": "leer",
+      "english": "leather",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "het",
+        "plural": "—"
+      },
+      "example": { "nl": "De tas is van leer.", "en": "The bag is leather." }
+    },
+    {
+      "rank": 1886,
+      "dutch": "sleutelbos",
+      "english": "bunch of keys",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "sleutelbossen"
+      },
+      "example": { "nl": "Mijn sleutelbos ligt in de la.", "en": "My bunch of keys is in the drawer." }
+    },
+    {
+      "rank": 1887,
+      "dutch": "kam",
+      "english": "comb",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "kammen"
+      },
+      "example": { "nl": "Heb jij een kam?", "en": "Do you have a comb?" }
+    },
+    {
+      "rank": 1888,
+      "dutch": "houdbaarheidsdatum",
+      "english": "use-by date",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "houdbaarheidsdata"
+      },
+      "example": { "nl": "Kijk even naar de houdbaarheidsdatum.", "en": "Check the use-by date." }
+    },
+    {
+      "rank": 1889,
+      "dutch": "kassabon",
+      "english": "till receipt",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "kassabonnen"
+      },
+      "example": { "nl": "Bewaar de kassabon.", "en": "Keep the receipt." }
+    },
+    {
+      "rank": 1890,
+      "dutch": "boodschap",
+      "english": "errand; message",
+      "type": "noun",
+      "note": "'boodschappen doen' is the everyday phrase for grocery shopping.",
+      "forms": {
+        "article": "de",
+        "plural": "boodschappen"
+      },
+      "example": { "nl": "Ik doe even boodschappen.", "en": "I'm just doing the shopping." }
+    },
+    {
+      "rank": 1891,
+      "dutch": "uitkiezen",
+      "english": "to pick out",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "kies uit", "jij": "kiest uit", "hij": "kiest uit", "wij": "kiezen uit" },
+        "past": { "singular": "koos uit", "plural": "kozen uit" },
+        "perfect": "heeft uitgekozen"
+      },
+      "example": { "nl": "Kies maar een taartje uit.", "en": "Pick out a pastry." }
+    },
+    {
+      "rank": 1892,
+      "dutch": "overmaken",
+      "english": "to transfer (money)",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "maak over", "jij": "maakt over", "hij": "maakt over", "wij": "maken over" },
+        "past": { "singular": "maakte over", "plural": "maakten over" },
+        "perfect": "heeft overgemaakt"
+      },
+      "example": { "nl": "Ik maak het bedrag vandaag over.", "en": "I'll transfer the amount today." }
+    },
+    {
+      "rank": 1893,
+      "dutch": "ondertekenen",
+      "english": "to sign",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "onderteken", "jij": "ondertekent", "hij": "ondertekent", "wij": "ondertekenen" },
+        "past": { "singular": "ondertekende", "plural": "ondertekenden" },
+        "perfect": "heeft ondertekend"
+      },
+      "example": { "nl": "Wilt u het contract ondertekenen?", "en": "Would you sign the contract?" }
+    },
+    {
+      "rank": 1894,
+      "dutch": "opsturen",
+      "english": "to send off",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "stuur op", "jij": "stuurt op", "hij": "stuurt op", "wij": "sturen op" },
+        "past": { "singular": "stuurde op", "plural": "stuurden op" },
+        "perfect": "heeft opgestuurd"
+      },
+      "example": { "nl": "Ik stuur het formulier vandaag op.", "en": "I'm sending the form off today." }
+    },
+    {
+      "rank": 1895,
+      "dutch": "wegbrengen",
+      "english": "to take away, to drop off",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "breng weg", "jij": "brengt weg", "hij": "brengt weg", "wij": "brengen weg" },
+        "past": { "singular": "bracht weg", "plural": "brachten weg" },
+        "perfect": "heeft weggebracht"
+      },
+      "example": { "nl": "Ik breng de kinderen weg.", "en": "I'll drop the children off." }
+    },
+    {
+      "rank": 1896,
+      "dutch": "aanschaffen",
+      "english": "to acquire, to buy",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "schaf aan", "jij": "schaft aan", "hij": "schaft aan", "wij": "schaffen aan" },
+        "past": { "singular": "schafte aan", "plural": "schaften aan" },
+        "perfect": "heeft aangeschaft"
+      },
+      "example": { "nl": "We hebben een nieuwe wasmachine aangeschaft.", "en": "We've bought a new washing machine." }
+    },
+    {
+      "rank": 1897,
+      "dutch": "opbergen",
+      "english": "to put away",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "berg op", "jij": "bergt op", "hij": "bergt op", "wij": "bergen op" },
+        "past": { "singular": "borg op", "plural": "borgen op" },
+        "perfect": "heeft opgeborgen"
+      },
+      "example": { "nl": "Berg je spullen op.", "en": "Put your things away." }
+    },
+    {
+      "rank": 1898,
+      "dutch": "opvouwen",
+      "english": "to fold up",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "vouw op", "jij": "vouwt op", "hij": "vouwt op", "wij": "vouwen op" },
+        "past": { "singular": "vouwde op", "plural": "vouwden op" },
+        "perfect": "heeft opgevouwd"
+      },
+      "example": { "nl": "Vouw de handdoeken op.", "en": "Fold up the towels." }
+    },
+    {
+      "rank": 1899,
+      "dutch": "opzetten",
+      "english": "to put on (a hat); to set up",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "zet op", "jij": "zet op", "hij": "zet op", "wij": "zetten op" },
+        "past": { "singular": "zette op", "plural": "zetten op" },
+        "perfect": "heeft opgezet"
+      },
+      "example": { "nl": "Zet je muts op.", "en": "Put your hat on." }
+    },
+    {
+      "rank": 1900,
+      "dutch": "achterlaten",
+      "english": "to leave behind",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "laat achter", "jij": "laat achter", "hij": "laat achter", "wij": "laten achter" },
+        "past": { "singular": "liet achter", "plural": "lieten achter" },
+        "perfect": "heeft achtergelaten"
+      },
+      "example": { "nl": "Laat je fiets niet onafgesloten achter.", "en": "Don't leave your bike unlocked." }
+    }
+  ]
+}

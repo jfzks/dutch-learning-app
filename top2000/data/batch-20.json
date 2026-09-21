@@ -1,0 +1,1033 @@
+{
+  "batch": 20,
+  "range": [1901, 2000],
+  "title": "Words 1901–2000",
+  "words": [
+    {
+      "rank": 1901,
+      "dutch": "kwijtraken",
+      "english": "to lose",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "raak kwijt", "jij": "raakt kwijt", "hij": "raakt kwijt", "wij": "raken kwijt" },
+        "past": { "singular": "raakte kwijt", "plural": "raakten kwijt" },
+        "perfect": "is kwijtgeraakt"
+      },
+      "example": { "nl": "Ik ben mijn handschoenen kwijtgeraakt.", "en": "I've lost my gloves." }
+    },
+    {
+      "rank": 1902,
+      "dutch": "terugvinden",
+      "english": "to find again",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "vind terug", "jij": "vindt terug", "hij": "vindt terug", "wij": "vinden terug" },
+        "past": { "singular": "vond terug", "plural": "vonden terug" },
+        "perfect": "heeft teruggevonden"
+      },
+      "example": { "nl": "Ik heb mijn sleutels teruggevonden.", "en": "I found my keys again." }
+    },
+    {
+      "rank": 1903,
+      "dutch": "uitlenen",
+      "english": "to lend out",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "leen uit", "jij": "leent uit", "hij": "leent uit", "wij": "lenen uit" },
+        "past": { "singular": "leende uit", "plural": "leenden uit" },
+        "perfect": "heeft uitgeleend"
+      },
+      "example": { "nl": "Ik leen mijn boeken niet uit.", "en": "I don't lend out my books." }
+    },
+    {
+      "rank": 1904,
+      "dutch": "omruilen",
+      "english": "to exchange",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "ruil om", "jij": "ruilt om", "hij": "ruilt om", "wij": "ruilen om" },
+        "past": { "singular": "ruilde om", "plural": "ruilden om" },
+        "perfect": "heeft omgeruild"
+      },
+      "example": { "nl": "Kan ik dit omruilen?", "en": "Can I exchange this?" }
+    },
+    {
+      "rank": 1905,
+      "dutch": "luchten",
+      "english": "to air",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "lucht", "jij": "lucht", "hij": "lucht", "wij": "luchten" },
+        "past": { "singular": "luchtte", "plural": "luchtten" },
+        "perfect": "heeft gelucht"
+      },
+      "example": { "nl": "Lucht de kamer even.", "en": "Air the room for a bit." }
+    },
+    {
+      "rank": 1906,
+      "dutch": "vochtig",
+      "english": "damp, moist",
+      "type": "adjective",
+      "forms": {
+        "inflected": "vochtige",
+        "examples": ["een vochtige kelder", "een vochtig doekje"]
+      },
+      "example": { "nl": "De muur is vochtig.", "en": "The wall is damp." }
+    },
+    {
+      "rank": 1907,
+      "dutch": "mild",
+      "english": "mild",
+      "type": "adjective",
+      "forms": {
+        "inflected": "milde",
+        "examples": ["een milde winter", "een mild klimaat"]
+      },
+      "example": { "nl": "Het was een milde winter.", "en": "It was a mild winter." }
+    },
+    {
+      "rank": 1908,
+      "dutch": "comfortabel",
+      "english": "comfortable",
+      "type": "adjective",
+      "forms": {
+        "inflected": "comfortabele",
+        "examples": ["een comfortabele stoel", "een comfortabel bed"]
+      },
+      "example": { "nl": "De trein zit comfortabel.", "en": "The train is comfortable." }
+    },
+    {
+      "rank": 1909,
+      "dutch": "ruim",
+      "english": "spacious; roomy",
+      "type": "adjective",
+      "note": "Also 'well over': ruim honderd mensen.",
+      "forms": {
+        "inflected": "ruime",
+        "examples": ["een ruime kamer", "een ruim huis"]
+      },
+      "example": { "nl": "Het appartement is lekker ruim.", "en": "The flat is nice and spacious." }
+    },
+    {
+      "rank": 1910,
+      "dutch": "krap",
+      "english": "tight, cramped",
+      "type": "adjective",
+      "forms": {
+        "inflected": "krappe",
+        "examples": ["een krappe woning", "een krap budget"]
+      },
+      "example": { "nl": "We zitten krap in de tijd.", "en": "We're tight on time." }
+    },
+    {
+      "rank": 1911,
+      "dutch": "versleten",
+      "english": "worn out",
+      "type": "adjective",
+      "forms": {
+        "inflected": "versleten",
+        "examples": ["de versleten jas", "het versleten tapijt"]
+      },
+      "example": { "nl": "Mijn schoenen zijn versleten.", "en": "My shoes are worn out." }
+    },
+    {
+      "rank": 1912,
+      "dutch": "waardevol",
+      "english": "valuable",
+      "type": "adjective",
+      "forms": {
+        "inflected": "waardevolle",
+        "examples": ["een waardevolle tip", "een waardevol advies"]
+      },
+      "example": { "nl": "Dat is waardevolle informatie.", "en": "That's valuable information." }
+    },
+    {
+      "rank": 1913,
+      "dutch": "waardeloos",
+      "english": "worthless, rubbish",
+      "type": "adjective",
+      "forms": {
+        "inflected": "waardeloze",
+        "examples": ["een waardeloze film", "een waardeloos idee"]
+      },
+      "example": { "nl": "De verbinding is waardeloos.", "en": "The connection is rubbish." }
+    },
+    {
+      "rank": 1914,
+      "dutch": "overbodig",
+      "english": "unnecessary, superfluous",
+      "type": "adjective",
+      "forms": {
+        "inflected": "overbodige",
+        "examples": ["een overbodige regel", "een overbodig apparaat"]
+      },
+      "example": { "nl": "Dat is overbodig.", "en": "That's unnecessary." }
+    },
+    {
+      "rank": 1915,
+      "dutch": "beschaafd",
+      "english": "civilised, polite",
+      "type": "adjective",
+      "forms": {
+        "inflected": "beschaafde",
+        "examples": ["een beschaafde discussie", "een beschaafd antwoord"]
+      },
+      "example": { "nl": "Dat was een beschaafde discussie.", "en": "That was a civilised discussion." }
+    },
+    {
+      "rank": 1916,
+      "dutch": "bescheiden",
+      "english": "modest",
+      "type": "adjective",
+      "forms": {
+        "inflected": "bescheiden",
+        "examples": ["een bescheiden verzoek", "een bescheiden huis"]
+      },
+      "example": { "nl": "Hij is bescheiden over zijn werk.", "en": "He's modest about his work." }
+    },
+    {
+      "rank": 1917,
+      "dutch": "gastvrij",
+      "english": "hospitable",
+      "type": "adjective",
+      "forms": {
+        "inflected": "gastvrije",
+        "examples": ["een gastvrije familie", "een gastvrij land"]
+      },
+      "example": { "nl": "De mensen zijn hier erg gastvrij.", "en": "People here are very hospitable." }
+    },
+    {
+      "rank": 1918,
+      "dutch": "koppig",
+      "english": "stubborn",
+      "type": "adjective",
+      "forms": {
+        "inflected": "koppige",
+        "examples": ["een koppige buurman", "een koppig kind"]
+      },
+      "example": { "nl": "Wat ben jij koppig!", "en": "How stubborn you are!" }
+    },
+    {
+      "rank": 1919,
+      "dutch": "via",
+      "english": "via, through",
+      "type": "other",
+      "example": { "nl": "Ik hoorde het via mijn buurvrouw.", "en": "I heard it through my neighbour." }
+    },
+    {
+      "rank": 1920,
+      "dutch": "dankzij",
+      "english": "thanks to",
+      "type": "other",
+      "example": { "nl": "Dankzij jou is het gelukt.", "en": "Thanks to you it worked out." }
+    },
+    {
+      "rank": 1921,
+      "dutch": "vanwege",
+      "english": "because of",
+      "type": "other",
+      "example": { "nl": "Vanwege het weer gaat het niet door.", "en": "Because of the weather it's not going ahead." }
+    },
+    {
+      "rank": 1922,
+      "dutch": "inclusief",
+      "english": "including",
+      "type": "other",
+      "example": { "nl": "De prijs is inclusief ontbijt.", "en": "The price includes breakfast." }
+    },
+    {
+      "rank": 1923,
+      "dutch": "exclusief",
+      "english": "excluding",
+      "type": "other",
+      "example": { "nl": "Exclusief btw kost het honderd euro.", "en": "Excluding VAT it costs a hundred euros." }
+    },
+    {
+      "rank": 1924,
+      "dutch": "hoogstens",
+      "english": "at most",
+      "type": "other",
+      "example": { "nl": "Het duurt hoogstens een uur.", "en": "It'll take an hour at most." }
+    },
+    {
+      "rank": 1925,
+      "dutch": "enzovoort",
+      "english": "and so on",
+      "type": "other",
+      "example": { "nl": "Brood, kaas, melk, enzovoort.", "en": "Bread, cheese, milk, and so on." }
+    },
+    {
+      "rank": 1926,
+      "dutch": "grotendeels",
+      "english": "largely",
+      "type": "other",
+      "example": { "nl": "Het is grotendeels gelukt.", "en": "It largely worked out." }
+    },
+    {
+      "rank": 1927,
+      "dutch": "deels",
+      "english": "partly",
+      "type": "other",
+      "example": { "nl": "Dat is deels waar.", "en": "That's partly true." }
+    },
+    {
+      "rank": 1928,
+      "dutch": "gewoonlijk",
+      "english": "usually",
+      "type": "other",
+      "example": { "nl": "Gewoonlijk sta ik om zeven uur op.", "en": "I usually get up at seven." }
+    },
+    {
+      "rank": 1929,
+      "dutch": "voor het eerst",
+      "english": "for the first time",
+      "type": "other",
+      "example": { "nl": "Ik ben hier voor het eerst.", "en": "I'm here for the first time." }
+    },
+    {
+      "rank": 1930,
+      "dutch": "nog een keer",
+      "english": "one more time",
+      "type": "other",
+      "example": { "nl": "Zeg het nog een keer.", "en": "Say it one more time." }
+    },
+    {
+      "rank": 1931,
+      "dutch": "om de beurt",
+      "english": "in turn",
+      "type": "other",
+      "example": { "nl": "We koken om de beurt.", "en": "We cook in turn." }
+    },
+    {
+      "rank": 1932,
+      "dutch": "met elkaar",
+      "english": "with each other",
+      "type": "other",
+      "example": { "nl": "We praten er met elkaar over.", "en": "We'll talk it over with each other." }
+    },
+    {
+      "rank": 1933,
+      "dutch": "onder elkaar",
+      "english": "among ourselves",
+      "type": "other",
+      "example": { "nl": "Dat regelen we onder elkaar.", "en": "We'll sort that out among ourselves." }
+    },
+    {
+      "rank": 1934,
+      "dutch": "op zijn minst",
+      "english": "at the very least",
+      "type": "other",
+      "example": { "nl": "Dat is op zijn minst vreemd.", "en": "That's odd, to say the least." }
+    },
+    {
+      "rank": 1935,
+      "dutch": "wat betreft",
+      "english": "as for, regarding",
+      "type": "other",
+      "example": { "nl": "Wat betreft het geld: dat komt goed.", "en": "As for the money: that'll be fine." }
+    },
+    {
+      "rank": 1936,
+      "dutch": "in verband met",
+      "english": "in connection with",
+      "type": "other",
+      "example": { "nl": "In verband met de storm rijden er geen treinen.", "en": "Because of the storm no trains are running." }
+    },
+    {
+      "rank": 1937,
+      "dutch": "tot en met",
+      "english": "up to and including",
+      "type": "other",
+      "note": "Abbreviated t/m, and used constantly for dates and opening hours.",
+      "example": { "nl": "De winkel is open van maandag tot en met zaterdag.", "en": "The shop is open Monday to Saturday inclusive." }
+    },
+    {
+      "rank": 1938,
+      "dutch": "wc",
+      "english": "toilet, loo",
+      "type": "noun",
+      "note": "Pronounced 'weesee' and used far more than 'toilet'.",
+      "forms": {
+        "article": "de",
+        "plural": "wc's"
+      },
+      "example": { "nl": "Waar is de wc?", "en": "Where's the loo?" }
+    },
+    {
+      "rank": 1939,
+      "dutch": "sfeer",
+      "english": "atmosphere, mood",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "sferen"
+      },
+      "example": { "nl": "Er hing een goede sfeer.", "en": "There was a good atmosphere." }
+    },
+    {
+      "rank": 1940,
+      "dutch": "aanpak",
+      "english": "approach",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "de",
+        "plural": "—"
+      },
+      "example": { "nl": "Dat vraagt om een andere aanpak.", "en": "That calls for a different approach." }
+    },
+    {
+      "rank": 1941,
+      "dutch": "bijdrage",
+      "english": "contribution",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "bijdragen"
+      },
+      "example": { "nl": "Bedankt voor je bijdrage.", "en": "Thanks for your contribution." }
+    },
+    {
+      "rank": 1942,
+      "dutch": "samenwerking",
+      "english": "cooperation",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "samenwerkingen"
+      },
+      "example": { "nl": "De samenwerking verloopt goed.", "en": "The cooperation is going well." }
+    },
+    {
+      "rank": 1943,
+      "dutch": "overleg",
+      "english": "consultation, discussion",
+      "type": "noun",
+      "note": "Uncountable — and a central word in Dutch working life.",
+      "forms": {
+        "article": "het",
+        "plural": "—"
+      },
+      "example": { "nl": "Na overleg met mijn collega's beslis ik.", "en": "After consulting my colleagues I'll decide." }
+    },
+    {
+      "rank": 1944,
+      "dutch": "planning",
+      "english": "planning, schedule",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "planningen"
+      },
+      "example": { "nl": "De planning loopt uit.", "en": "The schedule is overrunning." }
+    },
+    {
+      "rank": 1945,
+      "dutch": "rooster",
+      "english": "timetable, rota",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "roosters"
+      },
+      "example": { "nl": "Het rooster hangt bij de deur.", "en": "The rota is up by the door." }
+    },
+    {
+      "rank": 1946,
+      "dutch": "budget",
+      "english": "budget",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "budgetten"
+      },
+      "example": { "nl": "Het budget is krap.", "en": "The budget is tight." }
+    },
+    {
+      "rank": 1947,
+      "dutch": "uitverkoop",
+      "english": "sale",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "uitverkopen"
+      },
+      "example": { "nl": "In januari is de uitverkoop.", "en": "The sales are in January." }
+    },
+    {
+      "rank": 1948,
+      "dutch": "merk",
+      "english": "brand",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "merken"
+      },
+      "example": { "nl": "Welk merk fiets heb jij?", "en": "What brand of bike do you have?" }
+    },
+    {
+      "rank": 1949,
+      "dutch": "voorwaarde",
+      "english": "condition",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "voorwaarden"
+      },
+      "example": { "nl": "Lees de voorwaarden goed door.", "en": "Read the conditions carefully." }
+    },
+    {
+      "rank": 1950,
+      "dutch": "detail",
+      "english": "detail",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "details"
+      },
+      "example": { "nl": "Vertel eens wat meer details.", "en": "Tell me a few more details." }
+    },
+    {
+      "rank": 1951,
+      "dutch": "voordeel",
+      "english": "advantage",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "voordelen"
+      },
+      "example": { "nl": "Dat heeft een groot voordeel.", "en": "That has a big advantage." }
+    },
+    {
+      "rank": 1952,
+      "dutch": "nadeel",
+      "english": "disadvantage",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "nadelen"
+      },
+      "example": { "nl": "Het nadeel is de prijs.", "en": "The disadvantage is the price." }
+    },
+    {
+      "rank": 1953,
+      "dutch": "reactie",
+      "english": "reaction, response",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "reacties"
+      },
+      "example": { "nl": "Ik wacht op zijn reactie.", "en": "I'm waiting for his response." }
+    },
+    {
+      "rank": 1954,
+      "dutch": "vertrek",
+      "english": "departure; room",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "vertrekken"
+      },
+      "example": { "nl": "Het vertrek is om acht uur.", "en": "Departure is at eight." }
+    },
+    {
+      "rank": 1955,
+      "dutch": "aankomst",
+      "english": "arrival",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "aankomsten"
+      },
+      "example": { "nl": "Bij aankomst krijg je de sleutel.", "en": "On arrival you get the key." }
+    },
+    {
+      "rank": 1956,
+      "dutch": "uitstapje",
+      "english": "outing, day trip",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "uitstapjes"
+      },
+      "example": { "nl": "We maken een uitstapje naar Texel.", "en": "We're taking a day trip to Texel." }
+    },
+    {
+      "rank": 1957,
+      "dutch": "omweg",
+      "english": "detour",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "omwegen"
+      },
+      "example": { "nl": "We namen een kleine omweg.", "en": "We took a small detour." }
+    },
+    {
+      "rank": 1958,
+      "dutch": "initiatief",
+      "english": "initiative",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "initiatieven"
+      },
+      "example": { "nl": "Dat was jouw initiatief.", "en": "That was your initiative." }
+    },
+    {
+      "rank": 1959,
+      "dutch": "termijn",
+      "english": "term, deadline",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "termijnen"
+      },
+      "example": { "nl": "De termijn loopt vrijdag af.", "en": "The deadline is Friday." }
+    },
+    {
+      "rank": 1960,
+      "dutch": "afdeling",
+      "english": "department",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "afdelingen"
+      },
+      "example": { "nl": "Hij werkt op een andere afdeling.", "en": "He works in a different department." }
+    },
+    {
+      "rank": 1961,
+      "dutch": "verslag",
+      "english": "report, account",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "verslagen"
+      },
+      "example": { "nl": "Ik schrijf het verslag van de vergadering.", "en": "I'm writing the minutes of the meeting." }
+    },
+    {
+      "rank": 1962,
+      "dutch": "aanvraag",
+      "english": "application, request",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "aanvragen"
+      },
+      "example": { "nl": "Je aanvraag is goedgekeurd.", "en": "Your application has been approved." }
+    },
+    {
+      "rank": 1963,
+      "dutch": "thuiswerken",
+      "english": "to work from home",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "werk thuis", "jij": "werkt thuis", "hij": "werkt thuis", "wij": "werken thuis" },
+        "past": { "singular": "werkte thuis", "plural": "werkten thuis" },
+        "perfect": "heeft thuisgewerkt"
+      },
+      "example": { "nl": "Ik werk op dinsdag thuis.", "en": "I work from home on Tuesdays." }
+    },
+    {
+      "rank": 1964,
+      "dutch": "bijdragen",
+      "english": "to contribute",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "draag bij", "jij": "draagt bij", "hij": "draagt bij", "wij": "dragen bij" },
+        "past": { "singular": "droeg bij", "plural": "droegen bij" },
+        "perfect": "heeft bijgedragen"
+      },
+      "example": { "nl": "Iedereen draagt iets bij.", "en": "Everyone contributes something." }
+    },
+    {
+      "rank": 1965,
+      "dutch": "reageren",
+      "english": "to react, to respond",
+      "type": "verb",
+      "note": "reageren op = to respond to.",
+      "forms": {
+        "present": { "ik": "reageer", "jij": "reageert", "hij": "reageert", "wij": "reageren" },
+        "past": { "singular": "reageerde", "plural": "reageerden" },
+        "perfect": "heeft gereageerd"
+      },
+      "example": { "nl": "Hij reageerde meteen op mijn mail.", "en": "He responded to my email straight away." }
+    },
+    {
+      "rank": 1966,
+      "dutch": "overtuigen",
+      "english": "to convince",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "overtuig", "jij": "overtuigt", "hij": "overtuigt", "wij": "overtuigen" },
+        "past": { "singular": "overtuigde", "plural": "overtuigden" },
+        "perfect": "heeft overtuigd"
+      },
+      "example": { "nl": "Je hebt me overtuigd.", "en": "You've convinced me." }
+    },
+    {
+      "rank": 1967,
+      "dutch": "afwijzen",
+      "english": "to reject, to turn down",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "wijs af", "jij": "wijst af", "hij": "wijst af", "wij": "wijzen af" },
+        "past": { "singular": "wees af", "plural": "wezen af" },
+        "perfect": "heeft afgewezen"
+      },
+      "example": { "nl": "Mijn aanvraag is afgewezen.", "en": "My application has been rejected." }
+    },
+    {
+      "rank": 1968,
+      "dutch": "goedkeuren",
+      "english": "to approve",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "keur goed", "jij": "keurt goed", "hij": "keurt goed", "wij": "keuren goed" },
+        "past": { "singular": "keurde goed", "plural": "keurden goed" },
+        "perfect": "heeft goedgekeurd"
+      },
+      "example": { "nl": "De gemeente heeft het plan goedgekeurd.", "en": "The council has approved the plan." }
+    },
+    {
+      "rank": 1969,
+      "dutch": "indienen",
+      "english": "to submit",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "dien in", "jij": "dient in", "hij": "dient in", "wij": "dienen in" },
+        "past": { "singular": "diende in", "plural": "dienden in" },
+        "perfect": "heeft ingediend"
+      },
+      "example": { "nl": "Dien je formulier voor vrijdag in.", "en": "Submit your form before Friday." }
+    },
+    {
+      "rank": 1970,
+      "dutch": "aanvullen",
+      "english": "to supplement, to top up",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "vul aan", "jij": "vult aan", "hij": "vult aan", "wij": "vullen aan" },
+        "past": { "singular": "vulde aan", "plural": "vulden aan" },
+        "perfect": "heeft aangevuld"
+      },
+      "example": { "nl": "Vul de lijst aan als je iets mist.", "en": "Add to the list if something's missing." }
+    },
+    {
+      "rank": 1971,
+      "dutch": "samenvatten",
+      "english": "to summarise",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "vat samen", "jij": "vat samen", "hij": "vat samen", "wij": "vatten samen" },
+        "past": { "singular": "vatte samen", "plural": "vatten samen" },
+        "perfect": "heeft samengevat"
+      },
+      "example": { "nl": "Vat het kort samen.", "en": "Summarise it briefly." }
+    },
+    {
+      "rank": 1972,
+      "dutch": "doornemen",
+      "english": "to go through",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "neem door", "jij": "neemt door", "hij": "neemt door", "wij": "nemen door" },
+        "past": { "singular": "nam door", "plural": "namen door" },
+        "perfect": "heeft doorgenomen"
+      },
+      "example": { "nl": "We nemen de agenda even door.", "en": "We'll go through the agenda." }
+    },
+    {
+      "rank": 1973,
+      "dutch": "afronden",
+      "english": "to finish off, to round off",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "rond af", "jij": "rondt af", "hij": "rondt af", "wij": "ronden af" },
+        "past": { "singular": "rondde af", "plural": "rondden af" },
+        "perfect": "heeft afgerond"
+      },
+      "example": { "nl": "Ik rond mijn werk af.", "en": "I'm finishing off my work." }
+    },
+    {
+      "rank": 1974,
+      "dutch": "vaststellen",
+      "english": "to establish, to determine",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "stel vast", "jij": "stelt vast", "hij": "stelt vast", "wij": "stellen vast" },
+        "past": { "singular": "stelde vast", "plural": "stelden vast" },
+        "perfect": "heeft vastgesteld"
+      },
+      "example": { "nl": "De arts stelde een griep vast.", "en": "The doctor diagnosed flu." }
+    },
+    {
+      "rank": 1975,
+      "dutch": "toepassen",
+      "english": "to apply (a rule)",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "pas toe", "jij": "past toe", "hij": "past toe", "wij": "passen toe" },
+        "past": { "singular": "paste toe", "plural": "pasten toe" },
+        "perfect": "heeft toegepast"
+      },
+      "example": { "nl": "Pas de regel maar toe.", "en": "Just apply the rule." }
+    },
+    {
+      "rank": 1976,
+      "dutch": "uitvoeren",
+      "english": "to carry out",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "voer uit", "jij": "voert uit", "hij": "voert uit", "wij": "voeren uit" },
+        "past": { "singular": "voerde uit", "plural": "voerden uit" },
+        "perfect": "heeft uitgevoerd"
+      },
+      "example": { "nl": "Het plan wordt volgend jaar uitgevoerd.", "en": "The plan will be carried out next year." }
+    },
+    {
+      "rank": 1977,
+      "dutch": "verwerken",
+      "english": "to process, to deal with",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "verwerk", "jij": "verwerkt", "hij": "verwerkt", "wij": "verwerken" },
+        "past": { "singular": "verwerkte", "plural": "verwerkten" },
+        "perfect": "heeft verwerkt"
+      },
+      "example": { "nl": "De aanvraag is verwerkt.", "en": "The application has been processed." }
+    },
+    {
+      "rank": 1978,
+      "dutch": "opstellen",
+      "english": "to draw up",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "stel op", "jij": "stelt op", "hij": "stelt op", "wij": "stellen op" },
+        "past": { "singular": "stelde op", "plural": "stelden op" },
+        "perfect": "heeft opgesteld"
+      },
+      "example": { "nl": "Wij stellen een lijst op.", "en": "We're drawing up a list." }
+    },
+    {
+      "rank": 1979,
+      "dutch": "invoeren",
+      "english": "to enter (data); to introduce",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "voer in", "jij": "voert in", "hij": "voert in", "wij": "voeren in" },
+        "past": { "singular": "voerde in", "plural": "voerden in" },
+        "perfect": "heeft ingevoerd"
+      },
+      "example": { "nl": "Voer je gegevens in.", "en": "Enter your details." }
+    },
+    {
+      "rank": 1980,
+      "dutch": "afmelden",
+      "english": "to cancel, to sign off",
+      "type": "verb",
+      "note": "Reflexive: zich afmelden — the opposite of zich aanmelden.",
+      "forms": {
+        "present": { "ik": "meld af", "jij": "meldt af", "hij": "meldt af", "wij": "melden af" },
+        "past": { "singular": "meldde af", "plural": "meldden af" },
+        "perfect": "heeft afgemeld"
+      },
+      "example": { "nl": "Meld je af als je niet komt.", "en": "Let them know if you're not coming." }
+    },
+    {
+      "rank": 1981,
+      "dutch": "meedenken",
+      "english": "to think along, to help think",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "denk mee", "jij": "denkt mee", "hij": "denkt mee", "wij": "denken mee" },
+        "past": { "singular": "dacht mee", "plural": "dachten mee" },
+        "perfect": "heeft meegedacht"
+      },
+      "example": { "nl": "Wil je even meedenken?", "en": "Would you help me think this through?" }
+    },
+    {
+      "rank": 1982,
+      "dutch": "benoemen",
+      "english": "to name, to appoint",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "benoem", "jij": "benoemt", "hij": "benoemt", "wij": "benoemen" },
+        "past": { "singular": "benoemde", "plural": "benoemden" },
+        "perfect": "heeft benoemd"
+      },
+      "example": { "nl": "Zij is benoemd tot directeur.", "en": "She's been appointed director." }
+    },
+    {
+      "rank": 1983,
+      "dutch": "grondig",
+      "english": "thorough",
+      "type": "adjective",
+      "forms": {
+        "inflected": "grondige",
+        "examples": ["een grondige schoonmaak", "een grondig onderzoek"]
+      },
+      "example": { "nl": "We hebben het grondig bekeken.", "en": "We looked at it thoroughly." }
+    },
+    {
+      "rank": 1984,
+      "dutch": "specifiek",
+      "english": "specific",
+      "type": "adjective",
+      "forms": {
+        "inflected": "specifieke",
+        "examples": ["een specifieke vraag", "een specifiek geval"]
+      },
+      "example": { "nl": "Kun je specifieker zijn?", "en": "Can you be more specific?" }
+    },
+    {
+      "rank": 1985,
+      "dutch": "concreet",
+      "english": "concrete, specific",
+      "type": "adjective",
+      "forms": {
+        "inflected": "concrete",
+        "examples": ["een concrete afspraak", "een concreet voorbeeld"]
+      },
+      "example": { "nl": "Geef eens een concreet voorbeeld.", "en": "Give a concrete example." }
+    },
+    {
+      "rank": 1986,
+      "dutch": "technisch",
+      "english": "technical",
+      "type": "adjective",
+      "forms": {
+        "inflected": "technische",
+        "examples": ["een technische storing", "een technisch probleem"]
+      },
+      "example": { "nl": "Het is een technisch probleem.", "en": "It's a technical problem." }
+    },
+    {
+      "rank": 1987,
+      "dutch": "financieel",
+      "english": "financial",
+      "type": "adjective",
+      "forms": {
+        "inflected": "financiële",
+        "examples": ["de financiële situatie", "het financiële plaatje"]
+      },
+      "example": { "nl": "Financieel gaat het goed.", "en": "Financially things are fine." }
+    },
+    {
+      "rank": 1988,
+      "dutch": "economisch",
+      "english": "economic",
+      "type": "adjective",
+      "forms": {
+        "inflected": "economische",
+        "examples": ["de economische groei", "het economische nieuws"]
+      },
+      "example": { "nl": "Economisch gaat het beter.", "en": "Economically things are better." }
+    },
+    {
+      "rank": 1989,
+      "dutch": "efficiënt",
+      "english": "efficient",
+      "type": "adjective",
+      "forms": {
+        "inflected": "efficiënte",
+        "examples": ["een efficiënte werkwijze", "een efficiënt systeem"]
+      },
+      "example": { "nl": "Dat is niet erg efficiënt.", "en": "That isn't very efficient." }
+    },
+    {
+      "rank": 1990,
+      "dutch": "effectief",
+      "english": "effective",
+      "type": "adjective",
+      "forms": {
+        "inflected": "effectieve",
+        "examples": ["een effectieve aanpak", "een effectief middel"]
+      },
+      "example": { "nl": "Deze methode is effectief.", "en": "This method is effective." }
+    },
+    {
+      "rank": 1991,
+      "dutch": "gedetailleerd",
+      "english": "detailed",
+      "type": "adjective",
+      "forms": {
+        "inflected": "gedetailleerde",
+        "examples": ["een gedetailleerde uitleg", "een gedetailleerd verslag"]
+      },
+      "example": { "nl": "Het verslag is erg gedetailleerd.", "en": "The report is very detailed." }
+    },
+    {
+      "rank": 1992,
+      "dutch": "voordelig",
+      "english": "advantageous, good value",
+      "type": "adjective",
+      "forms": {
+        "inflected": "voordelige",
+        "examples": ["een voordelige prijs", "een voordelig abonnement"]
+      },
+      "example": { "nl": "Dit abonnement is voordeliger.", "en": "This subscription is better value." }
+    },
+    {
+      "rank": 1993,
+      "dutch": "achteraf",
+      "english": "afterwards, in hindsight",
+      "type": "other",
+      "example": { "nl": "Achteraf was het een goed besluit.", "en": "In hindsight it was a good decision." }
+    },
+    {
+      "rank": 1994,
+      "dutch": "vooraf",
+      "english": "beforehand",
+      "type": "other",
+      "example": { "nl": "Betaal je vooraf of achteraf?", "en": "Do you pay beforehand or afterwards?" }
+    },
+    {
+      "rank": 1995,
+      "dutch": "kortom",
+      "english": "in short",
+      "type": "other",
+      "example": { "nl": "Kortom, het was een geslaagde dag.", "en": "In short, it was a successful day." }
+    },
+    {
+      "rank": 1996,
+      "dutch": "echter",
+      "english": "however",
+      "type": "other",
+      "note": "Formal and written; in speech people say 'maar' or 'toch'.",
+      "example": { "nl": "Het regende; we gingen echter toch fietsen.", "en": "It was raining; however, we went cycling anyway." }
+    },
+    {
+      "rank": 1997,
+      "dutch": "daarentegen",
+      "english": "on the other hand",
+      "type": "other",
+      "example": { "nl": "Mijn broer fietst; ik daarentegen neem de bus.", "en": "My brother cycles; I, on the other hand, take the bus." }
+    },
+    {
+      "rank": 1998,
+      "dutch": "tegelijkertijd",
+      "english": "at the same time",
+      "type": "other",
+      "example": { "nl": "Je kunt niet alles tegelijkertijd doen.", "en": "You can't do everything at the same time." }
+    },
+    {
+      "rank": 1999,
+      "dutch": "hierbij",
+      "english": "herewith, with this",
+      "type": "other",
+      "note": "A standard opening in a Dutch email or letter.",
+      "example": { "nl": "Hierbij stuur ik je de foto's.", "en": "I'm sending you the photos with this." }
+    },
+    {
+      "rank": 2000,
+      "dutch": "desnoods",
+      "english": "if need be",
+      "type": "other",
+      "example": { "nl": "Desnoods kom ik met de auto.", "en": "If need be I'll come by car." }
+    }
+  ]
+}

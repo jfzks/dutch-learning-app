@@ -1,0 +1,1152 @@
+{
+  "batch": 14,
+  "range": [1301, 1400],
+  "title": "Words 1301–1400",
+  "words": [
+    {
+      "rank": 1301,
+      "dutch": "brievenbus",
+      "english": "letterbox",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "brievenbussen"
+      },
+      "example": { "nl": "Er zat post in de brievenbus.", "en": "There was post in the letterbox." }
+    },
+    {
+      "rank": 1302,
+      "dutch": "schuur",
+      "english": "shed",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "schuren"
+      },
+      "example": { "nl": "De fietsen staan in de schuur.", "en": "The bikes are in the shed." }
+    },
+    {
+      "rank": 1303,
+      "dutch": "garage",
+      "english": "garage",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "garages"
+      },
+      "example": { "nl": "De auto staat bij de garage.", "en": "The car is at the garage." }
+    },
+    {
+      "rank": 1304,
+      "dutch": "tuinstoel",
+      "english": "garden chair",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "tuinstoelen"
+      },
+      "example": { "nl": "Zet de tuinstoelen buiten.", "en": "Put the garden chairs outside." }
+    },
+    {
+      "rank": 1305,
+      "dutch": "kaars",
+      "english": "candle",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "kaarsen"
+      },
+      "example": { "nl": "Steek de kaarsen aan.", "en": "Light the candles." }
+    },
+    {
+      "rank": 1306,
+      "dutch": "klok",
+      "english": "clock",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "klokken"
+      },
+      "example": { "nl": "De klok in de keuken loopt voor.", "en": "The kitchen clock is fast." }
+    },
+    {
+      "rank": 1307,
+      "dutch": "spullen",
+      "english": "things, stuff",
+      "type": "noun",
+      "note": "Plural only, and very common in speech.",
+      "forms": {
+        "article": "de",
+        "plural": "spullen"
+      },
+      "example": { "nl": "Neem je eigen spullen mee.", "en": "Bring your own things." }
+    },
+    {
+      "rank": 1308,
+      "dutch": "aansteken",
+      "english": "to light",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "steek aan", "jij": "steekt aan", "hij": "steekt aan", "wij": "steken aan" },
+        "past": { "singular": "stak aan", "plural": "staken aan" },
+        "perfect": "heeft aangestoken"
+      },
+      "example": { "nl": "Steek de kaars even aan.", "en": "Light the candle." }
+    },
+    {
+      "rank": 1309,
+      "dutch": "uitblazen",
+      "english": "to blow out",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "blaas uit", "jij": "blaast uit", "hij": "blaast uit", "wij": "blazen uit" },
+        "past": { "singular": "blies uit", "plural": "bliezen uit" },
+        "perfect": "heeft uitgeblazen"
+      },
+      "example": { "nl": "Blaas de kaarsjes uit.", "en": "Blow the candles out." }
+    },
+    {
+      "rank": 1310,
+      "dutch": "verbouwen",
+      "english": "to renovate",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "verbouw", "jij": "verbouwt", "hij": "verbouwt", "wij": "verbouwen" },
+        "past": { "singular": "verbouwde", "plural": "verbouwden" },
+        "perfect": "heeft verbouwd"
+      },
+      "example": { "nl": "We verbouwen de badkamer.", "en": "We're renovating the bathroom." }
+    },
+    {
+      "rank": 1311,
+      "dutch": "boren",
+      "english": "to drill",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "boor", "jij": "boort", "hij": "boort", "wij": "boren" },
+        "past": { "singular": "boorde", "plural": "boorden" },
+        "perfect": "heeft geboord"
+      },
+      "example": { "nl": "De buurman boort de hele dag.", "en": "The neighbour is drilling all day." }
+    },
+    {
+      "rank": 1312,
+      "dutch": "meten",
+      "english": "to measure",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "meet", "jij": "meet", "hij": "meet", "wij": "meten" },
+        "past": { "singular": "mat", "plural": "maten" },
+        "perfect": "heeft gemeten"
+      },
+      "example": { "nl": "Meet eerst de muur.", "en": "Measure the wall first." }
+    },
+    {
+      "rank": 1313,
+      "dutch": "wegen",
+      "english": "to weigh",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "weeg", "jij": "weegt", "hij": "weegt", "wij": "wegen" },
+        "past": { "singular": "woog", "plural": "wogen" },
+        "perfect": "heeft gewogen"
+      },
+      "example": { "nl": "Hoeveel weegt die koffer?", "en": "How much does that suitcase weigh?" }
+    },
+    {
+      "rank": 1314,
+      "dutch": "tellen",
+      "english": "to count",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "tel", "jij": "telt", "hij": "telt", "wij": "tellen" },
+        "past": { "singular": "telde", "plural": "telden" },
+        "perfect": "heeft geteld"
+      },
+      "example": { "nl": "Tel het geld nog eens.", "en": "Count the money again." }
+    },
+    {
+      "rank": 1315,
+      "dutch": "typisch",
+      "english": "typical",
+      "type": "adjective",
+      "forms": {
+        "inflected": "typische",
+        "examples": ["een typische Nederlandse gewoonte", "een typisch verhaal"]
+      },
+      "example": { "nl": "Dat is typisch Nederlands.", "en": "That's typically Dutch." }
+    },
+    {
+      "rank": 1316,
+      "dutch": "populair",
+      "english": "popular",
+      "type": "adjective",
+      "forms": {
+        "inflected": "populaire",
+        "examples": ["een populaire zanger", "een populair programma"]
+      },
+      "example": { "nl": "Die serie is erg populair.", "en": "That series is very popular." }
+    },
+    {
+      "rank": 1317,
+      "dutch": "traditioneel",
+      "english": "traditional",
+      "type": "adjective",
+      "forms": {
+        "inflected": "traditionele",
+        "examples": ["een traditionele maaltijd", "een traditioneel feest"]
+      },
+      "example": { "nl": "Dit is een traditioneel gerecht.", "en": "This is a traditional dish." }
+    },
+    {
+      "rank": 1318,
+      "dutch": "origineel",
+      "english": "original",
+      "type": "adjective",
+      "forms": {
+        "inflected": "originele",
+        "examples": ["een originele oplossing", "een origineel cadeau"]
+      },
+      "example": { "nl": "Wat een origineel idee!", "en": "What an original idea!" }
+    },
+    {
+      "rank": 1319,
+      "dutch": "recent",
+      "english": "recent",
+      "type": "adjective",
+      "forms": {
+        "inflected": "recente",
+        "examples": ["de recente cijfers", "het recente nieuws"]
+      },
+      "example": { "nl": "Dat is recent nieuws.", "en": "That's recent news." }
+    },
+    {
+      "rank": 1320,
+      "dutch": "verschillend",
+      "english": "different, various",
+      "type": "adjective",
+      "forms": {
+        "inflected": "verschillende",
+        "examples": ["verschillende kleuren", "een verschillend antwoord"]
+      },
+      "example": { "nl": "Er zijn verschillende mogelijkheden.", "en": "There are various possibilities." }
+    },
+    {
+      "rank": 1321,
+      "dutch": "vergelijkbaar",
+      "english": "comparable",
+      "type": "adjective",
+      "forms": {
+        "inflected": "vergelijkbare",
+        "examples": ["een vergelijkbare prijs", "een vergelijkbaar probleem"]
+      },
+      "example": { "nl": "De twee zijn goed vergelijkbaar.", "en": "The two are quite comparable." }
+    },
+    {
+      "rank": 1322,
+      "dutch": "compleet",
+      "english": "complete",
+      "type": "adjective",
+      "forms": {
+        "inflected": "complete",
+        "examples": ["de complete lijst", "het complete verhaal"]
+      },
+      "example": { "nl": "De set is niet compleet.", "en": "The set isn't complete." }
+    },
+    {
+      "rank": 1323,
+      "dutch": "extra",
+      "english": "extra",
+      "type": "adjective",
+      "note": "Never inflected.",
+      "forms": {
+        "inflected": "extra",
+        "examples": ["de extra stoel", "het extra kaartje"]
+      },
+      "example": { "nl": "Neem een extra trui mee.", "en": "Take an extra jumper." }
+    },
+    {
+      "rank": 1324,
+      "dutch": "apparaat",
+      "english": "device, appliance",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "apparaten"
+      },
+      "example": { "nl": "Dit apparaat gebruikt weinig stroom.", "en": "This appliance uses little electricity." }
+    },
+    {
+      "rank": 1325,
+      "dutch": "machine",
+      "english": "machine",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "machines"
+      },
+      "example": { "nl": "De machine staat stil.", "en": "The machine has stopped." }
+    },
+    {
+      "rank": 1326,
+      "dutch": "batterij",
+      "english": "battery",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "batterijen"
+      },
+      "example": { "nl": "De batterij is bijna leeg.", "en": "The battery is almost empty." }
+    },
+    {
+      "rank": 1327,
+      "dutch": "stekker",
+      "english": "plug",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "stekkers"
+      },
+      "example": { "nl": "Trek de stekker eruit.", "en": "Pull the plug out." }
+    },
+    {
+      "rank": 1328,
+      "dutch": "stopcontact",
+      "english": "socket",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "stopcontacten"
+      },
+      "example": { "nl": "Er zit geen stopcontact in de gang.", "en": "There's no socket in the hallway." }
+    },
+    {
+      "rank": 1329,
+      "dutch": "stroom",
+      "english": "electricity; current",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "de",
+        "plural": "—"
+      },
+      "example": { "nl": "De stroom viel uit.", "en": "The power went out." }
+    },
+    {
+      "rank": 1330,
+      "dutch": "toetsenbord",
+      "english": "keyboard",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "toetsenborden"
+      },
+      "example": { "nl": "Mijn toetsenbord doet het niet.", "en": "My keyboard isn't working." }
+    },
+    {
+      "rank": 1331,
+      "dutch": "bestand",
+      "english": "file",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "bestanden"
+      },
+      "example": { "nl": "Stuur me het bestand even door.", "en": "Forward me the file." }
+    },
+    {
+      "rank": 1332,
+      "dutch": "verbinding",
+      "english": "connection",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "verbindingen"
+      },
+      "example": { "nl": "De verbinding is slecht.", "en": "The connection is bad." }
+    },
+    {
+      "rank": 1333,
+      "dutch": "netwerk",
+      "english": "network",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "netwerken"
+      },
+      "example": { "nl": "Het netwerk ligt eruit.", "en": "The network is down." }
+    },
+    {
+      "rank": 1334,
+      "dutch": "app",
+      "english": "app",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "apps"
+      },
+      "example": { "nl": "Er is een app voor de trein.", "en": "There's an app for the train." }
+    },
+    {
+      "rank": 1335,
+      "dutch": "mail",
+      "english": "email",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "mails"
+      },
+      "example": { "nl": "Ik heb je mail nog niet gelezen.", "en": "I haven't read your email yet." }
+    },
+    {
+      "rank": 1336,
+      "dutch": "link",
+      "english": "link",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "links"
+      },
+      "example": { "nl": "Klik op de link in de mail.", "en": "Click the link in the email." }
+    },
+    {
+      "rank": 1337,
+      "dutch": "gebruiker",
+      "english": "user",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "gebruikers"
+      },
+      "example": { "nl": "De app heeft duizend gebruikers.", "en": "The app has a thousand users." }
+    },
+    {
+      "rank": 1338,
+      "dutch": "installeren",
+      "english": "to install",
+      "type": "verb",
+      "note": "The trema in geïnstalleerd keeps the i separate.",
+      "forms": {
+        "present": { "ik": "installeer", "jij": "installeert", "hij": "installeert", "wij": "installeren" },
+        "past": { "singular": "installeerde", "plural": "installeerden" },
+        "perfect": "heeft geïnstalleerd"
+      },
+      "example": { "nl": "Ik heb de app net geïnstalleerd.", "en": "I've just installed the app." }
+    },
+    {
+      "rank": 1339,
+      "dutch": "opladen",
+      "english": "to charge",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "laad op", "jij": "laadt op", "hij": "laadt op", "wij": "laden op" },
+        "past": { "singular": "laadde op", "plural": "laadden op" },
+        "perfect": "heeft opgeladen"
+      },
+      "example": { "nl": "Laad je telefoon vannacht op.", "en": "Charge your phone tonight." }
+    },
+    {
+      "rank": 1340,
+      "dutch": "verbinden",
+      "english": "to connect",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "verbind", "jij": "verbindt", "hij": "verbindt", "wij": "verbinden" },
+        "past": { "singular": "verbond", "plural": "verbonden" },
+        "perfect": "heeft verbonden"
+      },
+      "example": { "nl": "Ik verbind je even door.", "en": "I'll put you through." }
+    },
+    {
+      "rank": 1341,
+      "dutch": "opslaan",
+      "english": "to save; to store",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "sla op", "jij": "slaat op", "hij": "slaat op", "wij": "slaan op" },
+        "past": { "singular": "sloeg op", "plural": "sloegen op" },
+        "perfect": "heeft opgeslagen"
+      },
+      "example": { "nl": "Vergeet niet je werk op te slaan.", "en": "Don't forget to save your work." }
+    },
+    {
+      "rank": 1342,
+      "dutch": "verwijderen",
+      "english": "to delete, to remove",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "verwijder", "jij": "verwijdert", "hij": "verwijdert", "wij": "verwijderen" },
+        "past": { "singular": "verwijderde", "plural": "verwijderden" },
+        "perfect": "heeft verwijderd"
+      },
+      "example": { "nl": "Ik heb die foto's verwijderd.", "en": "I've deleted those photos." }
+    },
+    {
+      "rank": 1343,
+      "dutch": "toevoegen",
+      "english": "to add",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "voeg toe", "jij": "voegt toe", "hij": "voegt toe", "wij": "voegen toe" },
+        "past": { "singular": "voegde toe", "plural": "voegden toe" },
+        "perfect": "heeft toegevoegd"
+      },
+      "example": { "nl": "Voeg nog wat zout toe.", "en": "Add a bit more salt." }
+    },
+    {
+      "rank": 1344,
+      "dutch": "doorsturen",
+      "english": "to forward",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "stuur door", "jij": "stuurt door", "hij": "stuurt door", "wij": "sturen door" },
+        "past": { "singular": "stuurde door", "plural": "stuurden door" },
+        "perfect": "heeft doorgestuurd"
+      },
+      "example": { "nl": "Kun je het bericht doorsturen?", "en": "Can you forward the message?" }
+    },
+    {
+      "rank": 1345,
+      "dutch": "opzoeken",
+      "english": "to look up",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "zoek op", "jij": "zoekt op", "hij": "zoekt op", "wij": "zoeken op" },
+        "past": { "singular": "zocht op", "plural": "zochten op" },
+        "perfect": "heeft opgezocht"
+      },
+      "example": { "nl": "Zoek het woord even op.", "en": "Just look the word up." }
+    },
+    {
+      "rank": 1346,
+      "dutch": "starten",
+      "english": "to start (a device)",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "start", "jij": "start", "hij": "start", "wij": "starten" },
+        "past": { "singular": "startte", "plural": "startten" },
+        "perfect": "heeft gestart"
+      },
+      "example": { "nl": "De computer start langzaam op.", "en": "The computer starts up slowly." }
+    },
+    {
+      "rank": 1347,
+      "dutch": "verkoper",
+      "english": "shop assistant, seller",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "verkopers"
+      },
+      "example": { "nl": "De verkoper hielp ons meteen.", "en": "The assistant helped us straight away." }
+    },
+    {
+      "rank": 1348,
+      "dutch": "aanbieding",
+      "english": "special offer",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "aanbiedingen"
+      },
+      "example": { "nl": "De koffie is in de aanbieding.", "en": "The coffee is on offer." }
+    },
+    {
+      "rank": 1349,
+      "dutch": "garantie",
+      "english": "guarantee, warranty",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "garanties"
+      },
+      "example": { "nl": "Er zit twee jaar garantie op.", "en": "It comes with a two-year guarantee." }
+    },
+    {
+      "rank": 1350,
+      "dutch": "bedrag",
+      "english": "amount (of money)",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "bedragen"
+      },
+      "example": { "nl": "Het bedrag is al afgeschreven.", "en": "The amount has already been debited." }
+    },
+    {
+      "rank": 1351,
+      "dutch": "bezorging",
+      "english": "delivery",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "bezorgingen"
+      },
+      "example": { "nl": "De bezorging is gratis.", "en": "Delivery is free." }
+    },
+    {
+      "rank": 1352,
+      "dutch": "kapper",
+      "english": "hairdresser",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "kappers"
+      },
+      "example": { "nl": "Ik moet naar de kapper.", "en": "I need to go to the hairdresser." }
+    },
+    {
+      "rank": 1353,
+      "dutch": "fietsenmaker",
+      "english": "bike repair shop",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "fietsenmakers"
+      },
+      "example": { "nl": "De fietsenmaker heeft mijn band geplakt.", "en": "The bike shop patched my tyre." }
+    },
+    {
+      "rank": 1354,
+      "dutch": "schoonmaker",
+      "english": "cleaner",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "schoonmakers"
+      },
+      "example": { "nl": "De schoonmaker komt op vrijdag.", "en": "The cleaner comes on Friday." }
+    },
+    {
+      "rank": 1355,
+      "dutch": "monteur",
+      "english": "mechanic, engineer",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "monteurs"
+      },
+      "example": { "nl": "De monteur komt morgenochtend.", "en": "The engineer is coming tomorrow morning." }
+    },
+    {
+      "rank": 1356,
+      "dutch": "band",
+      "english": "tyre; band; tape",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "banden"
+      },
+      "example": { "nl": "Mijn band is lek.", "en": "My tyre is flat." }
+    },
+    {
+      "rank": 1357,
+      "dutch": "leveren",
+      "english": "to deliver, to supply",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "lever", "jij": "levert", "hij": "levert", "wij": "leveren" },
+        "past": { "singular": "leverde", "plural": "leverden" },
+        "perfect": "heeft geleverd"
+      },
+      "example": { "nl": "Ze leveren binnen twee dagen.", "en": "They deliver within two days." }
+    },
+    {
+      "rank": 1358,
+      "dutch": "verhuren",
+      "english": "to rent out",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "verhuur", "jij": "verhuurt", "hij": "verhuurt", "wij": "verhuren" },
+        "past": { "singular": "verhuurde", "plural": "verhuurden" },
+        "perfect": "heeft verhuurd"
+      },
+      "example": { "nl": "Zij verhuren hun huis in de zomer.", "en": "They rent out their house in summer." }
+    },
+    {
+      "rank": 1359,
+      "dutch": "teruggeven",
+      "english": "to give back",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "geef terug", "jij": "geeft terug", "hij": "geeft terug", "wij": "geven terug" },
+        "past": { "singular": "gaf terug", "plural": "gaven terug" },
+        "perfect": "heeft teruggegeven"
+      },
+      "example": { "nl": "Geef het boek morgen terug.", "en": "Give the book back tomorrow." }
+    },
+    {
+      "rank": 1360,
+      "dutch": "terugbetalen",
+      "english": "to pay back",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "betaal terug", "jij": "betaalt terug", "hij": "betaalt terug", "wij": "betalen terug" },
+        "past": { "singular": "betaalde terug", "plural": "betaalden terug" },
+        "perfect": "heeft terugbetaald"
+      },
+      "example": { "nl": "Ik betaal je volgende week terug.", "en": "I'll pay you back next week." }
+    },
+    {
+      "rank": 1361,
+      "dutch": "afhalen",
+      "english": "to pick up, to collect",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "haal af", "jij": "haalt af", "hij": "haalt af", "wij": "halen af" },
+        "past": { "singular": "haalde af", "plural": "haalden af" },
+        "perfect": "heeft afgehaald"
+      },
+      "example": { "nl": "Je kunt het pakket bij de winkel afhalen.", "en": "You can collect the parcel at the shop." }
+    },
+    {
+      "rank": 1362,
+      "dutch": "behandeling",
+      "english": "treatment",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "behandelingen"
+      },
+      "example": { "nl": "De behandeling duurt een halfuur.", "en": "The treatment takes half an hour." }
+    },
+    {
+      "rank": 1363,
+      "dutch": "operatie",
+      "english": "operation",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "operaties"
+      },
+      "example": { "nl": "De operatie is goed gegaan.", "en": "The operation went well." }
+    },
+    {
+      "rank": 1364,
+      "dutch": "slaap",
+      "english": "sleep",
+      "type": "noun",
+      "note": "Uncountable — 'slaap hebben' is to be sleepy.",
+      "forms": {
+        "article": "de",
+        "plural": "—"
+      },
+      "example": { "nl": "Ik heb slaap.", "en": "I'm sleepy." }
+    },
+    {
+      "rank": 1365,
+      "dutch": "rust",
+      "english": "rest, quiet",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "de",
+        "plural": "—"
+      },
+      "example": { "nl": "Neem even rust.", "en": "Take a rest." }
+    },
+    {
+      "rank": 1366,
+      "dutch": "stress",
+      "english": "stress",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "de",
+        "plural": "—"
+      },
+      "example": { "nl": "Hij heeft veel stress op zijn werk.", "en": "He has a lot of stress at work." }
+    },
+    {
+      "rank": 1367,
+      "dutch": "beweging",
+      "english": "movement, exercise",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "bewegingen"
+      },
+      "example": { "nl": "Je hebt meer beweging nodig.", "en": "You need more exercise." }
+    },
+    {
+      "rank": 1368,
+      "dutch": "wond",
+      "english": "wound",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "wonden"
+      },
+      "example": { "nl": "De wond moet schoon blijven.", "en": "The wound has to stay clean." }
+    },
+    {
+      "rank": 1369,
+      "dutch": "verkoudheid",
+      "english": "cold (illness)",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "verkoudheden"
+      },
+      "example": { "nl": "Ik heb een lichte verkoudheid.", "en": "I have a slight cold." }
+    },
+    {
+      "rank": 1370,
+      "dutch": "behandelen",
+      "english": "to treat",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "behandel", "jij": "behandelt", "hij": "behandelt", "wij": "behandelen" },
+        "past": { "singular": "behandelde", "plural": "behandelden" },
+        "perfect": "heeft behandeld"
+      },
+      "example": { "nl": "De arts behandelt hem goed.", "en": "The doctor is treating him well." }
+    },
+    {
+      "rank": 1371,
+      "dutch": "agenda",
+      "english": "diary, calendar",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "agenda's"
+      },
+      "example": { "nl": "Het staat in mijn agenda.", "en": "It's in my diary." }
+    },
+    {
+      "rank": 1372,
+      "dutch": "lijst",
+      "english": "list",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "lijsten"
+      },
+      "example": { "nl": "Zet het op de lijst.", "en": "Put it on the list." }
+    },
+    {
+      "rank": 1373,
+      "dutch": "stap",
+      "english": "step",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "stappen"
+      },
+      "example": { "nl": "Dat is een grote stap.", "en": "That's a big step." }
+    },
+    {
+      "rank": 1374,
+      "dutch": "route",
+      "english": "route",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "routes"
+      },
+      "example": { "nl": "Deze route is korter.", "en": "This route is shorter." }
+    },
+    {
+      "rank": 1375,
+      "dutch": "tip",
+      "english": "tip",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "tips"
+      },
+      "example": { "nl": "Heb je een tip voor een goed restaurant?", "en": "Do you have a tip for a good restaurant?" }
+    },
+    {
+      "rank": 1376,
+      "dutch": "volgorde",
+      "english": "order, sequence",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "volgordes"
+      },
+      "example": { "nl": "Doe het in deze volgorde.", "en": "Do it in this order." }
+    },
+    {
+      "rank": 1377,
+      "dutch": "overzicht",
+      "english": "overview",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "overzichten"
+      },
+      "example": { "nl": "Ik heb het overzicht verloren.", "en": "I've lost track." }
+    },
+    {
+      "rank": 1378,
+      "dutch": "organiseren",
+      "english": "to organise",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "organiseer", "jij": "organiseert", "hij": "organiseert", "wij": "organiseren" },
+        "past": { "singular": "organiseerde", "plural": "organiseerden" },
+        "perfect": "heeft georganiseerd"
+      },
+      "example": { "nl": "Wij organiseren het feest.", "en": "We're organising the party." }
+    },
+    {
+      "rank": 1379,
+      "dutch": "voorbereiden",
+      "english": "to prepare",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "bereid voor", "jij": "bereidt voor", "hij": "bereidt voor", "wij": "bereiden voor" },
+        "past": { "singular": "bereidde voor", "plural": "bereidden voor" },
+        "perfect": "heeft voorbereid"
+      },
+      "example": { "nl": "Ik bereid het eten voor.", "en": "I'm preparing the food." }
+    },
+    {
+      "rank": 1380,
+      "dutch": "afmaken",
+      "english": "to finish",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "maak af", "jij": "maakt af", "hij": "maakt af", "wij": "maken af" },
+        "past": { "singular": "maakte af", "plural": "maakten af" },
+        "perfect": "heeft afgemaakt"
+      },
+      "example": { "nl": "Maak je werk eerst af.", "en": "Finish your work first." }
+    },
+    {
+      "rank": 1381,
+      "dutch": "doorgaan",
+      "english": "to carry on, to go ahead",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "ga door", "jij": "gaat door", "hij": "gaat door", "wij": "gaan door" },
+        "past": { "singular": "ging door", "plural": "gingen door" },
+        "perfect": "is doorgegaan"
+      },
+      "example": { "nl": "Het feest gaat door.", "en": "The party is going ahead." }
+    },
+    {
+      "rank": 1382,
+      "dutch": "verlaten",
+      "english": "to leave (a place)",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "verlaat", "jij": "verlaat", "hij": "verlaat", "wij": "verlaten" },
+        "past": { "singular": "verliet", "plural": "verlieten" },
+        "perfect": "heeft verlaten"
+      },
+      "example": { "nl": "We verlaten het hotel om tien uur.", "en": "We're leaving the hotel at ten." }
+    },
+    {
+      "rank": 1383,
+      "dutch": "ontmoeten",
+      "english": "to meet",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "ontmoet", "jij": "ontmoet", "hij": "ontmoet", "wij": "ontmoeten" },
+        "past": { "singular": "ontmoette", "plural": "ontmoetten" },
+        "perfect": "heeft ontmoet"
+      },
+      "example": { "nl": "We hebben elkaar op een feest ontmoet.", "en": "We met at a party." }
+    },
+    {
+      "rank": 1384,
+      "dutch": "voorkomen",
+      "english": "to prevent; to occur",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "voorkom", "jij": "voorkomt", "hij": "voorkomt", "wij": "voorkomen" },
+        "past": { "singular": "voorkwam", "plural": "voorkwamen" },
+        "perfect": "heeft voorkomen"
+      },
+      "example": { "nl": "Dat kun je makkelijk voorkomen.", "en": "You can easily prevent that." }
+    },
+    {
+      "rank": 1385,
+      "dutch": "beseffen",
+      "english": "to realise",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "besef", "jij": "beseft", "hij": "beseft", "wij": "beseffen" },
+        "past": { "singular": "besefte", "plural": "beseften" },
+        "perfect": "heeft beseft"
+      },
+      "example": { "nl": "Ik besefte het te laat.", "en": "I realised it too late." }
+    },
+    {
+      "rank": 1386,
+      "dutch": "vertalen",
+      "english": "to translate",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "vertaal", "jij": "vertaalt", "hij": "vertaalt", "wij": "vertalen" },
+        "past": { "singular": "vertaalde", "plural": "vertaalden" },
+        "perfect": "heeft vertaald"
+      },
+      "example": { "nl": "Kun je dit voor me vertalen?", "en": "Can you translate this for me?" }
+    },
+    {
+      "rank": 1387,
+      "dutch": "noteren",
+      "english": "to note down",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "noteer", "jij": "noteert", "hij": "noteert", "wij": "noteren" },
+        "past": { "singular": "noteerde", "plural": "noteerden" },
+        "perfect": "heeft genoteerd"
+      },
+      "example": { "nl": "Ik noteer het even.", "en": "I'll note it down." }
+    },
+    {
+      "rank": 1388,
+      "dutch": "melden",
+      "english": "to report",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "meld", "jij": "meldt", "hij": "meldt", "wij": "melden" },
+        "past": { "singular": "meldde", "plural": "meldden" },
+        "perfect": "heeft gemeld"
+      },
+      "example": { "nl": "Meld je bij de balie.", "en": "Report to the desk." }
+    },
+    {
+      "rank": 1389,
+      "dutch": "schreeuwen",
+      "english": "to shout, to scream",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "schreeuw", "jij": "schreeuwt", "hij": "schreeuwt", "wij": "schreeuwen" },
+        "past": { "singular": "schreeuwde", "plural": "schreeuwden" },
+        "perfect": "heeft geschreeuwd"
+      },
+      "example": { "nl": "Niet schreeuwen, ik hoor je wel.", "en": "Don't shout, I can hear you." }
+    },
+    {
+      "rank": 1390,
+      "dutch": "stofzuigen",
+      "english": "to vacuum",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "stofzuig", "jij": "stofzuigt", "hij": "stofzuigt", "wij": "stofzuigen" },
+        "past": { "singular": "stofzuigde", "plural": "stofzuigden" },
+        "perfect": "heeft gestofzuigd"
+      },
+      "example": { "nl": "Ik stofzuig even de woonkamer.", "en": "I'll vacuum the living room." }
+    },
+    {
+      "rank": 1391,
+      "dutch": "strijken",
+      "english": "to iron",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "strijk", "jij": "strijkt", "hij": "strijkt", "wij": "strijken" },
+        "past": { "singular": "streek", "plural": "streken" },
+        "perfect": "heeft gestreken"
+      },
+      "example": { "nl": "Ik strijk mijn overhemden zelf.", "en": "I iron my shirts myself." }
+    },
+    {
+      "rank": 1392,
+      "dutch": "serveren",
+      "english": "to serve",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "serveer", "jij": "serveert", "hij": "serveert", "wij": "serveren" },
+        "past": { "singular": "serveerde", "plural": "serveerden" },
+        "perfect": "heeft geserveerd"
+      },
+      "example": { "nl": "Het ontbijt wordt tot tien uur geserveerd.", "en": "Breakfast is served until ten." }
+    },
+    {
+      "rank": 1393,
+      "dutch": "slecht",
+      "english": "bad",
+      "type": "adjective",
+      "forms": {
+        "inflected": "slechte",
+        "examples": ["een slechte dag", "een slecht idee"]
+      },
+      "example": { "nl": "Het weer is slecht.", "en": "The weather is bad." }
+    },
+    {
+      "rank": 1394,
+      "dutch": "verkeerd",
+      "english": "wrong",
+      "type": "adjective",
+      "forms": {
+        "inflected": "verkeerde",
+        "examples": ["de verkeerde trein", "het verkeerde antwoord"]
+      },
+      "example": { "nl": "Ik ben in de verkeerde trein gestapt.", "en": "I got on the wrong train." }
+    },
+    {
+      "rank": 1395,
+      "dutch": "prima",
+      "english": "fine, excellent",
+      "type": "adjective",
+      "note": "Never inflected, and very common as a one-word answer.",
+      "forms": {
+        "inflected": "prima",
+        "examples": ["de prima oplossing", "het prima resultaat"]
+      },
+      "example": { "nl": "Dat is prima.", "en": "That's fine." }
+    },
+    {
+      "rank": 1396,
+      "dutch": "uitstekend",
+      "english": "excellent",
+      "type": "adjective",
+      "forms": {
+        "inflected": "uitstekende",
+        "examples": ["een uitstekende maaltijd", "een uitstekend idee"]
+      },
+      "example": { "nl": "Uitstekend gedaan!", "en": "Excellently done!" }
+    },
+    {
+      "rank": 1397,
+      "dutch": "geweldig",
+      "english": "great, terrific",
+      "type": "adjective",
+      "forms": {
+        "inflected": "geweldige",
+        "examples": ["een geweldige avond", "een geweldig feest"]
+      },
+      "example": { "nl": "Wat geweldig!", "en": "How wonderful!" }
+    },
+    {
+      "rank": 1398,
+      "dutch": "heerlijk",
+      "english": "delicious, lovely",
+      "type": "adjective",
+      "forms": {
+        "inflected": "heerlijke",
+        "examples": ["een heerlijke maaltijd", "een heerlijk weekend"]
+      },
+      "example": { "nl": "Wat een heerlijk weer.", "en": "What lovely weather." }
+    },
+    {
+      "rank": 1399,
+      "dutch": "vreselijk",
+      "english": "terrible",
+      "type": "adjective",
+      "forms": {
+        "inflected": "vreselijke",
+        "examples": ["een vreselijke dag", "een vreselijk ongeluk"]
+      },
+      "example": { "nl": "Dat is vreselijk.", "en": "That's terrible." }
+    },
+    {
+      "rank": 1400,
+      "dutch": "lief",
+      "english": "sweet, kind",
+      "type": "adjective",
+      "forms": {
+        "inflected": "lieve",
+        "examples": ["een lieve buurvrouw", "een lief kind"]
+      },
+      "example": { "nl": "Wat lief van je!", "en": "How sweet of you!" }
+    }
+  ]
+}

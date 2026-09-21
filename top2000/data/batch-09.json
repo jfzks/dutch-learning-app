@@ -1,0 +1,1148 @@
+{
+  "batch": 9,
+  "range": [801, 900],
+  "title": "Words 801–900",
+  "words": [
+    {
+      "rank": 801,
+      "dutch": "lente",
+      "english": "spring",
+      "type": "noun",
+      "note": "'het voorjaar' means the same and is just as common.",
+      "forms": {
+        "article": "de",
+        "plural": "lentes"
+      },
+      "example": { "nl": "In de lente bloeien de bollen.", "en": "In spring the bulbs flower." }
+    },
+    {
+      "rank": 802,
+      "dutch": "zomer",
+      "english": "summer",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "zomers"
+      },
+      "example": { "nl": "In de zomer zitten we buiten.", "en": "In summer we sit outside." }
+    },
+    {
+      "rank": 803,
+      "dutch": "herfst",
+      "english": "autumn",
+      "type": "noun",
+      "note": "'het najaar' is the other word for it.",
+      "forms": {
+        "article": "de",
+        "plural": "herfsten"
+      },
+      "example": { "nl": "In de herfst waait het vaak.", "en": "In autumn it's often windy." }
+    },
+    {
+      "rank": 804,
+      "dutch": "winter",
+      "english": "winter",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "winters"
+      },
+      "example": { "nl": "Het was een zachte winter.", "en": "It was a mild winter." }
+    },
+    {
+      "rank": 805,
+      "dutch": "natuur",
+      "english": "nature",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "de",
+        "plural": "—"
+      },
+      "example": { "nl": "We gaan het weekend de natuur in.", "en": "We're heading into nature this weekend." }
+    },
+    {
+      "rank": 806,
+      "dutch": "boom",
+      "english": "tree",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "bomen"
+      },
+      "example": { "nl": "Er staan grote bomen langs de gracht.", "en": "There are big trees along the canal." }
+    },
+    {
+      "rank": 807,
+      "dutch": "bloem",
+      "english": "flower",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "bloemen"
+      },
+      "example": { "nl": "Ik heb bloemen voor je meegenomen.", "en": "I've brought you flowers." }
+    },
+    {
+      "rank": 808,
+      "dutch": "plant",
+      "english": "plant",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "planten"
+      },
+      "example": { "nl": "De planten hebben water nodig.", "en": "The plants need water." }
+    },
+    {
+      "rank": 809,
+      "dutch": "blad",
+      "english": "leaf; sheet; magazine",
+      "type": "noun",
+      "note": "'bladen' when it means sheets of paper or magazines.",
+      "forms": {
+        "article": "het",
+        "plural": "bladeren"
+      },
+      "example": { "nl": "In oktober vallen de bladeren.", "en": "In October the leaves fall." }
+    },
+    {
+      "rank": 810,
+      "dutch": "gras",
+      "english": "grass",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "het",
+        "plural": "—"
+      },
+      "example": { "nl": "Verboden op het gras te lopen.", "en": "Walking on the grass is forbidden." }
+    },
+    {
+      "rank": 811,
+      "dutch": "bos",
+      "english": "wood, forest",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "bossen"
+      },
+      "example": { "nl": "We fietsen door het bos.", "en": "We're cycling through the woods." }
+    },
+    {
+      "rank": 812,
+      "dutch": "zee",
+      "english": "sea",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "zeeën"
+      },
+      "example": { "nl": "De zee is vandaag ruw.", "en": "The sea is rough today." }
+    },
+    {
+      "rank": 813,
+      "dutch": "strand",
+      "english": "beach",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "stranden"
+      },
+      "example": { "nl": "Op zondag was het druk op het strand.", "en": "On Sunday the beach was busy." }
+    },
+    {
+      "rank": 814,
+      "dutch": "duin",
+      "english": "dune",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "duinen"
+      },
+      "example": { "nl": "Achter de duinen ligt het dorp.", "en": "The village lies behind the dunes." }
+    },
+    {
+      "rank": 815,
+      "dutch": "haven",
+      "english": "harbour, port",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "havens"
+      },
+      "example": { "nl": "Rotterdam heeft de grootste haven van Europa.", "en": "Rotterdam has the biggest port in Europe." }
+    },
+    {
+      "rank": 816,
+      "dutch": "rivier",
+      "english": "river",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "rivieren"
+      },
+      "example": { "nl": "De rivier staat hoog.", "en": "The river is high." }
+    },
+    {
+      "rank": 817,
+      "dutch": "sloot",
+      "english": "ditch",
+      "type": "noun",
+      "note": "Ditches are everywhere in the Dutch landscape.",
+      "forms": {
+        "article": "de",
+        "plural": "sloten"
+      },
+      "example": { "nl": "De koeien staan naast de sloot.", "en": "The cows are standing beside the ditch." }
+    },
+    {
+      "rank": 818,
+      "dutch": "dijk",
+      "english": "dyke",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "dijken"
+      },
+      "example": { "nl": "We fietsen over de dijk.", "en": "We're cycling along the dyke." }
+    },
+    {
+      "rank": 819,
+      "dutch": "berg",
+      "english": "mountain",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "bergen"
+      },
+      "example": { "nl": "In Nederland zijn geen bergen.", "en": "There are no mountains in the Netherlands." }
+    },
+    {
+      "rank": 820,
+      "dutch": "eiland",
+      "english": "island",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "eilanden"
+      },
+      "example": { "nl": "Texel is het grootste eiland.", "en": "Texel is the largest island." }
+    },
+    {
+      "rank": 821,
+      "dutch": "grond",
+      "english": "ground, soil",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "gronden"
+      },
+      "example": { "nl": "De grond is hier erg nat.", "en": "The ground here is very wet." }
+    },
+    {
+      "rank": 822,
+      "dutch": "aarde",
+      "english": "earth",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "de",
+        "plural": "—"
+      },
+      "example": { "nl": "De aarde draait om de zon.", "en": "The earth goes around the sun." }
+    },
+    {
+      "rank": 823,
+      "dutch": "wereld",
+      "english": "world",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "werelden"
+      },
+      "example": { "nl": "Nederland is klein, maar de wereld is groot.", "en": "The Netherlands is small, but the world is big." }
+    },
+    {
+      "rank": 824,
+      "dutch": "veld",
+      "english": "field",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "velden"
+      },
+      "example": { "nl": "De koeien staan in het veld.", "en": "The cows are in the field." }
+    },
+    {
+      "rank": 825,
+      "dutch": "boerderij",
+      "english": "farm",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "boerderijen"
+      },
+      "example": { "nl": "Mijn oom heeft een boerderij in Friesland.", "en": "My uncle has a farm in Friesland." }
+    },
+    {
+      "rank": 826,
+      "dutch": "maan",
+      "english": "moon",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "manen"
+      },
+      "example": { "nl": "Vanavond schijnt de maan helder.", "en": "The moon is shining brightly tonight." }
+    },
+    {
+      "rank": 827,
+      "dutch": "ster",
+      "english": "star",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "sterren"
+      },
+      "example": { "nl": "Je ziet hier weinig sterren.", "en": "You don't see many stars here." }
+    },
+    {
+      "rank": 828,
+      "dutch": "zand",
+      "english": "sand",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "het",
+        "plural": "—"
+      },
+      "example": { "nl": "Er zit zand in mijn schoenen.", "en": "There's sand in my shoes." }
+    },
+    {
+      "rank": 829,
+      "dutch": "steen",
+      "english": "stone",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "stenen"
+      },
+      "example": { "nl": "De stenen zijn nat en glad.", "en": "The stones are wet and slippery." }
+    },
+    {
+      "rank": 830,
+      "dutch": "hout",
+      "english": "wood (material)",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "het",
+        "plural": "—"
+      },
+      "example": { "nl": "De tafel is van hout.", "en": "The table is made of wood." }
+    },
+    {
+      "rank": 831,
+      "dutch": "groeien",
+      "english": "to grow",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "groei", "jij": "groeit", "hij": "groeit", "wij": "groeien" },
+        "past": { "singular": "groeide", "plural": "groeiden" },
+        "perfect": "is gegroeid"
+      },
+      "example": { "nl": "De planten groeien snel.", "en": "The plants grow quickly." }
+    },
+    {
+      "rank": 832,
+      "dutch": "bloeien",
+      "english": "to bloom",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "bloei", "jij": "bloeit", "hij": "bloeit", "wij": "bloeien" },
+        "past": { "singular": "bloeide", "plural": "bloeiden" },
+        "perfect": "heeft gebloeid"
+      },
+      "example": { "nl": "De tulpen bloeien in april.", "en": "The tulips bloom in April." }
+    },
+    {
+      "rank": 833,
+      "dutch": "zwemmen",
+      "english": "to swim",
+      "type": "verb",
+      "note": "With a destination it takes zijn: hij is naar de overkant gezwommen.",
+      "forms": {
+        "present": { "ik": "zwem", "jij": "zwemt", "hij": "zwemt", "wij": "zwemmen" },
+        "past": { "singular": "zwom", "plural": "zwommen" },
+        "perfect": "heeft gezwommen"
+      },
+      "example": { "nl": "Wij zwemmen elke week.", "en": "We swim every week." }
+    },
+    {
+      "rank": 834,
+      "dutch": "dier",
+      "english": "animal",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "dieren"
+      },
+      "example": { "nl": "Welke dieren zie je in het weiland?", "en": "Which animals do you see in the meadow?" }
+    },
+    {
+      "rank": 835,
+      "dutch": "hond",
+      "english": "dog",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "honden"
+      },
+      "example": { "nl": "De hond moet nog uitgelaten worden.", "en": "The dog still needs walking." }
+    },
+    {
+      "rank": 836,
+      "dutch": "kat",
+      "english": "cat",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "katten"
+      },
+      "example": { "nl": "Onze kat slaapt de hele dag.", "en": "Our cat sleeps all day." }
+    },
+    {
+      "rank": 837,
+      "dutch": "vogel",
+      "english": "bird",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "vogels"
+      },
+      "example": { "nl": "In de tuin zitten veel vogels.", "en": "There are lots of birds in the garden." }
+    },
+    {
+      "rank": 838,
+      "dutch": "koe",
+      "english": "cow",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "koeien"
+      },
+      "example": { "nl": "De koeien staan weer in de wei.", "en": "The cows are out in the meadow again." }
+    },
+    {
+      "rank": 839,
+      "dutch": "paard",
+      "english": "horse",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "paarden"
+      },
+      "example": { "nl": "Zij rijdt elke zaterdag paard.", "en": "She goes horse riding every Saturday." }
+    },
+    {
+      "rank": 840,
+      "dutch": "schaap",
+      "english": "sheep",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "schapen"
+      },
+      "example": { "nl": "Op de dijk lopen schapen.", "en": "There are sheep on the dyke." }
+    },
+    {
+      "rank": 841,
+      "dutch": "varken",
+      "english": "pig",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "varkens"
+      },
+      "example": { "nl": "De boer heeft honderd varkens.", "en": "The farmer has a hundred pigs." }
+    },
+    {
+      "rank": 842,
+      "dutch": "kip",
+      "english": "chicken",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "kippen"
+      },
+      "example": { "nl": "We eten vanavond kip.", "en": "We're having chicken tonight." }
+    },
+    {
+      "rank": 843,
+      "dutch": "muis",
+      "english": "mouse",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "muizen"
+      },
+      "example": { "nl": "Er zit een muis in de schuur.", "en": "There's a mouse in the shed." }
+    },
+    {
+      "rank": 844,
+      "dutch": "spin",
+      "english": "spider",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "spinnen"
+      },
+      "example": { "nl": "Er hangt een spin in de hoek.", "en": "There's a spider in the corner." }
+    },
+    {
+      "rank": 845,
+      "dutch": "mug",
+      "english": "mosquito",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "muggen"
+      },
+      "example": { "nl": "In de zomer zijn er veel muggen.", "en": "In summer there are lots of mosquitoes." }
+    },
+    {
+      "rank": 846,
+      "dutch": "eend",
+      "english": "duck",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "eenden"
+      },
+      "example": { "nl": "In de gracht zwemmen eenden.", "en": "There are ducks swimming in the canal." }
+    },
+    {
+      "rank": 847,
+      "dutch": "milieu",
+      "english": "environment",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "het",
+        "plural": "—"
+      },
+      "example": { "nl": "Fietsen is goed voor het milieu.", "en": "Cycling is good for the environment." }
+    },
+    {
+      "rank": 848,
+      "dutch": "energie",
+      "english": "energy",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "de",
+        "plural": "—"
+      },
+      "example": { "nl": "We wekken zelf energie op.", "en": "We generate our own energy." }
+    },
+    {
+      "rank": 849,
+      "dutch": "afval",
+      "english": "waste, rubbish",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "het",
+        "plural": "—"
+      },
+      "example": { "nl": "Het afval wordt op dinsdag opgehaald.", "en": "The rubbish is collected on Tuesday." }
+    },
+    {
+      "rank": 850,
+      "dutch": "plastic",
+      "english": "plastic",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "het",
+        "plural": "—"
+      },
+      "example": { "nl": "Plastic hoort in de gele bak.", "en": "Plastic goes in the yellow bin." }
+    },
+    {
+      "rank": 851,
+      "dutch": "windmolen",
+      "english": "windmill, wind turbine",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "windmolens"
+      },
+      "example": { "nl": "Langs de snelweg staan windmolens.", "en": "There are wind turbines along the motorway." }
+    },
+    {
+      "rank": 852,
+      "dutch": "zonnepaneel",
+      "english": "solar panel",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "zonnepanelen"
+      },
+      "example": { "nl": "Wij hebben zonnepanelen op het dak.", "en": "We have solar panels on the roof." }
+    },
+    {
+      "rank": 853,
+      "dutch": "duurzaam",
+      "english": "sustainable",
+      "type": "adjective",
+      "forms": {
+        "inflected": "duurzame",
+        "examples": ["een duurzame oplossing", "een duurzaam plan"]
+      },
+      "example": { "nl": "Het bedrijf wil duurzamer worden.", "en": "The company wants to become more sustainable." }
+    },
+    {
+      "rank": 854,
+      "dutch": "vervuilen",
+      "english": "to pollute",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "vervuil", "jij": "vervuilt", "hij": "vervuilt", "wij": "vervuilen" },
+        "past": { "singular": "vervuilde", "plural": "vervuilden" },
+        "perfect": "heeft vervuild"
+      },
+      "example": { "nl": "Auto's vervuilen de lucht.", "en": "Cars pollute the air." }
+    },
+    {
+      "rank": 855,
+      "dutch": "recyclen",
+      "english": "to recycle",
+      "type": "verb",
+      "note": "An English verb with Dutch endings.",
+      "forms": {
+        "present": { "ik": "recycl", "jij": "recyclt", "hij": "recyclt", "wij": "recyclen" },
+        "past": { "singular": "recyclde", "plural": "recyclden" },
+        "perfect": "heeft gerecycled"
+      },
+      "example": { "nl": "Wij recyclen bijna al ons plastic.", "en": "We recycle almost all our plastic." }
+    },
+    {
+      "rank": 856,
+      "dutch": "besparen",
+      "english": "to save (energy, money)",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "bespaar", "jij": "bespaart", "hij": "bespaart", "wij": "besparen" },
+        "past": { "singular": "bespaarde", "plural": "bespaarden" },
+        "perfect": "heeft bespaard"
+      },
+      "example": { "nl": "Zo bespaar je veel energie.", "en": "That way you save a lot of energy." }
+    },
+    {
+      "rank": 857,
+      "dutch": "sport",
+      "english": "sport",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "sporten"
+      },
+      "example": { "nl": "Welke sport doe jij?", "en": "Which sport do you do?" }
+    },
+    {
+      "rank": 858,
+      "dutch": "wedstrijd",
+      "english": "match, competition",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "wedstrijden"
+      },
+      "example": { "nl": "De wedstrijd begint om acht uur.", "en": "The match starts at eight." }
+    },
+    {
+      "rank": 859,
+      "dutch": "voetbal",
+      "english": "football",
+      "type": "noun",
+      "note": "Uncountable for the game.",
+      "forms": {
+        "article": "het",
+        "plural": "—"
+      },
+      "example": { "nl": "Voetbal is hier de grootste sport.", "en": "Football is the biggest sport here." }
+    },
+    {
+      "rank": 860,
+      "dutch": "bal",
+      "english": "ball",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "ballen"
+      },
+      "example": { "nl": "De bal ligt in de tuin.", "en": "The ball is in the garden." }
+    },
+    {
+      "rank": 861,
+      "dutch": "team",
+      "english": "team",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "teams"
+      },
+      "example": { "nl": "Ons team heeft gewonnen.", "en": "Our team won." }
+    },
+    {
+      "rank": 862,
+      "dutch": "spel",
+      "english": "game",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "spellen"
+      },
+      "example": { "nl": "Zullen we een spel doen?", "en": "Shall we play a game?" }
+    },
+    {
+      "rank": 863,
+      "dutch": "muziekinstrument",
+      "english": "musical instrument",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "muziekinstrumenten"
+      },
+      "example": { "nl": "Speel jij een muziekinstrument?", "en": "Do you play an instrument?" }
+    },
+    {
+      "rank": 864,
+      "dutch": "lied",
+      "english": "song",
+      "type": "noun",
+      "note": "'nummer' or 'liedje' is what people usually say for a pop song.",
+      "forms": {
+        "article": "het",
+        "plural": "liederen"
+      },
+      "example": { "nl": "Dat lied ken ik nog van school.", "en": "I still know that song from school." }
+    },
+    {
+      "rank": 865,
+      "dutch": "hobby",
+      "english": "hobby",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "hobby's"
+      },
+      "example": { "nl": "Fotograferen is mijn hobby.", "en": "Photography is my hobby." }
+    },
+    {
+      "rank": 866,
+      "dutch": "club",
+      "english": "club",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "clubs"
+      },
+      "example": { "nl": "Hij zit op een voetbalclub.", "en": "He's a member of a football club." }
+    },
+    {
+      "rank": 867,
+      "dutch": "sporten",
+      "english": "to do sport, to exercise",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "sport", "jij": "sport", "hij": "sport", "wij": "sporten" },
+        "past": { "singular": "sportte", "plural": "sportten" },
+        "perfect": "heeft gesport"
+      },
+      "example": { "nl": "Ik sport drie keer per week.", "en": "I exercise three times a week." }
+    },
+    {
+      "rank": 868,
+      "dutch": "voetballen",
+      "english": "to play football",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "voetbal", "jij": "voetbalt", "hij": "voetbalt", "wij": "voetballen" },
+        "past": { "singular": "voetbalde", "plural": "voetbalden" },
+        "perfect": "heeft gevoetbald"
+      },
+      "example": { "nl": "De jongens voetballen op het plein.", "en": "The boys are playing football on the square." }
+    },
+    {
+      "rank": 869,
+      "dutch": "winnen",
+      "english": "to win",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "win", "jij": "wint", "hij": "wint", "wij": "winnen" },
+        "past": { "singular": "won", "plural": "wonnen" },
+        "perfect": "heeft gewonnen"
+      },
+      "example": { "nl": "Wij hebben met 3-1 gewonnen.", "en": "We won 3-1." }
+    },
+    {
+      "rank": 870,
+      "dutch": "verliezen",
+      "english": "to lose",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "verlies", "jij": "verliest", "hij": "verliest", "wij": "verliezen" },
+        "past": { "singular": "verloor", "plural": "verloren" },
+        "perfect": "heeft verloren"
+      },
+      "example": { "nl": "Zij verloren de wedstrijd.", "en": "They lost the match." }
+    },
+    {
+      "rank": 871,
+      "dutch": "trainen",
+      "english": "to train",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "train", "jij": "traint", "hij": "traint", "wij": "trainen" },
+        "past": { "singular": "trainde", "plural": "trainden" },
+        "perfect": "heeft getraind"
+      },
+      "example": { "nl": "We trainen op dinsdagavond.", "en": "We train on Tuesday evenings." }
+    },
+    {
+      "rank": 872,
+      "dutch": "dansen",
+      "english": "to dance",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "dans", "jij": "danst", "hij": "danst", "wij": "dansen" },
+        "past": { "singular": "danste", "plural": "dansten" },
+        "perfect": "heeft gedanst"
+      },
+      "example": { "nl": "Op het feest hebben we gedanst.", "en": "We danced at the party." }
+    },
+    {
+      "rank": 873,
+      "dutch": "zingen",
+      "english": "to sing",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "zing", "jij": "zingt", "hij": "zingt", "wij": "zingen" },
+        "past": { "singular": "zong", "plural": "zongen" },
+        "perfect": "heeft gezongen"
+      },
+      "example": { "nl": "Zij zingt in een koor.", "en": "She sings in a choir." }
+    },
+    {
+      "rank": 874,
+      "dutch": "fotograferen",
+      "english": "to photograph",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "fotografeer", "jij": "fotografeert", "hij": "fotografeert", "wij": "fotograferen" },
+        "past": { "singular": "fotografeerde", "plural": "fotografeerden" },
+        "perfect": "heeft gefotografeerd"
+      },
+      "example": { "nl": "Hij fotografeert graag vogels.", "en": "He likes photographing birds." }
+    },
+    {
+      "rank": 875,
+      "dutch": "verzamelen",
+      "english": "to collect",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "verzamel", "jij": "verzamelt", "hij": "verzamelt", "wij": "verzamelen" },
+        "past": { "singular": "verzamelde", "plural": "verzamelden" },
+        "perfect": "heeft verzameld"
+      },
+      "example": { "nl": "Mijn zoon verzamelt postzegels.", "en": "My son collects stamps." }
+    },
+    {
+      "rank": 876,
+      "dutch": "uitgaan",
+      "english": "to go out",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "ga uit", "jij": "gaat uit", "hij": "gaat uit", "wij": "gaan uit" },
+        "past": { "singular": "ging uit", "plural": "gingen uit" },
+        "perfect": "is uitgegaan"
+      },
+      "example": { "nl": "We gaan zaterdag uit.", "en": "We're going out on Saturday." }
+    },
+    {
+      "rank": 877,
+      "dutch": "meedoen",
+      "english": "to join in, to take part",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "do mee", "jij": "dot mee", "hij": "dot mee", "wij": "doen mee" },
+        "past": { "singular": "deed mee", "plural": "deden mee" },
+        "perfect": "heeft meegedaan"
+      },
+      "example": { "nl": "Doe je mee met het spel?", "en": "Are you joining in the game?" }
+    },
+    {
+      "rank": 878,
+      "dutch": "vieren",
+      "english": "to celebrate",
+      "type": "verb",
+      "forms": {
+        "present": { "ik": "vier", "jij": "viert", "hij": "viert", "wij": "vieren" },
+        "past": { "singular": "vierde", "plural": "vierden" },
+        "perfect": "heeft gevierd"
+      },
+      "example": { "nl": "We vieren zijn verjaardag op zondag.", "en": "We're celebrating his birthday on Sunday." }
+    },
+    {
+      "rank": 879,
+      "dutch": "keer",
+      "english": "time, occasion",
+      "type": "noun",
+      "note": "'keer' counts occasions: de eerste keer, nog een keer.",
+      "forms": {
+        "article": "de",
+        "plural": "keren"
+      },
+      "example": { "nl": "Ik ben er twee keer geweest.", "en": "I've been there twice." }
+    },
+    {
+      "rank": 880,
+      "dutch": "soort",
+      "english": "kind, sort",
+      "type": "noun",
+      "note": "'wat voor soort' or just 'wat voor' = what kind of.",
+      "forms": {
+        "article": "het",
+        "plural": "soorten"
+      },
+      "example": { "nl": "Wat voor soort brood wil je?", "en": "What kind of bread do you want?" }
+    },
+    {
+      "rank": 881,
+      "dutch": "deel",
+      "english": "part",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "delen"
+      },
+      "example": { "nl": "Het eerste deel is het moeilijkst.", "en": "The first part is the hardest." }
+    },
+    {
+      "rank": 882,
+      "dutch": "groep",
+      "english": "group",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "groepen"
+      },
+      "example": { "nl": "We gaan met een grote groep.", "en": "We're going with a big group." }
+    },
+    {
+      "rank": 883,
+      "dutch": "rij",
+      "english": "queue, row",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "rijen"
+      },
+      "example": { "nl": "Er staat een lange rij.", "en": "There's a long queue." }
+    },
+    {
+      "rank": 884,
+      "dutch": "begin",
+      "english": "beginning",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "het",
+        "plural": "—"
+      },
+      "example": { "nl": "In het begin was het lastig.", "en": "In the beginning it was tricky." }
+    },
+    {
+      "rank": 885,
+      "dutch": "einde",
+      "english": "end",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "einden"
+      },
+      "example": { "nl": "Aan het einde van de straat staat een kerk.", "en": "At the end of the street there's a church." }
+    },
+    {
+      "rank": 886,
+      "dutch": "verschil",
+      "english": "difference",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "verschillen"
+      },
+      "example": { "nl": "Wat is het verschil tussen deze twee?", "en": "What's the difference between these two?" }
+    },
+    {
+      "rank": 887,
+      "dutch": "voorbeeld",
+      "english": "example",
+      "type": "noun",
+      "note": "bijvoorbeeld = for example.",
+      "forms": {
+        "article": "het",
+        "plural": "voorbeelden"
+      },
+      "example": { "nl": "Geef eens een voorbeeld.", "en": "Give me an example." }
+    },
+    {
+      "rank": 888,
+      "dutch": "kans",
+      "english": "chance, opportunity",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "kansen"
+      },
+      "example": { "nl": "Er is een kleine kans op regen.", "en": "There's a small chance of rain." }
+    },
+    {
+      "rank": 889,
+      "dutch": "idee",
+      "english": "idea",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "ideeën"
+      },
+      "example": { "nl": "Dat is een goed idee.", "en": "That's a good idea." }
+    },
+    {
+      "rank": 890,
+      "dutch": "plan",
+      "english": "plan",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "plannen"
+      },
+      "example": { "nl": "Wat zijn je plannen voor het weekend?", "en": "What are your plans for the weekend?" }
+    },
+    {
+      "rank": 891,
+      "dutch": "keuze",
+      "english": "choice",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "keuzes"
+      },
+      "example": { "nl": "Je hebt de keuze tussen twee menu's.", "en": "You have a choice between two menus." }
+    },
+    {
+      "rank": 892,
+      "dutch": "oplossing",
+      "english": "solution",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "oplossingen"
+      },
+      "example": { "nl": "We zoeken een oplossing.", "en": "We're looking for a solution." }
+    },
+    {
+      "rank": 893,
+      "dutch": "resultaat",
+      "english": "result",
+      "type": "noun",
+      "forms": {
+        "article": "het",
+        "plural": "resultaten"
+      },
+      "example": { "nl": "Het resultaat viel tegen.", "en": "The result was disappointing." }
+    },
+    {
+      "rank": 894,
+      "dutch": "regering",
+      "english": "government",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "regeringen"
+      },
+      "example": { "nl": "De regering heeft nieuwe plannen.", "en": "The government has new plans." }
+    },
+    {
+      "rank": 895,
+      "dutch": "gemeente",
+      "english": "municipality, council",
+      "type": "noun",
+      "note": "The gemeente handles registration, waste, permits and much else in Dutch daily life.",
+      "forms": {
+        "article": "de",
+        "plural": "gemeenten"
+      },
+      "example": { "nl": "Je moet je bij de gemeente inschrijven.", "en": "You have to register with the council." }
+    },
+    {
+      "rank": 896,
+      "dutch": "politiek",
+      "english": "politics",
+      "type": "noun",
+      "note": "Uncountable.",
+      "forms": {
+        "article": "de",
+        "plural": "—"
+      },
+      "example": { "nl": "Hij praat graag over politiek.", "en": "He likes talking about politics." }
+    },
+    {
+      "rank": 897,
+      "dutch": "partij",
+      "english": "party (political); party (to a deal)",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "partijen"
+      },
+      "example": { "nl": "Er zitten veel partijen in de Tweede Kamer.", "en": "There are many parties in parliament." }
+    },
+    {
+      "rank": 898,
+      "dutch": "verkiezing",
+      "english": "election",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "verkiezingen"
+      },
+      "example": { "nl": "De verkiezingen zijn in maart.", "en": "The elections are in March." }
+    },
+    {
+      "rank": 899,
+      "dutch": "stem",
+      "english": "vote; voice",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "stemmen"
+      },
+      "example": { "nl": "Elke stem telt.", "en": "Every vote counts." }
+    },
+    {
+      "rank": 900,
+      "dutch": "minister",
+      "english": "minister",
+      "type": "noun",
+      "forms": {
+        "article": "de",
+        "plural": "ministers"
+      },
+      "example": { "nl": "De minister geeft vanavond een toelichting.", "en": "The minister is giving a briefing tonight." }
+    }
+  ]
+}

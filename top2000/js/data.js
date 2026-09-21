@@ -13,6 +13,7 @@
 
 (function (T2K) {
   const MAX_BATCHES = 40;       // 2,000 words at 100 per batch, with headroom
+  const WINDOW = 6;             // how many batch files to request in parallel
   const PATH = (n) => `data/batch-${String(n).padStart(2, '0')}.json`;
 
   function loadBundle() {
@@ -71,15 +72,15 @@
       if (source.kind === 'fetch') {
         this.mode = 'fetch';
         batches.push(source.first);
-        for (let n = 2; n <= MAX_BATCHES; n++) {
-          let b = null;
-          try {
-            b = await fetchBatch(n);
-          } catch (e) {
-            b = null;
-          }
-          if (!b) break;
-          batches.push(b);
+        // Ask for several batches at a time rather than one after another —
+        // twenty files in sequence would be twenty round trips on a phone.
+        for (let n = 2; n <= MAX_BATCHES; n += WINDOW) {
+          const numbers = [];
+          for (let i = 0; i < WINDOW && n + i <= MAX_BATCHES; i++) numbers.push(n + i);
+          const found = await Promise.all(numbers.map(k => fetchBatch(k).catch(() => null)));
+          const gap = found.indexOf(null);
+          batches.push(...(gap === -1 ? found : found.slice(0, gap)));
+          if (gap !== -1) break;              // first missing file ends the deck
         }
       } else {
         this.mode = 'bundle';
