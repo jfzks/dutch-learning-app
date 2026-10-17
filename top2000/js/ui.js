@@ -95,11 +95,51 @@
     ]);
   }
 
+  // Open every batch up to n, and make n the one new words come from. The
+  // automatic rule only ever opens the next batch once the current one has been
+  // started; this is the deliberate "I'm moving on now" override.
+  function unlockThrough(n, pin) {
+    const st = store.state.settings;
+    st.unlockedThrough = Math.max(st.unlockedThrough || 0, n);
+    if (pin !== false) st.batches = [n];
+    store.save();
+  }
+
+  // The batch to offer next: the one after whatever is currently feeding new
+  // words — the manual pick if there is one, otherwise where the frequency
+  // order has reached.
+  function nextBatchToOpen(state) {
+    if (deck.batches.length < 2) return null;
+    const chosen = state.settings.batches;
+    const base = chosen && chosen.length
+      ? Math.max(...chosen)
+      : currentBatchNumber(state);
+    // Only offer the jump once the current batch is under way, so a brand-new
+    // deck isn't inviting you to skip ahead before card one.
+    const current = deck.batchByNumber(base);
+    if (!current || !current.words.some(w => state.cards[w.rank])) return null;
+    return deck.batchByNumber(base + 1);
+  }
+
   // The ways to carry on once the day's reviews and new words are done. Shared
   // by the Today screen and the end-of-session summary.
   function extraOptions() {
     const avail = T2K.study.availability();
     const out = [];
+
+    const next = nextBatchToOpen(store.state);
+    if (next) {
+      out.push(optionButton(
+        `Start batch ${next.batch} now`,
+        `Words ${next.range[0]}–${next.range[1]} become your new-word source. ` +
+        'Everything you’ve started still comes back for review.',
+        () => {
+          unlockThrough(next.batch);
+          toast(`Batch ${next.batch} unlocked — new words now come from ${next.range[0]}–${next.range[1]}.`);
+          if (T2K.study.availability().extraNew > 0) T2K.study.start('extra-new');
+          else refresh();
+        }));
+    }
     if (avail.extraNew > 0) {
       out.push(optionButton(
         `+ ${avail.extraNew} new word${avail.extraNew === 1 ? '' : 's'}`,
@@ -204,7 +244,7 @@
 
     const byBatch = el('section', { class: 'card' });
     byBatch.append(el('h3', {}, 'By batch'));
-    const unlocked = deck.unlockedBatches(state.cards);
+    const unlocked = deck.unlockedBatches(state);
     const active = deck.activeBatches(state);
     for (const b of deck.batches) {
       const started = b.words.filter(w => state.cards[w.rank]).length;
@@ -300,7 +340,7 @@
     // --- batches ---
     const batchCard = el('section', { class: 'card' });
     batchCard.append(el('h3', {}, 'Batches'));
-    const unlocked = deck.unlockedBatches(state.cards);
+    const unlocked = deck.unlockedBatches(state);
     const auto = !st.batches || !st.batches.length;
     batchCard.append(settingRow('Choose batches',
       segmented([['auto', 'Automatic'], ['manual', 'Manual']], auto ? 'auto' : 'manual',
@@ -318,8 +358,15 @@
       const picked = auto ? deck.activeBatches(state).includes(b.batch) : (st.batches || []).includes(b.batch);
       batchCard.append(el('button', {
         class: 'batch-row' + (picked ? ' on' : '') + (isUnlocked ? '' : ' locked'),
-        disabled: auto || !isUnlocked,
+        // A locked row is always tappable — that's how you move on early.
+        disabled: auto && isUnlocked,
         onclick: () => {
+          if (!isUnlocked) {
+            unlockThrough(b.batch);
+            refresh();
+            toast(`Batch ${b.batch} unlocked — new words now come from ${b.range[0]}–${b.range[1]}.`);
+            return;
+          }
           const set = new Set(st.batches || []);
           if (set.has(b.batch)) {
             // An empty list would silently mean "automatic" — keep one on.
@@ -334,11 +381,12 @@
         },
       }, [
         el('span', {}, `Batch ${b.batch} · words ${b.range[0]}–${b.range[1]}`),
-        el('span', { class: 'batch-mark' }, isUnlocked ? (picked ? '✓' : '') : '🔒'),
+        el('span', { class: 'batch-mark' }, isUnlocked ? (picked ? '✓' : '') : '🔒 unlock'),
       ]));
     }
     batchCard.append(el('p', { class: 'muted small' },
-      'A batch unlocks once the one before it has been started.'));
+      'A batch unlocks once the one before it has been started — or tap a locked '
+      + 'one to open it now and draw new words from it.'));
     main.append(batchCard);
 
     // --- speech ---

@@ -278,8 +278,10 @@ h3 {
 }
 .batch-row.on { border-color: var(--accent); background: var(--accent-soft); }
 .batch-row:disabled { cursor: default; opacity: .75; }
-.batch-row.locked { opacity: .5; }
+.batch-row.locked { opacity: .62; }
+.batch-row.locked:active { opacity: 1; border-color: var(--accent); }
 .batch-mark { color: var(--accent); font-weight: 700; }
+.batch-row.locked .batch-mark { color: var(--muted); font-weight: 600; font-size: 13px; }
 
 .hidden-file { display: none; }
 

@@ -43,12 +43,13 @@ it works offline.
   mode the word button only appears after the flip. With no Dutch voice
   installed the app still tries `nl-NL` and says so in Settings.
 - **Keep going** — when the day's reviews and new words are done, the Today
-  screen (and the end-of-session summary) offers three ways to carry on:
-  **+10 new words** introduces tomorrow's words early and schedules them as
-  normal; **review 20 ahead** pulls forward the cards due soonest, each one
-  rescheduled from today; **practice 20 words** is a shuffled look at words
-  you've started that scores nothing and changes no schedule — there are no
-  rating buttons, just *Next word*.
+  screen (and the end-of-session summary) offers four ways to carry on:
+  **start batch N now** opens the next hundred words today and makes them your
+  new-word source; **+10 new words** introduces more from the batch you're on
+  and schedules them as normal; **review 20 ahead** pulls forward the cards due
+  soonest, each one rescheduled from today; **practice 20 words** is a shuffled
+  look at words you've started that scores nothing and changes no schedule —
+  there are no rating buttons, just *Next word*.
 - **Stats** — words learned, in learning, due today, streak, and progress toward
   2,000.
 - **Settings** — new words per day (default 15), review cap, direction
@@ -80,7 +81,13 @@ from the day you do it, a card reviewed before it was due comes back a little
 sooner than it would have. Practice runs avoid that entirely by writing nothing.
 
 Batches unlock in order: the next one opens once the current one has been
-started. Settings → Batches switches to manual picking within what's unlocked.
+started. You don't have to wait for that, though — **Start batch N now** on the
+Today screen, or tapping any locked batch in Settings → Batches, opens it
+immediately and makes it the source of new words from then on. Earlier words
+aren't abandoned: everything you've already started keeps coming back for
+review, and switching Settings → Batches back to **Automatic** resumes
+introducing words in strict frequency order, picking up exactly where the
+earlier batch left off.
 
 ### Your progress
 

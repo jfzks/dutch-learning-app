@@ -122,15 +122,19 @@
     },
 
     // A batch is unlocked once the one before it has been started — at least
-    // one of its words has been introduced. Batch 1 is always open.
-    unlockedBatches(cards) {
+    // one of its words has been introduced. Batch 1 is always open, and
+    // settings.unlockedThrough opens everything up to a batch the learner
+    // decided to move on to.
+    unlockedBatches(state) {
+      const cards = (state && state.cards) || {};
+      const floor = (state && state.settings && state.settings.unlockedThrough) || 0;
       const out = [];
       for (const b of this.batches) {
-        if (b.batch === this.batches[0].batch) { out.push(b.batch); continue; }
+        const first = b.batch === this.batches[0].batch;
         const prev = this.batchByNumber(b.batch - 1);
         const started = prev && prev.words.some(w => cards[w.rank]);
-        if (!started) break;
-        out.push(b.batch);
+        if (first || b.batch <= floor || started) { out.push(b.batch); continue; }
+        break;
       }
       return out;
     },
@@ -138,7 +142,7 @@
     // Which batches new words may come from: the manual pick if there is one
     // (never beyond what's unlocked), otherwise everything unlocked.
     activeBatches(state) {
-      const unlocked = this.unlockedBatches(state.cards);
+      const unlocked = this.unlockedBatches(state);
       const chosen = state.settings.batches;
       if (!chosen || !chosen.length) return unlocked;
       const picked = chosen.filter(n => unlocked.includes(n));
