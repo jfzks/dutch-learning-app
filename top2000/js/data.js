@@ -41,16 +41,11 @@
       : w.dutch;
   }
 
-  function batchOf(rank) {
-    return Math.floor((rank - 1) / 100) + 1;
-  }
-
   const deck = {
     mode: 'fetch',        // 'fetch' | 'bundle'
     words: [],            // every loaded word, sorted by rank
     batches: [],          // [{ batch, range, title, words: [...] }]
     byRank: new Map(),
-    rankBatch: new Map(), // rank → batch number
 
     async load() {
       let source = null;
@@ -103,54 +98,10 @@
 
       this.words = this.batches.flatMap(b => b.words).sort((a, b) => a.rank - b.rank);
       this.byRank = new Map(this.words.map(w => [w.rank, w]));
-      this.rankBatch = new Map();
-      for (const b of this.batches) {
-        for (const w of b.words) this.rankBatch.set(w.rank, b.batch);
-      }
       return this;
-    },
-
-    batchByNumber(n) {
-      return this.batches.find(b => b.batch === n) || null;
-    },
-
-    // Which batch file a word came from — read from the loaded data rather than
-    // assumed from the rank, so batches of other sizes still work.
-    batchNumberOf(rank) {
-      const n = this.rankBatch.get(rank);
-      return n === undefined ? batchOf(rank) : n;
-    },
-
-    // A batch is unlocked once the one before it has been started — at least
-    // one of its words has been introduced. Batch 1 is always open, and
-    // settings.unlockedThrough opens everything up to a batch the learner
-    // decided to move on to.
-    unlockedBatches(state) {
-      const cards = (state && state.cards) || {};
-      const floor = (state && state.settings && state.settings.unlockedThrough) || 0;
-      const out = [];
-      for (const b of this.batches) {
-        const first = b.batch === this.batches[0].batch;
-        const prev = this.batchByNumber(b.batch - 1);
-        const started = prev && prev.words.some(w => cards[w.rank]);
-        if (first || b.batch <= floor || started) { out.push(b.batch); continue; }
-        break;
-      }
-      return out;
-    },
-
-    // Which batches new words may come from: the manual pick if there is one
-    // (never beyond what's unlocked), otherwise everything unlocked.
-    activeBatches(state) {
-      const unlocked = this.unlockedBatches(state);
-      const chosen = state.settings.batches;
-      if (!chosen || !chosen.length) return unlocked;
-      const picked = chosen.filter(n => unlocked.includes(n));
-      return picked.length ? picked : unlocked.slice(0, 1);
     },
   };
 
   T2K.deck = deck;
   T2K.headword = headword;
-  T2K.batchOf = batchOf;
 })(window.T2K = window.T2K || {});

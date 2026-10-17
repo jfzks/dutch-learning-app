@@ -179,6 +179,7 @@ h3 {
 /* ---------- meters ---------- */
 .meter { margin: 4px 0 2px; }
 .meter-track {
+  display: flex;
   height: 8px;
   background: var(--surface-2);
   border: 1px solid var(--border);
@@ -187,14 +188,16 @@ h3 {
 }
 .meter-track.slim { height: 6px; flex: 1; }
 .meter-fill { height: 100%; background: var(--accent); transition: width .25s ease; }
+.meter-fill.soft { background: var(--accent-soft); box-shadow: inset 0 0 0 1px var(--accent); }
 .meter-label { font-size: 12.5px; color: var(--muted); margin-top: 6px; }
 .streak-line { margin-top: 12px; font-size: 14px; }
 
 /* ---------- rows (stats by batch) ---------- */
-.row { padding: 10px 0; border-top: 1px solid var(--border); }
+.row { display: flex; align-items: center; gap: 10px; padding: 10px 0; border-top: 1px solid var(--border); }
+.row-main { flex: 1; min-width: 0; }
+.btn.small-btn { min-height: 36px; padding: 6px 12px; font-size: 13px; flex: none; }
 .row:first-of-type { border-top: 0; }
 .row-title { font-size: 14px; font-weight: 550; margin-bottom: 6px; display: flex; align-items: center; gap: 6px; }
-.lock { font-size: 12px; }
 .chip {
   display: inline-block;
   font-size: 11px;
@@ -205,7 +208,6 @@ h3 {
   border: 1px solid var(--border);
   text-transform: lowercase;
 }
-.chip.on { background: var(--accent-soft); color: var(--accent); border-color: var(--accent); }
 .chip.soft { background: transparent; }
 
 /* ---------- settings controls ---------- */
@@ -262,31 +264,6 @@ h3 {
   max-width: 100%;
 }
 
-.batch-row {
-  width: 100%;
-  min-height: 48px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;
-  padding: 10px 12px;
-  margin-bottom: 6px;
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  background: var(--surface-2);
-  color: var(--fg);
-  font-size: 14px;
-  font-family: inherit;
-  text-align: left;
-  cursor: pointer;
-}
-.batch-row.on { border-color: var(--accent); background: var(--accent-soft); }
-.batch-row:disabled { cursor: default; opacity: .75; }
-.batch-row.locked { opacity: .62; }
-.batch-row.locked:active { opacity: 1; border-color: var(--accent); }
-.batch-mark { color: var(--accent); font-weight: 700; }
-.batch-row.locked .batch-mark { color: var(--muted); font-weight: 600; font-size: 13px; }
-
 .hidden-file { display: none; }
 
 /* ---------- sync ---------- */
@@ -342,12 +319,14 @@ h3 {
 .btn.danger { background: transparent; color: var(--again); border: 1px solid var(--again); margin-top: 10px; }
 .btn:disabled { opacity: .45; cursor: not-allowed; }
 
-/* How many cards a "keep going" run should hold. */
+.plan-line { margin: 0 0 14px; font-size: 15px; font-weight: 550; color: var(--accent); min-height: 1.4em; }
+
+/* How many cards a session holds. */
 .size-row {
   display: flex;
   align-items: center;
   gap: 14px;
-  margin-bottom: 14px;
+  margin: 4px 0 8px;
 }
 .size-slider {
   flex: 1;
@@ -357,37 +336,12 @@ h3 {
   cursor: pointer;
 }
 .size-value {
-  min-width: 76px;
+  min-width: 48px;
   text-align: right;
-  font-size: 15px;
+  font-size: 26px;
   font-weight: 650;
+  font-variant-numeric: tabular-nums;
 }
-.extras-list { display: block; }
-
-/* Full-width choice with a label and an explanation under it. */
-.option-btn {
-  width: 100%;
-  min-height: 62px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 3px;
-  padding: 12px 14px;
-  margin-bottom: 8px;
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  background: var(--surface-2);
-  color: var(--fg);
-  font-family: inherit;
-  text-align: left;
-  cursor: pointer;
-}
-.option-btn:last-child { margin-bottom: 0; }
-.option-btn:active { background: var(--accent-soft); border-color: var(--accent); }
-.option-label { font-size: 15px; font-weight: 600; }
-.option-sub { font-size: 12.5px; color: var(--muted); line-height: 1.35; }
-.done .option-btn { text-align: left; }
 
 .icon-btn {
   width: 40px; height: 40px;
@@ -535,8 +489,22 @@ h3 {
   z-index: 30;
   transition: opacity .4s ease;
   max-width: 90vw;
+  display: flex;
+  align-items: center;
 }
 #toast.out { opacity: 0; }
+.toast-btn {
+  flex: none;
+  margin-left: 12px;
+  padding: 4px 6px;
+  border: 0;
+  background: none;
+  color: var(--accent-soft);
+  font: inherit;
+  font-weight: 700;
+  text-decoration: underline;
+  cursor: pointer;
+}
 
 @media (min-width: 620px) {
   .face { font-size: 36px; }

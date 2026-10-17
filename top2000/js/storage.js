@@ -14,14 +14,9 @@
   const HISTORY_DAYS = 400;     // per-day review counts kept before trimming
 
   const DEFAULT_SETTINGS = {
-    newPerDay: 15,
-    maxReviews: 120,        // 0 = no limit
+    sessionSize: 20,        // cards in a session (10–100, in tens)
     direction: 'nl-en',     // 'nl-en' | 'en-nl' | 'mixed'
     theme: 'auto',          // 'auto' | 'light' | 'dark'
-    batches: null,          // null = automatic (frequency order); else [1, 2, …]
-    unlockedThrough: 0,     // batches up to here are open, however far you've got
-    extraSize: 20,          // cards in a "keep going" run (10–100, in tens)
-    mixHard: 0,             // hard words shuffled into each daily session (0 = off)
     autoSpeak: false,       // speak the Dutch automatically when a card flips
     voiceURI: null,         // chosen Dutch voice, if the device has several
     speechRate: 0.9,
@@ -29,8 +24,7 @@
 
   // Settings that follow you between devices. The rest — theme, voice, speed —
   // depend on the device, so each one keeps its own.
-  const SYNCED_SETTINGS = ['newPerDay', 'maxReviews', 'direction', 'batches',
-    'unlockedThrough', 'extraSize', 'mixHard'];
+  const SYNCED_SETTINGS = ['sessionSize', 'direction'];
 
   function emptyState() {
     return {
@@ -70,17 +64,12 @@
       (typeof v === 'number' && isFinite(v)) ? Math.min(hi, Math.max(lo, Math.round(v * 100) / 100)) : dflt;
     const time = (v) => (typeof v === 'number' && isFinite(v) && v > 0 ? Math.round(v) : 0);
     state.settingsAt = time(raw.settingsAt);
-    state.settings.newPerDay = num(s.newPerDay, 0, 200, DEFAULT_SETTINGS.newPerDay);
-    state.settings.maxReviews = num(s.maxReviews, 0, 999, DEFAULT_SETTINGS.maxReviews);
+    // sessionSize used to be the "keep going" size, extraSize.
+    const size = typeof s.sessionSize === 'number' ? s.sessionSize : s.extraSize;
+    state.settings.sessionSize =
+      Math.round(num(size, 10, 100, DEFAULT_SETTINGS.sessionSize) / 10) * 10;
     state.settings.direction = ['nl-en', 'en-nl', 'mixed'].includes(s.direction) ? s.direction : 'nl-en';
     state.settings.theme = ['auto', 'light', 'dark'].includes(s.theme) ? s.theme : 'auto';
-    state.settings.batches = Array.isArray(s.batches)
-      ? s.batches.filter(n => typeof n === 'number' && n > 0).sort((a, b) => a - b)
-      : null;
-    state.settings.unlockedThrough = num(s.unlockedThrough, 0, 999, 0);
-    state.settings.extraSize =
-      Math.round(num(s.extraSize, 10, 100, DEFAULT_SETTINGS.extraSize) / 10) * 10;
-    state.settings.mixHard = Math.round(num(s.mixHard, 0, 20, 0) / 5) * 5;
     state.settings.autoSpeak = !!s.autoSpeak;
     state.settings.voiceURI = typeof s.voiceURI === 'string' ? s.voiceURI : null;
     state.settings.speechRate = num(s.speechRate, 0.5, 1.5, DEFAULT_SETTINGS.speechRate);
@@ -102,6 +91,9 @@
         good: num(c.good, 0, 9999, 0),
         easy: num(c.easy, 0, 9999, 0),
         lastRating: RATINGS.includes(c.lastRating) ? c.lastRating : null,
+        // Known words are retired: never shown again unless brought back.
+        // Before the flag existed, a last rating of Easy meant the same thing.
+        known: typeof c.known === 'boolean' ? c.known : c.lastRating === 'easy',
       };
       if (time(c.at)) state.cards[rank].at = time(c.at);
     }
@@ -204,11 +196,15 @@
     const out = emptyState();
 
     // Settings: the synced ones come from whichever side changed them last;
-    // unlocked batches never close again; device settings stay as they are here.
-    const newer = remote.settingsAt > local.settingsAt ? remote : local;
+    // device settings stay as they are here. On a tie — typically two devices
+    // that had never changed a setting since sync existed — both must pick the
+    // same side, or each keeps its own and they never agree; so compare the
+    // values themselves.
+    const ls = syncedSnapshot(local.settings), rs = syncedSnapshot(remote.settings);
+    const newer = remote.settingsAt > local.settingsAt ||
+      (remote.settingsAt === local.settingsAt && rs > ls) ? remote : local;
     out.settings = Object.assign({}, local.settings);
     for (const k of SYNCED_SETTINGS) out.settings[k] = newer.settings[k];
-    out.settings.unlockedThrough = Math.max(local.settings.unlockedThrough, remote.settings.unlockedThrough);
     out.settingsAt = Math.max(local.settingsAt, remote.settingsAt);
 
     for (const rank of new Set([...Object.keys(local.cards), ...Object.keys(remote.cards)])) {

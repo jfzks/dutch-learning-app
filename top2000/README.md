@@ -31,39 +31,47 @@ it works offline.
 
 ## Using it
 
-- **Today** — how many reviews are due and how many new words are left, and the
-  button that starts the session. Reviews come first, then new words in
-  frequency order.
+- **Today** has one choice and one button: **how many cards** (a slider, 10 to
+  100 in tens, remembered between sessions), and **Start**. The line under the
+  slider says what you'll get — *10 new · 5 hard · 5 review*.
 - Tap a card (or press **Space**) to flip it. The back shows the translation,
   the grammar forms and an example sentence with its translation.
-- Rate the card: **Again / Hard / Good / Easy** (keys **1**–**4**). Each button
-  shows when the word will come back.
+- Rate the card: **Again / Hard / Good / Know it** (keys **1**–**4**). The
+  first three show when the word comes back; **Know it** retires the word for
+  good. A toast offers **Undo** for a few seconds in case of a mis-tap.
 - **🔊** speaks the Dutch with the browser's Dutch voice — one button for the
   word (top-right of the card), one for the example sentence. In English → Dutch
   mode the word button only appears after the flip. With no Dutch voice
   installed the app still tries `nl-NL` and says so in Settings.
-- **Keep going** — when the day's reviews and new words are done, the Today
-  screen (and the end-of-session summary) offers five ways to carry on, with a
-  slider on top that sets how big the run is: anywhere from 10 to 100 cards, in
-  tens, 20 by default. **Start batch N now** opens the next hundred words today
-  and starts that many of them; **+N new words** introduces more from the batch
-  you're on, scheduled as normal; **drill N hard words** shuffles together the
-  words you've been rating Again or Hard; **review N ahead** pulls forward the
-  cards due soonest, each one rescheduled from today; **practice N words** is a shuffled
-  look at words you've started that scores nothing and changes no schedule —
-  there are no rating buttons, just *Next word*. Each option shows what it can
-  actually give you, so it reads "practice 30 words" if that's all you've
-  started. The same number lives in Settings as **Keep-going size**.
-- **Stats** — words learned, in learning, due today, streak, progress toward
-  2,000, what you've been pressing (again / hard / good / easy), and the words
-  giving you the most trouble, with a button to drill them.
-- **Settings** — new words per day (default 15), hard words mixed into each
-  session, keep-going size, review cap, direction (NL → EN, EN → NL or mixed),
-  batch selection, voice and speed, theme, sync across devices, and
-  export / import / reset.
+- When a session ends, **Another N** starts the next one at the same size.
+- **Stats** — known, learning, hard, due, streak, progress toward 2,000, what
+  you've been pressing, your hard words, and your known words, each with a
+  **Bring back** button.
+- **Settings** — direction (NL → EN, EN → NL or mixed), voice and speed, theme,
+  sync across devices, and export / import / reset.
 
-Keyboard: **Space** or **Enter** flips (and rates *Good* on a flipped card, or
-moves on in a practice run), **1**–**4** rate, **Esc** ends the session.
+Keyboard: **Space** or **Enter** flips (and rates *Good* on a flipped card),
+**1**–**4** rate, **Esc** ends the session.
+
+### What goes into a session
+
+Three kinds of card, filled in this order for the number you picked:
+
+1. **New words**, in frequency order — at least half the session while there
+   are any left. There are no batches to unlock and no daily limit: the next
+   unseen word is simply the most frequent one you haven't had yet.
+2. **Hard words** — anything your ratings say is still giving you trouble
+   (below), worst first, and ones you haven't already seen today before ones
+   you have. They keep coming back, session after session, until you've got
+   them right a few times.
+3. **Reviews** — words you rated Good that the schedule says are due again.
+   This is what makes a Good word stick; without it, one Good would retire a
+   word just as Know it does.
+
+If one kind runs short the others fill the gap, so a session is always the size
+you asked for until there's nothing left. Reviews and hard words are shuffled,
+and the new words are spread evenly through them. Words you marked **Know it**
+never appear.
 
 ### Scheduling
 
@@ -75,46 +83,29 @@ and an interval in whole days:
 | Again | same session | same session | same session | −0.20 |
 | Hard | 1 day | interval × 1.2 | interval × 1.2 | −0.15 |
 | Good | 2 days | 4 days | interval × EF | — |
-| Easy | 4 days | 7 days | interval × EF × 1.3 | +0.15 |
+| Know it | retired | retired | retired | +0.15 |
 
 *Again* puts the card back about five cards later in the same session and resets
 its interval. Intervals are capped at a year. Overdue reviews are never lost —
-they queue up, oldest first, limited by the daily review cap.
+they wait, most overdue first, for the next session with room for them.
 
 ### Hard words
 
 Every rating is kept twice over. Each word carries a tally of how often you
 pressed each button (`lapses`, `hard`, `good`, `easy`, plus the last one), and
 the last 2,000 ratings go into a rolling log of `{day, rank, dutch, rating}`.
-Both live in the same record as the scheduling, so they travel in a backup and
-cost you nothing in position or unlocked batches.
 
 From that comes a difficulty score: an *Again* counts 2, a *Hard* counts 1, and
-getting the word right chips away at it — two Goods, or one Easy, cancel a Hard.
-A word you've recovered on therefore drops off the hard list instead of being
-branded difficult for ever. Anything still above zero is a "hard word", and
-there are two ways to meet them again:
+getting the word right chips away at it — two Goods cancel a Hard. A word you've
+recovered on therefore drops off the hard list instead of being branded
+difficult for ever. Anything still above zero is a hard word.
 
-- **Drill N hard words** in the Keep going list (and on the Stats screen) —
-  worst first, shuffled, rated and rescheduled like any other review.
-- **Settings → Mix in hard words** (off by default, up to 20) shuffles that many
-  hard words into every daily session, among the reviews and before the new
-  words. The Today screen counts them, so the number on the button is the number
-  of cards you'll actually see.
+### Known words
 
-Studying ahead is deliberate rather than accidental: extra new words and early
-reviews only happen when you pick them, and because an early review is scheduled
-from the day you do it, a card reviewed before it was due comes back a little
-sooner than it would have. Practice runs avoid that entirely by writing nothing.
-
-Batches unlock in order: the next one opens once the current one has been
-started. You don't have to wait for that, though — **Start batch N now** on the
-Today screen, or tapping any locked batch in Settings → Batches, opens it
-immediately and makes it the source of new words from then on. Earlier words
-aren't abandoned: everything you've already started keeps coming back for
-review, and switching Settings → Batches back to **Automatic** resumes
-introducing words in strict frequency order, picking up exactly where the
-earlier batch left off.
+**Know it** sets `known: true` on the word and it's out of rotation from then
+on. Words you'd rated *Easy* last, before this existed, count as known too.
+Stats → **Known words** lists them all; **Bring back** puts one back into
+practice, due straight away, with its history intact.
 
 ### Your progress
 
@@ -141,16 +132,15 @@ Setting it up, once per device:
    device, paste the **same token**: the app finds that gist and merges it with
    whatever is already on the device.
 
-From then on it syncs by itself — when the app opens or comes back to the
-front, at the end of every session, when you switch away from it, and 20
-seconds after any other change. **Sync now** is there if you want it.
+From then on it syncs by itself — when the app opens, comes back to the front
+or gets focus, at the end of every session, when you switch away from it, every
+three minutes while it's on screen, and 20 seconds after any other change. **Sync now** is there if you want it.
 
 How the two copies are combined: every word either device has started is
 kept, and for a word both have, the copy rated most recently decides its
-schedule. Every rating in the log is kept once. The daily-session settings
-(new words per day, batches, mix-in, sizes, direction) follow whichever device
-changed them last, and an unlocked batch never relocks. Theme, voice and speech
-speed stay per device. Merging never loses anything, so if two devices push at
+schedule — including whether it's known. Every rating in the log is kept once.
+Session size and direction follow whichever device changed them last; theme,
+voice and speech speed stay per device. Merging never loses anything, so if two devices push at
 nearly the same moment — the gist API has no way to refuse a stale write — the
 next sync from either one puts the missing part back.
 
@@ -167,6 +157,8 @@ Good to know:
   disconnects too, otherwise the gist would bring everything straight back;
   delete the gist on GitHub if you want that copy gone as well.
 - Offline, the app just keeps going and syncs once you're back.
+- On an iPhone, an app added to the Home Screen keeps its own storage, separate
+  from Safari's. Connect sync in the one you actually use (or in both).
 - If the file in the gist can't be read (edited by hand into invalid JSON, say)
   the app leaves it alone and says so, rather than overwriting it.
 
@@ -286,10 +278,10 @@ and one with a het-word.
 | `js/storage.js` | The one localStorage key, sanitising, export/import/reset, merging two copies of the progress |
 | `js/sync.js` | Sync through a secret GitHub gist: connect, pull → merge → push |
 | `js/srs.js` | Scheduling, day maths, streaks |
-| `js/data.js` | Batch discovery (fetch, or `bundle.js` on `file://`), batch unlocking |
+| `js/data.js` | Batch file discovery (fetch, or `bundle.js` on `file://`) |
 | `js/speech.js` | Dutch voice selection and speaking |
 | `js/ui.js` | Shell, navigation, Today / Stats / Settings |
-| `js/study.js` | The session queue and the card itself |
+| `js/study.js` | What goes into a session, and the card itself |
 | `js/app.js` | Boot |
 | `sw.js` | Offline cache. Everything is network-first and revalidated, so a release shows up on the next open; the cache is only the offline fallback |
 | `tools/check_batches.py` | Validates the batch files |

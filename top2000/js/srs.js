@@ -1,5 +1,5 @@
 /* Spaced repetition — a small SM-2 variant.
-   Each word keeps {ef, ivl, reps, lapses, due, last, seen}. Ratings are
+   Each word keeps {ef, ivl, reps, lapses, due, last, seen, known}. Ratings are
    'again' | 'hard' | 'good' | 'easy'; intervals are whole days and dates are
    local 'YYYY-MM-DD' strings so they sort and compare as plain text. */
 
@@ -36,6 +36,7 @@
     return {
       ef: 2.5, ivl: 0, reps: 0, lapses: 0, due: today, last: null, seen: 0,
       hard: 0, good: 0, easy: 0, lastRating: null,   // what you pressed, kept per word
+      known: false,                                  // retired with "Know it"
     };
   }
 
@@ -98,12 +99,20 @@
     else if (rating === 'good') c.good = (c.good || 0) + 1;
     else if (rating === 'easy') c.easy = (c.easy || 0) + 1;
     c.lastRating = rating;
+    // "Easy" means "I know this one": the word is retired and not shown again.
+    // Its interval is still worked out above, for if it's ever brought back.
+    c.known = rating === 'easy';
 
     c.ef = Math.round(clamp(ef, MIN_EF, MAX_EF) * 100) / 100;
     c.last = today;
     c.at = Date.now();      // exact time, so sync can tell which device rated it last
     c.seen += 1;
     return c;
+  }
+
+  // Un-retire a known word: it's due again today, with its history intact.
+  function restore(card, today) {
+    return Object.assign({}, card, { known: false, due: today, at: Date.now() });
   }
 
   // "now" / "1 d" / "3 wk" — the little label under each rating button.
@@ -161,7 +170,7 @@
   }
 
   T2K.srs = {
-    dayKey, dayDiff, addDays, fresh, review, nextInterval, intervalLabel,
+    dayKey, dayDiff, addDays, fresh, review, restore, nextInterval, intervalLabel,
     rollDay, noteReview, currentStreak, difficulty, LOG_MAX,
     RATINGS: ['again', 'hard', 'good', 'easy'],
   };

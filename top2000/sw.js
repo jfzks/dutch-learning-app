@@ -11,20 +11,20 @@
 // means a release no longer depends on remembering a version bump. Cross-origin
 // requests (the GitHub API used for sync) are never touched.
 
-const CACHE_NAME = 'dutch-top2000-v3';
+const CACHE_NAME = 'dutch-top2000-v4';
 const SLOW_NETWORK_MS = 4000;
 const APP_SHELL = [
   './',
   './index.html',
-  './styles.css?v=3',
-  './js/storage.js?v=3',
-  './js/srs.js?v=3',
-  './js/data.js?v=3',
-  './js/speech.js?v=3',
-  './js/sync.js?v=3',
-  './js/ui.js?v=3',
-  './js/study.js?v=3',
-  './js/app.js?v=3',
+  './styles.css?v=4',
+  './js/storage.js?v=4',
+  './js/srs.js?v=4',
+  './js/data.js?v=4',
+  './js/speech.js?v=4',
+  './js/sync.js?v=4',
+  './js/ui.js?v=4',
+  './js/study.js?v=4',
+  './js/app.js?v=4',
   './manifest.json',
   './icons/icon-192.png',
   './icons/icon-512.png',

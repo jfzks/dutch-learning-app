@@ -26,13 +26,22 @@
     return e;
   };
 
-  function toast(message) {
+  // A short message at the bottom of the screen, optionally with one button
+  // (Undo) — which keeps it up a little longer, so there's time to press it.
+  function toast(message, action) {
     const old = $('#toast');
     if (old) old.remove();
     const t = el('div', { id: 'toast', role: 'status' }, message);
+    if (action) {
+      t.append(el('button', {
+        class: 'toast-btn',
+        onclick: () => { t.remove(); action.onclick(); },
+      }, action.label));
+    }
     document.body.append(t);
-    setTimeout(() => t.classList.add('out'), 2600);
-    setTimeout(() => t.remove(), 3100);
+    const stay = action ? 5000 : 2600;
+    setTimeout(() => t.classList.add('out'), stay);
+    setTimeout(() => t.remove(), stay + 500);
   }
 
   // ---------- counts shared by Today and Stats ----------
@@ -40,31 +49,22 @@
     const today = srs.dayKey();
     const state = store.state;
     const cards = state.cards;
-    let introduced = 0, learning = 0, learned = 0, due = 0;
+    let started = 0, known = 0, learning = 0, due = 0;
 
     for (const w of deck.words) {
       const c = cards[w.rank];
       if (!c) continue;
-      introduced++;
-      if (c.ivl >= 1) learned++; else learning++;
+      started++;
+      if (c.known) { known++; continue; }
+      learning++;
       if (c.due <= today) due++;
     }
 
-    const active = deck.activeBatches(state);
-    const newAvailable = deck.words.filter(
-      w => !cards[w.rank] && active.includes(deck.batchNumberOf(w.rank))
-    ).length;
-
     srs.rollDay(state, today);
-    const newLeft = Math.min(newAvailable, Math.max(0, state.settings.newPerDay - state.daily.new));
-    const reviewCap = state.settings.maxReviews
-      ? Math.max(0, state.settings.maxReviews - state.daily.reviews)
-      : Infinity;
-
     return {
-      today, introduced, learning, learned,
-      due, dueNow: Math.min(due, reviewCap),
-      newAvailable, newLeft,
+      today, started, known, learning, due,
+      hard: T2K.study.hardWords().length,
+      unseen: deck.words.length - started,
       loaded: deck.words.length,
       streak: srs.currentStreak(state, today),
       best: state.streak.best || 0,
@@ -73,11 +73,16 @@
     };
   }
 
-  function progressBar(fraction, label) {
-    const pct = Math.max(0, Math.min(100, fraction * 100));
+  // Two-part bar toward the goal: known words, then the ones being learned.
+  function goalBar(s) {
+    const pct = (n) => Math.max(0, Math.min(100, n / store.TOTAL_GOAL * 100)) + '%';
     return el('div', { class: 'meter' }, [
-      el('div', { class: 'meter-track' }, [el('div', { class: 'meter-fill', style: { width: pct + '%' } })]),
-      label ? el('div', { class: 'meter-label' }, label) : null,
+      el('div', { class: 'meter-track' }, [
+        el('div', { class: 'meter-fill', style: { width: pct(s.known) } }),
+        el('div', { class: 'meter-fill soft', style: { width: pct(s.learning) } }),
+      ]),
+      el('div', { class: 'meter-label' },
+        `${s.known} known · ${s.learning} learning · ${store.TOTAL_GOAL - s.started} not started`),
     ]);
   }
 
@@ -88,117 +93,19 @@
     ]);
   }
 
-  function optionButton(label, sub, onclick) {
-    return el('button', { class: 'option-btn', onclick }, [
-      el('span', { class: 'option-label' }, label),
-      el('span', { class: 'option-sub' }, sub),
-    ]);
-  }
-
-  // Open every batch up to n, and make n the one new words come from. The
-  // automatic rule only ever opens the next batch once the current one has been
-  // started; this is the deliberate "I'm moving on now" override.
-  function unlockThrough(n, pin) {
-    const st = store.state.settings;
-    st.unlockedThrough = Math.max(st.unlockedThrough || 0, n);
-    if (pin !== false) st.batches = [n];
-    store.save();
-  }
-
-  // The batch to offer next: the one after whatever is currently feeding new
-  // words — the manual pick if there is one, otherwise where the frequency
-  // order has reached.
-  function nextBatchToOpen(state) {
-    if (deck.batches.length < 2) return null;
-    const chosen = state.settings.batches;
-    const base = chosen && chosen.length
-      ? Math.max(...chosen)
-      : currentBatchNumber(state);
-    // Only offer the jump once the current batch is under way, so a brand-new
-    // deck isn't inviting you to skip ahead before card one.
-    const current = deck.batchByNumber(base);
-    if (!current || !current.words.some(w => state.cards[w.rank])) return null;
-    return deck.batchByNumber(base + 1);
-  }
-
-  // The ways to carry on once the day's reviews and new words are done. Shared
-  // by the Today screen and the end-of-session summary.
-  function extraOptions() {
-    const avail = T2K.study.availability();
-    const out = [];
-
-    const next = nextBatchToOpen(store.state);
-    if (next) {
-      const take = Math.min(avail.size, next.words.length);
-      out.push(optionButton(
-        `Start batch ${next.batch} now`,
-        `Opens words ${next.range[0]}–${next.range[1]} and starts ${take} of them. ` +
-        'Everything you’ve started still comes back for review.',
-        () => {
-          unlockThrough(next.batch);
-          toast(`Batch ${next.batch} unlocked — new words now come from ${next.range[0]}–${next.range[1]}.`);
-          if (T2K.study.availability().extraNew > 0) T2K.study.start('extra-new');
-          else refresh();
-        }));
-    }
-    if (avail.extraNew > 0) {
-      out.push(optionButton(
-        `+ ${avail.extraNew} new word${avail.extraNew === 1 ? '' : 's'}`,
-        'Tomorrow’s words, today. Scheduled as normal.',
-        () => T2K.study.start('extra-new')));
-    }
-    if (avail.hard > 0) {
-      out.push(optionButton(
-        `Drill ${avail.hard} hard words`,
-        'The ones you rated Again or Hard, shuffled. Rated and rescheduled as normal.',
-        () => T2K.study.start('hard')));
-    }
-    if (avail.ahead > 0) {
-      out.push(optionButton(
-        `Review ${avail.ahead} ahead`,
-        'Cards due soon, pulled forward. Each one reschedules from today.',
-        () => T2K.study.start('ahead')));
-    }
-    if (avail.practice > 0) {
-      out.push(optionButton(
-        `Practice ${avail.practice} words`,
-        'A shuffled look at words you’ve started. Nothing is scored.',
-        () => T2K.study.start('practice')));
-    }
-    return out;
-  }
-
-  // The whole "keep going" block: a size slider over the options, which relabel
-  // themselves as it moves. Used by Today and by the end-of-session summary.
-  function fillExtras(container) {
-    const st = store.state.settings;
-    const readout = el('div', { class: 'size-value' }, `${st.extraSize} cards`);
-    const list = el('div', { class: 'extras-list' });
-
-    const draw = () => {
-      list.innerHTML = '';
-      for (const option of extraOptions()) list.append(option);
-    };
-
-    const slider = el('input', {
-      type: 'range', min: '10', max: '100', step: '10', value: String(st.extraSize),
-      class: 'size-slider', 'aria-label': 'Cards in a keep-going run',
-      oninput: (e) => {
-        st.extraSize = Number(e.target.value);
-        readout.textContent = `${st.extraSize} cards`;
-        draw();
-      },
-      onchange: () => store.save(),          // save once the drag ends
-    });
-
-    container.append(el('div', { class: 'size-row' }, [slider, readout]));
-    draw();
-    container.append(list);
+  // "10 new · 6 hard · 4 review" — what a session of this size would hold.
+  function planLine(p) {
+    const parts = [];
+    if (p.fresh.length) parts.push(`${p.fresh.length} new`);
+    if (p.hard.length) parts.push(`${p.hard.length} hard`);
+    if (p.due.length) parts.push(`${p.due.length} review`);
+    return parts.join(' · ');
   }
 
   // ---------- Today ----------
   function renderToday(main) {
     const s = summary();
+    const st = store.state.settings;
 
     if (!store.available) {
       main.append(el('div', { class: 'banner' }, [
@@ -209,49 +116,44 @@
     main.append(syncBanner() || el('div', { id: 'sync-banner' }));
 
     const card = el('section', { class: 'card' });
-    card.append(el('h2', {}, 'Today'));
+    card.append(el('h2', {}, 'Practice'));
 
-    const counts = el('div', { class: 'tiles two' }, [
-      statTile(s.dueNow, s.dueNow === 1 ? 'review due' : 'reviews due'),
-      statTile(s.newLeft, 'new words'),
-    ]);
-    card.append(counts);
-
-    const mixed = T2K.study.mixedHardCount();
-    const total = s.dueNow + s.newLeft + mixed;
-    if (total > 0) {
-      card.append(el('button', { class: 'btn big', onclick: () => T2K.study.start() },
-        `Start session — ${total} card${total === 1 ? '' : 's'}`));
-      const mixedWord = `${mixed} hard word${mixed === 1 ? '' : 's'}`;
+    if (!T2K.study.plan(100).total) {
+      card.append(el('p', { class: 'done-note' },
+        '🎉 Every word is known. Bring some back from Stats if you want to keep practising.'));
+      main.append(card);
+    } else {
+      // One choice: how many cards. The line under it says what they'll be,
+      // and the button starts them.
+      const readout = el('div', { class: 'size-value' });
+      const breakdown = el('p', { class: 'plan-line' });
+      const button = el('button', { class: 'btn big', onclick: () => T2K.study.start() });
+      const draw = () => {
+        const p = T2K.study.plan(st.sessionSize);
+        readout.textContent = String(st.sessionSize);
+        breakdown.textContent = planLine(p);
+        button.textContent = `Start — ${p.total} card${p.total === 1 ? '' : 's'}`;
+      };
+      const slider = el('input', {
+        type: 'range', min: '10', max: '100', step: '10', value: String(st.sessionSize),
+        class: 'size-slider', 'aria-label': 'Cards in this session',
+        oninput: (e) => { st.sessionSize = Number(e.target.value); draw(); },
+        onchange: () => store.save(),         // save once the drag ends
+      });
+      card.append(el('div', { class: 'setting-label' }, 'How many cards?'));
+      card.append(el('div', { class: 'size-row' }, [slider, readout]));
+      card.append(breakdown);
+      card.append(button);
       card.append(el('p', { class: 'muted hint' },
-        mixed === 0 ? 'Reviews come first, then new words in frequency order.'
-          : s.dueNow + s.newLeft === 0 ? `${mixedWord} from your Again/Hard list.`
-            : `Reviews first with ${mixedWord} shuffled in, then new words.`));
-    } else if (s.newAvailable === 0 && s.introduced >= s.loaded) {
-      card.append(el('p', { class: 'done-note' }, '🎉 Every loaded word has been introduced. Add the next batch to data/ to keep going.'));
-    } else {
-      card.append(el('p', { class: 'done-note' }, '✓ Nothing due right now — you’re done for today. Carry on below if you feel like it.'));
+        'New words in frequency order, then your hard words, then words due for a review. ' +
+        '“Know it” retires a word for good.'));
+      draw();
+      main.append(card);
     }
-    main.append(card);
-
-    // Keep going: extra new words, early reviews, or a practice run — as many
-    // cards as the slider asks for.
-    const extras = el('section', { class: 'card' });
-    extras.append(el('h3', {}, total > 0 ? 'Or go further' : 'Keep going'));
-    if (extraOptions().length) {
-      fillExtras(extras);
-    } else {
-      extras.append(el('p', { class: 'muted small' },
-        'Nothing extra to do — every word in your batches has been started and none are scheduled yet.'));
-    }
-    main.append(extras);
 
     const prog = el('section', { class: 'card' });
     prog.append(el('h3', {}, 'Progress'));
-    prog.append(progressBar(s.introduced / store.TOTAL_GOAL,
-      `${s.introduced} of ${store.TOTAL_GOAL} words started · ${s.learned} learned`));
-    prog.append(el('p', { class: 'muted small' },
-      `${s.loaded} words loaded in ${deck.batches.length} batch${deck.batches.length === 1 ? '' : 'es'}.`));
+    prog.append(goalBar(s));
     prog.append(el('div', { class: 'streak-line' },
       s.streak > 0
         ? `🔥 ${s.streak}-day streak${s.best > s.streak ? ` · best ${s.best}` : ''}`
@@ -260,6 +162,19 @@
   }
 
   // ---------- Stats ----------
+  function wordRow(w, detail, action) {
+    return el('div', { class: 'row' }, [
+      el('div', { class: 'row-main' }, [
+        el('div', { class: 'row-title' }, [
+          T2K.headword(w),
+          el('span', { class: 'chip soft' }, '#' + w.rank),
+        ]),
+        el('div', { class: 'muted small' }, detail),
+      ]),
+      action || null,
+    ]);
+  }
+
   function renderStats(main) {
     const s = summary();
     const state = store.state;
@@ -267,23 +182,23 @@
     const card = el('section', { class: 'card' });
     card.append(el('h2', {}, 'Stats'));
     card.append(el('div', { class: 'tiles' }, [
-      statTile(s.learned, 'learned'),
-      statTile(s.learning, 'in learning'),
-      statTile(s.due, 'due today'),
+      statTile(s.known, 'known'),
+      statTile(s.learning, 'learning'),
+      statTile(s.hard, 'hard'),
+      statTile(s.due, 'due for review'),
       statTile(s.streak, 'day streak'),
-      statTile(s.reviewsToday, 'reviews today'),
-      statTile(s.totalReviews, 'reviews total'),
+      statTile(s.totalReviews, 'cards rated'),
     ]));
     main.append(card);
 
     const goal = el('section', { class: 'card' });
     goal.append(el('h3', {}, `Toward ${store.TOTAL_GOAL} words`));
-    goal.append(progressBar(s.introduced / store.TOTAL_GOAL,
-      `${s.introduced} started · ${s.learned} learned · ${store.TOTAL_GOAL - s.introduced} to go`));
-    goal.append(el('p', { class: 'muted small' }, `Best streak: ${s.best} day${s.best === 1 ? '' : 's'}.`));
+    goal.append(goalBar(s));
+    goal.append(el('p', { class: 'muted small' },
+      `Best streak: ${s.best} day${s.best === 1 ? '' : 's'} · ${s.reviewsToday} cards today.`));
     main.append(goal);
 
-    // --- what you pressed, and which words keep coming back ---
+    // --- what you pressed ---
     const tally = { again: 0, hard: 0, good: 0, easy: 0 };
     for (const entry of state.log) {
       if (tally[entry.rating] !== undefined) tally[entry.rating] += 1;
@@ -295,62 +210,62 @@
         statTile(tally.again, 'again'),
         statTile(tally.hard, 'hard'),
         statTile(tally.good, 'good'),
-        statTile(tally.easy, 'easy'),
+        statTile(tally.easy, 'know it'),
       ]));
       ratings.append(el('p', { class: 'muted small' },
-        `Your last ${state.log.length} rating${state.log.length === 1 ? '' : 's'}. ` +
-        'The full log travels in an exported backup.'));
+        `Your last ${state.log.length} rating${state.log.length === 1 ? '' : 's'}.`));
     } else {
       ratings.append(el('p', { class: 'muted small' }, 'Nothing rated yet — the log fills as you study.'));
     }
     main.append(ratings);
 
+    // --- the words that keep coming back ---
     const hard = T2K.study.hardWords();
+    const hardCard = el('section', { class: 'card' });
+    hardCard.append(el('h3', {}, `Hard words (${hard.length})`));
     if (hard.length) {
-      const hardCard = el('section', { class: 'card' });
-      hardCard.append(el('h3', {}, 'Hardest words'));
-      for (const w of hard.slice(0, 8)) {
+      for (const w of hard.slice(0, 10)) {
         const c = state.cards[w.rank];
-        hardCard.append(el('div', { class: 'row' }, [
-          el('div', { class: 'row-main' }, [
-            el('div', { class: 'row-title' }, [
-              T2K.headword(w),
-              el('span', { class: 'chip soft' }, '#' + w.rank),
-            ]),
-            el('div', { class: 'muted small' },
-              `${w.english} · ${c.lapses || 0}× again, ${c.hard || 0}× hard`),
-          ]),
-        ]));
+        hardCard.append(wordRow(w, `${w.english} · ${c.lapses || 0}× again, ${c.hard || 0}× hard`));
       }
-      if (hard.length > 8) {
-        hardCard.append(el('p', { class: 'muted small' }, `…and ${hard.length - 8} more.`));
-      }
-      hardCard.append(el('button', {
-        class: 'btn secondary',
-        onclick: () => T2K.study.start('hard'),
-      }, `Drill ${T2K.study.availability().hard} hard words`));
-      main.append(hardCard);
+      if (hard.length > 10) hardCard.append(el('p', { class: 'muted small' }, `…and ${hard.length - 10} more.`));
+      hardCard.append(el('p', { class: 'muted small' },
+        'They come back in every session until you’ve got them right a few times.'));
+    } else {
+      hardCard.append(el('p', { class: 'muted small' }, 'None right now. Words you rate Again or Hard show up here.'));
     }
+    main.append(hardCard);
 
-    const byBatch = el('section', { class: 'card' });
-    byBatch.append(el('h3', {}, 'By batch'));
-    const unlocked = deck.unlockedBatches(state);
-    const active = deck.activeBatches(state);
-    for (const b of deck.batches) {
-      const started = b.words.filter(w => state.cards[w.rank]).length;
-      const learned = b.words.filter(w => state.cards[w.rank] && state.cards[w.rank].ivl >= 1).length;
-      byBatch.append(el('div', { class: 'row' }, [
-        el('div', { class: 'row-main' }, [
-          el('div', { class: 'row-title' }, [
-            `Batch ${b.batch} · ${b.range[0]}–${b.range[1]}`,
-            !unlocked.includes(b.batch) ? el('span', { class: 'lock' }, '🔒') : null,
-            active.includes(b.batch) && unlocked.includes(b.batch) ? el('span', { class: 'chip on' }, 'active') : null,
-          ]),
-          progressBar(started / b.words.length, `${started}/${b.words.length} started · ${learned} learned`),
-        ]),
-      ]));
+    // --- retired words, and a way back for each ---
+    const known = T2K.study.knownWords();
+    const knownCard = el('section', { class: 'card' });
+    knownCard.append(el('h3', {}, `Known words (${known.length})`));
+    if (!known.length) {
+      knownCard.append(el('p', { class: 'muted small' }, 'Words you mark “Know it” are listed here and never shown again.'));
+    } else {
+      const list = el('div', { class: 'known-list' });
+      const drawList = (all) => {
+        list.innerHTML = '';
+        for (const w of all ? known : known.slice(0, 12)) {
+          list.append(wordRow(w, w.english, el('button', {
+            class: 'btn secondary small-btn',
+            onclick: () => {
+              state.cards[w.rank] = srs.restore(state.cards[w.rank], srs.dayKey());
+              store.save();
+              toast(`“${T2K.headword(w)}” is back in practice.`);
+              refresh();
+            },
+          }, 'Bring back')));
+        }
+        if (!all && known.length > 12) {
+          list.append(el('button', { class: 'btn secondary', onclick: () => drawList(true) },
+            `Show all ${known.length}`));
+        }
+      };
+      drawList(false);
+      knownCard.append(list);
     }
-    main.append(byBatch);
+    main.append(knownCard);
   }
 
   // ---------- Settings ----------
@@ -381,14 +296,6 @@
     return row;
   }
 
-  // The batch the next unseen word sits in — where new cards are coming from.
-  function currentBatchNumber(state) {
-    const next = deck.words.find(w => !state.cards[w.rank]);
-    if (next) return deck.batchNumberOf(next.rank);
-    const last = deck.batches[deck.batches.length - 1];
-    return last ? last.batch : 1;
-  }
-
   function settingRow(label, control, hint) {
     return el('div', { class: 'setting' }, [
       el('div', { class: 'setting-text' }, [
@@ -404,93 +311,14 @@
     const st = state.settings;
     const save = () => { store.save(); };
 
-    // --- session ---
+    // --- cards ---
     const session = el('section', { class: 'card' });
     session.append(el('h2', {}, 'Settings'));
-    session.append(el('h3', {}, 'Daily session'));
-    session.append(settingRow('New words per day',
-      stepper(st.newPerDay, {
-        min: 0, max: 100, step: 5,
-        onChange: v => { st.newPerDay = v; save(); },
-      }),
-      'Introduced in frequency order.'));
-    session.append(settingRow('Mix in hard words',
-      stepper(st.mixHard, {
-        min: 0, max: 20, step: 5,
-        format: v => (v === 0 ? 'off' : String(v)),
-        onChange: v => { st.mixHard = v; save(); },
-      }),
-      'Words you rated Again or Hard, shuffled into each daily session.'));
-    session.append(settingRow('Keep-going size',
-      stepper(st.extraSize, {
-        min: 10, max: 100, step: 10,
-        onChange: v => { st.extraSize = v; save(); },
-      }),
-      'Cards in an extra run started from the Today screen.'));
-    session.append(settingRow('Review cap per day',
-      stepper(st.maxReviews, {
-        min: 0, max: 400, step: 20,
-        format: v => (v === 0 ? 'none' : String(v)),
-        onChange: v => { st.maxReviews = v; save(); },
-      }),
-      'Overdue reviews roll over to the next day.'));
     session.append(settingRow('Direction',
       segmented([['nl-en', 'NL → EN'], ['en-nl', 'EN → NL'], ['mixed', 'Mixed']], st.direction,
         v => { st.direction = v; save(); refresh(); }),
       'Which side of the card you see first.'));
     main.append(session);
-
-    // --- batches ---
-    const batchCard = el('section', { class: 'card' });
-    batchCard.append(el('h3', {}, 'Batches'));
-    const unlocked = deck.unlockedBatches(state);
-    const auto = !st.batches || !st.batches.length;
-    batchCard.append(settingRow('Choose batches',
-      segmented([['auto', 'Automatic'], ['manual', 'Manual']], auto ? 'auto' : 'manual',
-        v => {
-          // Switching to manual starts from the batch new words are coming from
-          // now, which is the one you'd want to pin.
-          st.batches = v === 'auto' ? null : [currentBatchNumber(state)];
-          save();
-          refresh();
-        }),
-      'Automatic walks the batches in order; manual lets you pick.'));
-
-    for (const b of deck.batches) {
-      const isUnlocked = unlocked.includes(b.batch);
-      const picked = auto ? deck.activeBatches(state).includes(b.batch) : (st.batches || []).includes(b.batch);
-      batchCard.append(el('button', {
-        class: 'batch-row' + (picked ? ' on' : '') + (isUnlocked ? '' : ' locked'),
-        // A locked row is always tappable — that's how you move on early.
-        disabled: auto && isUnlocked,
-        onclick: () => {
-          if (!isUnlocked) {
-            unlockThrough(b.batch);
-            refresh();
-            toast(`Batch ${b.batch} unlocked — new words now come from ${b.range[0]}–${b.range[1]}.`);
-            return;
-          }
-          const set = new Set(st.batches || []);
-          if (set.has(b.batch)) {
-            // An empty list would silently mean "automatic" — keep one on.
-            if (set.size === 1) { toast('Keep at least one batch selected.'); return; }
-            set.delete(b.batch);
-          } else {
-            set.add(b.batch);
-          }
-          st.batches = Array.from(set).sort((x, y) => x - y);
-          save();
-          refresh();
-        },
-      }, [
-        el('span', {}, `Batch ${b.batch} · words ${b.range[0]}–${b.range[1]}`),
-        el('span', { class: 'batch-mark' }, isUnlocked ? (picked ? '✓' : '') : '🔒 unlock'),
-      ]));
-    }
-    batchCard.append(el('p', { class: 'muted small' },
-      'A batch unlocks once the one before it has been started — or tap a locked '
-      + 'one to open it now and draw new words from it.'));
-    main.append(batchCard);
 
     // --- speech ---
     const speechCard = el('section', { class: 'card' });
@@ -603,8 +431,8 @@
     const about = el('section', { class: 'card' });
     about.append(el('h3', {}, 'About'));
     about.append(el('p', { class: 'muted small' },
-      `Words load from data/batch-NN.json (${deck.mode === 'bundle' ? 'offline bundle' : 'fetched'}). ` +
-      'Drop the next batch file into data/ and it appears here — no code changes.'));
+      `${deck.words.length} words, loaded from data/batch-NN.json` +
+      (deck.mode === 'bundle' ? ' (offline bundle).' : '.')));
     main.append(about);
   }
 
@@ -647,7 +475,8 @@
           : null,
       ]));
       card.append(el('p', { class: 'muted small' },
-        'Syncs when the app opens, after each session, and when you switch away from it. ' +
+        'Syncs when the app opens, after each session, when you switch away from it, ' +
+        'and every few minutes while it’s open. ' +
         'The token is kept on this device only — it’s never in an exported backup.'));
       card.append(el('button', {
         class: 'btn danger',
@@ -809,6 +638,6 @@
 
   T2K.ui = {
     $, el, go, refresh, refreshIfScreen, toast, summary, applyTheme,
-    progressBar, statTile, extraOptions, fillExtras,
+    statTile,
   };
 })(window.T2K = window.T2K || {});

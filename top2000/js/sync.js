@@ -24,7 +24,8 @@
   const FILE = 'dutch-top2000-progress.json';
   const API = 'https://api.github.com';
   const PUSH_DELAY = 20000;     // quiet time after a change before it's sent
-  const RESUME_GAP = 60000;     // pull again on returning to the app, at most this often
+  const RESUME_GAP = 30000;     // pull again on returning to the app, at most this often
+  const POLL_MS = 180000;       // and every few minutes while it's on screen
   const TOKEN_URL = 'https://github.com/settings/tokens/new?scopes=gist&description=Dutch%202000%20sync';
 
   let config = readConfig();    // { token, gistId, gistUrl, lastSync, error }
@@ -262,16 +263,28 @@
     };
   }
 
+  // Pull if the last sync is more than `gap` old — cheap when nothing changed:
+  // one GET, and no push.
+  function refreshIfStale(gap) {
+    if (connected() && !running && Date.now() - (config.lastSync || 0) > gap) sync();
+  }
+
   // Called once the app has loaded: sync now, and from then on whenever the
-  // app is opened again, put away, or comes back online.
+  // app is opened again, put away, or comes back online. A laptop tab can sit
+  // open and in view for hours without any of that happening, so also pull on
+  // focus and every few minutes while the page is visible.
   function start() {
     store.onSave = schedule;
     document.addEventListener('visibilitychange', () => {
       if (!connected()) return;
       if (document.visibilityState === 'hidden') flush();
-      else if (!running && Date.now() - (config.lastSync || 0) > RESUME_GAP) sync();
+      else refreshIfStale(RESUME_GAP);
     });
+    window.addEventListener('focus', () => refreshIfStale(RESUME_GAP));
     window.addEventListener('online', () => { if (connected()) sync(); });
+    setInterval(() => {
+      if (document.visibilityState === 'visible') refreshIfStale(POLL_MS - 5000);
+    }, POLL_MS);
     return sync();
   }
 

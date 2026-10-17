@@ -1,5 +1,5 @@
-/* The study screen: builds the day's queue, shows one card at a time and
-   hands each rating to the scheduler. */
+/* The study screen: builds a session, shows one card at a time and hands each
+   rating to the scheduler. */
 
 'use strict';
 
@@ -9,76 +9,38 @@
 
   const AGAIN_GAP = 5;        // how many cards later a lapsed card comes back
 
-  // How long a "keep going" run is — the size picked on the Today screen.
-  function extraSize() {
-    const n = store.state.settings.extraSize;
-    return typeof n === 'number' && n > 0 ? n : 20;
-  }
-
   const RATING_LABELS = {
     again: 'Again',
     hard: 'Hard',
     good: 'Good',
-    easy: 'Easy',
+    easy: 'Know it',
   };
 
   const KIND_LABELS = {
     new: 'new word',
-    review: 'review',
-    early: 'ahead of time',
-    practice: 'practice',
     hard: 'hard word',
+    review: 'review',
   };
 
   let session = null;
 
-  // ---------- queue ----------
-  function dailyQueue() {
-    const today = srs.dayKey();
-    const state = store.state;
-    srs.rollDay(state, today);
-    const cards = state.cards;
+  // ---------- what goes into a session ----------
+  function sessionSize() {
+    const n = store.state.settings.sessionSize;
+    return typeof n === 'number' && n > 0 ? n : 20;
+  }
 
-    const due = deck.words
-      .filter(w => cards[w.rank] && cards[w.rank].due <= today)
-      .sort((a, b) => {
-        const ca = cards[a.rank], cb = cards[b.rank];
-        if (ca.due !== cb.due) return ca.due < cb.due ? -1 : 1;   // oldest due first
-        return a.rank - b.rank;
-      });
-
-    const cap = state.settings.maxReviews
-      ? Math.max(0, state.settings.maxReviews - state.daily.reviews)
-      : due.length;
-    const reviews = due.slice(0, cap);
-
-    const active = deck.activeBatches(state);
-    const quota = Math.max(0, state.settings.newPerDay - state.daily.new);
-    const fresh = deck.words
-      .filter(w => !cards[w.rank] && active.includes(deck.batchNumberOf(w.rank)))
-      .slice(0, quota);
-
-    const queue = reviews.map(w => ({ word: w, kind: 'review' }));
-
-    // Shuffle a few of the words you've rated Again or Hard in among the
-    // reviews, if that's switched on. New words stay at the end.
-    const mix = state.settings.mixHard || 0;
-    if (mix > 0) {
-      const alreadyQueued = new Set(queue.map(item => item.word.rank));
-      for (const w of hardWords().filter(x => !alreadyQueued.has(x.rank)).slice(0, mix)) {
-        queue.splice(Math.floor(Math.random() * (queue.length + 1)), 0, { word: w, kind: 'hard' });
-      }
-    }
-
-    return queue.concat(fresh.map(w => ({ word: w, kind: 'new' })));
+  // Words still being learned: started, and not retired with "Know it".
+  function isLearning(card) {
+    return !!card && !card.known;
   }
 
   // The words that have fought back most: worst difficulty first, then the
-  // lowest easiness factor as the tie-break.
+  // lowest easiness factor as the tie-break. Known words never count.
   function hardWords() {
     const cards = store.state.cards;
     return deck.words
-      .filter(w => cards[w.rank] && srs.difficulty(cards[w.rank]) > 0)
+      .filter(w => isLearning(cards[w.rank]) && srs.difficulty(cards[w.rank]) > 0)
       .sort((a, b) => {
         const da = srs.difficulty(cards[a.rank]), db = srs.difficulty(cards[b.rank]);
         if (da !== db) return db - da;
@@ -86,42 +48,44 @@
       });
   }
 
-  // How many hard words a daily session would mix in, for the Today count.
-  function mixedHardCount() {
-    const mix = store.state.settings.mixHard || 0;
-    if (!mix) return 0;
-    const today = srs.dayKey();
+  function knownWords() {
     const cards = store.state.cards;
-    const notDue = hardWords().filter(w => cards[w.rank].due > today);
-    return Math.min(mix, notDue.length);
+    return deck.words.filter(w => cards[w.rank] && cards[w.rank].known);
   }
 
-  // ---------- carrying on once the day's session is done ----------
-  // Words never introduced, in frequency order, ignoring the daily limit.
-  function unseenWords() {
-    const state = store.state;
-    const active = deck.activeBatches(state);
-    return deck.words.filter(
-      w => !state.cards[w.rank] && active.includes(deck.batchNumberOf(w.rank))
-    );
-  }
-
-  // Cards already scheduled for a later day, soonest first.
-  function futureDue() {
+  // Which words a session of `size` cards would hold. New words come in
+  // frequency order and get at least half the session while there are any;
+  // the rest goes to hard words (any you haven't seen today first), then to
+  // words the schedule says are due again. If one kind runs short, the other
+  // fills the gap.
+  function plan(size) {
     const today = srs.dayKey();
     const cards = store.state.cards;
-    return deck.words
-      .filter(w => cards[w.rank] && cards[w.rank].due > today)
+    const fresh = deck.words.filter(w => !cards[w.rank]);
+
+    const seenToday = (w) => (cards[w.rank].last === today ? 1 : 0);
+    const hard = hardWords().sort((a, b) => seenToday(a) - seenToday(b));   // stable
+    const isHard = new Set(hard.map(w => w.rank));
+    const due = deck.words
+      .filter(w => isLearning(cards[w.rank]) && cards[w.rank].due <= today && !isHard.has(w.rank))
       .sort((a, b) => {
         const ca = cards[a.rank], cb = cards[b.rank];
-        if (ca.due !== cb.due) return ca.due < cb.due ? -1 : 1;
+        if (ca.due !== cb.due) return ca.due < cb.due ? -1 : 1;     // most overdue first
         return a.rank - b.rank;
       });
-  }
 
-  function startedWords() {
-    const cards = store.state.cards;
-    return deck.words.filter(w => cards[w.rank]);
+    const pool = hard.concat(due);
+    let newCount = Math.min(fresh.length, Math.max(Math.ceil(size / 2), size - pool.length));
+    const reviewCount = Math.min(pool.length, size - newCount);
+    newCount = Math.min(fresh.length, size - reviewCount);
+    const reviews = pool.slice(0, reviewCount);
+
+    return {
+      fresh: fresh.slice(0, newCount),
+      hard: reviews.filter(w => isHard.has(w.rank)),
+      due: reviews.filter(w => !isHard.has(w.rank)),
+      total: newCount + reviewCount,
+    };
   }
 
   function shuffled(list) {
@@ -133,34 +97,24 @@
     return a;
   }
 
-  // How many cards each "keep going" option could show right now — the chosen
-  // size, or everything that's left if there's less than that.
-  function availability() {
-    const size = extraSize();
-    return {
-      size,
-      extraNew: Math.min(size, unseenWords().length),
-      ahead: Math.min(size, futureDue().length),
-      practice: Math.min(size, startedWords().length),
-      hard: Math.min(size, hardWords().length),
-    };
-  }
-
-  function buildQueue(mode) {
-    const size = extraSize();
-    if (mode === 'hard') {
-      return shuffled(hardWords().slice(0, size)).map(w => ({ word: w, kind: 'hard' }));
+  // The plan as a queue: reviews shuffled, new words spread evenly through
+  // them in frequency order, so a session isn't all-new at the end.
+  function buildQueue() {
+    const p = plan(sessionSize());
+    const reviews = shuffled(
+      p.hard.map(w => ({ word: w, kind: 'hard' })).concat(p.due.map(w => ({ word: w, kind: 'review' }))));
+    const fresh = p.fresh.map(w => ({ word: w, kind: 'new' }));
+    const newTotal = fresh.length;
+    const queue = [];
+    let placed = 0;
+    for (let i = 0; i < p.total; i++) {
+      // By card i, about (i+1)/total of the new words should have appeared.
+      const takeNew = placed < Math.round((i + 1) * newTotal / p.total);
+      const item = takeNew ? fresh.shift() : reviews.shift() || fresh.shift();
+      if (item.kind === 'new') placed++;
+      queue.push(item);
     }
-    if (mode === 'extra-new') {
-      return unseenWords().slice(0, size).map(w => ({ word: w, kind: 'new' }));
-    }
-    if (mode === 'ahead') {
-      return futureDue().slice(0, size).map(w => ({ word: w, kind: 'early' }));
-    }
-    if (mode === 'practice') {
-      return shuffled(startedWords()).slice(0, size).map(w => ({ word: w, kind: 'practice' }));
-    }
-    return dailyQueue();
+    return queue;
   }
 
   function directionFor(item) {
@@ -328,24 +282,17 @@
       main.append(el('div', { class: 'btn-row' }, [
         el('button', { class: 'btn big', onclick: flip }, 'Show answer'),
       ]));
-    } else if (session.mode === 'practice') {
-      // Practice writes nothing: no ratings, no scheduling, no streak.
-      main.append(el('div', { class: 'btn-row' }, [
-        el('button', { class: 'btn big', onclick: next },
-          session.index === session.queue.length - 1 ? 'Finish' : 'Next word ›'),
-      ]));
-      main.append(el('p', { class: 'muted hint' }, 'Practice run — nothing is scored or rescheduled.'));
     } else {
       const state = store.state.cards[word.rank] || null;
       const row = el('div', { class: 'rate-row' });
       for (const rating of srs.RATINGS) {
-        const days = srs.nextInterval(state, rating);
         row.append(el('button', {
           class: 'rate-btn ' + rating,
           onclick: () => rate(rating),
         }, [
           el('span', { class: 'rate-label' }, RATING_LABELS[rating]),
-          el('span', { class: 'rate-when' }, srs.intervalLabel(days)),
+          el('span', { class: 'rate-when' },
+            rating === 'easy' ? 'retire' : srs.intervalLabel(srs.nextInterval(state, rating))),
         ]));
       }
       main.append(row);
@@ -356,27 +303,21 @@
     document.body.classList.remove('studying');
     if (T2K.sync) T2K.sync.flush();          // the session's ratings go up now
     const s = T2K.ui.summary();
-    const practice = session.mode === 'practice';
+    const plural = (n, word) => `${n} ${word}${n === 1 ? '' : 's'}`;
     const card = el('section', { class: 'card done' });
     card.append(el('div', { class: 'done-check' }, '✓'));
-    card.append(el('h2', {}, practice ? 'Practice finished' : 'Session finished'));
-    card.append(el('p', { class: 'muted' }, practice
-      ? `${session.queue.length} word${session.queue.length === 1 ? '' : 's'} seen · nothing scored`
-      : `${session.reviewed} card${session.reviewed === 1 ? '' : 's'} rated · ` +
-        `${session.introduced} new word${session.introduced === 1 ? '' : 's'} introduced`));
+    card.append(el('h2', {}, 'Session finished'));
+    card.append(el('p', { class: 'muted' }, [
+      `${plural(session.reviewed, 'card')} · ${plural(session.introduced, 'new word')}`,
+      session.known ? ` · ${session.known} now known` : '',
+    ].join('')));
     card.append(el('div', { class: 'tiles two' }, [
-      T2K.ui.statTile(s.dueNow, 'still due'),
+      T2K.ui.statTile(s.known, 'words known'),
       T2K.ui.statTile(s.streak, 'day streak'),
     ]));
-    if (s.dueNow + s.newLeft > 0) {
-      card.append(el('div', { class: 'btn-row center' }, [
-        el('button', { class: 'btn', onclick: () => start() }, 'Keep going'),
-      ]));
-    } else if (T2K.ui.extraOptions().length) {
-      // The day's work is done — offer the ways to carry on anyway.
-      T2K.ui.fillExtras(card);
-    }
+    const next = plan(sessionSize()).total;
     card.append(el('div', { class: 'btn-row center' }, [
+      next ? el('button', { class: 'btn', onclick: () => start() }, `Another ${next}`) : null,
       el('button', { class: 'btn secondary', onclick: exit }, 'Back to today'),
     ]));
     main.append(card);
@@ -391,17 +332,8 @@
     if (store.state.settings.autoSpeak) speech.speak(T2K.headword(word), store.state.settings);
   }
 
-  // Move on without touching the schedule (practice runs only).
-  function next() {
-    if (!session) return;
-    session.index += 1;
-    session.flipped = false;
-    speech.stop();
-    render();
-  }
-
   function rate(rating) {
-    if (!session || !session.flipped || session.mode === 'practice') return;
+    if (!session || !session.flipped) return;
     const item = session.queue[session.index];
     const today = srs.dayKey();
     const rank = item.word.rank;
@@ -413,6 +345,21 @@
 
     session.reviewed += 1;
     if (wasNew) session.introduced += 1;
+
+    // A mis-tap on "Know it" would retire a word for good; offer it back.
+    if (rating === 'easy') {
+      session.known += 1;
+      const word = item.word;
+      T2K.ui.toast(`“${T2K.headword(word)}” marked as known.`, {
+        label: 'Undo',
+        onclick: () => {
+          store.state.cards[rank] = srs.restore(store.state.cards[rank], srs.dayKey());
+          store.save();
+          if (session) session.known = Math.max(0, session.known - 1);
+          T2K.ui.toast(`“${T2K.headword(word)}” stays in practice.`);
+        },
+      });
+    }
 
     // 'Again' puts the card back into the queue a few cards later.
     if (rating === 'again') {
@@ -442,23 +389,17 @@
     if (e.key === ' ' || e.key === 'Enter') {
       e.preventDefault();
       if (!session.flipped) flip();
-      else if (session.mode === 'practice') next();
       else rate('good');
       return;
     }
-    if (session.mode === 'practice') return;              // nothing to rate
     if (session.flipped && ['1', '2', '3', '4'].includes(e.key)) {
       e.preventDefault();
       rate(srs.RATINGS[Number(e.key) - 1]);
     }
   }
 
-  // mode: 'daily' (the day's reviews and new words), or one of the three ways to
-  // carry on afterwards — 'extra-new', 'ahead', 'practice'.
-  function start(mode) {
-    const chosen = ['extra-new', 'ahead', 'practice', 'hard'].includes(mode) ? mode : 'daily';
-    const queue = buildQueue(chosen);
-    session = { mode: chosen, queue, index: 0, flipped: false, reviewed: 0, introduced: 0 };
+  function start() {
+    session = { queue: buildQueue(), index: 0, flipped: false, reviewed: 0, introduced: 0, known: 0 };
     document.removeEventListener('keydown', onKey);
     document.addEventListener('keydown', onKey);
     render();
@@ -470,5 +411,5 @@
     return !!session;
   }
 
-  T2K.study = { start, exit, active, availability, hardWords, mixedHardCount };
+  T2K.study = { start, exit, active, plan, sessionSize, hardWords, knownWords };
 })(window.T2K = window.T2K || {});
