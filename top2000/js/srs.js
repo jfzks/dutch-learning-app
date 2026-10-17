@@ -101,6 +101,7 @@
 
     c.ef = Math.round(clamp(ef, MIN_EF, MAX_EF) * 100) / 100;
     c.last = today;
+    c.at = Date.now();      // exact time, so sync can tell which device rated it last
     c.seen += 1;
     return c;
   }
@@ -123,6 +124,7 @@
 
   // `entry` is {rank, dutch, rating} — appended to the rolling review log, which
   // travels in a backup and is the raw record behind the difficulty counts.
+  // `at` stamps each entry so two devices' logs can be merged without doubling.
   function noteReview(state, today, wasNew, entry) {
     rollDay(state, today);
     state.daily.reviews += 1;
@@ -130,7 +132,9 @@
     state.totals.reviews += 1;
 
     if (entry) {
-      state.log.push({ day: today, rank: entry.rank, dutch: entry.dutch, rating: entry.rating });
+      state.log.push({
+        day: today, rank: entry.rank, dutch: entry.dutch, rating: entry.rating, at: Date.now(),
+      });
       if (state.log.length > LOG_MAX) state.log.splice(0, state.log.length - LOG_MAX);
     }
 

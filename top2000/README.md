@@ -59,7 +59,8 @@ it works offline.
   giving you the most trouble, with a button to drill them.
 - **Settings** — new words per day (default 15), hard words mixed into each
   session, keep-going size, review cap, direction (NL → EN, EN → NL or mixed),
-  batch selection, voice and speed, theme, and export / import / reset.
+  batch selection, voice and speed, theme, sync across devices, and
+  export / import / reset.
 
 Keyboard: **Space** or **Enter** flips (and rates *Good* on a flipped card, or
 moves on in a practice run), **1**–**4** rate, **Esc** ends the session.
@@ -118,10 +119,56 @@ earlier batch left off.
 ### Your progress
 
 Everything is stored under the single `localStorage` key `dutch-top2000-v1`, in
-this browser only. Storage is wrapped in `try`/`catch` throughout — in private
-mode or with storage blocked the app still runs for the session and shows a
-warning. **Export a backup** before switching device or clearing site data;
-import replaces the current progress after a confirmation.
+this browser. Storage is wrapped in `try`/`catch` throughout — in private mode
+or with storage blocked the app still runs for the session and shows a warning.
+**Export a backup** now and then; **import** merges a backup into what's here
+(see below), so it can't wipe out newer progress.
+
+### Sync across devices
+
+Settings → **Sync across devices** keeps your phone and laptop in step through
+a secret gist on your GitHub account. There's no server of ours involved: the
+app talks to the GitHub API directly from your browser.
+
+Setting it up, once per device:
+
+1. Tap **Create a GitHub token**. It opens GitHub's new-token page with only
+   the `gist` scope ticked — leave it that way, so the token can touch your
+   gists and nothing else. Pick an expiry, press **Generate token**, and copy
+   it.
+2. Paste it into the app and press **Connect**. The first device creates a
+   secret gist holding one file, `dutch-top2000-progress.json`. On every other
+   device, paste the **same token**: the app finds that gist and merges it with
+   whatever is already on the device.
+
+From then on it syncs by itself — when the app opens or comes back to the
+front, at the end of every session, when you switch away from it, and 20
+seconds after any other change. **Sync now** is there if you want it.
+
+How the two copies are combined: every word either device has started is
+kept, and for a word both have, the copy rated most recently decides its
+schedule. Every rating in the log is kept once. The daily-session settings
+(new words per day, batches, mix-in, sizes, direction) follow whichever device
+changed them last, and an unlocked batch never relocks. Theme, voice and speech
+speed stay per device. Merging never loses anything, so if two devices push at
+nearly the same moment — the gist API has no way to refuse a stale write — the
+next sync from either one puts the missing part back.
+
+Good to know:
+
+- A *secret* gist is unlisted, not private: anyone with its link could read
+  your flashcard progress. Nothing else is in it.
+- The token is stored in this browser under its own key
+  (`dutch-top2000-sync`) and is never included in an exported backup or the
+  gist.
+- When the token expires, Today shows *Sync stopped*. Make a new one and
+  connect again on each device; your progress and the gist are untouched.
+- **Disconnect this device** forgets the token here. **Reset all progress**
+  disconnects too, otherwise the gist would bring everything straight back;
+  delete the gist on GitHub if you want that copy gone as well.
+- Offline, the app just keeps going and syncs once you're back.
+- If the file in the gist can't be read (edited by hand into invalid JSON, say)
+  the app leaves it alone and says so, rather than overwriting it.
 
 ## Adding or changing a batch
 
@@ -236,7 +283,8 @@ and one with a het-word.
 |---|---|
 | `index.html` | Shell; loads the scripts in order (plain `<script>`, so `file://` works) |
 | `styles.css` | Tokens on `:root`, dark mode from the system setting or the Theme picker |
-| `js/storage.js` | The one localStorage key, sanitising, export/import/reset |
+| `js/storage.js` | The one localStorage key, sanitising, export/import/reset, merging two copies of the progress |
+| `js/sync.js` | Sync through a secret GitHub gist: connect, pull → merge → push |
 | `js/srs.js` | Scheduling, day maths, streaks |
 | `js/data.js` | Batch discovery (fetch, or `bundle.js` on `file://`), batch unlocking |
 | `js/speech.js` | Dutch voice selection and speaking |

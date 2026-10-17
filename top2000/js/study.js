@@ -354,6 +354,7 @@
 
   function renderSummary(main) {
     document.body.classList.remove('studying');
+    if (T2K.sync) T2K.sync.flush();          // the session's ratings go up now
     const s = T2K.ui.summary();
     const practice = session.mode === 'practice';
     const card = el('section', { class: 'card done' });
@@ -428,6 +429,7 @@
   function exit() {
     session = null;
     speech.stop();
+    if (T2K.sync) T2K.sync.flush();
     document.removeEventListener('keydown', onKey);
     document.body.classList.remove('studying');
     T2K.ui.go('today');
@@ -462,5 +464,11 @@
     render();
   }
 
-  T2K.study = { start, exit, availability, hardWords, mixedHardCount };
+  // True from the first card to leaving the summary — sync doesn't redraw the
+  // screen under you meanwhile; going back to Today shows anything it merged.
+  function active() {
+    return !!session;
+  }
+
+  T2K.study = { start, exit, active, availability, hardWords, mixedHardCount };
 })(window.T2K = window.T2K || {});

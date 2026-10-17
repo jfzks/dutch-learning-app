@@ -289,6 +289,30 @@ h3 {
 
 .hidden-file { display: none; }
 
+/* ---------- sync ---------- */
+.sync-line { font-size: 14px; margin: 0 0 4px; overflow-wrap: anywhere; }
+.sync-line.ok { color: var(--good); font-weight: 550; }
+.sync-line.warn { color: var(--again); }
+.steps { padding-left: 20px; margin: 8px 0 12px; line-height: 1.5; }
+.steps li { margin-bottom: 6px; }
+.steps a, .banner a { color: var(--accent); font-weight: 600; }
+.token-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 8px; }
+.text-input {
+  flex: 1 1 200px;
+  min-width: 0;
+  min-height: 48px;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface-2);
+  color: var(--fg);
+  font-size: 16px;            /* 16px stops iOS zooming in on focus */
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+.text-input:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+#sync-banner:empty { display: none; }
+#sync-banner { margin-bottom: 12px; }
+
 /* ---------- buttons ---------- */
 .btn-row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 12px; }
 .btn-row.center { justify-content: center; }
@@ -306,6 +330,7 @@ h3 {
   font-size: 15px;
   font-weight: 600;
   font-family: inherit;
+  text-decoration: none;
   cursor: pointer;
 }
 .btn.big { width: 100%; min-height: 56px; font-size: 16px; }

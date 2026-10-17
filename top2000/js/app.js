@@ -42,6 +42,10 @@
     }
 
     ui.go('today');
+
+    // Pull progress from the other devices, if sync is set up. The screen shows
+    // straight away with what's here and redraws if the gist had anything new.
+    T2K.sync.start();
   }
 
   document.addEventListener('DOMContentLoaded', boot);

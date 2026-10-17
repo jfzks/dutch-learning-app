@@ -206,6 +206,7 @@
         'Private mode or blocked storage — the session works, but export before you close the tab.',
       ]));
     }
+    main.append(syncBanner() || el('div', { id: 'sync-banner' }));
 
     const card = el('section', { class: 'card' });
     card.append(el('h2', {}, 'Today'));
@@ -541,11 +542,14 @@
       'Auto follows your device setting.'));
     main.append(look);
 
+    main.append(syncCard());
+
     // --- data ---
     const data = el('section', { class: 'card' });
     data.append(el('h3', {}, 'Your progress'));
-    data.append(el('p', { class: 'muted small' },
-      'Progress lives only in this browser. Export a backup before switching device or clearing site data.'));
+    data.append(el('p', { class: 'muted small' }, T2K.sync.connected()
+      ? 'Progress lives in this browser and in your sync gist. A backup file is still a good idea now and then.'
+      : 'Progress lives only in this browser. Export a backup before switching device or clearing site data — or set up sync above.'));
 
     const fileInput = el('input', {
       type: 'file', accept: 'application/json,.json', class: 'hidden-file',
@@ -557,11 +561,14 @@
           try {
             const imported = store.parseImport(String(reader.result));
             const count = Object.keys(imported.cards).length;
-            if (!confirm(`Replace your current progress with this backup (${count} words)? This can’t be undone.`)) return;
-            store.replace(imported);
+            // Merging rather than replacing: with sync on, a replaced copy would
+            // only be merged back with the gist anyway.
+            if (!confirm(`Merge this backup (${count} words) into your progress? Words you’ve both got ` +
+              'keep whichever was studied more recently; nothing here is lost.')) return;
+            if (store.mergeIn(imported)) T2K.sync.sync();
             applyTheme();
             refresh();
-            toast(`Imported ${count} words.`);
+            toast(`Merged ${count} words from the backup.`);
           } catch (err) {
             alert(err.message || 'Could not read that file.');
           }
@@ -580,7 +587,11 @@
     data.append(el('button', {
       class: 'btn danger',
       onclick: () => {
-        if (!confirm('Delete all progress — every schedule, streak and setting? This can’t be undone.')) return;
+        const synced = T2K.sync.connected();
+        if (!confirm('Delete all progress on this device — every schedule, streak and setting? This can’t be undone.' +
+          (synced ? '\n\nThis device also stops syncing (otherwise the gist would bring it all back). ' +
+            'The gist keeps its copy — delete it on GitHub to wipe that too.' : ''))) return;
+        T2K.sync.disconnect();
         store.reset();
         applyTheme();
         refresh();
@@ -595,6 +606,121 @@
       `Words load from data/batch-NN.json (${deck.mode === 'bundle' ? 'offline bundle' : 'fetched'}). ` +
       'Drop the next batch file into data/ and it appears here — no code changes.'));
     main.append(about);
+  }
+
+  // ---------- sync ----------
+  function ago(ms) {
+    const s = Math.round((Date.now() - ms) / 1000);
+    if (s < 45) return 'just now';
+    if (s < 3600) return `${Math.max(1, Math.round(s / 60))} min ago`;
+    if (s < 86400) return `${Math.round(s / 3600)} h ago`;
+    return `${Math.round(s / 86400)} d ago`;
+  }
+
+  function syncLine(status) {
+    if (status.busy) return el('div', { class: 'sync-line' }, '⟳ Syncing…');
+    if (status.error) {
+      return el('div', { class: 'sync-line ' + (status.error.kind === 'offline' ? '' : 'warn') }, [
+        status.error.kind === 'offline' ? '☁︎ ' : '⚠︎ ',
+        status.error.message,
+        status.lastSync ? el('span', { class: 'muted' }, ` Last synced ${ago(status.lastSync)}.`) : null,
+      ]);
+    }
+    return el('div', { class: 'sync-line ok' },
+      status.lastSync ? `✓ Synced ${ago(status.lastSync)}` : '✓ Connected');
+  }
+
+  // Built as its own node so sync events can redraw just this card, without
+  // re-rendering Settings and losing your scroll position.
+  function syncCard() {
+    const sync = T2K.sync;
+    const status = sync.status();
+    const card = el('section', { class: 'card', id: 'sync-card' });
+    card.append(el('h3', {}, 'Sync across devices'));
+
+    if (status.connected) {
+      card.append(syncLine(status));
+      card.append(el('div', { class: 'btn-row' }, [
+        el('button', { class: 'btn secondary', disabled: status.busy, onclick: () => sync.sync() }, 'Sync now'),
+        status.gistUrl
+          ? el('a', { class: 'btn secondary', href: status.gistUrl, target: '_blank', rel: 'noopener' }, 'Open gist ↗')
+          : null,
+      ]));
+      card.append(el('p', { class: 'muted small' },
+        'Syncs when the app opens, after each session, and when you switch away from it. ' +
+        'The token is kept on this device only — it’s never in an exported backup.'));
+      card.append(el('button', {
+        class: 'btn danger',
+        onclick: () => {
+          if (!confirm('Stop syncing on this device? Your progress stays here, and in the gist.')) return;
+          sync.disconnect();
+          toast('This device no longer syncs.');
+        },
+      }, 'Disconnect this device'));
+      return card;
+    }
+
+    card.append(el('p', { class: 'muted small' },
+      'Keep the same progress on your phone and your laptop. It’s saved as a secret gist on your ' +
+      'GitHub account — unlisted, so only someone with its link can find it. Set up once per device:'));
+    card.append(el('ol', { class: 'steps small' }, [
+      el('li', {}, [
+        el('a', { href: sync.TOKEN_URL, target: '_blank', rel: 'noopener' }, 'Create a GitHub token'),
+        ' — only “gist” should be ticked. Pick an expiry, press Generate token, and copy it.',
+      ]),
+      el('li', {}, 'Paste it below and connect. The first device creates the gist; on every other ' +
+        'device use the same token and it finds the same gist.'),
+    ]));
+
+    const input = el('input', {
+      type: 'password', class: 'text-input', placeholder: 'ghp_…', autocomplete: 'off',
+      autocapitalize: 'off', spellcheck: 'false', 'aria-label': 'GitHub token',
+    });
+    const error = el('p', { class: 'sync-line warn', hidden: true });
+    const button = el('button', {
+      class: 'btn',
+      onclick: async () => {
+        button.disabled = true;
+        button.textContent = 'Connecting…';
+        error.hidden = true;
+        try {
+          const { created } = await sync.connect(input.value);
+          toast(created ? 'Connected — your progress is now in a new secret gist.'
+            : 'Connected — progress merged with the gist from your other device.');
+          // Merged progress can change every screen; this redraw is the one
+          // place the scroll jump is worth it.
+          refresh();
+        } catch (e) {
+          error.textContent = e.message || 'Couldn’t connect.';
+          error.hidden = false;
+          button.disabled = false;
+          button.textContent = 'Connect';
+        }
+      },
+    }, 'Connect');
+    card.append(el('div', { class: 'token-row' }, [input, button]));
+    card.append(error);
+    return card;
+  }
+
+  function onSyncEvent(what) {
+    const studying = T2K.study && T2K.study.active();
+    if (what === 'changed' && !studying) { refresh(); return; }
+    const old = $('#sync-card');
+    if (old) old.replaceWith(syncCard());
+    const banner = $('#sync-banner');
+    if (banner && what === 'status') banner.replaceWith(syncBanner() || el('div', { id: 'sync-banner' }));
+  }
+
+  // On Today, a problem that needs you (not just being offline) gets a banner.
+  function syncBanner() {
+    const status = T2K.sync.status();
+    if (!status.connected || !status.error || ['offline', 'rate', 'http'].includes(status.error.kind)) return null;
+    return el('div', { class: 'banner', id: 'sync-banner' }, [
+      el('strong', {}, 'Sync stopped. '),
+      status.error.message, ' ',
+      el('a', { href: '#', onclick: (e) => { e.preventDefault(); go('settings'); } }, 'Settings'),
+    ]);
   }
 
   function exportProgress() {
@@ -678,6 +804,8 @@
   function refreshIfScreen(screen) {
     if (current === screen && !document.body.classList.contains('studying')) refresh();
   }
+
+  T2K.sync.onChange(onSyncEvent);
 
   T2K.ui = {
     $, el, go, refresh, refreshIfScreen, toast, summary, applyTheme,
