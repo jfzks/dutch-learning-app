@@ -43,21 +43,23 @@ it works offline.
   mode the word button only appears after the flip. With no Dutch voice
   installed the app still tries `nl-NL` and says so in Settings.
 - **Keep going** — when the day's reviews and new words are done, the Today
-  screen (and the end-of-session summary) offers four ways to carry on, with a
+  screen (and the end-of-session summary) offers five ways to carry on, with a
   slider on top that sets how big the run is: anywhere from 10 to 100 cards, in
   tens, 20 by default. **Start batch N now** opens the next hundred words today
   and starts that many of them; **+N new words** introduces more from the batch
-  you're on, scheduled as normal; **review N ahead** pulls forward the cards due
-  soonest, each one rescheduled from today; **practice N words** is a shuffled
+  you're on, scheduled as normal; **drill N hard words** shuffles together the
+  words you've been rating Again or Hard; **review N ahead** pulls forward the
+  cards due soonest, each one rescheduled from today; **practice N words** is a shuffled
   look at words you've started that scores nothing and changes no schedule —
   there are no rating buttons, just *Next word*. Each option shows what it can
   actually give you, so it reads "practice 30 words" if that's all you've
   started. The same number lives in Settings as **Keep-going size**.
-- **Stats** — words learned, in learning, due today, streak, and progress toward
-  2,000.
-- **Settings** — new words per day (default 15), keep-going size, review cap,
-  direction (NL → EN, EN → NL or mixed), batch selection, voice and speed,
-  theme, and export / import / reset.
+- **Stats** — words learned, in learning, due today, streak, progress toward
+  2,000, what you've been pressing (again / hard / good / easy), and the words
+  giving you the most trouble, with a button to drill them.
+- **Settings** — new words per day (default 15), hard words mixed into each
+  session, keep-going size, review cap, direction (NL → EN, EN → NL or mixed),
+  batch selection, voice and speed, theme, and export / import / reset.
 
 Keyboard: **Space** or **Enter** flips (and rates *Good* on a flipped card, or
 moves on in a practice run), **1**–**4** rate, **Esc** ends the session.
@@ -77,6 +79,27 @@ and an interval in whole days:
 *Again* puts the card back about five cards later in the same session and resets
 its interval. Intervals are capped at a year. Overdue reviews are never lost —
 they queue up, oldest first, limited by the daily review cap.
+
+### Hard words
+
+Every rating is kept twice over. Each word carries a tally of how often you
+pressed each button (`lapses`, `hard`, `good`, `easy`, plus the last one), and
+the last 2,000 ratings go into a rolling log of `{day, rank, dutch, rating}`.
+Both live in the same record as the scheduling, so they travel in a backup and
+cost you nothing in position or unlocked batches.
+
+From that comes a difficulty score: an *Again* counts 2, a *Hard* counts 1, and
+getting the word right chips away at it — two Goods, or one Easy, cancel a Hard.
+A word you've recovered on therefore drops off the hard list instead of being
+branded difficult for ever. Anything still above zero is a "hard word", and
+there are two ways to meet them again:
+
+- **Drill N hard words** in the Keep going list (and on the Stats screen) —
+  worst first, shuffled, rated and rescheduled like any other review.
+- **Settings → Mix in hard words** (off by default, up to 20) shuffles that many
+  hard words into every daily session, among the reviews and before the new
+  words. The Today screen counts them, so the number on the button is the number
+  of cards you'll actually see.
 
 Studying ahead is deliberate rather than accidental: extra new words and early
 reviews only happen when you pick them, and because an early review is scheduled

@@ -147,6 +147,12 @@
         'Tomorrow’s words, today. Scheduled as normal.',
         () => T2K.study.start('extra-new')));
     }
+    if (avail.hard > 0) {
+      out.push(optionButton(
+        `Drill ${avail.hard} hard words`,
+        'The ones you rated Again or Hard, shuffled. Rated and rescheduled as normal.',
+        () => T2K.study.start('hard')));
+    }
     if (avail.ahead > 0) {
       out.push(optionButton(
         `Review ${avail.ahead} ahead`,
@@ -210,11 +216,16 @@
     ]);
     card.append(counts);
 
-    const total = s.dueNow + s.newLeft;
+    const mixed = T2K.study.mixedHardCount();
+    const total = s.dueNow + s.newLeft + mixed;
     if (total > 0) {
       card.append(el('button', { class: 'btn big', onclick: () => T2K.study.start() },
         `Start session — ${total} card${total === 1 ? '' : 's'}`));
-      card.append(el('p', { class: 'muted hint' }, 'Reviews come first, then new words in frequency order.'));
+      const mixedWord = `${mixed} hard word${mixed === 1 ? '' : 's'}`;
+      card.append(el('p', { class: 'muted hint' },
+        mixed === 0 ? 'Reviews come first, then new words in frequency order.'
+          : s.dueNow + s.newLeft === 0 ? `${mixedWord} from your Again/Hard list.`
+            : `Reviews first with ${mixedWord} shuffled in, then new words.`));
     } else if (s.newAvailable === 0 && s.introduced >= s.loaded) {
       card.append(el('p', { class: 'done-note' }, '🎉 Every loaded word has been introduced. Add the next batch to data/ to keep going.'));
     } else {
@@ -270,6 +281,55 @@
       `${s.introduced} started · ${s.learned} learned · ${store.TOTAL_GOAL - s.introduced} to go`));
     goal.append(el('p', { class: 'muted small' }, `Best streak: ${s.best} day${s.best === 1 ? '' : 's'}.`));
     main.append(goal);
+
+    // --- what you pressed, and which words keep coming back ---
+    const tally = { again: 0, hard: 0, good: 0, easy: 0 };
+    for (const entry of state.log) {
+      if (tally[entry.rating] !== undefined) tally[entry.rating] += 1;
+    }
+    const ratings = el('section', { class: 'card' });
+    ratings.append(el('h3', {}, 'Ratings'));
+    if (state.log.length) {
+      ratings.append(el('div', { class: 'tiles four' }, [
+        statTile(tally.again, 'again'),
+        statTile(tally.hard, 'hard'),
+        statTile(tally.good, 'good'),
+        statTile(tally.easy, 'easy'),
+      ]));
+      ratings.append(el('p', { class: 'muted small' },
+        `Your last ${state.log.length} rating${state.log.length === 1 ? '' : 's'}. ` +
+        'The full log travels in an exported backup.'));
+    } else {
+      ratings.append(el('p', { class: 'muted small' }, 'Nothing rated yet — the log fills as you study.'));
+    }
+    main.append(ratings);
+
+    const hard = T2K.study.hardWords();
+    if (hard.length) {
+      const hardCard = el('section', { class: 'card' });
+      hardCard.append(el('h3', {}, 'Hardest words'));
+      for (const w of hard.slice(0, 8)) {
+        const c = state.cards[w.rank];
+        hardCard.append(el('div', { class: 'row' }, [
+          el('div', { class: 'row-main' }, [
+            el('div', { class: 'row-title' }, [
+              T2K.headword(w),
+              el('span', { class: 'chip soft' }, '#' + w.rank),
+            ]),
+            el('div', { class: 'muted small' },
+              `${w.english} · ${c.lapses || 0}× again, ${c.hard || 0}× hard`),
+          ]),
+        ]));
+      }
+      if (hard.length > 8) {
+        hardCard.append(el('p', { class: 'muted small' }, `…and ${hard.length - 8} more.`));
+      }
+      hardCard.append(el('button', {
+        class: 'btn secondary',
+        onclick: () => T2K.study.start('hard'),
+      }, `Drill ${T2K.study.availability().hard} hard words`));
+      main.append(hardCard);
+    }
 
     const byBatch = el('section', { class: 'card' });
     byBatch.append(el('h3', {}, 'By batch'));
@@ -353,6 +413,13 @@
         onChange: v => { st.newPerDay = v; save(); },
       }),
       'Introduced in frequency order.'));
+    session.append(settingRow('Mix in hard words',
+      stepper(st.mixHard, {
+        min: 0, max: 20, step: 5,
+        format: v => (v === 0 ? 'off' : String(v)),
+        onChange: v => { st.mixHard = v; save(); },
+      }),
+      'Words you rated Again or Hard, shuffled into each daily session.'));
     session.append(settingRow('Keep-going size',
       stepper(st.extraSize, {
         min: 10, max: 100, step: 10,

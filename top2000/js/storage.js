@@ -8,6 +8,8 @@
 (function (T2K) {
   const KEY = 'dutch-top2000-v1';
   const SCHEMA = 1;
+  const RATINGS = ['again', 'hard', 'good', 'easy'];
+  const LOG_MAX = 2000;         // ratings kept in the rolling review log
   const TOTAL_GOAL = 2000;      // the target vocabulary size, for the progress bar
   const HISTORY_DAYS = 400;     // per-day review counts kept before trimming
 
@@ -19,6 +21,7 @@
     batches: null,          // null = automatic (frequency order); else [1, 2, …]
     unlockedThrough: 0,     // batches up to here are open, however far you've got
     extraSize: 20,          // cards in a "keep going" run (10–100, in tens)
+    mixHard: 0,             // hard words shuffled into each daily session (0 = off)
     autoSpeak: false,       // speak the Dutch automatically when a card flips
     voiceURI: null,         // chosen Dutch voice, if the device has several
     speechRate: 0.9,
@@ -29,6 +32,7 @@
       schema: SCHEMA,
       settings: Object.assign({}, DEFAULT_SETTINGS),
       cards: {},                                    // rank → scheduling state
+      log: [],                                      // recent ratings, newest last
       daily: { date: null, new: 0, reviews: 0 },    // today's counters
       streak: { current: 0, best: 0, lastDay: null },
       history: {},                                  // 'YYYY-MM-DD' → {reviews, new}
@@ -68,6 +72,7 @@
     state.settings.unlockedThrough = num(s.unlockedThrough, 0, 999, 0);
     state.settings.extraSize =
       Math.round(num(s.extraSize, 10, 100, DEFAULT_SETTINGS.extraSize) / 10) * 10;
+    state.settings.mixHard = Math.round(num(s.mixHard, 0, 20, 0) / 5) * 5;
     state.settings.autoSpeak = !!s.autoSpeak;
     state.settings.voiceURI = typeof s.voiceURI === 'string' ? s.voiceURI : null;
     state.settings.speechRate = num(s.speechRate, 0.5, 1.5, DEFAULT_SETTINGS.speechRate);
@@ -84,7 +89,25 @@
         due: c.due,
         last: typeof c.last === 'string' ? c.last : null,
         seen: num(c.seen, 0, 99999, 0),
+        // Rating tallies — missing in backups made before they existed.
+        hard: num(c.hard, 0, 9999, 0),
+        good: num(c.good, 0, 9999, 0),
+        easy: num(c.easy, 0, 9999, 0),
+        lastRating: RATINGS.includes(c.lastRating) ? c.lastRating : null,
       };
+    }
+
+    if (Array.isArray(raw.log)) {
+      for (const e of raw.log.slice(-LOG_MAX)) {
+        if (!e || typeof e !== 'object') continue;
+        if (!/^\d{4}-\d{2}-\d{2}$/.test(e.day) || !RATINGS.includes(e.rating)) continue;
+        state.log.push({
+          day: e.day,
+          rank: num(e.rank, 1, 99999, 0),
+          dutch: typeof e.dutch === 'string' ? e.dutch.slice(0, 60) : '',
+          rating: e.rating,
+        });
+      }
     }
 
     if (raw.daily && typeof raw.daily.date === 'string') {

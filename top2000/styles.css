@@ -163,6 +163,10 @@ h3 {
 /* ---------- tiles ---------- */
 .tiles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
 .tiles.two { grid-template-columns: repeat(2, 1fr); margin-bottom: 16px; }
+.tiles.four { grid-template-columns: repeat(4, 1fr); gap: 6px; }
+.tiles.four .tile { padding: 12px 4px; }
+.tiles.four .tile-value { font-size: 21px; }
+.tiles.four .tile-label { font-size: 11px; }
 .tile {
   background: var(--surface-2);
   border-radius: 12px;
