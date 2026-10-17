@@ -42,14 +42,21 @@ it works offline.
   word (top-right of the card), one for the example sentence. In English → Dutch
   mode the word button only appears after the flip. With no Dutch voice
   installed the app still tries `nl-NL` and says so in Settings.
+- **Keep going** — when the day's reviews and new words are done, the Today
+  screen (and the end-of-session summary) offers three ways to carry on:
+  **+10 new words** introduces tomorrow's words early and schedules them as
+  normal; **review 20 ahead** pulls forward the cards due soonest, each one
+  rescheduled from today; **practice 20 words** is a shuffled look at words
+  you've started that scores nothing and changes no schedule — there are no
+  rating buttons, just *Next word*.
 - **Stats** — words learned, in learning, due today, streak, and progress toward
   2,000.
 - **Settings** — new words per day (default 15), review cap, direction
   (NL → EN, EN → NL or mixed), batch selection, voice and speed, theme, and
   export / import / reset.
 
-Keyboard: **Space** or **Enter** flips (and rates *Good* on a flipped card),
-**1**–**4** rate, **Esc** ends the session.
+Keyboard: **Space** or **Enter** flips (and rates *Good* on a flipped card, or
+moves on in a practice run), **1**–**4** rate, **Esc** ends the session.
 
 ### Scheduling
 
@@ -66,6 +73,11 @@ and an interval in whole days:
 *Again* puts the card back about five cards later in the same session and resets
 its interval. Intervals are capped at a year. Overdue reviews are never lost —
 they queue up, oldest first, limited by the daily review cap.
+
+Studying ahead is deliberate rather than accidental: extra new words and early
+reviews only happen when you pick them, and because an early review is scheduled
+from the day you do it, a card reviewed before it was due comes back a little
+sooner than it would have. Practice runs avoid that entirely by writing nothing.
 
 Batches unlock in order: the next one opens once the current one has been
 started. Settings → Batches switches to manual picking within what's unlocked.

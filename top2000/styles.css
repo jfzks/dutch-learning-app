@@ -311,6 +311,31 @@ h3 {
 .btn.danger { background: transparent; color: var(--again); border: 1px solid var(--again); margin-top: 10px; }
 .btn:disabled { opacity: .45; cursor: not-allowed; }
 
+/* Full-width choice with a label and an explanation under it. */
+.option-btn {
+  width: 100%;
+  min-height: 62px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 3px;
+  padding: 12px 14px;
+  margin-bottom: 8px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--surface-2);
+  color: var(--fg);
+  font-family: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.option-btn:last-child { margin-bottom: 0; }
+.option-btn:active { background: var(--accent-soft); border-color: var(--accent); }
+.option-label { font-size: 15px; font-weight: 600; }
+.option-sub { font-size: 12.5px; color: var(--muted); line-height: 1.35; }
+.done .option-btn { text-align: left; }
+
 .icon-btn {
   width: 40px; height: 40px;
   border: 0;

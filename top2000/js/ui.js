@@ -88,6 +88,39 @@
     ]);
   }
 
+  function optionButton(label, sub, onclick) {
+    return el('button', { class: 'option-btn', onclick }, [
+      el('span', { class: 'option-label' }, label),
+      el('span', { class: 'option-sub' }, sub),
+    ]);
+  }
+
+  // The ways to carry on once the day's reviews and new words are done. Shared
+  // by the Today screen and the end-of-session summary.
+  function extraOptions() {
+    const avail = T2K.study.availability();
+    const out = [];
+    if (avail.extraNew > 0) {
+      out.push(optionButton(
+        `+ ${avail.extraNew} new word${avail.extraNew === 1 ? '' : 's'}`,
+        'Tomorrow’s words, today. Scheduled as normal.',
+        () => T2K.study.start('extra-new')));
+    }
+    if (avail.ahead > 0) {
+      out.push(optionButton(
+        `Review ${avail.ahead} ahead`,
+        'Cards due soon, pulled forward. Each one reschedules from today.',
+        () => T2K.study.start('ahead')));
+    }
+    if (avail.practice > 0) {
+      out.push(optionButton(
+        `Practice ${avail.practice} words`,
+        'A shuffled look at words you’ve started. Nothing is scored.',
+        () => T2K.study.start('practice')));
+    }
+    return out;
+  }
+
   // ---------- Today ----------
   function renderToday(main) {
     const s = summary();
@@ -116,10 +149,21 @@
     } else if (s.newAvailable === 0 && s.introduced >= s.loaded) {
       card.append(el('p', { class: 'done-note' }, '🎉 Every loaded word has been introduced. Add the next batch to data/ to keep going.'));
     } else {
-      card.append(el('p', { class: 'done-note' }, '✓ Nothing due right now. Come back tomorrow, or raise “new words per day” in Settings.'));
-      card.append(el('button', { class: 'btn secondary', onclick: () => go('settings') }, 'Open settings'));
+      card.append(el('p', { class: 'done-note' }, '✓ Nothing due right now — you’re done for today. Carry on below if you feel like it.'));
     }
     main.append(card);
+
+    // Keep going: extra new words, early reviews, or a practice run.
+    const options = extraOptions();
+    const extras = el('section', { class: 'card' });
+    extras.append(el('h3', {}, total > 0 ? 'Or go further' : 'Keep going'));
+    if (options.length) {
+      for (const option of options) extras.append(option);
+    } else {
+      extras.append(el('p', { class: 'muted small' },
+        'Nothing extra to do — every word in your batches has been started and none are scheduled yet.'));
+    }
+    main.append(extras);
 
     const prog = el('section', { class: 'card' });
     prog.append(el('h3', {}, 'Progress'));
@@ -485,5 +529,8 @@
     if (current === screen && !document.body.classList.contains('studying')) refresh();
   }
 
-  T2K.ui = { $, el, go, refresh, refreshIfScreen, toast, summary, applyTheme, progressBar, statTile };
+  T2K.ui = {
+    $, el, go, refresh, refreshIfScreen, toast, summary, applyTheme,
+    progressBar, statTile, extraOptions,
+  };
 })(window.T2K = window.T2K || {});

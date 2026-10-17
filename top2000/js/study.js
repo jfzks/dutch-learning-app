@@ -8,6 +8,9 @@
   const { $, el } = T2K.ui;
 
   const AGAIN_GAP = 5;        // how many cards later a lapsed card comes back
+  const EXTRA_NEW = 10;       // words an "extra new" run introduces past the daily limit
+  const AHEAD_SIZE = 20;      // not-yet-due cards a "review ahead" run pulls forward
+  const PRACTICE_SIZE = 20;   // cards a scoring-free practice run shows
 
   const RATING_LABELS = {
     again: 'Again',
@@ -16,10 +19,17 @@
     easy: 'Easy',
   };
 
+  const KIND_LABELS = {
+    new: 'new word',
+    review: 'review',
+    early: 'ahead of time',
+    practice: 'practice',
+  };
+
   let session = null;
 
   // ---------- queue ----------
-  function buildQueue() {
+  function dailyQueue() {
     const today = srs.dayKey();
     const state = store.state;
     srs.rollDay(state, today);
@@ -46,6 +56,65 @@
 
     return reviews.map(w => ({ word: w, kind: 'review' }))
       .concat(fresh.map(w => ({ word: w, kind: 'new' })));
+  }
+
+  // ---------- carrying on once the day's session is done ----------
+  // Words never introduced, in frequency order, ignoring the daily limit.
+  function unseenWords() {
+    const state = store.state;
+    const active = deck.activeBatches(state);
+    return deck.words.filter(
+      w => !state.cards[w.rank] && active.includes(deck.batchNumberOf(w.rank))
+    );
+  }
+
+  // Cards already scheduled for a later day, soonest first.
+  function futureDue() {
+    const today = srs.dayKey();
+    const cards = store.state.cards;
+    return deck.words
+      .filter(w => cards[w.rank] && cards[w.rank].due > today)
+      .sort((a, b) => {
+        const ca = cards[a.rank], cb = cards[b.rank];
+        if (ca.due !== cb.due) return ca.due < cb.due ? -1 : 1;
+        return a.rank - b.rank;
+      });
+  }
+
+  function startedWords() {
+    const cards = store.state.cards;
+    return deck.words.filter(w => cards[w.rank]);
+  }
+
+  function shuffled(list) {
+    const a = list.slice();
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  }
+
+  // How many cards each "keep going" option could show right now.
+  function availability() {
+    return {
+      extraNew: Math.min(EXTRA_NEW, unseenWords().length),
+      ahead: Math.min(AHEAD_SIZE, futureDue().length),
+      practice: Math.min(PRACTICE_SIZE, startedWords().length),
+    };
+  }
+
+  function buildQueue(mode) {
+    if (mode === 'extra-new') {
+      return unseenWords().slice(0, EXTRA_NEW).map(w => ({ word: w, kind: 'new' }));
+    }
+    if (mode === 'ahead') {
+      return futureDue().slice(0, AHEAD_SIZE).map(w => ({ word: w, kind: 'early' }));
+    }
+    if (mode === 'practice') {
+      return shuffled(startedWords()).slice(0, PRACTICE_SIZE).map(w => ({ word: w, kind: 'practice' }));
+    }
+    return dailyQueue();
   }
 
   function directionFor(item) {
@@ -178,7 +247,7 @@
     // Prompt side — stays visible after the flip so both languages are together.
     const prompt = el('div', { class: 'prompt' });
     prompt.append(el('div', { class: 'chips' }, [
-      el('span', { class: 'chip' }, item.kind === 'new' ? 'new word' : 'review'),
+      el('span', { class: 'chip' }, KIND_LABELS[item.kind] || 'review'),
       el('span', { class: 'chip soft' }, word.type),
       el('span', { class: 'chip soft' }, '#' + word.rank),
     ]));
@@ -213,6 +282,13 @@
       main.append(el('div', { class: 'btn-row' }, [
         el('button', { class: 'btn big', onclick: flip }, 'Show answer'),
       ]));
+    } else if (session.mode === 'practice') {
+      // Practice writes nothing: no ratings, no scheduling, no streak.
+      main.append(el('div', { class: 'btn-row' }, [
+        el('button', { class: 'btn big', onclick: next },
+          session.index === session.queue.length - 1 ? 'Finish' : 'Next word ›'),
+      ]));
+      main.append(el('p', { class: 'muted hint' }, 'Practice run — nothing is scored or rescheduled.'));
     } else {
       const state = store.state.cards[word.rank] || null;
       const row = el('div', { class: 'rate-row' });
@@ -233,22 +309,29 @@
   function renderSummary(main) {
     document.body.classList.remove('studying');
     const s = T2K.ui.summary();
+    const practice = session.mode === 'practice';
     const card = el('section', { class: 'card done' });
     card.append(el('div', { class: 'done-check' }, '✓'));
-    card.append(el('h2', {}, 'Session finished'));
-    card.append(el('p', { class: 'muted' },
-      `${session.reviewed} card${session.reviewed === 1 ? '' : 's'} rated · ` +
-      `${session.introduced} new word${session.introduced === 1 ? '' : 's'} introduced`));
+    card.append(el('h2', {}, practice ? 'Practice finished' : 'Session finished'));
+    card.append(el('p', { class: 'muted' }, practice
+      ? `${session.queue.length} word${session.queue.length === 1 ? '' : 's'} seen · nothing scored`
+      : `${session.reviewed} card${session.reviewed === 1 ? '' : 's'} rated · ` +
+        `${session.introduced} new word${session.introduced === 1 ? '' : 's'} introduced`));
     card.append(el('div', { class: 'tiles two' }, [
       T2K.ui.statTile(s.dueNow, 'still due'),
       T2K.ui.statTile(s.streak, 'day streak'),
     ]));
-    const row = el('div', { class: 'btn-row center' });
     if (s.dueNow + s.newLeft > 0) {
-      row.append(el('button', { class: 'btn', onclick: start }, 'Keep going'));
+      card.append(el('div', { class: 'btn-row center' }, [
+        el('button', { class: 'btn', onclick: () => start() }, 'Keep going'),
+      ]));
+    } else {
+      // The day's work is done — offer the ways to carry on anyway.
+      for (const option of T2K.ui.extraOptions()) card.append(option);
     }
-    row.append(el('button', { class: 'btn secondary', onclick: exit }, 'Back to today'));
-    card.append(row);
+    card.append(el('div', { class: 'btn-row center' }, [
+      el('button', { class: 'btn secondary', onclick: exit }, 'Back to today'),
+    ]));
     main.append(card);
   }
 
@@ -261,8 +344,17 @@
     if (store.state.settings.autoSpeak) speech.speak(T2K.headword(word), store.state.settings);
   }
 
+  // Move on without touching the schedule (practice runs only).
+  function next() {
+    if (!session) return;
+    session.index += 1;
+    session.flipped = false;
+    speech.stop();
+    render();
+  }
+
   function rate(rating) {
-    if (!session || !session.flipped) return;
+    if (!session || !session.flipped || session.mode === 'practice') return;
     const item = session.queue[session.index];
     const today = srs.dayKey();
     const rank = item.word.rank;
@@ -302,22 +394,27 @@
     if (e.key === ' ' || e.key === 'Enter') {
       e.preventDefault();
       if (!session.flipped) flip();
+      else if (session.mode === 'practice') next();
       else rate('good');
       return;
     }
+    if (session.mode === 'practice') return;              // nothing to rate
     if (session.flipped && ['1', '2', '3', '4'].includes(e.key)) {
       e.preventDefault();
       rate(srs.RATINGS[Number(e.key) - 1]);
     }
   }
 
-  function start() {
-    const queue = buildQueue();
-    session = { queue, index: 0, flipped: false, reviewed: 0, introduced: 0 };
+  // mode: 'daily' (the day's reviews and new words), or one of the three ways to
+  // carry on afterwards — 'extra-new', 'ahead', 'practice'.
+  function start(mode) {
+    const chosen = ['extra-new', 'ahead', 'practice'].includes(mode) ? mode : 'daily';
+    const queue = buildQueue(chosen);
+    session = { mode: chosen, queue, index: 0, flipped: false, reviewed: 0, introduced: 0 };
     document.removeEventListener('keydown', onKey);
     document.addEventListener('keydown', onKey);
     render();
   }
 
-  T2K.study = { start, exit };
+  T2K.study = { start, exit, availability, EXTRA_NEW, AHEAD_SIZE, PRACTICE_SIZE };
 })(window.T2K = window.T2K || {});
