@@ -1,36 +1,42 @@
 // Dutch 2000 — service worker (offline support for the installed app).
 //
 // Scope is this folder only, so it never touches the app published at the site
-// root. Strategy:
-//   - navigations and data/*.json → network-first, falling back to the cache
-//     when offline. New batch files therefore show up as soon as they're
-//     deployed instead of being pinned to an old copy.
-//   - everything else (versioned js/css, icons) → cache-first; the ?v=N query
-//     busts them on release.
-// Bump CACHE_NAME whenever the shell changes so stale caches are dropped.
+// root. Every same-origin GET is network-first: online, you always get what's
+// deployed; each good response is cached, so the app still opens offline. If
+// the network is merely slow, a cached copy is used after a few seconds while
+// the fresh one finishes downloading in the background.
+//
+// The first version served js/css cache-first behind a ?v=N query that was
+// never bumped, so installed copies kept running launch-day code. Network-first
+// means a release no longer depends on remembering a version bump. Cross-origin
+// requests (the GitHub API used for sync) are never touched.
 
-const CACHE_NAME = 'dutch-top2000-v1';
+const CACHE_NAME = 'dutch-top2000-v2';
+const SLOW_NETWORK_MS = 4000;
 const APP_SHELL = [
   './',
   './index.html',
-  './styles.css?v=1',
-  './js/storage.js?v=1',
-  './js/srs.js?v=1',
-  './js/data.js?v=1',
-  './js/speech.js?v=1',
-  './js/ui.js?v=1',
-  './js/study.js?v=1',
-  './js/app.js?v=1',
+  './styles.css?v=2',
+  './js/storage.js?v=2',
+  './js/srs.js?v=2',
+  './js/data.js?v=2',
+  './js/speech.js?v=2',
+  './js/ui.js?v=2',
+  './js/study.js?v=2',
+  './js/app.js?v=2',
   './manifest.json',
   './icons/icon-192.png',
   './icons/icon-512.png',
   './icons/apple-touch-icon.png',
 ];
 
+// Precache one file at a time and ignore misses: with addAll a single missing
+// file fails the whole install, and a worker that can't install leaves the old
+// one in charge indefinitely.
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME)
-      .then((cache) => cache.addAll(APP_SHELL))
+      .then((cache) => Promise.allSettled(APP_SHELL.map((url) => cache.add(url))))
       .then(() => self.skipWaiting())
   );
 });
@@ -51,41 +57,36 @@ self.addEventListener('fetch', (event) => {
   if (url.origin !== self.location.origin) return;
 
   const isData = url.pathname.includes('/data/') && url.pathname.endsWith('.json');
+  const key = req.mode === 'navigate' ? './index.html' : req;
 
-  // Network-first for pages and word data.
-  if (req.mode === 'navigate' || isData) {
-    event.respondWith(
-      fetch(req)
-        .then((res) => {
-          if (res && res.ok) {
-            const copy = res.clone();
-            const key = req.mode === 'navigate' ? './index.html' : req;
-            caches.open(CACHE_NAME).then((cache) => cache.put(key, copy));
-          }
-          return res;
-        })
-        .catch(() => caches.match(req).then((cached) => {
-          if (cached) return cached;
-          if (req.mode === 'navigate') return caches.match('./index.html');
-          // Offline and never cached: answer a missing batch as "not found" so
-          // batch discovery stops cleanly instead of throwing.
-          return new Response('', { status: 404, statusText: 'Not cached' });
-        }))
-    );
-    return;
-  }
+  const fromCache = () => caches.match(key).then((cached) => {
+    if (cached) return cached;
+    if (req.mode === 'navigate') return caches.match('./index.html');
+    // Offline and never cached: answer a missing batch as "not found" so batch
+    // discovery stops cleanly instead of throwing.
+    if (isData) return new Response('', { status: 404, statusText: 'Not cached' });
+    return Response.error();
+  });
 
-  // Cache-first for the versioned shell.
-  event.respondWith(
-    caches.match(req).then((cached) => {
-      if (cached) return cached;
-      return fetch(req).then((res) => {
-        if (res && res.status === 200 && res.type === 'basic') {
-          const copy = res.clone();
-          caches.open(CACHE_NAME).then((cache) => cache.put(req, copy));
-        }
-        return res;
-      });
-    })
-  );
+  // 'no-cache' revalidates with the server instead of trusting the browser's
+  // HTTP cache (GitHub Pages says max-age=600): an unchanged file costs a 304,
+  // a changed one arrives on this open rather than ten minutes later.
+  // Navigations can't be re-wrapped in a new Request, and already revalidate.
+  const fresh = req.mode === 'navigate' ? req : new Request(req, { cache: 'no-cache' });
+  const network = fetch(fresh).then((res) => {
+    if (res && res.ok && res.type === 'basic') {
+      const copy = res.clone();
+      caches.open(CACHE_NAME).then((cache) => cache.put(key, copy));
+    }
+    return res;
+  });
+
+  // Network first; on a slow connection fall back to a cached copy if there is
+  // one (the network request still completes and refreshes the cache).
+  const slow = new Promise((resolve) => setTimeout(resolve, SLOW_NETWORK_MS))
+    .then(() => caches.match(key))
+    .then((cached) => cached || network)
+    .catch(fromCache);                       // never leave a rejection dangling
+
+  event.respondWith(Promise.race([network, slow]).catch(fromCache));
 });

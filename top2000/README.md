@@ -243,7 +243,7 @@ and one with a het-word.
 | `js/ui.js` | Shell, navigation, Today / Stats / Settings |
 | `js/study.js` | The session queue and the card itself |
 | `js/app.js` | Boot |
-| `sw.js` | Offline cache; pages and word data are network-first, so new batches appear |
+| `sw.js` | Offline cache. Everything is network-first and revalidated, so a release shows up on the next open; the cache is only the offline fallback |
 | `tools/check_batches.py` | Validates the batch files |
 | `tools/bundle_batches.py` | Regenerates `data/bundle.js` from the batch files |
 
