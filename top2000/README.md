@@ -43,18 +43,21 @@ it works offline.
   mode the word button only appears after the flip. With no Dutch voice
   installed the app still tries `nl-NL` and says so in Settings.
 - **Keep going** — when the day's reviews and new words are done, the Today
-  screen (and the end-of-session summary) offers four ways to carry on:
-  **start batch N now** opens the next hundred words today and makes them your
-  new-word source; **+10 new words** introduces more from the batch you're on
-  and schedules them as normal; **review 20 ahead** pulls forward the cards due
-  soonest, each one rescheduled from today; **practice 20 words** is a shuffled
+  screen (and the end-of-session summary) offers four ways to carry on, with a
+  slider on top that sets how big the run is: anywhere from 10 to 100 cards, in
+  tens, 20 by default. **Start batch N now** opens the next hundred words today
+  and starts that many of them; **+N new words** introduces more from the batch
+  you're on, scheduled as normal; **review N ahead** pulls forward the cards due
+  soonest, each one rescheduled from today; **practice N words** is a shuffled
   look at words you've started that scores nothing and changes no schedule —
-  there are no rating buttons, just *Next word*.
+  there are no rating buttons, just *Next word*. Each option shows what it can
+  actually give you, so it reads "practice 30 words" if that's all you've
+  started. The same number lives in Settings as **Keep-going size**.
 - **Stats** — words learned, in learning, due today, streak, and progress toward
   2,000.
-- **Settings** — new words per day (default 15), review cap, direction
-  (NL → EN, EN → NL or mixed), batch selection, voice and speed, theme, and
-  export / import / reset.
+- **Settings** — new words per day (default 15), keep-going size, review cap,
+  direction (NL → EN, EN → NL or mixed), batch selection, voice and speed,
+  theme, and export / import / reset.
 
 Keyboard: **Space** or **Enter** flips (and rates *Good* on a flipped card, or
 moves on in a practice run), **1**–**4** rate, **Esc** ends the session.

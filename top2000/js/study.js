@@ -8,9 +8,12 @@
   const { $, el } = T2K.ui;
 
   const AGAIN_GAP = 5;        // how many cards later a lapsed card comes back
-  const EXTRA_NEW = 10;       // words an "extra new" run introduces past the daily limit
-  const AHEAD_SIZE = 20;      // not-yet-due cards a "review ahead" run pulls forward
-  const PRACTICE_SIZE = 20;   // cards a scoring-free practice run shows
+
+  // How long a "keep going" run is — the size picked on the Today screen.
+  function extraSize() {
+    const n = store.state.settings.extraSize;
+    return typeof n === 'number' && n > 0 ? n : 20;
+  }
 
   const RATING_LABELS = {
     again: 'Again',
@@ -95,24 +98,28 @@
     return a;
   }
 
-  // How many cards each "keep going" option could show right now.
+  // How many cards each "keep going" option could show right now — the chosen
+  // size, or everything that's left if there's less than that.
   function availability() {
+    const size = extraSize();
     return {
-      extraNew: Math.min(EXTRA_NEW, unseenWords().length),
-      ahead: Math.min(AHEAD_SIZE, futureDue().length),
-      practice: Math.min(PRACTICE_SIZE, startedWords().length),
+      size,
+      extraNew: Math.min(size, unseenWords().length),
+      ahead: Math.min(size, futureDue().length),
+      practice: Math.min(size, startedWords().length),
     };
   }
 
   function buildQueue(mode) {
+    const size = extraSize();
     if (mode === 'extra-new') {
-      return unseenWords().slice(0, EXTRA_NEW).map(w => ({ word: w, kind: 'new' }));
+      return unseenWords().slice(0, size).map(w => ({ word: w, kind: 'new' }));
     }
     if (mode === 'ahead') {
-      return futureDue().slice(0, AHEAD_SIZE).map(w => ({ word: w, kind: 'early' }));
+      return futureDue().slice(0, size).map(w => ({ word: w, kind: 'early' }));
     }
     if (mode === 'practice') {
-      return shuffled(startedWords()).slice(0, PRACTICE_SIZE).map(w => ({ word: w, kind: 'practice' }));
+      return shuffled(startedWords()).slice(0, size).map(w => ({ word: w, kind: 'practice' }));
     }
     return dailyQueue();
   }
@@ -325,9 +332,9 @@
       card.append(el('div', { class: 'btn-row center' }, [
         el('button', { class: 'btn', onclick: () => start() }, 'Keep going'),
       ]));
-    } else {
+    } else if (T2K.ui.extraOptions().length) {
       // The day's work is done — offer the ways to carry on anyway.
-      for (const option of T2K.ui.extraOptions()) card.append(option);
+      T2K.ui.fillExtras(card);
     }
     card.append(el('div', { class: 'btn-row center' }, [
       el('button', { class: 'btn secondary', onclick: exit }, 'Back to today'),
@@ -416,5 +423,5 @@
     render();
   }
 
-  T2K.study = { start, exit, availability, EXTRA_NEW, AHEAD_SIZE, PRACTICE_SIZE };
+  T2K.study = { start, exit, availability };
 })(window.T2K = window.T2K || {});

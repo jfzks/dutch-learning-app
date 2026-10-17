@@ -129,9 +129,10 @@
 
     const next = nextBatchToOpen(store.state);
     if (next) {
+      const take = Math.min(avail.size, next.words.length);
       out.push(optionButton(
         `Start batch ${next.batch} now`,
-        `Words ${next.range[0]}–${next.range[1]} become your new-word source. ` +
+        `Opens words ${next.range[0]}–${next.range[1]} and starts ${take} of them. ` +
         'Everything you’ve started still comes back for review.',
         () => {
           unlockThrough(next.batch);
@@ -159,6 +160,34 @@
         () => T2K.study.start('practice')));
     }
     return out;
+  }
+
+  // The whole "keep going" block: a size slider over the options, which relabel
+  // themselves as it moves. Used by Today and by the end-of-session summary.
+  function fillExtras(container) {
+    const st = store.state.settings;
+    const readout = el('div', { class: 'size-value' }, `${st.extraSize} cards`);
+    const list = el('div', { class: 'extras-list' });
+
+    const draw = () => {
+      list.innerHTML = '';
+      for (const option of extraOptions()) list.append(option);
+    };
+
+    const slider = el('input', {
+      type: 'range', min: '10', max: '100', step: '10', value: String(st.extraSize),
+      class: 'size-slider', 'aria-label': 'Cards in a keep-going run',
+      oninput: (e) => {
+        st.extraSize = Number(e.target.value);
+        readout.textContent = `${st.extraSize} cards`;
+        draw();
+      },
+      onchange: () => store.save(),          // save once the drag ends
+    });
+
+    container.append(el('div', { class: 'size-row' }, [slider, readout]));
+    draw();
+    container.append(list);
   }
 
   // ---------- Today ----------
@@ -193,12 +222,12 @@
     }
     main.append(card);
 
-    // Keep going: extra new words, early reviews, or a practice run.
-    const options = extraOptions();
+    // Keep going: extra new words, early reviews, or a practice run — as many
+    // cards as the slider asks for.
     const extras = el('section', { class: 'card' });
     extras.append(el('h3', {}, total > 0 ? 'Or go further' : 'Keep going'));
-    if (options.length) {
-      for (const option of options) extras.append(option);
+    if (extraOptions().length) {
+      fillExtras(extras);
     } else {
       extras.append(el('p', { class: 'muted small' },
         'Nothing extra to do — every word in your batches has been started and none are scheduled yet.'));
@@ -324,6 +353,12 @@
         onChange: v => { st.newPerDay = v; save(); },
       }),
       'Introduced in frequency order.'));
+    session.append(settingRow('Keep-going size',
+      stepper(st.extraSize, {
+        min: 10, max: 100, step: 10,
+        onChange: v => { st.extraSize = v; save(); },
+      }),
+      'Cards in an extra run started from the Today screen.'));
     session.append(settingRow('Review cap per day',
       stepper(st.maxReviews, {
         min: 0, max: 400, step: 20,
@@ -579,6 +614,6 @@
 
   T2K.ui = {
     $, el, go, refresh, refreshIfScreen, toast, summary, applyTheme,
-    progressBar, statTile, extraOptions,
+    progressBar, statTile, extraOptions, fillExtras,
   };
 })(window.T2K = window.T2K || {});

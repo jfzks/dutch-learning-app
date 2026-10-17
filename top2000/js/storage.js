@@ -18,6 +18,7 @@
     theme: 'auto',          // 'auto' | 'light' | 'dark'
     batches: null,          // null = automatic (frequency order); else [1, 2, …]
     unlockedThrough: 0,     // batches up to here are open, however far you've got
+    extraSize: 20,          // cards in a "keep going" run (10–100, in tens)
     autoSpeak: false,       // speak the Dutch automatically when a card flips
     voiceURI: null,         // chosen Dutch voice, if the device has several
     speechRate: 0.9,
@@ -65,6 +66,8 @@
       ? s.batches.filter(n => typeof n === 'number' && n > 0).sort((a, b) => a - b)
       : null;
     state.settings.unlockedThrough = num(s.unlockedThrough, 0, 999, 0);
+    state.settings.extraSize =
+      Math.round(num(s.extraSize, 10, 100, DEFAULT_SETTINGS.extraSize) / 10) * 10;
     state.settings.autoSpeak = !!s.autoSpeak;
     state.settings.voiceURI = typeof s.voiceURI === 'string' ? s.voiceURI : null;
     state.settings.speechRate = num(s.speechRate, 0.5, 1.5, DEFAULT_SETTINGS.speechRate);

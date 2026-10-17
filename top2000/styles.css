@@ -313,6 +313,28 @@ h3 {
 .btn.danger { background: transparent; color: var(--again); border: 1px solid var(--again); margin-top: 10px; }
 .btn:disabled { opacity: .45; cursor: not-allowed; }
 
+/* How many cards a "keep going" run should hold. */
+.size-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 14px;
+}
+.size-slider {
+  flex: 1;
+  min-width: 0;
+  height: 36px;
+  accent-color: var(--accent);
+  cursor: pointer;
+}
+.size-value {
+  min-width: 76px;
+  text-align: right;
+  font-size: 15px;
+  font-weight: 650;
+}
+.extras-list { display: block; }
+
 /* Full-width choice with a label and an explanation under it. */
 .option-btn {
   width: 100%;
